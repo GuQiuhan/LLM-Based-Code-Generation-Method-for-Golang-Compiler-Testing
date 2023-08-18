@@ -1,7 +1,7 @@
 # LLM-Based Code Generation Method for Golang Compiler Testing
 ***
 
-This is the official PyTorch implementation for the our paper:
+This is the official PyTorch implementation for our paper:
 
 **Title**: LLM-Based Code Generation Method for Golang Compiler Testing
 
