@@ -1,0 +1,5 @@
+./doc.go
+./gofmt.go
+./internal.go
+./rewrite.go
+./simplify.go

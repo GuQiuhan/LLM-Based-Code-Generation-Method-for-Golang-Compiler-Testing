@@ -1,0 +1,2292 @@
+# command-line-arguments
+command-line-arguments.si1c<1> STEXT size=116 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	TEXT	command-line-arguments.si1c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	JLS	99
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	FUNCDATA	$5, command-line-arguments.si1c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	FUNCDATA	$6, command-line-arguments.si1c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	PCDATA	$1, $1
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	CALL	runtime.chanrecv1(SB)
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	JMP	80
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	CALL	runtime.chanrecv1(SB)
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	CMPQ	CX, $256
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:22)	JCS	51
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:24)	PCDATA	$1, $-1
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:24)	MOVQ	32(SP), BP
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:24)	ADDQ	$40, SP
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:24)	RET
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:24)	NOP
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	PCDATA	$1, $-1
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	PCDATA	$0, $-2
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	MOVQ	AX, 8(SP)
+	0x0068 00104 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	CALL	runtime.morestack_noctxt(SB)
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	MOVQ	8(SP), AX
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	PCDATA	$0, $-1
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:19)	JMP	0
+	0x0000 49 3b 66 10 76 5d 48 83 ec 28 48 89 6c 24 20 48  I;f.v]H..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 48 c7 44 24 10 00 00  .l$ H.D$.H.D$...
+	0x0020 00 00 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24  ..H.\$......H.L$
+	0x0030 10 eb 1d 48 c7 44 24 10 00 00 00 00 48 8b 44 24  ...H.D$.....H.D$
+	0x0040 18 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24 10  .H.\$......H.L$.
+	0x0050 48 81 f9 00 01 00 00 72 da 48 8b 6c 24 20 48 83  H......r.H.l$ H.
+	0x0060 c4 28 c3 48 89 44 24 08 e8 00 00 00 00 48 8b 44  .(.H.D$......H.D
+	0x0070 24 08 eb 8c                                      $...
+	rel 40+4 t=7 runtime.chanrecv1<1>+0
+	rel 71+4 t=7 runtime.chanrecv1<1>+0
+	rel 105+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si2c<1> STEXT size=111 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	TEXT	command-line-arguments.si2c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	JLS	94
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	FUNCDATA	$5, command-line-arguments.si2c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	FUNCDATA	$6, command-line-arguments.si2c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	PCDATA	$1, $1
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	CALL	runtime.chanrecv1(SB)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	CALL	runtime.chanrecv1(SB)
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	CMPL	CX, $256
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:29)	JCS	49
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:31)	PCDATA	$1, $-1
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:31)	MOVQ	32(SP), BP
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:31)	ADDQ	$40, SP
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:31)	RET
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:31)	NOP
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	PCDATA	$1, $-1
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	PCDATA	$0, $-2
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	MOVQ	AX, 8(SP)
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	CALL	runtime.morestack_noctxt(SB)
+	0x0068 00104 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	MOVQ	8(SP), AX
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	PCDATA	$0, $-1
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:26)	JMP	0
+	0x0000 49 3b 66 10 76 58 48 83 ec 28 48 89 6c 24 20 48  I;f.vXH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c7 44 24 14 00 00 00  .l$ H.D$..D$....
+	0x0020 00 48 8d 5c 24 14 e8 00 00 00 00 8b 4c 24 14 eb  .H.\$.......L$..
+	0x0030 1b c7 44 24 14 00 00 00 00 48 8b 44 24 18 48 8d  ..D$.....H.D$.H.
+	0x0040 5c 24 14 e8 00 00 00 00 8b 4c 24 14 81 f9 00 01  \$.......L$.....
+	0x0050 00 00 72 dd 48 8b 6c 24 20 48 83 c4 28 c3 48 89  ..r.H.l$ H..(.H.
+	0x0060 44 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 91     D$......H.D$...
+	rel 39+4 t=7 runtime.chanrecv1<1>+0
+	rel 68+4 t=7 runtime.chanrecv1<1>+0
+	rel 100+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si3c<1> STEXT size=110 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	TEXT	command-line-arguments.si3c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	JLS	93
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	FUNCDATA	$5, command-line-arguments.si3c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	FUNCDATA	$6, command-line-arguments.si3c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	PCDATA	$1, $1
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	CALL	runtime.chanrecv1(SB)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	CALL	runtime.chanrecv1(SB)
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	CMPW	CX, $256
+	0x0051 00081 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:36)	JCS	49
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:38)	PCDATA	$1, $-1
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:38)	MOVQ	32(SP), BP
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:38)	ADDQ	$40, SP
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:38)	RET
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:38)	NOP
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	PCDATA	$1, $-1
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	PCDATA	$0, $-2
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	MOVQ	AX, 8(SP)
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	CALL	runtime.morestack_noctxt(SB)
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	MOVQ	8(SP), AX
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	PCDATA	$0, $-1
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:33)	JMP	0
+	0x0000 49 3b 66 10 76 57 48 83 ec 28 48 89 6c 24 20 48  I;f.vWH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 66 c7 44 24 16 00 00  .l$ H.D$.f.D$...
+	0x0020 48 8d 5c 24 16 e8 00 00 00 00 0f b7 4c 24 16 eb  H.\$........L$..
+	0x0030 1b 66 c7 44 24 16 00 00 48 8b 44 24 18 48 8d 5c  .f.D$...H.D$.H.\
+	0x0040 24 16 e8 00 00 00 00 0f b7 4c 24 16 66 81 f9 00  $........L$.f...
+	0x0050 01 72 de 48 8b 6c 24 20 48 83 c4 28 c3 48 89 44  .r.H.l$ H..(.H.D
+	0x0060 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 92        $......H.D$...
+	rel 38+4 t=7 runtime.chanrecv1<1>+0
+	rel 67+4 t=7 runtime.chanrecv1<1>+0
+	rel 99+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si4c<1> STEXT size=108 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	TEXT	command-line-arguments.si4c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	JLS	89
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	FUNCDATA	$5, command-line-arguments.si4c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	FUNCDATA	$6, command-line-arguments.si4c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	PCDATA	$1, $1
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	CALL	runtime.chanrecv1(SB)
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	JMP	74
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	CALL	runtime.chanrecv1(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	CMPB	CL, $10
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:43)	JCS	47
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:45)	PCDATA	$1, $-1
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:45)	MOVQ	32(SP), BP
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:45)	ADDQ	$40, SP
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:45)	RET
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:45)	NOP
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	PCDATA	$1, $-1
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	PCDATA	$0, $-2
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	MOVQ	AX, 8(SP)
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	CALL	runtime.morestack_noctxt(SB)
+	0x0065 00101 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	MOVQ	8(SP), AX
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	PCDATA	$0, $-1
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:40)	JMP	0
+	0x0000 49 3b 66 10 76 53 48 83 ec 28 48 89 6c 24 20 48  I;f.vSH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c6 44 24 17 00 48 8d  .l$ H.D$..D$..H.
+	0x0020 5c 24 17 e8 00 00 00 00 0f b6 4c 24 17 eb 1b c6  \$........L$....
+	0x0030 44 24 17 00 48 8b 44 24 18 48 8d 5c 24 17 66 90  D$..H.D$.H.\$.f.
+	0x0040 e8 00 00 00 00 0f b6 4c 24 17 80 f9 0a 72 e0 48  .......L$....r.H
+	0x0050 8b 6c 24 20 48 83 c4 28 c3 48 89 44 24 08 66 90  .l$ H..(.H.D$.f.
+	0x0060 e8 00 00 00 00 48 8b 44 24 08 eb 94              .....H.D$...
+	rel 36+4 t=7 runtime.chanrecv1<1>+0
+	rel 65+4 t=7 runtime.chanrecv1<1>+0
+	rel 97+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si5c<1> STEXT size=120 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	TEXT	command-line-arguments.si5c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	JLS	103
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	FUNCDATA	$5, command-line-arguments.si5c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	FUNCDATA	$6, command-line-arguments.si5c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	PCDATA	$1, $1
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	CALL	runtime.chanrecv1(SB)
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	JMP	80
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	CALL	runtime.chanrecv1(SB)
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	ADDQ	$-5, CX
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	CMPQ	CX, $251
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:50)	JCS	51
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:52)	PCDATA	$1, $-1
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:52)	MOVQ	32(SP), BP
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:52)	ADDQ	$40, SP
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:52)	RET
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:52)	NOP
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	PCDATA	$1, $-1
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	PCDATA	$0, $-2
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	MOVQ	AX, 8(SP)
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	CALL	runtime.morestack_noctxt(SB)
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	MOVQ	8(SP), AX
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	PCDATA	$0, $-1
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:47)	JMP	0
+	0x0000 49 3b 66 10 76 61 48 83 ec 28 48 89 6c 24 20 48  I;f.vaH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 48 c7 44 24 10 00 00  .l$ H.D$.H.D$...
+	0x0020 00 00 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24  ..H.\$......H.L$
+	0x0030 10 eb 1d 48 c7 44 24 10 00 00 00 00 48 8b 44 24  ...H.D$.....H.D$
+	0x0040 18 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24 10  .H.\$......H.L$.
+	0x0050 48 83 c1 fb 48 81 f9 fb 00 00 00 72 d6 48 8b 6c  H...H......r.H.l
+	0x0060 24 20 48 83 c4 28 c3 48 89 44 24 08 e8 00 00 00  $ H..(.H.D$.....
+	0x0070 00 48 8b 44 24 08 eb 88                          .H.D$...
+	rel 40+4 t=7 runtime.chanrecv1<1>+0
+	rel 71+4 t=7 runtime.chanrecv1<1>+0
+	rel 109+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si6c<1> STEXT size=114 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	TEXT	command-line-arguments.si6c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	JLS	97
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	FUNCDATA	$5, command-line-arguments.si6c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	FUNCDATA	$6, command-line-arguments.si6c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	PCDATA	$1, $1
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	CALL	runtime.chanrecv1(SB)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	CALL	runtime.chanrecv1(SB)
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	DECL	CX
+	0x004e 00078 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	CMPL	CX, $255
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:57)	JLS	49
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:59)	PCDATA	$1, $-1
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:59)	MOVQ	32(SP), BP
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:59)	ADDQ	$40, SP
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:59)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:59)	RET
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:59)	NOP
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	PCDATA	$1, $-1
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	PCDATA	$0, $-2
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	MOVQ	AX, 8(SP)
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	CALL	runtime.morestack_noctxt(SB)
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	MOVQ	8(SP), AX
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	PCDATA	$0, $-1
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:54)	JMP	0
+	0x0000 49 3b 66 10 76 5b 48 83 ec 28 48 89 6c 24 20 48  I;f.v[H..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c7 44 24 14 00 00 00  .l$ H.D$..D$....
+	0x0020 00 48 8d 5c 24 14 e8 00 00 00 00 8b 4c 24 14 eb  .H.\$.......L$..
+	0x0030 1b c7 44 24 14 00 00 00 00 48 8b 44 24 18 48 8d  ..D$.....H.D$.H.
+	0x0040 5c 24 14 e8 00 00 00 00 8b 4c 24 14 ff c9 81 f9  \$.......L$.....
+	0x0050 ff 00 00 00 76 db 48 8b 6c 24 20 48 83 c4 28 90  ....v.H.l$ H..(.
+	0x0060 c3 48 89 44 24 08 e8 00 00 00 00 48 8b 44 24 08  .H.D$......H.D$.
+	0x0070 eb 8e                                            ..
+	rel 39+4 t=7 runtime.chanrecv1<1>+0
+	rel 68+4 t=7 runtime.chanrecv1<1>+0
+	rel 103+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si7c<1> STEXT size=112 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	TEXT	command-line-arguments.si7c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	JLS	95
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	FUNCDATA	$5, command-line-arguments.si7c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	FUNCDATA	$6, command-line-arguments.si7c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	PCDATA	$1, $1
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	CALL	runtime.chanrecv1(SB)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	CALL	runtime.chanrecv1(SB)
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	ADDL	$10, CX
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	CMPW	CX, $60
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:64)	JLS	49
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:66)	PCDATA	$1, $-1
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:66)	MOVQ	32(SP), BP
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:66)	ADDQ	$40, SP
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:66)	RET
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:66)	NOP
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	PCDATA	$1, $-1
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	PCDATA	$0, $-2
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	MOVQ	AX, 8(SP)
+	0x0064 00100 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	CALL	runtime.morestack_noctxt(SB)
+	0x0069 00105 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	MOVQ	8(SP), AX
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	PCDATA	$0, $-1
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:61)	JMP	0
+	0x0000 49 3b 66 10 76 59 48 83 ec 28 48 89 6c 24 20 48  I;f.vYH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 66 c7 44 24 16 00 00  .l$ H.D$.f.D$...
+	0x0020 48 8d 5c 24 16 e8 00 00 00 00 0f b7 4c 24 16 eb  H.\$........L$..
+	0x0030 1b 66 c7 44 24 16 00 00 48 8b 44 24 18 48 8d 5c  .f.D$...H.D$.H.\
+	0x0040 24 16 e8 00 00 00 00 0f b7 4c 24 16 83 c1 0a 66  $........L$....f
+	0x0050 83 f9 3c 76 dc 48 8b 6c 24 20 48 83 c4 28 c3 48  ..<v.H.l$ H..(.H
+	0x0060 89 44 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 90  .D$......H.D$...
+	rel 38+4 t=7 runtime.chanrecv1<1>+0
+	rel 67+4 t=7 runtime.chanrecv1<1>+0
+	rel 101+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si8c<1> STEXT size=109 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	TEXT	command-line-arguments.si8c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	JLS	92
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	FUNCDATA	$5, command-line-arguments.si8c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	FUNCDATA	$6, command-line-arguments.si8c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	PCDATA	$1, $1
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	CALL	runtime.chanrecv1(SB)
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	JMP	74
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	CALL	runtime.chanrecv1(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	ADDL	$126, CX
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	CMPB	CL, $126
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:71)	JCS	47
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:73)	PCDATA	$1, $-1
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:73)	MOVQ	32(SP), BP
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:73)	ADDQ	$40, SP
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:73)	RET
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:73)	NOP
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	PCDATA	$1, $-1
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	PCDATA	$0, $-2
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	MOVQ	AX, 8(SP)
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	CALL	runtime.morestack_noctxt(SB)
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	MOVQ	8(SP), AX
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	PCDATA	$0, $-1
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:68)	JMP	0
+	0x0000 49 3b 66 10 76 56 48 83 ec 28 48 89 6c 24 20 48  I;f.vVH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c6 44 24 17 00 48 8d  .l$ H.D$..D$..H.
+	0x0020 5c 24 17 e8 00 00 00 00 0f b6 4c 24 17 eb 1b c6  \$........L$....
+	0x0030 44 24 17 00 48 8b 44 24 18 48 8d 5c 24 17 66 90  D$..H.D$.H.\$.f.
+	0x0040 e8 00 00 00 00 0f b6 4c 24 17 83 c1 7e 80 f9 7e  .......L$...~..~
+	0x0050 72 dd 48 8b 6c 24 20 48 83 c4 28 c3 48 89 44 24  r.H.l$ H..(.H.D$
+	0x0060 08 e8 00 00 00 00 48 8b 44 24 08 eb 93           ......H.D$...
+	rel 36+4 t=7 runtime.chanrecv1<1>+0
+	rel 65+4 t=7 runtime.chanrecv1<1>+0
+	rel 98+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si1d<1> STEXT size=116 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	TEXT	command-line-arguments.si1d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	JLS	99
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	FUNCDATA	$5, command-line-arguments.si1d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	FUNCDATA	$6, command-line-arguments.si1d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	PCDATA	$1, $1
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	CALL	runtime.chanrecv1(SB)
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	JMP	80
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	CALL	runtime.chanrecv1(SB)
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	CMPQ	CX, $256
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:82)	JCC	51
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:84)	PCDATA	$1, $-1
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:84)	MOVQ	32(SP), BP
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:84)	ADDQ	$40, SP
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:84)	RET
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:84)	NOP
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	PCDATA	$1, $-1
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	PCDATA	$0, $-2
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	MOVQ	AX, 8(SP)
+	0x0068 00104 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	CALL	runtime.morestack_noctxt(SB)
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	MOVQ	8(SP), AX
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	PCDATA	$0, $-1
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:79)	JMP	0
+	0x0000 49 3b 66 10 76 5d 48 83 ec 28 48 89 6c 24 20 48  I;f.v]H..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 48 c7 44 24 10 00 00  .l$ H.D$.H.D$...
+	0x0020 00 00 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24  ..H.\$......H.L$
+	0x0030 10 eb 1d 48 c7 44 24 10 00 00 00 00 48 8b 44 24  ...H.D$.....H.D$
+	0x0040 18 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24 10  .H.\$......H.L$.
+	0x0050 48 81 f9 00 01 00 00 73 da 48 8b 6c 24 20 48 83  H......s.H.l$ H.
+	0x0060 c4 28 c3 48 89 44 24 08 e8 00 00 00 00 48 8b 44  .(.H.D$......H.D
+	0x0070 24 08 eb 8c                                      $...
+	rel 40+4 t=7 runtime.chanrecv1<1>+0
+	rel 71+4 t=7 runtime.chanrecv1<1>+0
+	rel 105+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si2d<1> STEXT size=111 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	TEXT	command-line-arguments.si2d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	JLS	94
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	FUNCDATA	$5, command-line-arguments.si2d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	FUNCDATA	$6, command-line-arguments.si2d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	PCDATA	$1, $1
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	CALL	runtime.chanrecv1(SB)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	CALL	runtime.chanrecv1(SB)
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	CMPL	CX, $256
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:89)	JCC	49
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:91)	PCDATA	$1, $-1
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:91)	MOVQ	32(SP), BP
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:91)	ADDQ	$40, SP
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:91)	RET
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:91)	NOP
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	PCDATA	$1, $-1
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	PCDATA	$0, $-2
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	MOVQ	AX, 8(SP)
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	CALL	runtime.morestack_noctxt(SB)
+	0x0068 00104 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	MOVQ	8(SP), AX
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	PCDATA	$0, $-1
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:86)	JMP	0
+	0x0000 49 3b 66 10 76 58 48 83 ec 28 48 89 6c 24 20 48  I;f.vXH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c7 44 24 14 00 00 00  .l$ H.D$..D$....
+	0x0020 00 48 8d 5c 24 14 e8 00 00 00 00 8b 4c 24 14 eb  .H.\$.......L$..
+	0x0030 1b c7 44 24 14 00 00 00 00 48 8b 44 24 18 48 8d  ..D$.....H.D$.H.
+	0x0040 5c 24 14 e8 00 00 00 00 8b 4c 24 14 81 f9 00 01  \$.......L$.....
+	0x0050 00 00 73 dd 48 8b 6c 24 20 48 83 c4 28 c3 48 89  ..s.H.l$ H..(.H.
+	0x0060 44 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 91     D$......H.D$...
+	rel 39+4 t=7 runtime.chanrecv1<1>+0
+	rel 68+4 t=7 runtime.chanrecv1<1>+0
+	rel 100+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si3d<1> STEXT size=110 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	TEXT	command-line-arguments.si3d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	JLS	93
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	FUNCDATA	$5, command-line-arguments.si3d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	FUNCDATA	$6, command-line-arguments.si3d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	PCDATA	$1, $1
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	CALL	runtime.chanrecv1(SB)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	CALL	runtime.chanrecv1(SB)
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	CMPW	CX, $256
+	0x0051 00081 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:96)	JCC	49
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:98)	PCDATA	$1, $-1
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:98)	MOVQ	32(SP), BP
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:98)	ADDQ	$40, SP
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:98)	RET
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:98)	NOP
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	PCDATA	$1, $-1
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	PCDATA	$0, $-2
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	MOVQ	AX, 8(SP)
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	CALL	runtime.morestack_noctxt(SB)
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	MOVQ	8(SP), AX
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	PCDATA	$0, $-1
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:93)	JMP	0
+	0x0000 49 3b 66 10 76 57 48 83 ec 28 48 89 6c 24 20 48  I;f.vWH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 66 c7 44 24 16 00 00  .l$ H.D$.f.D$...
+	0x0020 48 8d 5c 24 16 e8 00 00 00 00 0f b7 4c 24 16 eb  H.\$........L$..
+	0x0030 1b 66 c7 44 24 16 00 00 48 8b 44 24 18 48 8d 5c  .f.D$...H.D$.H.\
+	0x0040 24 16 e8 00 00 00 00 0f b7 4c 24 16 66 81 f9 00  $........L$.f...
+	0x0050 01 73 de 48 8b 6c 24 20 48 83 c4 28 c3 48 89 44  .s.H.l$ H..(.H.D
+	0x0060 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 92        $......H.D$...
+	rel 38+4 t=7 runtime.chanrecv1<1>+0
+	rel 67+4 t=7 runtime.chanrecv1<1>+0
+	rel 99+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si4d<1> STEXT size=108 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	TEXT	command-line-arguments.si4d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	JLS	89
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	FUNCDATA	$5, command-line-arguments.si4d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	FUNCDATA	$6, command-line-arguments.si4d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	PCDATA	$1, $1
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	CALL	runtime.chanrecv1(SB)
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	JMP	74
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	CALL	runtime.chanrecv1(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	CMPB	CL, $10
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:103)	JCC	47
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:105)	PCDATA	$1, $-1
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:105)	MOVQ	32(SP), BP
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:105)	ADDQ	$40, SP
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:105)	RET
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:105)	NOP
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	PCDATA	$1, $-1
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	PCDATA	$0, $-2
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	MOVQ	AX, 8(SP)
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	CALL	runtime.morestack_noctxt(SB)
+	0x0065 00101 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	MOVQ	8(SP), AX
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	PCDATA	$0, $-1
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:100)	JMP	0
+	0x0000 49 3b 66 10 76 53 48 83 ec 28 48 89 6c 24 20 48  I;f.vSH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c6 44 24 17 00 48 8d  .l$ H.D$..D$..H.
+	0x0020 5c 24 17 e8 00 00 00 00 0f b6 4c 24 17 eb 1b c6  \$........L$....
+	0x0030 44 24 17 00 48 8b 44 24 18 48 8d 5c 24 17 66 90  D$..H.D$.H.\$.f.
+	0x0040 e8 00 00 00 00 0f b6 4c 24 17 80 f9 0a 73 e0 48  .......L$....s.H
+	0x0050 8b 6c 24 20 48 83 c4 28 c3 48 89 44 24 08 66 90  .l$ H..(.H.D$.f.
+	0x0060 e8 00 00 00 00 48 8b 44 24 08 eb 94              .....H.D$...
+	rel 36+4 t=7 runtime.chanrecv1<1>+0
+	rel 65+4 t=7 runtime.chanrecv1<1>+0
+	rel 97+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si5d<1> STEXT size=120 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	TEXT	command-line-arguments.si5d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	JLS	103
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	FUNCDATA	$5, command-line-arguments.si5d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	FUNCDATA	$6, command-line-arguments.si5d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	PCDATA	$1, $1
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	CALL	runtime.chanrecv1(SB)
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	JMP	80
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	CALL	runtime.chanrecv1(SB)
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	ADDQ	$-5, CX
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	CMPQ	CX, $251
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:110)	JCC	51
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:112)	PCDATA	$1, $-1
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:112)	MOVQ	32(SP), BP
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:112)	ADDQ	$40, SP
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:112)	RET
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:112)	NOP
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	PCDATA	$1, $-1
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	PCDATA	$0, $-2
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	MOVQ	AX, 8(SP)
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	CALL	runtime.morestack_noctxt(SB)
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	MOVQ	8(SP), AX
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	PCDATA	$0, $-1
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:107)	JMP	0
+	0x0000 49 3b 66 10 76 61 48 83 ec 28 48 89 6c 24 20 48  I;f.vaH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 48 c7 44 24 10 00 00  .l$ H.D$.H.D$...
+	0x0020 00 00 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24  ..H.\$......H.L$
+	0x0030 10 eb 1d 48 c7 44 24 10 00 00 00 00 48 8b 44 24  ...H.D$.....H.D$
+	0x0040 18 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24 10  .H.\$......H.L$.
+	0x0050 48 83 c1 fb 48 81 f9 fb 00 00 00 73 d6 48 8b 6c  H...H......s.H.l
+	0x0060 24 20 48 83 c4 28 c3 48 89 44 24 08 e8 00 00 00  $ H..(.H.D$.....
+	0x0070 00 48 8b 44 24 08 eb 88                          .H.D$...
+	rel 40+4 t=7 runtime.chanrecv1<1>+0
+	rel 71+4 t=7 runtime.chanrecv1<1>+0
+	rel 109+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si6d<1> STEXT size=114 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	TEXT	command-line-arguments.si6d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	JLS	97
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	FUNCDATA	$5, command-line-arguments.si6d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	FUNCDATA	$6, command-line-arguments.si6d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	PCDATA	$1, $1
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	CALL	runtime.chanrecv1(SB)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	CALL	runtime.chanrecv1(SB)
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	DECL	CX
+	0x004e 00078 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	CMPL	CX, $255
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:117)	JHI	49
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:119)	PCDATA	$1, $-1
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:119)	MOVQ	32(SP), BP
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:119)	ADDQ	$40, SP
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:119)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:119)	RET
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:119)	NOP
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	PCDATA	$1, $-1
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	PCDATA	$0, $-2
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	MOVQ	AX, 8(SP)
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	CALL	runtime.morestack_noctxt(SB)
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	MOVQ	8(SP), AX
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	PCDATA	$0, $-1
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:114)	JMP	0
+	0x0000 49 3b 66 10 76 5b 48 83 ec 28 48 89 6c 24 20 48  I;f.v[H..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c7 44 24 14 00 00 00  .l$ H.D$..D$....
+	0x0020 00 48 8d 5c 24 14 e8 00 00 00 00 8b 4c 24 14 eb  .H.\$.......L$..
+	0x0030 1b c7 44 24 14 00 00 00 00 48 8b 44 24 18 48 8d  ..D$.....H.D$.H.
+	0x0040 5c 24 14 e8 00 00 00 00 8b 4c 24 14 ff c9 81 f9  \$.......L$.....
+	0x0050 ff 00 00 00 77 db 48 8b 6c 24 20 48 83 c4 28 90  ....w.H.l$ H..(.
+	0x0060 c3 48 89 44 24 08 e8 00 00 00 00 48 8b 44 24 08  .H.D$......H.D$.
+	0x0070 eb 8e                                            ..
+	rel 39+4 t=7 runtime.chanrecv1<1>+0
+	rel 68+4 t=7 runtime.chanrecv1<1>+0
+	rel 103+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si7d<1> STEXT size=112 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	TEXT	command-line-arguments.si7d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	JLS	95
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	FUNCDATA	$5, command-line-arguments.si7d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	FUNCDATA	$6, command-line-arguments.si7d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	PCDATA	$1, $1
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	CALL	runtime.chanrecv1(SB)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	CALL	runtime.chanrecv1(SB)
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	ADDL	$10, CX
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	CMPW	CX, $60
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:124)	JHI	49
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:126)	PCDATA	$1, $-1
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:126)	MOVQ	32(SP), BP
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:126)	ADDQ	$40, SP
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:126)	RET
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:126)	NOP
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	PCDATA	$1, $-1
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	PCDATA	$0, $-2
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	MOVQ	AX, 8(SP)
+	0x0064 00100 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	CALL	runtime.morestack_noctxt(SB)
+	0x0069 00105 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	MOVQ	8(SP), AX
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	PCDATA	$0, $-1
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:121)	JMP	0
+	0x0000 49 3b 66 10 76 59 48 83 ec 28 48 89 6c 24 20 48  I;f.vYH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 66 c7 44 24 16 00 00  .l$ H.D$.f.D$...
+	0x0020 48 8d 5c 24 16 e8 00 00 00 00 0f b7 4c 24 16 eb  H.\$........L$..
+	0x0030 1b 66 c7 44 24 16 00 00 48 8b 44 24 18 48 8d 5c  .f.D$...H.D$.H.\
+	0x0040 24 16 e8 00 00 00 00 0f b7 4c 24 16 83 c1 0a 66  $........L$....f
+	0x0050 83 f9 3c 77 dc 48 8b 6c 24 20 48 83 c4 28 c3 48  ..<w.H.l$ H..(.H
+	0x0060 89 44 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 90  .D$......H.D$...
+	rel 38+4 t=7 runtime.chanrecv1<1>+0
+	rel 67+4 t=7 runtime.chanrecv1<1>+0
+	rel 101+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.si8d<1> STEXT size=109 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	TEXT	command-line-arguments.si8d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	JLS	92
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	FUNCDATA	$5, command-line-arguments.si8d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	FUNCDATA	$6, command-line-arguments.si8d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	PCDATA	$1, $1
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	CALL	runtime.chanrecv1(SB)
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	JMP	74
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	CALL	runtime.chanrecv1(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	ADDL	$126, CX
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	CMPB	CL, $126
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:131)	JCC	47
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:133)	PCDATA	$1, $-1
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:133)	MOVQ	32(SP), BP
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:133)	ADDQ	$40, SP
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:133)	RET
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:133)	NOP
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	PCDATA	$1, $-1
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	PCDATA	$0, $-2
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	MOVQ	AX, 8(SP)
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	CALL	runtime.morestack_noctxt(SB)
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	MOVQ	8(SP), AX
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	PCDATA	$0, $-1
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:128)	JMP	0
+	0x0000 49 3b 66 10 76 56 48 83 ec 28 48 89 6c 24 20 48  I;f.vVH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c6 44 24 17 00 48 8d  .l$ H.D$..D$..H.
+	0x0020 5c 24 17 e8 00 00 00 00 0f b6 4c 24 17 eb 1b c6  \$........L$....
+	0x0030 44 24 17 00 48 8b 44 24 18 48 8d 5c 24 17 66 90  D$..H.D$.H.\$.f.
+	0x0040 e8 00 00 00 00 0f b6 4c 24 17 83 c1 7e 80 f9 7e  .......L$...~..~
+	0x0050 73 dd 48 8b 6c 24 20 48 83 c4 28 c3 48 89 44 24  s.H.l$ H..(.H.D$
+	0x0060 08 e8 00 00 00 00 48 8b 44 24 08 eb 93           ......H.D$...
+	rel 36+4 t=7 runtime.chanrecv1<1>+0
+	rel 65+4 t=7 runtime.chanrecv1<1>+0
+	rel 98+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ui1c<1> STEXT size=120 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	TEXT	command-line-arguments.ui1c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	JLS	103
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	FUNCDATA	$5, command-line-arguments.ui1c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	FUNCDATA	$6, command-line-arguments.ui1c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	PCDATA	$1, $1
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	CALL	runtime.chanrecv1(SB)
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	JMP	80
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	CALL	runtime.chanrecv1(SB)
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	ADDQ	$-5, CX
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	CMPQ	CX, $251
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:142)	JCS	51
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:144)	PCDATA	$1, $-1
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:144)	MOVQ	32(SP), BP
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:144)	ADDQ	$40, SP
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:144)	RET
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:144)	NOP
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	PCDATA	$1, $-1
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	PCDATA	$0, $-2
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	MOVQ	AX, 8(SP)
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	CALL	runtime.morestack_noctxt(SB)
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	MOVQ	8(SP), AX
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	PCDATA	$0, $-1
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:139)	JMP	0
+	0x0000 49 3b 66 10 76 61 48 83 ec 28 48 89 6c 24 20 48  I;f.vaH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 48 c7 44 24 10 00 00  .l$ H.D$.H.D$...
+	0x0020 00 00 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24  ..H.\$......H.L$
+	0x0030 10 eb 1d 48 c7 44 24 10 00 00 00 00 48 8b 44 24  ...H.D$.....H.D$
+	0x0040 18 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24 10  .H.\$......H.L$.
+	0x0050 48 83 c1 fb 48 81 f9 fb 00 00 00 72 d6 48 8b 6c  H...H......r.H.l
+	0x0060 24 20 48 83 c4 28 c3 48 89 44 24 08 e8 00 00 00  $ H..(.H.D$.....
+	0x0070 00 48 8b 44 24 08 eb 88                          .H.D$...
+	rel 40+4 t=7 runtime.chanrecv1<1>+0
+	rel 71+4 t=7 runtime.chanrecv1<1>+0
+	rel 109+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ui2c<1> STEXT size=114 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	TEXT	command-line-arguments.ui2c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	JLS	97
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	FUNCDATA	$5, command-line-arguments.ui2c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	FUNCDATA	$6, command-line-arguments.ui2c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	PCDATA	$1, $1
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	CALL	runtime.chanrecv1(SB)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	CALL	runtime.chanrecv1(SB)
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	DECL	CX
+	0x004e 00078 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	CMPL	CX, $255
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:149)	JLS	49
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:151)	PCDATA	$1, $-1
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:151)	MOVQ	32(SP), BP
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:151)	ADDQ	$40, SP
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:151)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:151)	RET
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:151)	NOP
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	PCDATA	$1, $-1
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	PCDATA	$0, $-2
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	MOVQ	AX, 8(SP)
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	CALL	runtime.morestack_noctxt(SB)
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	MOVQ	8(SP), AX
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	PCDATA	$0, $-1
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:146)	JMP	0
+	0x0000 49 3b 66 10 76 5b 48 83 ec 28 48 89 6c 24 20 48  I;f.v[H..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c7 44 24 14 00 00 00  .l$ H.D$..D$....
+	0x0020 00 48 8d 5c 24 14 e8 00 00 00 00 8b 4c 24 14 eb  .H.\$.......L$..
+	0x0030 1b c7 44 24 14 00 00 00 00 48 8b 44 24 18 48 8d  ..D$.....H.D$.H.
+	0x0040 5c 24 14 e8 00 00 00 00 8b 4c 24 14 ff c9 81 f9  \$.......L$.....
+	0x0050 ff 00 00 00 76 db 48 8b 6c 24 20 48 83 c4 28 90  ....v.H.l$ H..(.
+	0x0060 c3 48 89 44 24 08 e8 00 00 00 00 48 8b 44 24 08  .H.D$......H.D$.
+	0x0070 eb 8e                                            ..
+	rel 39+4 t=7 runtime.chanrecv1<1>+0
+	rel 68+4 t=7 runtime.chanrecv1<1>+0
+	rel 103+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ui3c<1> STEXT size=112 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	TEXT	command-line-arguments.ui3c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	JLS	95
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	FUNCDATA	$5, command-line-arguments.ui3c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	FUNCDATA	$6, command-line-arguments.ui3c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	PCDATA	$1, $1
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	CALL	runtime.chanrecv1(SB)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	CALL	runtime.chanrecv1(SB)
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	ADDL	$-10, CX
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	CMPW	CX, $40
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:156)	JLS	49
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:158)	PCDATA	$1, $-1
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:158)	MOVQ	32(SP), BP
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:158)	ADDQ	$40, SP
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:158)	RET
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:158)	NOP
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	PCDATA	$1, $-1
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	PCDATA	$0, $-2
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	MOVQ	AX, 8(SP)
+	0x0064 00100 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	CALL	runtime.morestack_noctxt(SB)
+	0x0069 00105 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	MOVQ	8(SP), AX
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	PCDATA	$0, $-1
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:153)	JMP	0
+	0x0000 49 3b 66 10 76 59 48 83 ec 28 48 89 6c 24 20 48  I;f.vYH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 66 c7 44 24 16 00 00  .l$ H.D$.f.D$...
+	0x0020 48 8d 5c 24 16 e8 00 00 00 00 0f b7 4c 24 16 eb  H.\$........L$..
+	0x0030 1b 66 c7 44 24 16 00 00 48 8b 44 24 18 48 8d 5c  .f.D$...H.D$.H.\
+	0x0040 24 16 e8 00 00 00 00 0f b7 4c 24 16 83 c1 f6 66  $........L$....f
+	0x0050 83 f9 28 76 dc 48 8b 6c 24 20 48 83 c4 28 c3 48  ..(v.H.l$ H..(.H
+	0x0060 89 44 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 90  .D$......H.D$...
+	rel 38+4 t=7 runtime.chanrecv1<1>+0
+	rel 67+4 t=7 runtime.chanrecv1<1>+0
+	rel 101+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ui4c<1> STEXT size=109 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	TEXT	command-line-arguments.ui4c(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	JLS	92
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	FUNCDATA	$5, command-line-arguments.ui4c.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	FUNCDATA	$6, command-line-arguments.ui4c.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	PCDATA	$1, $1
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	CALL	runtime.chanrecv1(SB)
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	JMP	74
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	CALL	runtime.chanrecv1(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	ADDL	$-126, CX
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	CMPB	CL, $2
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:163)	JCS	47
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:165)	PCDATA	$1, $-1
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:165)	MOVQ	32(SP), BP
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:165)	ADDQ	$40, SP
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:165)	RET
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:165)	NOP
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	PCDATA	$1, $-1
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	PCDATA	$0, $-2
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	MOVQ	AX, 8(SP)
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	CALL	runtime.morestack_noctxt(SB)
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	MOVQ	8(SP), AX
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	PCDATA	$0, $-1
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:160)	JMP	0
+	0x0000 49 3b 66 10 76 56 48 83 ec 28 48 89 6c 24 20 48  I;f.vVH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c6 44 24 17 00 48 8d  .l$ H.D$..D$..H.
+	0x0020 5c 24 17 e8 00 00 00 00 0f b6 4c 24 17 eb 1b c6  \$........L$....
+	0x0030 44 24 17 00 48 8b 44 24 18 48 8d 5c 24 17 66 90  D$..H.D$.H.\$.f.
+	0x0040 e8 00 00 00 00 0f b6 4c 24 17 83 c1 82 80 f9 02  .......L$.......
+	0x0050 72 dd 48 8b 6c 24 20 48 83 c4 28 c3 48 89 44 24  r.H.l$ H..(.H.D$
+	0x0060 08 e8 00 00 00 00 48 8b 44 24 08 eb 93           ......H.D$...
+	rel 36+4 t=7 runtime.chanrecv1<1>+0
+	rel 65+4 t=7 runtime.chanrecv1<1>+0
+	rel 98+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ui1d<1> STEXT size=120 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	TEXT	command-line-arguments.ui1d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	JLS	103
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	FUNCDATA	$5, command-line-arguments.ui1d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	FUNCDATA	$6, command-line-arguments.ui1d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	PCDATA	$1, $1
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	CALL	runtime.chanrecv1(SB)
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	JMP	80
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	MOVQ	$0, command-line-arguments..autotmp_2+16(SP)
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	LEAQ	command-line-arguments..autotmp_2+16(SP), BX
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	CALL	runtime.chanrecv1(SB)
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	MOVQ	command-line-arguments..autotmp_2+16(SP), CX
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	ADDQ	$-5, CX
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	CMPQ	CX, $251
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:174)	JCC	51
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:176)	PCDATA	$1, $-1
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:176)	MOVQ	32(SP), BP
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:176)	ADDQ	$40, SP
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:176)	RET
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:176)	NOP
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	PCDATA	$1, $-1
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	PCDATA	$0, $-2
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	MOVQ	AX, 8(SP)
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	CALL	runtime.morestack_noctxt(SB)
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	MOVQ	8(SP), AX
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	PCDATA	$0, $-1
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:171)	JMP	0
+	0x0000 49 3b 66 10 76 61 48 83 ec 28 48 89 6c 24 20 48  I;f.vaH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 48 c7 44 24 10 00 00  .l$ H.D$.H.D$...
+	0x0020 00 00 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24  ..H.\$......H.L$
+	0x0030 10 eb 1d 48 c7 44 24 10 00 00 00 00 48 8b 44 24  ...H.D$.....H.D$
+	0x0040 18 48 8d 5c 24 10 e8 00 00 00 00 48 8b 4c 24 10  .H.\$......H.L$.
+	0x0050 48 83 c1 fb 48 81 f9 fb 00 00 00 73 d6 48 8b 6c  H...H......s.H.l
+	0x0060 24 20 48 83 c4 28 c3 48 89 44 24 08 e8 00 00 00  $ H..(.H.D$.....
+	0x0070 00 48 8b 44 24 08 eb 88                          .H.D$...
+	rel 40+4 t=7 runtime.chanrecv1<1>+0
+	rel 71+4 t=7 runtime.chanrecv1<1>+0
+	rel 109+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ui2d<1> STEXT size=114 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	TEXT	command-line-arguments.ui2d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	JLS	97
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	FUNCDATA	$5, command-line-arguments.ui2d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	FUNCDATA	$6, command-line-arguments.ui2d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	PCDATA	$1, $1
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	CALL	runtime.chanrecv1(SB)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	MOVL	$0, command-line-arguments..autotmp_2+20(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	LEAQ	command-line-arguments..autotmp_2+20(SP), BX
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	CALL	runtime.chanrecv1(SB)
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	MOVL	command-line-arguments..autotmp_2+20(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	ADDL	$-2, CX
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	CMPL	CX, $254
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:181)	JHI	49
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:183)	PCDATA	$1, $-1
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:183)	MOVQ	32(SP), BP
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:183)	ADDQ	$40, SP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:183)	RET
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:183)	NOP
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	PCDATA	$1, $-1
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	PCDATA	$0, $-2
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	MOVQ	AX, 8(SP)
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	CALL	runtime.morestack_noctxt(SB)
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	MOVQ	8(SP), AX
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	PCDATA	$0, $-1
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:178)	JMP	0
+	0x0000 49 3b 66 10 76 5b 48 83 ec 28 48 89 6c 24 20 48  I;f.v[H..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c7 44 24 14 00 00 00  .l$ H.D$..D$....
+	0x0020 00 48 8d 5c 24 14 e8 00 00 00 00 8b 4c 24 14 eb  .H.\$.......L$..
+	0x0030 1b c7 44 24 14 00 00 00 00 48 8b 44 24 18 48 8d  ..D$.....H.D$.H.
+	0x0040 5c 24 14 e8 00 00 00 00 8b 4c 24 14 83 c1 fe 81  \$.......L$.....
+	0x0050 f9 fe 00 00 00 77 da 48 8b 6c 24 20 48 83 c4 28  .....w.H.l$ H..(
+	0x0060 c3 48 89 44 24 08 e8 00 00 00 00 48 8b 44 24 08  .H.D$......H.D$.
+	0x0070 eb 8e                                            ..
+	rel 39+4 t=7 runtime.chanrecv1<1>+0
+	rel 68+4 t=7 runtime.chanrecv1<1>+0
+	rel 103+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ui3d<1> STEXT size=112 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	TEXT	command-line-arguments.ui3d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	JLS	95
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	FUNCDATA	$5, command-line-arguments.ui3d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	FUNCDATA	$6, command-line-arguments.ui3d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	PCDATA	$1, $1
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	CALL	runtime.chanrecv1(SB)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	JMP	76
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	MOVW	$0, command-line-arguments..autotmp_2+22(SP)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	LEAQ	command-line-arguments..autotmp_2+22(SP), BX
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	CALL	runtime.chanrecv1(SB)
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	MOVWLZX	command-line-arguments..autotmp_2+22(SP), CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	ADDL	$-10, CX
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	CMPW	CX, $40
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:188)	JHI	49
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:190)	PCDATA	$1, $-1
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:190)	MOVQ	32(SP), BP
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:190)	ADDQ	$40, SP
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:190)	RET
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:190)	NOP
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	PCDATA	$1, $-1
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	PCDATA	$0, $-2
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	MOVQ	AX, 8(SP)
+	0x0064 00100 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	CALL	runtime.morestack_noctxt(SB)
+	0x0069 00105 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	MOVQ	8(SP), AX
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	PCDATA	$0, $-1
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:185)	JMP	0
+	0x0000 49 3b 66 10 76 59 48 83 ec 28 48 89 6c 24 20 48  I;f.vYH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 66 c7 44 24 16 00 00  .l$ H.D$.f.D$...
+	0x0020 48 8d 5c 24 16 e8 00 00 00 00 0f b7 4c 24 16 eb  H.\$........L$..
+	0x0030 1b 66 c7 44 24 16 00 00 48 8b 44 24 18 48 8d 5c  .f.D$...H.D$.H.\
+	0x0040 24 16 e8 00 00 00 00 0f b7 4c 24 16 83 c1 f6 66  $........L$....f
+	0x0050 83 f9 28 77 dc 48 8b 6c 24 20 48 83 c4 28 c3 48  ..(w.H.l$ H..(.H
+	0x0060 89 44 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 90  .D$......H.D$...
+	rel 38+4 t=7 runtime.chanrecv1<1>+0
+	rel 67+4 t=7 runtime.chanrecv1<1>+0
+	rel 101+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ui4d<1> STEXT size=109 args=0x8 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	TEXT	command-line-arguments.ui4d(SB), ABIInternal, $40-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	JLS	92
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	SUBQ	$40, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	MOVQ	BP, 32(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	LEAQ	32(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	FUNCDATA	$1, gclocals·VtCL4RdUwCqwXEPeyJllRA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	FUNCDATA	$5, command-line-arguments.ui4d.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	FUNCDATA	$6, command-line-arguments.ui4d.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	MOVQ	AX, command-line-arguments..autotmp_4+24(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	PCDATA	$1, $1
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	CALL	runtime.chanrecv1(SB)
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	JMP	74
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	MOVB	$0, command-line-arguments..autotmp_2+23(SP)
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	MOVQ	command-line-arguments..autotmp_4+24(SP), AX
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	LEAQ	command-line-arguments..autotmp_2+23(SP), BX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	CALL	runtime.chanrecv1(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	MOVBLZX	command-line-arguments..autotmp_2+23(SP), CX
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	ADDL	$-126, CX
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	CMPB	CL, $2
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:195)	JCC	47
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:197)	PCDATA	$1, $-1
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:197)	MOVQ	32(SP), BP
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:197)	ADDQ	$40, SP
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:197)	RET
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:197)	NOP
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	PCDATA	$1, $-1
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	PCDATA	$0, $-2
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	MOVQ	AX, 8(SP)
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	CALL	runtime.morestack_noctxt(SB)
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	MOVQ	8(SP), AX
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	PCDATA	$0, $-1
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/fuse.go:192)	JMP	0
+	0x0000 49 3b 66 10 76 56 48 83 ec 28 48 89 6c 24 20 48  I;f.vVH..(H.l$ H
+	0x0010 8d 6c 24 20 48 89 44 24 18 c6 44 24 17 00 48 8d  .l$ H.D$..D$..H.
+	0x0020 5c 24 17 e8 00 00 00 00 0f b6 4c 24 17 eb 1b c6  \$........L$....
+	0x0030 44 24 17 00 48 8b 44 24 18 48 8d 5c 24 17 66 90  D$..H.D$.H.\$.f.
+	0x0040 e8 00 00 00 00 0f b6 4c 24 17 83 c1 82 80 f9 02  .......L$.......
+	0x0050 73 dd 48 8b 6c 24 20 48 83 c4 28 c3 48 89 44 24  s.H.l$ H..(.H.D$
+	0x0060 08 e8 00 00 00 00 48 8b 44 24 08 eb 93           ......H.D$...
+	rel 36+4 t=7 runtime.chanrecv1<1>+0
+	rel 65+4 t=7 runtime.chanrecv1<1>+0
+	rel 98+4 t=7 runtime.morestack_noctxt<0>+0
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+runtime.memequal64·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64<1>+0
+runtime.gcbits.0100000000000000<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:.namedata.*<-chan int16-<0> SRODATA dupok size=15
+	0x0000 00 0d 2a 3c 2d 63 68 61 6e 20 69 6e 74 31 36     ..*<-chan int16
+type:*<-chan int16<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 fd 62 64 92 08 08 08 36 00 00 00 00 00 00 00 00  .bd....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan int16-<0>+0
+	rel 48+8 t=1 type:<-chan int16<0>+0
+type:<-chan int16<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 d8 81 03 38 0a 08 08 32 00 00 00 00 00 00 00 00  ...8...2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan int16-<0>+0
+	rel 44+4 t=-32763 type:*<-chan int16<0>+0
+	rel 48+8 t=1 type:int16<0>+0
+type:.namedata.*<-chan int32-<0> SRODATA dupok size=15
+	0x0000 00 0d 2a 3c 2d 63 68 61 6e 20 69 6e 74 33 32     ..*<-chan int32
+type:*<-chan int32<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 c5 8a 33 69 08 08 08 36 00 00 00 00 00 00 00 00  ..3i...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan int32-<0>+0
+	rel 48+8 t=1 type:<-chan int32<0>+0
+type:<-chan int32<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 0a ad 52 78 0a 08 08 32 00 00 00 00 00 00 00 00  ..Rx...2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan int32-<0>+0
+	rel 44+4 t=-32763 type:*<-chan int32<0>+0
+	rel 48+8 t=1 type:int32<0>+0
+type:.namedata.*<-chan int64-<0> SRODATA dupok size=15
+	0x0000 00 0d 2a 3c 2d 63 68 61 6e 20 69 6e 74 36 34     ..*<-chan int64
+type:*<-chan int64<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 7c ef 5b 2d 08 08 08 36 00 00 00 00 00 00 00 00  |.[-...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan int64-<0>+0
+	rel 48+8 t=1 type:<-chan int64<0>+0
+type:<-chan int64<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 b9 bd d6 8f 0a 08 08 32 00 00 00 00 00 00 00 00  .......2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan int64-<0>+0
+	rel 44+4 t=-32763 type:*<-chan int64<0>+0
+	rel 48+8 t=1 type:int64<0>+0
+type:.namedata.*<-chan int8-<0> SRODATA dupok size=14
+	0x0000 00 0c 2a 3c 2d 63 68 61 6e 20 69 6e 74 38        ..*<-chan int8
+type:*<-chan int8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 f3 b4 71 9e 08 08 08 36 00 00 00 00 00 00 00 00  ..q....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan int8-<0>+0
+	rel 48+8 t=1 type:<-chan int8<0>+0
+type:<-chan int8<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 1a e2 47 14 0a 08 08 32 00 00 00 00 00 00 00 00  ..G....2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan int8-<0>+0
+	rel 44+4 t=-32763 type:*<-chan int8<0>+0
+	rel 48+8 t=1 type:int8<0>+0
+type:.namedata.*<-chan uint16-<0> SRODATA dupok size=16
+	0x0000 00 0e 2a 3c 2d 63 68 61 6e 20 75 69 6e 74 31 36  ..*<-chan uint16
+type:*<-chan uint16<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 a2 39 33 8d 08 08 08 36 00 00 00 00 00 00 00 00  .93....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan uint16-<0>+0
+	rel 48+8 t=1 type:<-chan uint16<0>+0
+type:<-chan uint16<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 d2 0d 73 9f 0a 08 08 32 00 00 00 00 00 00 00 00  ..s....2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan uint16-<0>+0
+	rel 44+4 t=-32763 type:*<-chan uint16<0>+0
+	rel 48+8 t=1 type:uint16<0>+0
+type:.namedata.*<-chan uint32-<0> SRODATA dupok size=16
+	0x0000 00 0e 2a 3c 2d 63 68 61 6e 20 75 69 6e 74 33 32  ..*<-chan uint32
+type:*<-chan uint32<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 44 75 14 13 08 08 08 36 00 00 00 00 00 00 00 00  Du.....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan uint32-<0>+0
+	rel 48+8 t=1 type:<-chan uint32<0>+0
+type:<-chan uint32<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 2a c7 4c 72 0a 08 08 32 00 00 00 00 00 00 00 00  *.Lr...2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan uint32-<0>+0
+	rel 44+4 t=-32763 type:*<-chan uint32<0>+0
+	rel 48+8 t=1 type:uint32<0>+0
+type:.namedata.*<-chan uint64-<0> SRODATA dupok size=16
+	0x0000 00 0e 2a 3c 2d 63 68 61 6e 20 75 69 6e 74 36 34  ..*<-chan uint64
+type:*<-chan uint64<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 e4 71 68 cf 08 08 08 36 00 00 00 00 00 00 00 00  .qh....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan uint64-<0>+0
+	rel 48+8 t=1 type:<-chan uint64<0>+0
+type:<-chan uint64<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 b5 3e 66 16 0a 08 08 32 00 00 00 00 00 00 00 00  .>f....2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan uint64-<0>+0
+	rel 44+4 t=-32763 type:*<-chan uint64<0>+0
+	rel 48+8 t=1 type:uint64<0>+0
+type:.namedata.*<-chan uint8-<0> SRODATA dupok size=15
+	0x0000 00 0d 2a 3c 2d 63 68 61 6e 20 75 69 6e 74 38     ..*<-chan uint8
+type:*<-chan uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 c0 43 18 95 08 08 08 36 00 00 00 00 00 00 00 00  .C.....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan uint8-<0>+0
+	rel 48+8 t=1 type:<-chan uint8<0>+0
+type:<-chan uint8<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 b9 76 7f 51 0a 08 08 32 00 00 00 00 00 00 00 00  .v.Q...2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*<-chan uint8-<0>+0
+	rel 44+4 t=-32763 type:*<-chan uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+gclocals·ZzMiPAiVBg7DJ6dh/CjSag==<0> SRODATA dupok size=11
+	0x0000 03 00 00 00 01 00 00 00 01 00 00                 ...........
+gclocals·VtCL4RdUwCqwXEPeyJllRA==<0> SRODATA dupok size=11
+	0x0000 03 00 00 00 01 00 00 00 00 01 00                 ...........
+command-line-arguments.si1c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si1c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si2c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si2c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si3c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si3c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si4c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si4c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si5c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si5c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si6c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si6c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si7c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si7c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si8c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si8c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si1d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si1d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si2d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si2d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si3d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si3d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si4d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si4d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si5d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si5d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si6d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si6d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si7d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si7d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.si8d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.si8d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.ui1c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.ui1c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.ui2c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.ui2c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.ui3c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.ui3c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.ui4c.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.ui4c.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.ui1d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.ui1d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.ui2d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.ui2d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.ui3d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.ui3d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.ui4d.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.ui4d.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+aux for command-line-arguments.si1c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2c 00 00 00 00 00 00 00  ........,.......
+	0x0020 01 00 50 2c 00 00 00 00 00 00 00 74 00 00 00 00  ..P,.......t....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00 4b  .......1.......K
+	0x0060 00 00 00 00 00 00 00 01 00 52 50 00 00 00 00 00  .........RP.....
+	0x0070 00 00 74 00 00 00 00 00 00 00 01 00 52 00 00 00  ..t.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si1c<1>+0
+	rel 79+8 t=1 command-line-arguments.si1c<1>+0
+aux for command-line-arguments.si1c<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 0d 14  ................
+	0x0010 0a 4b 06 9b 06 44 06 69 06 08 eb 06 55 06 25 03  .K...D.i....U.%.
+	0x0020 7f 6f 02 11 00 01 01                             .o.....
+	rel 3+8 t=1 command-line-arguments.si1c<1>+0
+aux for command-line-arguments.si1c<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 31 63 00 00 00 00  guments.si1c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 13 00 00 00 00 00 00 00  .....c..........
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 16 00 00 00 00 00 00 00 00 00 00  ...x............
+	rel 29+8 t=1 command-line-arguments.si1c<1>+0
+	rel 37+8 t=1 command-line-arguments.si1c<1>+116
+	rel 57+4 t=31 go:info.<-chan int64<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si1c<1>+25
+	rel 74+8 t=1 command-line-arguments.si1c<1>+89
+	rel 86+4 t=31 go:info.int64<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si2c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2b 00 00 00 00 00 00 00  ........+.......
+	0x0020 01 00 50 2b 00 00 00 00 00 00 00 6f 00 00 00 00  ..P+.......o....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 48  ......./.......H
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 6f 00 00 00 00 00 00 00 01 00 52 00 00 00  ..o.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si2c<1>+0
+	rel 79+8 t=1 command-line-arguments.si2c<1>+0
+aux for command-line-arguments.si2c<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 14 14  ................
+	0x0010 0a 4b 06 9b 06 44 06 5f 06 08 cd 06 4b 06 25 03  .K...D._....K.%.
+	0x0020 7f 6f 02 11 00 01 01                             .o.....
+	rel 3+8 t=1 command-line-arguments.si2c<1>+0
+aux for command-line-arguments.si2c<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 32 63 00 00 00 00  guments.si2c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 1a 00 00 00 00 00 00 00  .....c..........
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 1d 00 00 00 00 00 00 00 00 00 00  ...x............
+	rel 29+8 t=1 command-line-arguments.si2c<1>+0
+	rel 37+8 t=1 command-line-arguments.si2c<1>+111
+	rel 57+4 t=31 go:info.<-chan int32<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si2c<1>+25
+	rel 74+8 t=1 command-line-arguments.si2c<1>+84
+	rel 86+4 t=31 go:info.int32<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si3c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2a 00 00 00 00 00 00 00  ........*.......
+	0x0020 01 00 50 2a 00 00 00 00 00 00 00 6e 00 00 00 00  ..P*.......n....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 47  ......./.......G
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 6e 00 00 00 00 00 00 00 01 00 52 00 00 00  ..n.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si3c<1>+0
+	rel 79+8 t=1 command-line-arguments.si3c<1>+0
+aux for command-line-arguments.si3c<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 1b 14  ................
+	0x0010 0a 4b 06 9b 06 44 06 55 06 08 d7 06 41 06 25 03  .K...D.U....A.%.
+	0x0020 7f 6f 02 11 00 01 01                             .o.....
+	rel 3+8 t=1 command-line-arguments.si3c<1>+0
+aux for command-line-arguments.si3c<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 33 63 00 00 00 00  guments.si3c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 21 00 00 00 00 00 00 00  .....c..!.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 24 00 00 00 00 00 00 00 00 00 00  ...x.$..........
+	rel 29+8 t=1 command-line-arguments.si3c<1>+0
+	rel 37+8 t=1 command-line-arguments.si3c<1>+110
+	rel 57+4 t=31 go:info.<-chan int16<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si3c<1>+25
+	rel 74+8 t=1 command-line-arguments.si3c<1>+83
+	rel 86+4 t=31 go:info.int16<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si4c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 01 00 50 28 00 00 00 00 00 00 00 6c 00 00 00 00  ..P(.......l....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2d 00 00 00 00 00 00 00 45  .......-.......E
+	0x0060 00 00 00 00 00 00 00 01 00 52 4a 00 00 00 00 00  .........RJ.....
+	0x0070 00 00 6c 00 00 00 00 00 00 00 01 00 52 00 00 00  ..l.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si4c<1>+0
+	rel 79+8 t=1 command-line-arguments.si4c<1>+0
+aux for command-line-arguments.si4c<0> SDWARFLINES size=43
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 22 14  ..............".
+	0x0010 0a 4b 06 9b 06 44 06 41 06 08 d7 06 2d 06 25 03  .K...D.A....-.%.
+	0x0020 7f 6f 06 41 06 23 02 0c 00 01 01                 .o.A.#.....
+	rel 3+8 t=1 command-line-arguments.si4c<1>+0
+aux for command-line-arguments.si4c<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 34 63 00 00 00 00  guments.si4c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 28 00 00 00 00 00 00 00  .....c..(.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 2b 00 00 00 00 00 00 00 00 00 00  ...x.+..........
+	rel 29+8 t=1 command-line-arguments.si4c<1>+0
+	rel 37+8 t=1 command-line-arguments.si4c<1>+108
+	rel 57+4 t=31 go:info.<-chan int8<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si4c<1>+25
+	rel 74+8 t=1 command-line-arguments.si4c<1>+79
+	rel 86+4 t=31 go:info.int8<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si5c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2c 00 00 00 00 00 00 00  ........,.......
+	0x0020 01 00 50 2c 00 00 00 00 00 00 00 78 00 00 00 00  ..P,.......x....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00 33  .......1.......3
+	0x0060 00 00 00 00 00 00 00 01 00 52 50 00 00 00 00 00  .........RP.....
+	0x0070 00 00 54 00 00 00 00 00 00 00 01 00 52 00 00 00  ..T.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si5c<1>+0
+	rel 79+8 t=1 command-line-arguments.si5c<1>+0
+aux for command-line-arguments.si5c<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 29 14  ..............).
+	0x0010 0a 4b 06 9b 06 44 06 69 06 08 eb 06 37 06 6b 03  .K...D.i....7.k.
+	0x0020 7f 6f 02 11 00 01 01                             .o.....
+	rel 3+8 t=1 command-line-arguments.si5c<1>+0
+aux for command-line-arguments.si5c<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 35 63 00 00 00 00  guments.si5c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 2f 00 00 00 00 00 00 00  .....c../.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 32 00 00 00 00 00 00 00 00 00 00  ...x.2..........
+	rel 29+8 t=1 command-line-arguments.si5c<1>+0
+	rel 37+8 t=1 command-line-arguments.si5c<1>+120
+	rel 57+4 t=31 go:info.<-chan int64<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si5c<1>+25
+	rel 74+8 t=1 command-line-arguments.si5c<1>+93
+	rel 86+4 t=31 go:info.int64<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si6c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2b 00 00 00 00 00 00 00  ........+.......
+	0x0020 01 00 50 2b 00 00 00 00 00 00 00 72 00 00 00 00  ..P+.......r....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 31  ......./.......1
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 4e 00 00 00 00 00 00 00 01 00 52 00 00 00  ..N.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si6c<1>+0
+	rel 79+8 t=1 command-line-arguments.si6c<1>+0
+aux for command-line-arguments.si6c<0> SDWARFLINES size=43
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 30 14  ..............0.
+	0x0010 0a 4b 06 9b 06 44 06 5f 06 08 cd 06 23 06 61 06  .K...D._....#.a.
+	0x0020 69 06 19 03 7f 15 02 11 00 01 01                 i..........
+	rel 3+8 t=1 command-line-arguments.si6c<1>+0
+aux for command-line-arguments.si6c<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 36 63 00 00 00 00  guments.si6c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 36 00 00 00 00 00 00 00  .....c..6.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 39 00 00 00 00 00 00 00 00 00 00  ...x.9..........
+	rel 29+8 t=1 command-line-arguments.si6c<1>+0
+	rel 37+8 t=1 command-line-arguments.si6c<1>+114
+	rel 57+4 t=31 go:info.<-chan int32<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si6c<1>+25
+	rel 74+8 t=1 command-line-arguments.si6c<1>+86
+	rel 86+4 t=31 go:info.int32<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si7c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2a 00 00 00 00 00 00 00  ........*.......
+	0x0020 01 00 50 2a 00 00 00 00 00 00 00 70 00 00 00 00  ..P*.......p....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 31  ......./.......1
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 4f 00 00 00 00 00 00 00 01 00 52 00 00 00  ..O.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si7c<1>+0
+	rel 79+8 t=1 command-line-arguments.si7c<1>+0
+aux for command-line-arguments.si7c<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 37 14  ..............7.
+	0x0010 0a 4b 06 9b 06 44 06 55 06 08 d7 06 2d 06 4d 03  .K...D.U....-.M.
+	0x0020 7f 6f 02 11 00 01 01                             .o.....
+	rel 3+8 t=1 command-line-arguments.si7c<1>+0
+aux for command-line-arguments.si7c<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 37 63 00 00 00 00  guments.si7c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 3d 00 00 00 00 00 00 00  .....c..=.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 40 00 00 00 00 00 00 00 00 00 00  ...x.@..........
+	rel 29+8 t=1 command-line-arguments.si7c<1>+0
+	rel 37+8 t=1 command-line-arguments.si7c<1>+112
+	rel 57+4 t=31 go:info.<-chan int16<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si7c<1>+25
+	rel 74+8 t=1 command-line-arguments.si7c<1>+85
+	rel 86+4 t=31 go:info.int16<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si8c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 01 00 50 28 00 00 00 00 00 00 00 6d 00 00 00 00  ..P(.......m....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2d 00 00 00 00 00 00 00 2f  .......-......./
+	0x0060 00 00 00 00 00 00 00 01 00 52 4a 00 00 00 00 00  .........RJ.....
+	0x0070 00 00 4d 00 00 00 00 00 00 00 01 00 52 00 00 00  ..M.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si8c<1>+0
+	rel 79+8 t=1 command-line-arguments.si8c<1>+0
+aux for command-line-arguments.si8c<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 3e 14  ..............>.
+	0x0010 0a 4b 06 9b 06 44 06 41 06 08 d7 06 2d 06 43 03  .K...D.A....-.C.
+	0x0020 7f 6f 02 11 00 01 01                             .o.....
+	rel 3+8 t=1 command-line-arguments.si8c<1>+0
+aux for command-line-arguments.si8c<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 38 63 00 00 00 00  guments.si8c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 44 00 00 00 00 00 00 00  .....c..D.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 47 00 00 00 00 00 00 00 00 00 00  ...x.G..........
+	rel 29+8 t=1 command-line-arguments.si8c<1>+0
+	rel 37+8 t=1 command-line-arguments.si8c<1>+109
+	rel 57+4 t=31 go:info.<-chan int8<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si8c<1>+25
+	rel 74+8 t=1 command-line-arguments.si8c<1>+82
+	rel 86+4 t=31 go:info.int8<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si1d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2c 00 00 00 00 00 00 00  ........,.......
+	0x0020 01 00 50 2c 00 00 00 00 00 00 00 74 00 00 00 00  ..P,.......t....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00 4b  .......1.......K
+	0x0060 00 00 00 00 00 00 00 01 00 52 50 00 00 00 00 00  .........RP.....
+	0x0070 00 00 74 00 00 00 00 00 00 00 01 00 52 00 00 00  ..t.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si1d<1>+0
+	rel 79+8 t=1 command-line-arguments.si1d<1>+0
+aux for command-line-arguments.si1d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c9 00  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 69 06 08 eb 06 55 06 25  ..K...D.i....U.%
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.si1d<1>+0
+aux for command-line-arguments.si1d<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 31 64 00 00 00 00  guments.si1d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 4f 00 00 00 00 00 00 00  .....c..O.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 52 00 00 00 00 00 00 00 00 00 00  ...x.R..........
+	rel 29+8 t=1 command-line-arguments.si1d<1>+0
+	rel 37+8 t=1 command-line-arguments.si1d<1>+116
+	rel 57+4 t=31 go:info.<-chan int64<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si1d<1>+25
+	rel 74+8 t=1 command-line-arguments.si1d<1>+89
+	rel 86+4 t=31 go:info.int64<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si2d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2b 00 00 00 00 00 00 00  ........+.......
+	0x0020 01 00 50 2b 00 00 00 00 00 00 00 6f 00 00 00 00  ..P+.......o....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 48  ......./.......H
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 6f 00 00 00 00 00 00 00 01 00 52 00 00 00  ..o.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si2d<1>+0
+	rel 79+8 t=1 command-line-arguments.si2d<1>+0
+aux for command-line-arguments.si2d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 d0 00  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 5f 06 08 cd 06 4b 06 25  ..K...D._....K.%
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.si2d<1>+0
+aux for command-line-arguments.si2d<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 32 64 00 00 00 00  guments.si2d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 56 00 00 00 00 00 00 00  .....c..V.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 59 00 00 00 00 00 00 00 00 00 00  ...x.Y..........
+	rel 29+8 t=1 command-line-arguments.si2d<1>+0
+	rel 37+8 t=1 command-line-arguments.si2d<1>+111
+	rel 57+4 t=31 go:info.<-chan int32<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si2d<1>+25
+	rel 74+8 t=1 command-line-arguments.si2d<1>+84
+	rel 86+4 t=31 go:info.int32<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si3d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2a 00 00 00 00 00 00 00  ........*.......
+	0x0020 01 00 50 2a 00 00 00 00 00 00 00 6e 00 00 00 00  ..P*.......n....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 47  ......./.......G
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 6e 00 00 00 00 00 00 00 01 00 52 00 00 00  ..n.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si3d<1>+0
+	rel 79+8 t=1 command-line-arguments.si3d<1>+0
+aux for command-line-arguments.si3d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 d7 00  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 55 06 08 d7 06 41 06 25  ..K...D.U....A.%
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.si3d<1>+0
+aux for command-line-arguments.si3d<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 33 64 00 00 00 00  guments.si3d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 5d 00 00 00 00 00 00 00  .....c..].......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 60 00 00 00 00 00 00 00 00 00 00  ...x.`..........
+	rel 29+8 t=1 command-line-arguments.si3d<1>+0
+	rel 37+8 t=1 command-line-arguments.si3d<1>+110
+	rel 57+4 t=31 go:info.<-chan int16<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si3d<1>+25
+	rel 74+8 t=1 command-line-arguments.si3d<1>+83
+	rel 86+4 t=31 go:info.int16<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si4d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 01 00 50 28 00 00 00 00 00 00 00 6c 00 00 00 00  ..P(.......l....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2d 00 00 00 00 00 00 00 45  .......-.......E
+	0x0060 00 00 00 00 00 00 00 01 00 52 4a 00 00 00 00 00  .........RJ.....
+	0x0070 00 00 6c 00 00 00 00 00 00 00 01 00 52 00 00 00  ..l.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si4d<1>+0
+	rel 79+8 t=1 command-line-arguments.si4d<1>+0
+aux for command-line-arguments.si4d<0> SDWARFLINES size=44
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 de 00  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 41 06 08 d7 06 2d 06 25  ..K...D.A....-.%
+	0x0020 03 7f 6f 06 41 06 23 02 0c 00 01 01              ..o.A.#.....
+	rel 3+8 t=1 command-line-arguments.si4d<1>+0
+aux for command-line-arguments.si4d<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 34 64 00 00 00 00  guments.si4d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 64 00 00 00 00 00 00 00  .....c..d.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 67 00 00 00 00 00 00 00 00 00 00  ...x.g..........
+	rel 29+8 t=1 command-line-arguments.si4d<1>+0
+	rel 37+8 t=1 command-line-arguments.si4d<1>+108
+	rel 57+4 t=31 go:info.<-chan int8<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si4d<1>+25
+	rel 74+8 t=1 command-line-arguments.si4d<1>+79
+	rel 86+4 t=31 go:info.int8<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si5d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2c 00 00 00 00 00 00 00  ........,.......
+	0x0020 01 00 50 2c 00 00 00 00 00 00 00 78 00 00 00 00  ..P,.......x....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00 33  .......1.......3
+	0x0060 00 00 00 00 00 00 00 01 00 52 50 00 00 00 00 00  .........RP.....
+	0x0070 00 00 54 00 00 00 00 00 00 00 01 00 52 00 00 00  ..T.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si5d<1>+0
+	rel 79+8 t=1 command-line-arguments.si5d<1>+0
+aux for command-line-arguments.si5d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 e5 00  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 69 06 08 eb 06 37 06 6b  ..K...D.i....7.k
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.si5d<1>+0
+aux for command-line-arguments.si5d<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 35 64 00 00 00 00  guments.si5d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 6b 00 00 00 00 00 00 00  .....c..k.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 6e 00 00 00 00 00 00 00 00 00 00  ...x.n..........
+	rel 29+8 t=1 command-line-arguments.si5d<1>+0
+	rel 37+8 t=1 command-line-arguments.si5d<1>+120
+	rel 57+4 t=31 go:info.<-chan int64<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si5d<1>+25
+	rel 74+8 t=1 command-line-arguments.si5d<1>+93
+	rel 86+4 t=31 go:info.int64<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si6d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2b 00 00 00 00 00 00 00  ........+.......
+	0x0020 01 00 50 2b 00 00 00 00 00 00 00 72 00 00 00 00  ..P+.......r....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 31  ......./.......1
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 4e 00 00 00 00 00 00 00 01 00 52 00 00 00  ..N.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si6d<1>+0
+	rel 79+8 t=1 command-line-arguments.si6d<1>+0
+aux for command-line-arguments.si6d<0> SDWARFLINES size=44
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 ec 00  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 5f 06 08 cd 06 23 06 61  ..K...D._....#.a
+	0x0020 06 69 06 19 03 7f 15 02 11 00 01 01              .i..........
+	rel 3+8 t=1 command-line-arguments.si6d<1>+0
+aux for command-line-arguments.si6d<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 36 64 00 00 00 00  guments.si6d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 72 00 00 00 00 00 00 00  .....c..r.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 75 00 00 00 00 00 00 00 00 00 00  ...x.u..........
+	rel 29+8 t=1 command-line-arguments.si6d<1>+0
+	rel 37+8 t=1 command-line-arguments.si6d<1>+114
+	rel 57+4 t=31 go:info.<-chan int32<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si6d<1>+25
+	rel 74+8 t=1 command-line-arguments.si6d<1>+86
+	rel 86+4 t=31 go:info.int32<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si7d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2a 00 00 00 00 00 00 00  ........*.......
+	0x0020 01 00 50 2a 00 00 00 00 00 00 00 70 00 00 00 00  ..P*.......p....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 31  ......./.......1
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 4f 00 00 00 00 00 00 00 01 00 52 00 00 00  ..O.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si7d<1>+0
+	rel 79+8 t=1 command-line-arguments.si7d<1>+0
+aux for command-line-arguments.si7d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 f3 00  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 55 06 08 d7 06 2d 06 4d  ..K...D.U....-.M
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.si7d<1>+0
+aux for command-line-arguments.si7d<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 37 64 00 00 00 00  guments.si7d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 79 00 00 00 00 00 00 00  .....c..y.......
+	0x0040 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 0d 78 00 7c 00 00 00 00 00 00 00 00 00 00  ...x.|..........
+	rel 29+8 t=1 command-line-arguments.si7d<1>+0
+	rel 37+8 t=1 command-line-arguments.si7d<1>+112
+	rel 57+4 t=31 go:info.<-chan int16<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 66+8 t=1 command-line-arguments.si7d<1>+25
+	rel 74+8 t=1 command-line-arguments.si7d<1>+85
+	rel 86+4 t=31 go:info.int16<0>+0
+	rel 90+4 t=31 <0>+71
+aux for command-line-arguments.si8d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 01 00 50 28 00 00 00 00 00 00 00 6d 00 00 00 00  ..P(.......m....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2d 00 00 00 00 00 00 00 2f  .......-......./
+	0x0060 00 00 00 00 00 00 00 01 00 52 4a 00 00 00 00 00  .........RJ.....
+	0x0070 00 00 4d 00 00 00 00 00 00 00 01 00 52 00 00 00  ..M.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.si8d<1>+0
+	rel 79+8 t=1 command-line-arguments.si8d<1>+0
+aux for command-line-arguments.si8d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 fa 00  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 41 06 08 d7 06 2d 06 43  ..K...D.A....-.C
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.si8d<1>+0
+aux for command-line-arguments.si8d<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 38 64 00 00 00 00  guments.si8d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 80 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 83 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.si8d<1>+0
+	rel 37+8 t=1 command-line-arguments.si8d<1>+109
+	rel 58+4 t=31 go:info.<-chan int8<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.si8d<1>+25
+	rel 75+8 t=1 command-line-arguments.si8d<1>+82
+	rel 88+4 t=31 go:info.int8<0>+0
+	rel 92+4 t=31 <0>+71
+aux for command-line-arguments.ui1c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2c 00 00 00 00 00 00 00  ........,.......
+	0x0020 01 00 50 2c 00 00 00 00 00 00 00 78 00 00 00 00  ..P,.......x....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00 33  .......1.......3
+	0x0060 00 00 00 00 00 00 00 01 00 52 50 00 00 00 00 00  .........RP.....
+	0x0070 00 00 54 00 00 00 00 00 00 00 01 00 52 00 00 00  ..T.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.ui1c<1>+0
+	rel 79+8 t=1 command-line-arguments.ui1c<1>+0
+aux for command-line-arguments.ui1c<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 85 01  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 69 06 08 eb 06 37 06 6b  ..K...D.i....7.k
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.ui1c<1>+0
+aux for command-line-arguments.ui1c<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 75 69 31 63 00 00 00 00  guments.ui1c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 8b 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 8e 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.ui1c<1>+0
+	rel 37+8 t=1 command-line-arguments.ui1c<1>+120
+	rel 58+4 t=31 go:info.<-chan uint64<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.ui1c<1>+25
+	rel 75+8 t=1 command-line-arguments.ui1c<1>+93
+	rel 88+4 t=31 go:info.uint64<0>+0
+	rel 92+4 t=31 <0>+71
+aux for command-line-arguments.ui2c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2b 00 00 00 00 00 00 00  ........+.......
+	0x0020 01 00 50 2b 00 00 00 00 00 00 00 72 00 00 00 00  ..P+.......r....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 31  ......./.......1
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 4e 00 00 00 00 00 00 00 01 00 52 00 00 00  ..N.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.ui2c<1>+0
+	rel 79+8 t=1 command-line-arguments.ui2c<1>+0
+aux for command-line-arguments.ui2c<0> SDWARFLINES size=44
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 8c 01  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 5f 06 08 cd 06 23 06 61  ..K...D._....#.a
+	0x0020 06 69 06 19 03 7f 15 02 11 00 01 01              .i..........
+	rel 3+8 t=1 command-line-arguments.ui2c<1>+0
+aux for command-line-arguments.ui2c<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 75 69 32 63 00 00 00 00  guments.ui2c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 92 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 95 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.ui2c<1>+0
+	rel 37+8 t=1 command-line-arguments.ui2c<1>+114
+	rel 58+4 t=31 go:info.<-chan uint32<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.ui2c<1>+25
+	rel 75+8 t=1 command-line-arguments.ui2c<1>+86
+	rel 88+4 t=31 go:info.uint32<0>+0
+	rel 92+4 t=31 <0>+71
+aux for command-line-arguments.ui3c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2a 00 00 00 00 00 00 00  ........*.......
+	0x0020 01 00 50 2a 00 00 00 00 00 00 00 70 00 00 00 00  ..P*.......p....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 31  ......./.......1
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 4f 00 00 00 00 00 00 00 01 00 52 00 00 00  ..O.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.ui3c<1>+0
+	rel 79+8 t=1 command-line-arguments.ui3c<1>+0
+aux for command-line-arguments.ui3c<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 93 01  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 55 06 08 d7 06 2d 06 4d  ..K...D.U....-.M
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.ui3c<1>+0
+aux for command-line-arguments.ui3c<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 75 69 33 63 00 00 00 00  guments.ui3c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 99 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 9c 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.ui3c<1>+0
+	rel 37+8 t=1 command-line-arguments.ui3c<1>+112
+	rel 58+4 t=31 go:info.<-chan uint16<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.ui3c<1>+25
+	rel 75+8 t=1 command-line-arguments.ui3c<1>+85
+	rel 88+4 t=31 go:info.uint16<0>+0
+	rel 92+4 t=31 <0>+71
+aux for command-line-arguments.ui4c<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 01 00 50 28 00 00 00 00 00 00 00 6d 00 00 00 00  ..P(.......m....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2d 00 00 00 00 00 00 00 2f  .......-......./
+	0x0060 00 00 00 00 00 00 00 01 00 52 4a 00 00 00 00 00  .........RJ.....
+	0x0070 00 00 4d 00 00 00 00 00 00 00 01 00 52 00 00 00  ..M.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.ui4c<1>+0
+	rel 79+8 t=1 command-line-arguments.ui4c<1>+0
+aux for command-line-arguments.ui4c<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 9a 01  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 41 06 08 d7 06 2d 06 43  ..K...D.A....-.C
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.ui4c<1>+0
+aux for command-line-arguments.ui4c<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 75 69 34 63 00 00 00 00  guments.ui4c....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 a0 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 a3 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.ui4c<1>+0
+	rel 37+8 t=1 command-line-arguments.ui4c<1>+109
+	rel 58+4 t=31 go:info.<-chan uint8<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.ui4c<1>+25
+	rel 75+8 t=1 command-line-arguments.ui4c<1>+82
+	rel 88+4 t=31 go:info.uint8<0>+0
+	rel 92+4 t=31 <0>+71
+aux for command-line-arguments.ui1d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2c 00 00 00 00 00 00 00  ........,.......
+	0x0020 01 00 50 2c 00 00 00 00 00 00 00 78 00 00 00 00  ..P,.......x....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00 33  .......1.......3
+	0x0060 00 00 00 00 00 00 00 01 00 52 50 00 00 00 00 00  .........RP.....
+	0x0070 00 00 54 00 00 00 00 00 00 00 01 00 52 00 00 00  ..T.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.ui1d<1>+0
+	rel 79+8 t=1 command-line-arguments.ui1d<1>+0
+aux for command-line-arguments.ui1d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 a5 01  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 69 06 08 eb 06 37 06 6b  ..K...D.i....7.k
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.ui1d<1>+0
+aux for command-line-arguments.ui1d<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 75 69 31 64 00 00 00 00  guments.ui1d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 ab 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 ae 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.ui1d<1>+0
+	rel 37+8 t=1 command-line-arguments.ui1d<1>+120
+	rel 58+4 t=31 go:info.<-chan uint64<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.ui1d<1>+25
+	rel 75+8 t=1 command-line-arguments.ui1d<1>+93
+	rel 88+4 t=31 go:info.uint64<0>+0
+	rel 92+4 t=31 <0>+71
+aux for command-line-arguments.ui2d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2b 00 00 00 00 00 00 00  ........+.......
+	0x0020 01 00 50 2b 00 00 00 00 00 00 00 72 00 00 00 00  ..P+.......r....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 31  ......./.......1
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 4f 00 00 00 00 00 00 00 01 00 52 00 00 00  ..O.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.ui2d<1>+0
+	rel 79+8 t=1 command-line-arguments.ui2d<1>+0
+aux for command-line-arguments.ui2d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 ac 01  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 5f 06 08 cd 06 2d 06 61  ..K...D._....-.a
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.ui2d<1>+0
+aux for command-line-arguments.ui2d<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 75 69 32 64 00 00 00 00  guments.ui2d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 b2 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 b5 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.ui2d<1>+0
+	rel 37+8 t=1 command-line-arguments.ui2d<1>+114
+	rel 58+4 t=31 go:info.<-chan uint32<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.ui2d<1>+25
+	rel 75+8 t=1 command-line-arguments.ui2d<1>+87
+	rel 88+4 t=31 go:info.uint32<0>+0
+	rel 92+4 t=31 <0>+71
+aux for command-line-arguments.ui3d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 2a 00 00 00 00 00 00 00  ........*.......
+	0x0020 01 00 50 2a 00 00 00 00 00 00 00 70 00 00 00 00  ..P*.......p....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 31  ......./.......1
+	0x0060 00 00 00 00 00 00 00 01 00 52 4c 00 00 00 00 00  .........RL.....
+	0x0070 00 00 4f 00 00 00 00 00 00 00 01 00 52 00 00 00  ..O.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.ui3d<1>+0
+	rel 79+8 t=1 command-line-arguments.ui3d<1>+0
+aux for command-line-arguments.ui3d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 b3 01  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 55 06 08 d7 06 2d 06 4d  ..K...D.U....-.M
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.ui3d<1>+0
+aux for command-line-arguments.ui3d<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 75 69 33 64 00 00 00 00  guments.ui3d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 b9 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 bc 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.ui3d<1>+0
+	rel 37+8 t=1 command-line-arguments.ui3d<1>+112
+	rel 58+4 t=31 go:info.<-chan uint16<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.ui3d<1>+25
+	rel 75+8 t=1 command-line-arguments.ui3d<1>+85
+	rel 88+4 t=31 go:info.uint16<0>+0
+	rel 92+4 t=31 <0>+71
+aux for command-line-arguments.ui4d<0> SDWARFLOC size=141
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 01 00 50 28 00 00 00 00 00 00 00 6d 00 00 00 00  ..P(.......m....
+	0x0030 00 00 00 02 00 91 68 00 00 00 00 00 00 00 00 00  ......h.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 2d 00 00 00 00 00 00 00 2f  .......-......./
+	0x0060 00 00 00 00 00 00 00 01 00 52 4a 00 00 00 00 00  .........RJ.....
+	0x0070 00 00 4d 00 00 00 00 00 00 00 01 00 52 00 00 00  ..M.........R...
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.ui4d<1>+0
+	rel 79+8 t=1 command-line-arguments.ui4d<1>+0
+aux for command-line-arguments.ui4d<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 ba 01  ................
+	0x0010 14 0a 4b 06 9b 06 44 06 41 06 08 d7 06 2d 06 43  ..K...D.A....-.C
+	0x0020 03 7f 6f 02 11 00 01 01                          ..o.....
+	rel 3+8 t=1 command-line-arguments.ui4d<1>+0
+aux for command-line-arguments.ui4d<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 75 69 34 64 00 00 00 00  guments.ui4d....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 63 00 00 c0 01 00 00 00 00 00 00  .....c..........
+	0x0040 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 0d 78 00 c3 01 00 00 00 00 00 00 00 00  ....x...........
+	0x0060 00 00                                            ..
+	rel 29+8 t=1 command-line-arguments.ui4d<1>+0
+	rel 37+8 t=1 command-line-arguments.ui4d<1>+109
+	rel 58+4 t=31 go:info.<-chan uint8<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 67+8 t=1 command-line-arguments.ui4d<1>+25
+	rel 75+8 t=1 command-line-arguments.ui4d<1>+82
+	rel 88+4 t=31 go:info.uint8<0>+0
+	rel 92+4 t=31 <0>+71

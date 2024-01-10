@@ -1,0 +1,8 @@
+./argsmerge.go
+./covdata.go
+./doc.go
+./dump.go
+./merge.go
+./metamerge.go
+./subtractintersect.go
+./export_test.go

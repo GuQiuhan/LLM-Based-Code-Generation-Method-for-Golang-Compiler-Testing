@@ -1,0 +1,3 @@
+./goarch.go
+./goarch_mips.go
+./zgoarch_mips.go

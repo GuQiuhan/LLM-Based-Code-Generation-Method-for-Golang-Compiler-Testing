@@ -1,0 +1,13 @@
+./atob_test.go
+./atoc_test.go
+./atof_test.go
+./atoi_test.go
+./ctoa_test.go
+./decimal_test.go
+./example_test.go
+./fp_test.go
+./ftoa_test.go
+./ftoaryu_test.go
+./itoa_test.go
+./quote_test.go
+./strconv_test.go

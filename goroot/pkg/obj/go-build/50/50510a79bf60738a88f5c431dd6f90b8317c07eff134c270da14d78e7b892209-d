@@ -1,0 +1,1580 @@
+# command-line-arguments
+command-line-arguments.approx<1> STEXT size=377 args=0x8 locals=0x10 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	TEXT	command-line-arguments.approx(SB), ABIInternal, $16-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	JLS	355
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	PCDATA	$0, $-1
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	SUBQ	$16, SP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	MOVQ	BP, 8(SP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	LEAQ	8(SP), BP
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	FUNCDATA	$5, command-line-arguments.approx.arginfo1(SB)
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	FUNCDATA	$6, command-line-arguments.approx.argliveinfo(SB)
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	PCDATA	$3, $1
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	MOVSD	X0, command-line-arguments.x+24(SP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	PCDATA	$3, $-1
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	MOVBQZX	runtime.x86HasSSE41(SB), AX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	TESTL	AX, AX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	JEQ	50
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	ROUNDSD	$2, X0, X1
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	JMP	74
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	PCDATA	$1, $0
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	CALL	math.Ceil(SB)
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	MOVBQZX	runtime.x86HasSSE41(SB), AX
+	0x003f 00063 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	TESTL	AX, AX
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	MOVUPS	X0, X1
+	0x0044 00068 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	MOVSD	command-line-arguments.x+24(SP), X0
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:21)	MOVSD	X1, command-line-arguments.sink64(SB)
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	JEQ	96
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	ROUNDSD	$1, X0, X1
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	JMP	118
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	CALL	math.Floor(SB)
+	0x0065 00101 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	MOVBQZX	runtime.x86HasSSE41(SB), AX
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	MOVUPS	X0, X1
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVSD	command-line-arguments.x+24(SP), X0
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:30)	MOVSD	X1, command-line-arguments.sink64+8(SB)
+	0x007e 00126 (<unknown line number>)	NOP
+	0x007e 00126 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	XCHGL	AX, AX
+	0x007f 00127 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	X0, CX
+	0x0084 00132 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	CX, DX
+	0x0087 00135 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	SHRQ	$52, CX
+	0x008b 00139 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	ANDL	$2047, CX
+	0x0091 00145 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	CMPQ	CX, $1023
+	0x0098 00152 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	JCC	198
+	0x009a 00154 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	$-9223372036854775808, BX
+	0x00a4 00164 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	ANDQ	DX, BX
+	0x00a7 00167 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	$4607182418800017408, DX
+	0x00b1 00177 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	ORQ	BX, DX
+	0x00b4 00180 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	CMPQ	CX, $1022
+	0x00bb 00187 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	CMOVQEQ	DX, BX
+	0x00bf 00191 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	TESTL	AX, AX
+	0x00c1 00193 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	BX, SI
+	0x00c4 00196 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	JMP	271
+	0x00c6 00198 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	CMPQ	CX, $1075
+	0x00cd 00205 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	JCC	266
+	0x00cf 00207 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	ADDQ	$-1023, CX
+	0x00d6 00214 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	CMPQ	CX, $64
+	0x00da 00218 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	SBBQ	BX, BX
+	0x00dd 00221 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	$2251799813685248, SI
+	0x00e7 00231 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	SHRQ	CX, SI
+	0x00ea 00234 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	ANDQ	BX, SI
+	0x00ed 00237 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	ADDQ	SI, DX
+	0x00f0 00240 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	$4503599627370495, SI
+	0x00fa 00250 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	SHRQ	CX, SI
+	0x00fd 00253 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	ANDQ	BX, SI
+	0x0100 00256 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	NOTQ	SI
+	0x0103 00259 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	ANDQ	DX, SI
+	0x0106 00262 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	TESTL	AX, AX
+	0x0108 00264 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	JMP	271
+	0x010a 00266 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	TESTL	AX, AX
+	0x010c 00268 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	DX, SI
+	0x010f 00271 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:36)	MOVQ	SI, command-line-arguments.sink64+16(SB)
+	0x0116 00278 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	JEQ	290
+	0x0118 00280 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	ROUNDSD	$3, X0, X1
+	0x011e 00286 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	NOP
+	0x0120 00288 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	JMP	314
+	0x0122 00290 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	CALL	math.Trunc(SB)
+	0x0127 00295 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	MOVBQZX	runtime.x86HasSSE41(SB), AX
+	0x012f 00303 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	TESTL	AX, AX
+	0x0131 00305 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	MOVUPS	X0, X1
+	0x0134 00308 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:52)	MOVSD	command-line-arguments.x+24(SP), X0
+	0x013a 00314 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:45)	MOVSD	X1, command-line-arguments.sink64+24(SB)
+	0x0142 00322 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:52)	JEQ	332
+	0x0144 00324 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:52)	ROUNDSD	$0, X0, X0
+	0x014a 00330 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:52)	JMP	337
+	0x014c 00332 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:52)	CALL	math.RoundToEven(SB)
+	0x0151 00337 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:52)	MOVSD	X0, command-line-arguments.sink64+32(SB)
+	0x0159 00345 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:53)	MOVQ	8(SP), BP
+	0x015e 00350 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:53)	ADDQ	$16, SP
+	0x0162 00354 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:53)	RET
+	0x0163 00355 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:53)	NOP
+	0x0163 00355 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	PCDATA	$1, $-1
+	0x0163 00355 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	PCDATA	$0, $-2
+	0x0163 00355 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	MOVSD	X0, 8(SP)
+	0x0169 00361 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	CALL	runtime.morestack_noctxt(SB)
+	0x016e 00366 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	MOVSD	8(SP), X0
+	0x0174 00372 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	PCDATA	$0, $-1
+	0x0174 00372 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:13)	JMP	0
+	0x0000 49 3b 66 10 0f 86 59 01 00 00 48 83 ec 10 48 89  I;f...Y...H...H.
+	0x0010 6c 24 08 48 8d 6c 24 08 f2 0f 11 44 24 18 48 0f  l$.H.l$....D$.H.
+	0x0020 b6 05 00 00 00 00 85 c0 74 08 66 0f 3a 0b c8 02  ........t.f.:...
+	0x0030 eb 18 e8 00 00 00 00 48 0f b6 05 00 00 00 00 85  .......H........
+	0x0040 c0 0f 10 c8 f2 0f 10 44 24 18 f2 0f 11 0d 00 00  .......D$.......
+	0x0050 00 00 74 0c 66 0f 3a 0b c8 01 eb 1a 0f 1f 40 00  ..t.f.:.......@.
+	0x0060 e8 00 00 00 00 48 0f b6 05 00 00 00 00 0f 10 c8  .....H..........
+	0x0070 f2 0f 10 44 24 18 f2 0f 11 0d 00 00 00 00 90 66  ...D$..........f
+	0x0080 48 0f 7e c1 48 89 ca 48 c1 e9 34 81 e1 ff 07 00  H.~.H..H..4.....
+	0x0090 00 48 81 f9 ff 03 00 00 73 2c 48 bb 00 00 00 00  .H......s,H.....
+	0x00a0 00 00 00 80 48 21 d3 48 ba 00 00 00 00 00 00 f0  ....H!.H........
+	0x00b0 3f 48 09 da 48 81 f9 fe 03 00 00 48 0f 44 da 85  ?H..H......H.D..
+	0x00c0 c0 48 89 de eb 49 48 81 f9 33 04 00 00 73 3b 48  .H...IH..3...s;H
+	0x00d0 81 c1 01 fc ff ff 48 83 f9 40 48 19 db 48 be 00  ......H..@H..H..
+	0x00e0 00 00 00 00 00 08 00 48 d3 ee 48 21 de 48 01 f2  .......H..H!.H..
+	0x00f0 48 be ff ff ff ff ff ff 0f 00 48 d3 ee 48 21 de  H.........H..H!.
+	0x0100 48 f7 d6 48 21 d6 85 c0 eb 05 85 c0 48 89 d6 48  H..H!.......H..H
+	0x0110 89 35 00 00 00 00 74 0a 66 0f 3a 0b c8 03 66 90  .5....t.f.:...f.
+	0x0120 eb 18 e8 00 00 00 00 48 0f b6 05 00 00 00 00 85  .......H........
+	0x0130 c0 0f 10 c8 f2 0f 10 44 24 18 f2 0f 11 0d 00 00  .......D$.......
+	0x0140 00 00 74 08 66 0f 3a 0b c0 00 eb 05 e8 00 00 00  ..t.f.:.........
+	0x0150 00 f2 0f 11 05 00 00 00 00 48 8b 6c 24 08 48 83  .........H.l$.H.
+	0x0160 c4 10 c3 f2 0f 11 44 24 08 e8 00 00 00 00 f2 0f  ......D$........
+	0x0170 10 44 24 08 e9 87 fe ff ff                       .D$......
+	rel 34+4 t=14 runtime.x86HasSSE41<0>+0
+	rel 51+4 t=7 math.Ceil<1>+0
+	rel 59+4 t=14 runtime.x86HasSSE41<0>+0
+	rel 78+4 t=14 command-line-arguments.sink64<0>+0
+	rel 97+4 t=7 math.Floor<1>+0
+	rel 105+4 t=14 runtime.x86HasSSE41<0>+0
+	rel 122+4 t=14 command-line-arguments.sink64<0>+8
+	rel 274+4 t=14 command-line-arguments.sink64<0>+16
+	rel 291+4 t=7 math.Trunc<1>+0
+	rel 299+4 t=14 runtime.x86HasSSE41<0>+0
+	rel 318+4 t=14 command-line-arguments.sink64<0>+24
+	rel 333+4 t=7 math.RoundToEven<1>+0
+	rel 341+4 t=14 command-line-arguments.sink64<0>+32
+	rel 362+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.sqrt<1> STEXT nosplit size=5 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:55)	TEXT	command-line-arguments.sqrt(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:55)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:55)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:55)	FUNCDATA	$5, command-line-arguments.sqrt.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:55)	FUNCDATA	$6, command-line-arguments.sqrt.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:55)	PCDATA	$3, $1
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:65)	SQRTSD	X0, X0
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:65)	RET
+	0x0000 f2 0f 51 c0 c3                                   ..Q..
+command-line-arguments.sqrt32<1> STEXT nosplit size=5 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:68)	TEXT	command-line-arguments.sqrt32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:68)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:68)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:68)	FUNCDATA	$5, command-line-arguments.sqrt32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:68)	FUNCDATA	$6, command-line-arguments.sqrt32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:68)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:78)	SQRTSS	X0, X0
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:78)	RET
+	0x0000 f3 0f 51 c0 c3                                   ..Q..
+command-line-arguments.abs<1> STEXT nosplit size=53 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:82)	TEXT	command-line-arguments.abs(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:82)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:82)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:82)	FUNCDATA	$5, command-line-arguments.abs.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:82)	FUNCDATA	$6, command-line-arguments.abs.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:82)	PCDATA	$3, $1
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:91)	MOVQ	X0, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:91)	BTRQ	$63, AX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:91)	MOVQ	AX, command-line-arguments.sink64(SB)
+	0x0011 00017 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:97)	MOVQ	X1, AX
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:97)	BTRQ	$63, AX
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:97)	MOVQ	AX, X0
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:97)	MOVSD	$f64.8000000000000000(SB), X1
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:97)	PXOR	X1, X0
+	0x002c 00044 (<unknown line number>)	NOP
+	0x002c 00044 (<unknown line number>)	NOP
+	0x002c 00044 (<unknown line number>)	NOP
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:97)	MOVSD	X0, command-line-arguments.sink64+8(SB)
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:98)	RET
+	0x0000 66 48 0f 7e c0 48 0f ba f0 3f 48 89 05 00 00 00  fH.~.H...?H.....
+	0x0010 00 66 48 0f 7e c8 48 0f ba f0 3f 66 48 0f 6e c0  .fH.~.H...?fH.n.
+	0x0020 f2 0f 10 0d 00 00 00 00 66 0f ef c1 f2 0f 11 05  ........f.......
+	0x0030 00 00 00 00 c3                                   .....
+	rel 13+4 t=14 command-line-arguments.sink64<0>+0
+	rel 36+4 t=14 $f64.8000000000000000<0>+0
+	rel 48+4 t=14 command-line-arguments.sink64<0>+8
+command-line-arguments.abs32<1> STEXT nosplit size=24 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:101)	TEXT	command-line-arguments.abs32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:101)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:101)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:101)	FUNCDATA	$5, command-line-arguments.abs32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:101)	FUNCDATA	$6, command-line-arguments.abs32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:101)	PCDATA	$3, $1
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:103)	CVTSS2SD	X0, X1
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:103)	MOVQ	X1, AX
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:103)	BTRQ	$63, AX
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:103)	MOVQ	AX, X1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:103)	CVTSD2SS	X1, X0
+	0x0017 00023 (<unknown line number>)	NOP
+	0x0017 00023 (<unknown line number>)	NOP
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:103)	RET
+	0x0000 f3 0f 5a c8 66 48 0f 7e c8 48 0f ba f0 3f 66 48  ..Z.fH.~.H...?fH
+	0x0010 0f 6e c8 f2 0f 5a c1 c3                          .n...Z..
+command-line-arguments.copysign<1> STEXT nosplit size=97 args=0x18 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:107)	TEXT	command-line-arguments.copysign(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:107)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:107)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:107)	FUNCDATA	$5, command-line-arguments.copysign.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:107)	FUNCDATA	$6, command-line-arguments.copysign.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:107)	PCDATA	$3, $1
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:114)	MOVQ	X0, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:114)	MOVQ	AX, CX
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:114)	BTRQ	$63, AX
+	0x000d 00013 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:114)	MOVQ	X1, DX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:114)	MOVQ	$-9223372036854775808, BX
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:114)	ANDQ	BX, DX
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:114)	ORQ	DX, AX
+	0x0022 00034 (<unknown line number>)	NOP
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:114)	MOVQ	AX, command-line-arguments.sink64(SB)
+	0x0029 00041 (<unknown line number>)	NOP
+	0x0029 00041 (<unknown line number>)	NOP
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:122)	MOVQ	X2, AX
+	0x002e 00046 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:122)	MOVQ	AX, DX
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:122)	BTSQ	$63, AX
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:122)	MOVQ	AX, command-line-arguments.sink64+8(SB)
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:127)	BTSQ	$63, CX
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:127)	MOVQ	CX, command-line-arguments.sink64+16(SB)
+	0x0049 00073 (<unknown line number>)	NOP
+	0x0049 00073 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:134)	ANDQ	DX, BX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:134)	MOVQ	$4607182418800017408, AX
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:134)	ORQ	BX, AX
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:134)	MOVQ	AX, command-line-arguments.sink64+24(SB)
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:135)	RET
+	0x0000 66 48 0f 7e c0 48 89 c1 48 0f ba f0 3f 66 48 0f  fH.~.H..H...?fH.
+	0x0010 7e ca 48 bb 00 00 00 00 00 00 00 80 48 21 da 48  ~.H.........H!.H
+	0x0020 09 d0 48 89 05 00 00 00 00 66 48 0f 7e d0 48 89  ..H......fH.~.H.
+	0x0030 c2 48 0f ba e8 3f 48 89 05 00 00 00 00 48 0f ba  .H...?H......H..
+	0x0040 e9 3f 48 89 0d 00 00 00 00 48 21 d3 48 b8 00 00  .?H......H!.H...
+	0x0050 00 00 00 00 f0 3f 48 09 d8 48 89 05 00 00 00 00  .....?H..H......
+	0x0060 c3                                               .
+	rel 37+4 t=14 command-line-arguments.sink64<0>+0
+	rel 57+4 t=14 command-line-arguments.sink64<0>+8
+	rel 69+4 t=14 command-line-arguments.sink64<0>+16
+	rel 92+4 t=14 command-line-arguments.sink64<0>+24
+command-line-arguments.fma<1> STEXT size=108 args=0x18 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	TEXT	command-line-arguments.fma(SB), ABIInternal, $32-24
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	JLS	65
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	SUBQ	$32, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	MOVQ	BP, 24(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	LEAQ	24(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	FUNCDATA	$5, command-line-arguments.fma.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	FUNCDATA	$6, command-line-arguments.fma.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	MOVBQZX	runtime.x86HasFMA(SB), AX
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	TESTL	AX, AX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	JEQ	43
+	0x0024 00036 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	VFMADD231SD	X1, X0, X2
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	JMP	51
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	PCDATA	$1, $0
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	CALL	math.FMA(SB)
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	MOVUPS	X0, X2
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	MOVUPS	X2, X0
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	MOVQ	24(SP), BP
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	ADDQ	$32, SP
+	0x003f 00063 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	RET
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:146)	NOP
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	PCDATA	$1, $-1
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	PCDATA	$0, $-2
+	0x0041 00065 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	MOVSD	X0, 8(SP)
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	MOVSD	X1, 16(SP)
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	MOVSD	X2, 24(SP)
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	CALL	runtime.morestack_noctxt(SB)
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	MOVSD	8(SP), X0
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	MOVSD	16(SP), X1
+	0x0064 00100 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	MOVSD	24(SP), X2
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	PCDATA	$0, $-1
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:137)	JMP	0
+	0x0000 49 3b 66 10 76 3b 48 83 ec 20 48 89 6c 24 18 48  I;f.v;H.. H.l$.H
+	0x0010 8d 6c 24 18 48 0f b6 05 00 00 00 00 0f 1f 40 00  .l$.H.........@.
+	0x0020 85 c0 74 07 c4 e2 f9 b9 d1 eb 08 e8 00 00 00 00  ..t.............
+	0x0030 0f 10 d0 0f 10 c2 48 8b 6c 24 18 48 83 c4 20 90  ......H.l$.H.. .
+	0x0040 c3 f2 0f 11 44 24 08 f2 0f 11 4c 24 10 f2 0f 11  ....D$....L$....
+	0x0050 54 24 18 e8 00 00 00 00 f2 0f 10 44 24 08 f2 0f  T$.........D$...
+	0x0060 10 4c 24 10 f2 0f 10 54 24 18 eb 94              .L$....T$...
+	rel 24+4 t=14 runtime.x86HasFMA<0>+0
+	rel 44+4 t=7 math.FMA<1>+0
+	rel 84+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.fms<1> STEXT size=115 args=0x18 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	TEXT	command-line-arguments.fms(SB), ABIInternal, $32-24
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	JLS	72
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	SUBQ	$32, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	MOVQ	BP, 24(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	LEAQ	24(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	FUNCDATA	$5, command-line-arguments.fms.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	FUNCDATA	$6, command-line-arguments.fms.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	MOVSD	$f64.8000000000000000(SB), X3
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	PXOR	X3, X2
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	MOVBQZX	runtime.x86HasFMA(SB), AX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	TESTL	AX, AX
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	JEQ	51
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	VFMADD231SD	X1, X0, X2
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	JMP	59
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	PCDATA	$1, $0
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	CALL	math.FMA(SB)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	MOVUPS	X0, X2
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	MOVUPS	X2, X0
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	MOVQ	24(SP), BP
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	ADDQ	$32, SP
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	RET
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:151)	NOP
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	PCDATA	$1, $-1
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	PCDATA	$0, $-2
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	MOVSD	X0, 8(SP)
+	0x004e 00078 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	MOVSD	X1, 16(SP)
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	MOVSD	X2, 24(SP)
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	CALL	runtime.morestack_noctxt(SB)
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	MOVSD	8(SP), X0
+	0x0065 00101 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	MOVSD	16(SP), X1
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	MOVSD	24(SP), X2
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	PCDATA	$0, $-1
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:149)	JMP	0
+	0x0000 49 3b 66 10 76 42 48 83 ec 20 48 89 6c 24 18 48  I;f.vBH.. H.l$.H
+	0x0010 8d 6c 24 18 f2 0f 10 1d 00 00 00 00 66 0f ef d3  .l$.........f...
+	0x0020 48 0f b6 05 00 00 00 00 85 c0 74 07 c4 e2 f9 b9  H.........t.....
+	0x0030 d1 eb 08 e8 00 00 00 00 0f 10 d0 0f 10 c2 48 8b  ..............H.
+	0x0040 6c 24 18 48 83 c4 20 c3 f2 0f 11 44 24 08 f2 0f  l$.H.. ....D$...
+	0x0050 11 4c 24 10 f2 0f 11 54 24 18 e8 00 00 00 00 f2  .L$....T$.......
+	0x0060 0f 10 44 24 08 f2 0f 10 4c 24 10 f2 0f 10 54 24  ..D$....L$....T$
+	0x0070 18 eb 8d                                         ...
+	rel 24+4 t=14 $f64.8000000000000000<0>+0
+	rel 36+4 t=14 runtime.x86HasFMA<0>+0
+	rel 52+4 t=7 math.FMA<1>+0
+	rel 91+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.fnma<1> STEXT size=115 args=0x18 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	TEXT	command-line-arguments.fnma(SB), ABIInternal, $32-24
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	JLS	72
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	SUBQ	$32, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	MOVQ	BP, 24(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	LEAQ	24(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	FUNCDATA	$5, command-line-arguments.fnma.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	FUNCDATA	$6, command-line-arguments.fnma.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	MOVSD	$f64.8000000000000000(SB), X3
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	PXOR	X3, X0
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	MOVBQZX	runtime.x86HasFMA(SB), AX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	TESTL	AX, AX
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	JEQ	51
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	VFMADD231SD	X1, X0, X2
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	JMP	59
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	PCDATA	$1, $0
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	CALL	math.FMA(SB)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	MOVUPS	X0, X2
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	MOVUPS	X2, X0
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	MOVQ	24(SP), BP
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	ADDQ	$32, SP
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	RET
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:156)	NOP
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	PCDATA	$1, $-1
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	PCDATA	$0, $-2
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	MOVSD	X0, 8(SP)
+	0x004e 00078 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	MOVSD	X1, 16(SP)
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	MOVSD	X2, 24(SP)
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	CALL	runtime.morestack_noctxt(SB)
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	MOVSD	8(SP), X0
+	0x0065 00101 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	MOVSD	16(SP), X1
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	MOVSD	24(SP), X2
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	PCDATA	$0, $-1
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:154)	JMP	0
+	0x0000 49 3b 66 10 76 42 48 83 ec 20 48 89 6c 24 18 48  I;f.vBH.. H.l$.H
+	0x0010 8d 6c 24 18 f2 0f 10 1d 00 00 00 00 66 0f ef c3  .l$.........f...
+	0x0020 48 0f b6 05 00 00 00 00 85 c0 74 07 c4 e2 f9 b9  H.........t.....
+	0x0030 d1 eb 08 e8 00 00 00 00 0f 10 d0 0f 10 c2 48 8b  ..............H.
+	0x0040 6c 24 18 48 83 c4 20 c3 f2 0f 11 44 24 08 f2 0f  l$.H.. ....D$...
+	0x0050 11 4c 24 10 f2 0f 11 54 24 18 e8 00 00 00 00 f2  .L$....T$.......
+	0x0060 0f 10 44 24 08 f2 0f 10 4c 24 10 f2 0f 10 54 24  ..D$....L$....T$
+	0x0070 18 eb 8d                                         ...
+	rel 24+4 t=14 $f64.8000000000000000<0>+0
+	rel 36+4 t=14 runtime.x86HasFMA<0>+0
+	rel 52+4 t=7 math.FMA<1>+0
+	rel 91+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.fnms<1> STEXT size=121 args=0x18 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	TEXT	command-line-arguments.fnms(SB), ABIInternal, $32-24
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	JLS	76
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	SUBQ	$32, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	MOVQ	BP, 24(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	LEAQ	24(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	FUNCDATA	$5, command-line-arguments.fnms.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	FUNCDATA	$6, command-line-arguments.fnms.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	MOVSD	$f64.8000000000000000(SB), X3
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	PXOR	X3, X1
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	PXOR	X3, X2
+	0x0024 00036 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	MOVBQZX	runtime.x86HasFMA(SB), AX
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	TESTL	AX, AX
+	0x002e 00046 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	JEQ	55
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	VFMADD231SD	X1, X0, X2
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	JMP	63
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	PCDATA	$1, $0
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	CALL	math.FMA(SB)
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	MOVUPS	X0, X2
+	0x003f 00063 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	MOVUPS	X2, X0
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	MOVQ	24(SP), BP
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	ADDQ	$32, SP
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	RET
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:161)	NOP
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	PCDATA	$1, $-1
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	PCDATA	$0, $-2
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	MOVSD	X0, 8(SP)
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	MOVSD	X1, 16(SP)
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	MOVSD	X2, 24(SP)
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	CALL	runtime.morestack_noctxt(SB)
+	0x0065 00101 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	MOVSD	8(SP), X0
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	MOVSD	16(SP), X1
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	MOVSD	24(SP), X2
+	0x0077 00119 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	PCDATA	$0, $-1
+	0x0077 00119 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:159)	JMP	0
+	0x0000 49 3b 66 10 76 46 48 83 ec 20 48 89 6c 24 18 48  I;f.vFH.. H.l$.H
+	0x0010 8d 6c 24 18 f2 0f 10 1d 00 00 00 00 66 0f ef cb  .l$.........f...
+	0x0020 66 0f ef d3 48 0f b6 05 00 00 00 00 85 c0 74 07  f...H.........t.
+	0x0030 c4 e2 f9 b9 d1 eb 08 e8 00 00 00 00 0f 10 d0 0f  ................
+	0x0040 10 c2 48 8b 6c 24 18 48 83 c4 20 c3 f2 0f 11 44  ..H.l$.H.. ....D
+	0x0050 24 08 f2 0f 11 4c 24 10 f2 0f 11 54 24 18 66 90  $....L$....T$.f.
+	0x0060 e8 00 00 00 00 f2 0f 10 44 24 08 f2 0f 10 4c 24  ........D$....L$
+	0x0070 10 f2 0f 10 54 24 18 eb 87                       ....T$...
+	rel 24+4 t=14 $f64.8000000000000000<0>+0
+	rel 40+4 t=14 runtime.x86HasFMA<0>+0
+	rel 56+4 t=7 math.FMA<1>+0
+	rel 97+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.fromFloat64<1> STEXT nosplit size=21 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:164)	TEXT	command-line-arguments.fromFloat64(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:164)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:164)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:164)	FUNCDATA	$5, command-line-arguments.fromFloat64.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:164)	FUNCDATA	$6, command-line-arguments.fromFloat64.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:164)	PCDATA	$3, $1
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:169)	MOVSD	$f64.3ff0000000000000(SB), X1
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:169)	ADDSD	X1, X0
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:169)	MOVQ	X0, AX
+	0x0011 00017 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:169)	INCQ	AX
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:169)	RET
+	0x0000 f2 0f 10 0d 00 00 00 00 f2 0f 58 c1 66 48 0f 7e  ..........X.fH.~
+	0x0010 c0 48 ff c0 c3                                   .H...
+	rel 4+4 t=14 $f64.3ff0000000000000<0>+0
+command-line-arguments.fromFloat32<1> STEXT nosplit size=19 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:172)	TEXT	command-line-arguments.fromFloat32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:172)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:172)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:172)	FUNCDATA	$5, command-line-arguments.fromFloat32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:172)	FUNCDATA	$6, command-line-arguments.fromFloat32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:172)	PCDATA	$3, $1
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:175)	MOVSS	$f32.3f800000(SB), X1
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:175)	ADDSS	X1, X0
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:175)	MOVL	X0, AX
+	0x0010 00016 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:175)	INCL	AX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:175)	RET
+	0x0000 f3 0f 10 0d 00 00 00 00 f3 0f 58 c1 66 0f 7e c0  ..........X.f.~.
+	0x0010 ff c0 c3                                         ...
+	rel 4+4 t=14 $f32.3f800000<0>+0
+command-line-arguments.toFloat64<1> STEXT nosplit size=21 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:178)	TEXT	command-line-arguments.toFloat64(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:178)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:178)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:178)	FUNCDATA	$5, command-line-arguments.toFloat64.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:178)	FUNCDATA	$6, command-line-arguments.toFloat64.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:178)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:183)	INCQ	AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:183)	MOVQ	AX, X0
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:183)	MOVSD	$f64.3ff0000000000000(SB), X1
+	0x0010 00016 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:183)	ADDSD	X1, X0
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:183)	RET
+	0x0000 48 ff c0 66 48 0f 6e c0 f2 0f 10 0d 00 00 00 00  H..fH.n.........
+	0x0010 f2 0f 58 c1 c3                                   ..X..
+	rel 12+4 t=14 $f64.3ff0000000000000<0>+0
+command-line-arguments.toFloat32<1> STEXT nosplit size=19 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:186)	TEXT	command-line-arguments.toFloat32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:186)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:186)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:186)	FUNCDATA	$5, command-line-arguments.toFloat32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:186)	FUNCDATA	$6, command-line-arguments.toFloat32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:186)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:189)	INCL	AX
+	0x0002 00002 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:189)	MOVL	AX, X0
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:189)	MOVSS	$f32.3f800000(SB), X1
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:189)	ADDSS	X1, X0
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:189)	RET
+	0x0000 ff c0 66 0f 6e c0 f3 0f 10 0d 00 00 00 00 f3 0f  ..f.n...........
+	0x0010 58 c1 c3                                         X..
+	rel 10+4 t=14 $f32.3f800000<0>+0
+command-line-arguments.constantCheck64<1> STEXT nosplit size=3 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:195)	TEXT	command-line-arguments.constantCheck64(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:195)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:195)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:198)	XORL	AX, AX
+	0x0002 00002 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:198)	RET
+	0x0000 31 c0 c3                                         1..
+command-line-arguments.constantCheck32<1> STEXT nosplit size=6 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:201)	TEXT	command-line-arguments.constantCheck32(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:201)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:201)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:204)	MOVL	$1, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:204)	RET
+	0x0000 b8 01 00 00 00 c3                                ......
+command-line-arguments.constantConvert32<1> STEXT nosplit size=27 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:210)	TEXT	command-line-arguments.constantConvert32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:210)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:210)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:210)	FUNCDATA	$5, command-line-arguments.constantConvert32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:210)	FUNCDATA	$6, command-line-arguments.constantConvert32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:210)	PCDATA	$3, $1
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:216)	MOVSS	$f32.3f800000(SB), X1
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:216)	UCOMISS	X1, X0
+	0x000b 00011 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:216)	JLS	26
+	0x000d 00013 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:217)	MOVSS	$f32.80000000(SB), X1
+	0x0015 00021 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:217)	PXOR	X1, X0
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:217)	RET
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:219)	RET
+	0x0000 f3 0f 10 0d 00 00 00 00 0f 2e c1 76 0d f3 0f 10  ...........v....
+	0x0010 0d 00 00 00 00 66 0f ef c1 c3 c3                 .....f.....
+	rel 4+4 t=14 $f32.3f800000<0>+0
+	rel 17+4 t=14 $f32.80000000<0>+0
+command-line-arguments.constantConvertInt32<1> STEXT nosplit size=11 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:222)	TEXT	command-line-arguments.constantConvertInt32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:222)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:222)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:222)	FUNCDATA	$5, command-line-arguments.constantConvertInt32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:222)	FUNCDATA	$6, command-line-arguments.constantConvertInt32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:222)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:228)	CMPL	AX, $1065353216
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:228)	JLS	10
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:229)	NEGL	AX
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:229)	RET
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:231)	RET
+	0x0000 3d 00 00 80 3f 76 03 f7 d8 c3 c3                 =...?v.....
+command-line-arguments.nanGenerate64<1> STEXT nosplit size=44 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:234)	TEXT	command-line-arguments.nanGenerate64(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:234)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:234)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:243)	XORPS	X0, X0
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:243)	DIVSD	X0, X0
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:245)	XORPS	X1, X1
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:245)	MOVSD	$f64.7ff0000000000000(SB), X2
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:245)	MULSD	X2, X1
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:247)	XCHGL	AX, AX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:248)	ADDSD	X1, X0
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:247)	MOVSD	$f64.bff0000000000000(SB), X1
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:247)	SQRTSD	X1, X1
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:248)	ADDSD	X1, X0
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:248)	RET
+	0x0000 0f 57 c0 f2 0f 5e c0 0f 57 c9 f2 0f 10 15 00 00  .W...^..W.......
+	0x0010 00 00 f2 0f 59 ca 90 f2 0f 58 c1 f2 0f 10 0d 00  ....Y....X......
+	0x0020 00 00 00 f2 0f 51 c9 f2 0f 58 c1 c3              .....Q...X..
+	rel 14+4 t=14 $f64.7ff0000000000000<0>+0
+	rel 31+4 t=14 $f64.bff0000000000000<0>+0
+command-line-arguments.nanGenerate32<1> STEXT nosplit size=27 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:251)	TEXT	command-line-arguments.nanGenerate32(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:251)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:251)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:257)	XORPS	X0, X0
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:257)	DIVSS	X0, X0
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:259)	XORPS	X1, X1
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:259)	MOVSS	$f32.7f800000(SB), X2
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:259)	MULSS	X2, X1
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:260)	ADDSS	X1, X0
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:260)	RET
+	0x0000 0f 57 c0 f3 0f 5e c0 0f 57 c9 f3 0f 10 15 00 00  .W...^..W.......
+	0x0010 00 00 f3 0f 59 ca f3 0f 58 c1 c3                 ....Y...X..
+	rel 14+4 t=14 $f32.7f800000<0>+0
+command-line-arguments.init<1> STEXT nosplit size=1 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:11)	TEXT	command-line-arguments.init(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:11)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:11)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/math.go:11)	RET
+	0x0000 c3                                               .
+type:.eq.[8]float64<1> STEXT dupok nosplit size=63 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (<autogenerated>:1)	TEXT	type:.eq.[8]float64(SB), DUPOK|NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$0, gclocals·TjPuuCwdlCpTaRQGRKTrYw==(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$5, type:.eq.[8]float64.arginfo1(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$6, type:.eq.[8]float64.argliveinfo(SB)
+	0x0000 00000 (<autogenerated>:1)	PCDATA	$3, $1
+	0x0000 00000 (<autogenerated>:1)	XORL	CX, CX
+	0x0002 00002 (<autogenerated>:1)	JMP	8
+	0x0004 00004 (<autogenerated>:1)	ADDQ	$2, CX
+	0x0008 00008 (<autogenerated>:1)	CMPQ	CX, $8
+	0x000c 00012 (<autogenerated>:1)	JGE	57
+	0x000e 00014 (<autogenerated>:1)	MOVSD	(AX)(CX*8), X0
+	0x0013 00019 (<autogenerated>:1)	MOVSD	(BX)(CX*8), X1
+	0x0018 00024 (<autogenerated>:1)	UCOMISD	X0, X1
+	0x001c 00028 (<autogenerated>:1)	JNE	54
+	0x001e 00030 (<autogenerated>:1)	NOP
+	0x0020 00032 (<autogenerated>:1)	JPS	54
+	0x0022 00034 (<autogenerated>:1)	MOVSD	8(AX)(CX*8), X0
+	0x0028 00040 (<autogenerated>:1)	MOVSD	8(BX)(CX*8), X1
+	0x002e 00046 (<autogenerated>:1)	UCOMISD	X0, X1
+	0x0032 00050 (<autogenerated>:1)	JNE	54
+	0x0034 00052 (<autogenerated>:1)	JPC	4
+	0x0036 00054 (<autogenerated>:1)	XORL	AX, AX
+	0x0038 00056 (<autogenerated>:1)	RET
+	0x0039 00057 (<autogenerated>:1)	MOVL	$1, AX
+	0x003e 00062 (<autogenerated>:1)	RET
+	0x0000 31 c9 eb 04 48 83 c1 02 48 83 f9 08 7d 2b f2 0f  1...H...H...}+..
+	0x0010 10 04 c8 f2 0f 10 0c cb 66 0f 2e c8 75 18 66 90  ........f...u.f.
+	0x0020 7a 14 f2 0f 10 44 c8 08 f2 0f 10 4c cb 08 66 0f  z....D.....L..f.
+	0x0030 2e c8 75 02 7b ce 31 c0 c3 b8 01 00 00 00 c3     ..u.{.1........
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+go:info.math.Round$abstract<0> SDWARFABSFCN dupok size=42
+	0x0000 05 6d 61 74 68 2e 52 6f 75 6e 64 00 01 01 13 78  .math.Round....x
+	0x0010 00 00 00 00 00 00 0e 62 69 74 73 00 5d 00 00 00  .......bits.]...
+	0x0020 00 0e 65 00 5e 00 00 00 00 00                    ..e.^.....
+	rel 0+0 t=22 type:float64<0>+0
+	rel 0+0 t=22 type:uint<0>+0
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 18+4 t=31 go:info.float64<0>+0
+	rel 29+4 t=31 go:info.uint64<0>+0
+	rel 37+4 t=31 go:info.uint<0>+0
+go:info.math.Float64bits$abstract<0> SDWARFABSFCN dupok size=29
+	0x0000 05 6d 61 74 68 2e 46 6c 6f 61 74 36 34 62 69 74  .math.Float64bit
+	0x0010 73 00 01 01 13 66 00 00 00 00 00 00 00           s....f.......
+	rel 0+0 t=22 type:float64<0>+0
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 24+4 t=31 go:info.float64<0>+0
+go:info.math.Float64frombits$abstract<0> SDWARFABSFCN dupok size=33
+	0x0000 05 6d 61 74 68 2e 46 6c 6f 61 74 36 34 66 72 6f  .math.Float64fro
+	0x0010 6d 62 69 74 73 00 01 01 13 62 00 00 00 00 00 00  mbits....b......
+	0x0020 00                                               .
+	rel 0+0 t=22 type:float64<0>+0
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 28+4 t=31 go:info.uint64<0>+0
+go:info.math.Sqrt$abstract<0> SDWARFABSFCN dupok size=22
+	0x0000 05 6d 61 74 68 2e 53 71 72 74 00 01 01 13 78 00  .math.Sqrt....x.
+	0x0010 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:float64<0>+0
+	rel 17+4 t=31 go:info.float64<0>+0
+go:info.math.Abs$abstract<0> SDWARFABSFCN dupok size=21
+	0x0000 05 6d 61 74 68 2e 41 62 73 00 01 01 13 78 00 00  .math.Abs....x..
+	0x0010 00 00 00 00 00                                   .....
+	rel 0+0 t=22 type:float64<0>+0
+	rel 16+4 t=31 go:info.float64<0>+0
+go:info.math.Copysign$abstract<0> SDWARFABSFCN dupok size=37
+	0x0000 05 6d 61 74 68 2e 43 6f 70 79 73 69 67 6e 00 01  .math.Copysign..
+	0x0010 01 13 66 00 00 00 00 00 00 13 73 69 67 6e 00 00  ..f.......sign..
+	0x0020 00 00 00 00 00                                   .....
+	rel 0+0 t=22 type:float64<0>+0
+	rel 21+4 t=31 go:info.float64<0>+0
+	rel 32+4 t=31 go:info.float64<0>+0
+go:info.math.Float32bits$abstract<0> SDWARFABSFCN dupok size=29
+	0x0000 05 6d 61 74 68 2e 46 6c 6f 61 74 33 32 62 69 74  .math.Float32bit
+	0x0010 73 00 01 01 13 66 00 00 00 00 00 00 00           s....f.......
+	rel 0+0 t=22 type:float32<0>+0
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 24+4 t=31 go:info.float32<0>+0
+go:info.math.Float32frombits$abstract<0> SDWARFABSFCN dupok size=33
+	0x0000 05 6d 61 74 68 2e 46 6c 6f 61 74 33 32 66 72 6f  .math.Float32fro
+	0x0010 6d 62 69 74 73 00 01 01 13 62 00 00 00 00 00 00  mbits....b......
+	0x0020 00                                               .
+	rel 0+0 t=22 type:float32<0>+0
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 28+4 t=31 go:info.uint32<0>+0
+command-line-arguments..inittask<0> SNOPTRDATA size=32
+	0x0000 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 math..inittask<0>+0
+command-line-arguments.sink64<0> SNOPTRBSS size=64
+go:info.command-line-arguments.sink64<0> SDWARFVAR dupok size=46
+	0x0000 0a 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 69 6e 6b 36 34 00 09  guments.sink64..
+	0x0020 03 00 00 00 00 00 00 00 00 00 00 00 00 01        ..............
+	rel 33+8 t=1 command-line-arguments.sink64<0>+0
+	rel 41+4 t=31 go:info.[8]float64<0>+0
+type:.eqfunc.[8]float64<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 type:.eq.[8]float64<1>+0
+runtime.memequal64·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64<1>+0
+runtime.gcbits.0100000000000000<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:.namedata.*[8]float64-<0> SRODATA dupok size=13
+	0x0000 00 0b 2a 5b 38 5d 66 6c 6f 61 74 36 34           ..*[8]float64
+type:*[8]float64<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 de 38 15 8e 08 08 08 36 00 00 00 00 00 00 00 00  .8.....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[8]float64-<0>+0
+	rel 48+8 t=1 type:[8]float64<0>+0
+runtime.gcbits.<0> SRODATA dupok size=0
+type:[8]float64<0> SRODATA dupok size=72
+	0x0000 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  @...............
+	0x0010 94 ec e4 ae 02 08 08 11 00 00 00 00 00 00 00 00  ................
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 08 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type:.eqfunc.[8]float64<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[8]float64-<0>+0
+	rel 44+4 t=-32763 type:*[8]float64<0>+0
+	rel 48+8 t=1 type:float64<0>+0
+	rel 56+8 t=1 type:[]float64<0>+0
+type:.importpath.math.<0> SRODATA dupok size=6
+	0x0000 00 04 6d 61 74 68                                ..math
+gclocals·g2BeySu+wFnoycgXfElmcg==<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+command-line-arguments.approx.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.approx.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.sqrt.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.sqrt.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.sqrt32.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.sqrt32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.abs.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.abs.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.abs32.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.abs32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.copysign.arginfo1<0> SRODATA static dupok size=7
+	0x0000 00 08 08 08 10 08 ff                             .......
+command-line-arguments.copysign.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.fma.arginfo1<0> SRODATA static dupok size=7
+	0x0000 00 08 08 08 10 08 ff                             .......
+command-line-arguments.fma.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.fms.arginfo1<0> SRODATA static dupok size=7
+	0x0000 00 08 08 08 10 08 ff                             .......
+command-line-arguments.fms.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.fnma.arginfo1<0> SRODATA static dupok size=7
+	0x0000 00 08 08 08 10 08 ff                             .......
+command-line-arguments.fnma.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.fnms.arginfo1<0> SRODATA static dupok size=7
+	0x0000 00 08 08 08 10 08 ff                             .......
+command-line-arguments.fnms.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.fromFloat64.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.fromFloat64.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.fromFloat32.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.fromFloat32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.toFloat64.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.toFloat64.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.toFloat32.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.toFloat32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.constantConvert32.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.constantConvert32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.constantConvertInt32.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.constantConvertInt32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·TjPuuCwdlCpTaRQGRKTrYw==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 02 00 00 00 03 00                    ..........
+gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==<0> SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+type:.eq.[8]float64.arginfo1<0> SRODATA static dupok size=3
+	0x0000 08 08 ff                                         ...
+type:.eq.[8]float64.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+$f32.3f800000<0> SRODATA size=4
+	0x0000 00 00 80 3f                                      ...?
+$f32.7f800000<0> SRODATA size=4
+	0x0000 00 00 80 7f                                      ....
+$f32.80000000<0> SRODATA size=4
+	0x0000 00 00 00 80                                      ....
+$f64.3ff0000000000000<0> SRODATA size=8
+	0x0000 00 00 00 00 00 00 f0 3f                          .......?
+$f64.7ff0000000000000<0> SRODATA size=8
+	0x0000 00 00 00 00 00 00 f0 7f                          ........
+$f64.8000000000000000<0> SRODATA size=8
+	0x0000 00 00 00 00 00 00 00 80                          ........
+$f64.bff0000000000000<0> SRODATA size=8
+	0x0000 00 00 00 00 00 00 f0 bf                          ........
+aux for command-line-arguments.approx<0> SDWARFRANGE size=128
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 70 00 00 00 00 00 00 00 76 00 00 00 00 00 00 00  p.......v.......
+	0x0020 7e 00 00 00 00 00 00 00 0f 01 00 00 00 00 00 00  ~...............
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0050 70 00 00 00 00 00 00 00 76 00 00 00 00 00 00 00  p.......v.......
+	0x0060 7f 00 00 00 00 00 00 00 84 00 00 00 00 00 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 8+8 t=1 command-line-arguments.approx<1>+0
+	rel 72+8 t=1 command-line-arguments.approx<1>+0
+aux for command-line-arguments.approx<0> SDWARFLOC size=299
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 37 00 00 00 00 00 00 00  ........7.......
+	0x0020 01 00 61 37 00 00 00 00 00 00 00 79 01 00 00 00  ..a7.......y....
+	0x0030 00 00 00 01 00 9c 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 00  ..............7.
+	0x0060 00 00 00 00 00 00 01 00 61 37 00 00 00 00 00 00  ........a7......
+	0x0070 00 79 01 00 00 00 00 00 00 01 00 9c 00 00 00 00  .y..............
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff  ................
+	0x0090 ff ff ff ff 00 00 00 00 00 00 00 00 84 00 00 00  ................
+	0x00a0 00 00 00 00 8b 00 00 00 00 00 00 00 01 00 52 a7  ..............R.
+	0x00b0 00 00 00 00 00 00 00 c6 00 00 00 00 00 00 00 01  ................
+	0x00c0 00 53 f0 00 00 00 00 00 00 00 0a 01 00 00 00 00  .S..............
+	0x00d0 00 00 01 00 51 0f 01 00 00 00 00 00 00 27 01 00  ....Q........'..
+	0x00e0 00 00 00 00 00 01 00 54 00 00 00 00 00 00 00 00  .......T........
+	0x00f0 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff  ................
+	0x0100 00 00 00 00 00 00 00 00 91 00 00 00 00 00 00 00  ................
+	0x0110 27 01 00 00 00 00 00 00 01 00 52 00 00 00 00 00  '.........R.....
+	0x0120 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 command-line-arguments.approx<1>+0
+	rel 78+8 t=1 command-line-arguments.approx<1>+0
+	rel 148+8 t=1 command-line-arguments.approx<1>+0
+	rel 256+8 t=1 command-line-arguments.approx<1>+0
+aux for command-line-arguments.approx<0> SDWARFLINES size=142
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 07 14  ................
+	0x0010 0a 73 06 9b 06 03 03 b4 06 23 08 03 04 28 03 7b  .s.......#...(.{
+	0x0020 47 06 03 04 64 06 23 04 04 08 03 7d 33 04 02 03  G...d.#....}3...
+	0x0030 02 50 04 08 06 03 3a 64 04 04 03 be 7f 15 04 08  .P....:d........
+	0x0040 03 c2 00 46 06 2d 06 74 06 55 06 25 06 73 06 2f  ...F.-.t.U.%.s./
+	0x0050 06 73 06 2c 06 03 08 5a 03 77 65 06 26 06 55 06  .s.,...Z.we.&.U.
+	0x0060 03 01 28 56 06 37 06 ec 06 73 c5 04 02 06 03 b9  ..(V.7...s......
+	0x0070 7f 29 03 04 5a 06 23 08 03 02 3c 03 7d 47 06 03  .)..Z.#...<.}G..
+	0x0080 02 64 06 23 06 e2 03 5c 6f 02 16 00 01 01        .d.#...\o.....
+	rel 3+8 t=1 command-line-arguments.approx<1>+0
+aux for command-line-arguments.approx<0> SDWARFFCN size=125
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 70 70 72 6f 78 00 00  guments.approx..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 12 78 00 00 0d 00 00 00 00 00  .......x........
+	0x0040 00 00 00 09 00 00 00 00 00 00 00 00 02 00 00 00  ................
+	0x0050 24 15 00 00 00 00 00 00 00 00 10 00 00 00 00 00  $...............
+	0x0060 00 00 00 10 00 00 00 00 00 00 00 00 09 00 00 00  ................
+	0x0070 00 00 00 00 00 08 00 00 00 5d 00 00 00           .........]...
+	rel 31+8 t=1 command-line-arguments.approx<1>+0
+	rel 39+8 t=1 command-line-arguments.approx<1>+377
+	rel 59+4 t=31 go:info.float64<0>+0
+	rel 63+4 t=31 <0>+0
+	rel 68+4 t=31 go:info.math.Round$abstract<0>+0
+	rel 72+4 t=31 <0>+0
+	rel 82+4 t=31 go:info.math.Round$abstract<0>+14
+	rel 86+4 t=31 <0>+70
+	rel 91+4 t=31 go:info.math.Round$abstract<0>+22
+	rel 95+4 t=31 <0>+140
+	rel 100+4 t=31 go:info.math.Round$abstract<0>+33
+	rel 104+4 t=31 <0>+248
+	rel 109+4 t=31 go:info.math.Float64bits$abstract<0>+0
+	rel 113+4 t=31 <0>+64
+aux for command-line-arguments.sqrt<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00  ................
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.sqrt<1>+0
+aux for command-line-arguments.sqrt<0> SDWARFLINES size=23
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 3b 14  ..............;.
+	0x0010 06 37 02 01 00 01 01                             .7.....
+	rel 3+8 t=1 command-line-arguments.sqrt<1>+0
+aux for command-line-arguments.sqrt<0> SDWARFFCN size=78
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 71 72 74 00 00 00 00  guments.sqrt....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 78 00 00 37 00 00 00 00 00 00 00  .....x..7.......
+	0x0040 00 11 7e 72 30 00 01 37 00 00 00 00 00 00        ..~r0..7......
+	rel 0+0 t=22 type:float64<0>+0
+	rel 29+8 t=1 command-line-arguments.sqrt<1>+0
+	rel 37+8 t=1 command-line-arguments.sqrt<1>+5
+	rel 57+4 t=31 go:info.float64<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 72+4 t=31 go:info.float64<0>+0
+aux for command-line-arguments.sqrt32<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00  ................
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.sqrt32<1>+0
+aux for command-line-arguments.sqrt32<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c8 00  ................
+	0x0010 14 06 37 02 01 00 01 01                          ..7.....
+	rel 3+8 t=1 command-line-arguments.sqrt32<1>+0
+aux for command-line-arguments.sqrt32<0> SDWARFFCN size=80
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 71 72 74 33 32 00 00  guments.sqrt32..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 12 78 00 00 44 00 00 00 00 00  .......x..D.....
+	0x0040 00 00 00 11 7e 72 30 00 01 44 00 00 00 00 00 00  ....~r0..D......
+	rel 0+0 t=22 type:float32<0>+0
+	rel 31+8 t=1 command-line-arguments.sqrt32<1>+0
+	rel 39+8 t=1 command-line-arguments.sqrt32<1>+5
+	rel 59+4 t=31 go:info.float32<0>+0
+	rel 63+4 t=31 <0>+0
+	rel 74+4 t=31 go:info.float32<0>+0
+aux for command-line-arguments.abs<0> SDWARFLOC size=204
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00  ........ .......
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 28 00 00 00 00  ...........(....
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 20 00  .............. .
+	0x0080 00 00 00 00 00 00 01 00 61 00 00 00 00 00 00 00  ........a.......
+	0x0090 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff  ................
+	0x00a0 ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00b0 00 28 00 00 00 00 00 00 00 01 00 62 00 00 00 00  .(.........b....
+	0x00c0 00 00 00 00 00 00 00 00 00 00 00 00              ............
+	rel 8+8 t=1 command-line-arguments.abs<1>+0
+	rel 59+8 t=1 command-line-arguments.abs<1>+0
+	rel 110+8 t=1 command-line-arguments.abs<1>+0
+	rel 161+8 t=1 command-line-arguments.abs<1>+0
+aux for command-line-arguments.abs<0> SDWARFLINES size=58
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 d5 00  ................
+	0x0010 14 04 07 03 b7 7f 3d 04 02 03 c8 00 46 04 04 03  ......=.....F...
+	0x0020 40 51 04 07 03 7b 3d 04 04 03 0a 46 04 02 03 3f  @Q...{=....F...?
+	0x0030 46 06 5f 06 88 02 01 00 01 01                    F._.......
+	rel 3+8 t=1 command-line-arguments.abs<1>+0
+aux for command-line-arguments.abs<0> SDWARFFCN size=204
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 62 73 00 00 00 00 00  guments.abs.....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00  ................
+	0x0030 00 00 01 12 78 00 00 52 00 00 00 00 00 00 00 00  ....x..R........
+	0x0040 12 79 00 00 52 00 00 00 00 00 00 00 00 08 00 00  .y..R...........
+	0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 02 00 00 00 5b 15 00 00 00 00 00 00 00 00  ......[.........
+	0x0070 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 02 00 00 00 61 15 00 00 00 00  ..........a.....
+	0x0090 00 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 00 00 00 00 00 00 00 00 00 07 00 00 00 0e 00 08  ................
+	0x00b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00c0 00 00 00 00 07 00 00 00 0e 00 00 00              ............
+	rel 28+8 t=1 command-line-arguments.abs<1>+0
+	rel 36+8 t=1 command-line-arguments.abs<1>+53
+	rel 56+4 t=31 go:info.float64<0>+0
+	rel 60+4 t=31 <0>+0
+	rel 69+4 t=31 go:info.float64<0>+0
+	rel 73+4 t=31 <0>+51
+	rel 78+4 t=31 go:info.math.Abs$abstract<0>+0
+	rel 82+8 t=1 command-line-arguments.abs<1>+5
+	rel 90+8 t=1 command-line-arguments.abs<1>+10
+	rel 104+4 t=31 go:info.math.Abs$abstract<0>+12
+	rel 108+4 t=31 <0>+102
+	rel 114+4 t=31 go:info.math.Abs$abstract<0>+0
+	rel 118+8 t=1 command-line-arguments.abs<1>+17
+	rel 126+8 t=1 command-line-arguments.abs<1>+32
+	rel 140+4 t=31 go:info.math.Abs$abstract<0>+12
+	rel 144+4 t=31 <0>+153
+	rel 149+4 t=31 go:info.math.Float64bits$abstract<0>+0
+	rel 153+8 t=1 command-line-arguments.abs<1>+17
+	rel 161+8 t=1 command-line-arguments.abs<1>+22
+	rel 176+4 t=31 go:info.math.Float64frombits$abstract<0>+0
+	rel 180+8 t=1 command-line-arguments.abs<1>+27
+	rel 188+8 t=1 command-line-arguments.abs<1>+32
+aux for command-line-arguments.abs32<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 17 00 00 00 00 00 00 00  ................
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 04 00 00 00 00 00 00 00 13 00 00 00 00  ................
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.abs32<1>+0
+	rel 59+8 t=1 command-line-arguments.abs32<1>+0
+aux for command-line-arguments.abs32<0> SDWARFLINES size=46
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 e1 00  ................
+	0x0010 14 04 04 03 b4 7f 33 04 07 03 7b 3d 04 04 03 0a  ......3...{=....
+	0x0020 46 04 02 03 c5 00 46 06 37 02 01 00 01 01        F.....F.7.....
+	rel 3+8 t=1 command-line-arguments.abs32<1>+0
+aux for command-line-arguments.abs32<0> SDWARFFCN size=169
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 62 73 33 32 00 00 00  guments.abs32...
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c  ................
+	0x0030 02 00 00 00 01 12 78 00 00 65 00 00 00 00 00 00  ......x..e......
+	0x0040 00 00 11 7e 72 30 00 01 65 00 00 00 00 00 08 00  ...~r0..e.......
+	0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 02 00 00 00 67 15 00 00 00 00 00 00 00  .......g........
+	0x0070 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 07 00 00 00 0e 00 08 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 00 07 00 00 00 0e 00 00 00                       .........
+	rel 0+0 t=22 type:float32<0>+0
+	rel 30+8 t=1 command-line-arguments.abs32<1>+0
+	rel 38+8 t=1 command-line-arguments.abs32<1>+24
+	rel 58+4 t=31 go:info.float32<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 73+4 t=31 go:info.float32<0>+0
+	rel 79+4 t=31 go:info.math.Abs$abstract<0>+0
+	rel 83+8 t=1 command-line-arguments.abs32<1>+4
+	rel 91+8 t=1 command-line-arguments.abs32<1>+19
+	rel 105+4 t=31 go:info.math.Abs$abstract<0>+12
+	rel 109+4 t=31 <0>+51
+	rel 114+4 t=31 go:info.math.Float64bits$abstract<0>+0
+	rel 118+8 t=1 command-line-arguments.abs32<1>+4
+	rel 126+8 t=1 command-line-arguments.abs32<1>+9
+	rel 141+4 t=31 go:info.math.Float64frombits$abstract<0>+0
+	rel 145+8 t=1 command-line-arguments.abs32<1>+14
+	rel 153+8 t=1 command-line-arguments.abs32<1>+19
+aux for command-line-arguments.copysign<0> SDWARFLOC size=357
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 61 00 00 00 00 00 00 00  ........a.......
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 61 00 00 00 00  ...........a....
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 61 00  ..............a.
+	0x0080 00 00 00 00 00 00 01 00 63 00 00 00 00 00 00 00  ........c.......
+	0x0090 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff  ................
+	0x00a0 ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00b0 00 61 00 00 00 00 00 00 00 01 00 61 00 00 00 00  .a.........a....
+	0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff  ................
+	0x00d0 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00e0 00 00 00 00 61 00 00 00 00 00 00 00 01 00 62 00  ....a.........b.
+	0x00f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff  ................
+	0x0100 ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 00  ................
+	0x0110 00 00 00 00 00 00 00 61 00 00 00 00 00 00 00 01  .......a........
+	0x0120 00 63 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .c..............
+	0x0130 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00  ................
+	0x0140 00 00 00 00 00 00 00 00 00 00 61 00 00 00 00 00  ..........a.....
+	0x0150 00 00 01 00 63 00 00 00 00 00 00 00 00 00 00 00  ....c...........
+	0x0160 00 00 00 00 00                                   .....
+	rel 8+8 t=1 command-line-arguments.copysign<1>+0
+	rel 59+8 t=1 command-line-arguments.copysign<1>+0
+	rel 110+8 t=1 command-line-arguments.copysign<1>+0
+	rel 161+8 t=1 command-line-arguments.copysign<1>+0
+	rel 212+8 t=1 command-line-arguments.copysign<1>+0
+	rel 263+8 t=1 command-line-arguments.copysign<1>+0
+	rel 314+8 t=1 command-line-arguments.copysign<1>+0
+aux for command-line-arguments.copysign<0> SDWARFLINES size=90
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 ec 00  ................
+	0x0010 14 04 06 03 9d 7f 3d 06 2d 04 04 06 03 07 46 04  ......=.-.....F.
+	0x0020 06 03 78 3d 06 73 04 02 06 03 e2 00 50 04 04 03  ..x=.s......P...
+	0x0030 a9 7f 51 04 06 03 78 3d 06 2d 04 02 06 03 ea 00  ..Q...x=.-......
+	0x0040 46 5a 06 41 04 06 06 03 90 7f 51 06 2d 04 02 06  FZ.A......Q.-...
+	0x0050 03 f6 00 96 56 02 01 00 01 01                    ....V.....
+	rel 3+8 t=1 command-line-arguments.copysign<1>+0
+aux for command-line-arguments.copysign<0> SDWARFFCN size=268
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 70 79 73 69 67 6e  guments.copysign
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 01 9c 02 00 00 00 01 12 61 00 00 6b 00 00 00  .........a..k...
+	0x0040 00 00 00 00 00 12 62 00 00 6b 00 00 00 00 00 00  ......b..k......
+	0x0050 00 00 12 63 00 00 6b 00 00 00 00 00 00 00 00 08  ...c..k.........
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0070 00 00 00 00 02 00 00 00 72 15 00 00 00 00 00 00  ........r.......
+	0x0080 00 00 15 00 00 00 00 00 00 00 00 08 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 06 00 00 00 0b 00 00 08 00 00 00 00 00 00 00 00  ................
+	0x00b0 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00  ................
+	0x00c0 7a 15 00 00 00 00 00 00 00 00 08 00 00 00 00 00  z...............
+	0x00d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06  ................
+	0x00e0 00 00 00 0b 00 00 08 00 00 00 00 00 00 00 00 00  ................
+	0x00f0 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 86  ................
+	0x0100 01 15 00 00 00 00 00 00 00 00 00 00              ............
+	rel 33+8 t=1 command-line-arguments.copysign<1>+0
+	rel 41+8 t=1 command-line-arguments.copysign<1>+97
+	rel 61+4 t=31 go:info.float64<0>+0
+	rel 65+4 t=31 <0>+0
+	rel 74+4 t=31 go:info.float64<0>+0
+	rel 78+4 t=31 <0>+51
+	rel 87+4 t=31 go:info.float64<0>+0
+	rel 91+4 t=31 <0>+102
+	rel 96+4 t=31 go:info.math.Copysign$abstract<0>+0
+	rel 100+8 t=1 command-line-arguments.copysign<1>+5
+	rel 108+8 t=1 command-line-arguments.copysign<1>+34
+	rel 122+4 t=31 go:info.math.Copysign$abstract<0>+17
+	rel 126+4 t=31 <0>+153
+	rel 131+4 t=31 go:info.math.Copysign$abstract<0>+25
+	rel 135+4 t=31 <0>+204
+	rel 140+4 t=31 go:info.math.Float64bits$abstract<0>+0
+	rel 144+8 t=1 command-line-arguments.copysign<1>+13
+	rel 152+8 t=1 command-line-arguments.copysign<1>+18
+	rel 168+4 t=31 go:info.math.Copysign$abstract<0>+0
+	rel 172+8 t=1 command-line-arguments.copysign<1>+41
+	rel 180+8 t=1 command-line-arguments.copysign<1>+54
+	rel 194+4 t=31 go:info.math.Copysign$abstract<0>+17
+	rel 198+4 t=31 <0>+255
+	rel 203+4 t=31 go:info.math.Float64bits$abstract<0>+0
+	rel 207+8 t=1 command-line-arguments.copysign<1>+41
+	rel 215+8 t=1 command-line-arguments.copysign<1>+46
+	rel 231+4 t=31 go:info.math.Copysign$abstract<0>+0
+	rel 235+8 t=1 command-line-arguments.copysign<1>+73
+	rel 243+8 t=1 command-line-arguments.copysign<1>+89
+	rel 258+4 t=31 go:info.math.Copysign$abstract<0>+25
+	rel 262+4 t=31 <0>+306
+aux for command-line-arguments.fma<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 30 00 00 00 00 00 00 00  ........0.......
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 30 00 00 00 00  ...........0....
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 29 00  ..............).
+	0x0080 00 00 00 00 00 00 01 00 63 00 00 00 00 00 00 00  ........c.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.fma<1>+0
+	rel 59+8 t=1 command-line-arguments.fma<1>+0
+	rel 110+8 t=1 command-line-arguments.fma<1>+0
+aux for command-line-arguments.fma<0> SDWARFLINES size=40
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 83 01  ................
+	0x0010 14 0a 4b 06 9b 06 03 04 a0 06 23 06 a5 06 2d 06  ..K.......#...-.
+	0x0020 03 7b 79 02 2b 00 01 01                          .{y.+...
+	rel 3+8 t=1 command-line-arguments.fma<1>+0
+aux for command-line-arguments.fma<0> SDWARFFCN size=107
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 6d 61 00 00 00 00 00  guments.fma.....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00  ................
+	0x0030 00 00 01 12 78 00 00 89 01 00 00 00 00 00 00 00  ....x...........
+	0x0040 00 12 79 00 00 89 01 00 00 00 00 00 00 00 00 12  ..y.............
+	0x0050 7a 00 00 89 01 00 00 00 00 00 00 00 00 11 7e 72  z.............~r
+	0x0060 30 00 01 89 01 00 00 00 00 00 00                 0..........
+	rel 0+0 t=22 type:float64<0>+0
+	rel 28+8 t=1 command-line-arguments.fma<1>+0
+	rel 36+8 t=1 command-line-arguments.fma<1>+108
+	rel 57+4 t=31 go:info.float64<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 71+4 t=31 go:info.float64<0>+0
+	rel 75+4 t=31 <0>+51
+	rel 85+4 t=31 go:info.float64<0>+0
+	rel 89+4 t=31 <0>+102
+	rel 101+4 t=31 go:info.float64<0>+0
+aux for command-line-arguments.fms<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 38 00 00 00 00 00 00 00  ........8.......
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 38 00 00 00 00  ...........8....
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 20 00  .............. .
+	0x0080 00 00 00 00 00 00 01 00 63 00 00 00 00 00 00 00  ........c.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.fms<1>+0
+	rel 59+8 t=1 command-line-arguments.fms<1>+0
+	rel 110+8 t=1 command-line-arguments.fms<1>+0
+aux for command-line-arguments.fms<0> SDWARFLINES size=34
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 8f 01  ................
+	0x0010 14 0a 4b 9d 06 5f 06 08 55 06 2d 06 71 02 2b 00  ..K.._..U.-.q.+.
+	0x0020 01 01                                            ..
+	rel 3+8 t=1 command-line-arguments.fms<1>+0
+aux for command-line-arguments.fms<0> SDWARFFCN size=107
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 6d 73 00 00 00 00 00  guments.fms.....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00  ................
+	0x0030 00 00 01 12 78 00 00 95 01 00 00 00 00 00 00 00  ....x...........
+	0x0040 00 12 79 00 00 95 01 00 00 00 00 00 00 00 00 12  ..y.............
+	0x0050 7a 00 00 95 01 00 00 00 00 00 00 00 00 11 7e 72  z.............~r
+	0x0060 30 00 01 95 01 00 00 00 00 00 00                 0..........
+	rel 0+0 t=22 type:float64<0>+0
+	rel 28+8 t=1 command-line-arguments.fms<1>+0
+	rel 36+8 t=1 command-line-arguments.fms<1>+115
+	rel 57+4 t=31 go:info.float64<0>+0
+	rel 61+4 t=31 <0>+0
+	rel 71+4 t=31 go:info.float64<0>+0
+	rel 75+4 t=31 <0>+51
+	rel 85+4 t=31 go:info.float64<0>+0
+	rel 89+4 t=31 <0>+102
+	rel 101+4 t=31 go:info.float64<0>+0
+aux for command-line-arguments.fnma<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00  ........ .......
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 38 00 00 00 00  ...........8....
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 31 00  ..............1.
+	0x0080 00 00 00 00 00 00 01 00 63 00 00 00 00 00 00 00  ........c.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.fnma<1>+0
+	rel 59+8 t=1 command-line-arguments.fnma<1>+0
+	rel 110+8 t=1 command-line-arguments.fnma<1>+0
+aux for command-line-arguments.fnma<0> SDWARFLINES size=34
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 94 01  ................
+	0x0010 14 0a 4b 9d 06 5f 06 08 55 06 2d 06 71 02 2b 00  ..K.._..U.-.q.+.
+	0x0020 01 01                                            ..
+	rel 3+8 t=1 command-line-arguments.fnma<1>+0
+aux for command-line-arguments.fnma<0> SDWARFFCN size=108
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 6e 6d 61 00 00 00 00  guments.fnma....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 78 00 00 9a 01 00 00 00 00 00 00  .....x..........
+	0x0040 00 00 12 79 00 00 9a 01 00 00 00 00 00 00 00 00  ...y............
+	0x0050 12 7a 00 00 9a 01 00 00 00 00 00 00 00 00 11 7e  .z.............~
+	0x0060 72 30 00 01 9a 01 00 00 00 00 00 00              r0..........
+	rel 0+0 t=22 type:float64<0>+0
+	rel 29+8 t=1 command-line-arguments.fnma<1>+0
+	rel 37+8 t=1 command-line-arguments.fnma<1>+115
+	rel 58+4 t=31 go:info.float64<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 72+4 t=31 go:info.float64<0>+0
+	rel 76+4 t=31 <0>+51
+	rel 86+4 t=31 go:info.float64<0>+0
+	rel 90+4 t=31 <0>+102
+	rel 102+4 t=31 go:info.float64<0>+0
+aux for command-line-arguments.fnms<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 3c 00 00 00 00 00 00 00  ........<.......
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 20 00 00 00 00  ........... ....
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 24 00  ..............$.
+	0x0080 00 00 00 00 00 00 01 00 63 00 00 00 00 00 00 00  ........c.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.fnms<1>+0
+	rel 59+8 t=1 command-line-arguments.fnms<1>+0
+	rel 110+8 t=1 command-line-arguments.fnms<1>+0
+aux for command-line-arguments.fnms<0> SDWARFLINES size=38
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 99 01  ................
+	0x0010 14 0a 4b 9d 06 5f 06 08 7d 06 2d 06 71 06 c3 06  ..K.._..}.-.q...
+	0x0020 23 02 19 00 01 01                                #.....
+	rel 3+8 t=1 command-line-arguments.fnms<1>+0
+aux for command-line-arguments.fnms<0> SDWARFFCN size=108
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 6e 6d 73 00 00 00 00  guments.fnms....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 12 78 00 00 9f 01 00 00 00 00 00 00  .....x..........
+	0x0040 00 00 12 79 00 00 9f 01 00 00 00 00 00 00 00 00  ...y............
+	0x0050 12 7a 00 00 9f 01 00 00 00 00 00 00 00 00 11 7e  .z.............~
+	0x0060 72 30 00 01 9f 01 00 00 00 00 00 00              r0..........
+	rel 0+0 t=22 type:float64<0>+0
+	rel 29+8 t=1 command-line-arguments.fnms<1>+0
+	rel 37+8 t=1 command-line-arguments.fnms<1>+121
+	rel 58+4 t=31 go:info.float64<0>+0
+	rel 62+4 t=31 <0>+0
+	rel 72+4 t=31 go:info.float64<0>+0
+	rel 76+4 t=31 <0>+51
+	rel 86+4 t=31 go:info.float64<0>+0
+	rel 90+4 t=31 <0>+102
+	rel 102+4 t=31 go:info.float64<0>+0
+aux for command-line-arguments.fromFloat64<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0c 00 00 00 00 00 00 00  ................
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.fromFloat64<1>+0
+aux for command-line-arguments.fromFloat64<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 a3 01  ................
+	0x0010 14 06 5f 04 04 06 03 f2 7e 33 04 02 03 8d 01 46  .._.....~3.....F
+	0x0020 06 2d 02 01 00 01 01                             .-.....
+	rel 3+8 t=1 command-line-arguments.fromFloat64<1>+0
+aux for command-line-arguments.fromFloat64<0> SDWARFFCN size=117
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 72 6f 6d 46 6c 6f 61  guments.fromFloa
+	0x0020 74 36 34 00 00 00 00 00 00 00 00 00 00 00 00 00  t64.............
+	0x0030 00 00 00 00 01 9c 02 00 00 00 01 12 66 36 34 00  ............f64.
+	0x0040 00 a4 01 00 00 00 00 00 00 00 00 11 7e 72 30 00  ............~r0.
+	0x0050 01 a4 01 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00  ................
+	0x0070 00 a9 01 00 00                                   .....
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 36+8 t=1 command-line-arguments.fromFloat64<1>+0
+	rel 44+8 t=1 command-line-arguments.fromFloat64<1>+21
+	rel 67+4 t=31 go:info.float64<0>+0
+	rel 71+4 t=31 <0>+0
+	rel 83+4 t=31 go:info.uint64<0>+0
+	rel 89+4 t=31 go:info.math.Float64bits$abstract<0>+0
+	rel 93+8 t=1 command-line-arguments.fromFloat64<1>+12
+	rel 101+8 t=1 command-line-arguments.fromFloat64<1>+17
+aux for command-line-arguments.fromFloat32<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0c 00 00 00 00 00 00 00  ................
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.fromFloat32<1>+0
+aux for command-line-arguments.fromFloat32<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 a9 01  ................
+	0x0010 14 06 5f 04 04 06 03 e1 7e 33 04 02 03 9e 01 3c  .._.....~3.....<
+	0x0020 06 23 02 01 00 01 01                             .#.....
+	rel 3+8 t=1 command-line-arguments.fromFloat32<1>+0
+aux for command-line-arguments.fromFloat32<0> SDWARFFCN size=117
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 72 6f 6d 46 6c 6f 61  guments.fromFloa
+	0x0020 74 33 32 00 00 00 00 00 00 00 00 00 00 00 00 00  t32.............
+	0x0030 00 00 00 00 01 9c 02 00 00 00 01 12 66 33 32 00  ............f32.
+	0x0040 00 ac 01 00 00 00 00 00 00 00 00 11 7e 72 30 00  ............~r0.
+	0x0050 01 ac 01 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00  ................
+	0x0070 00 af 01 00 00                                   .....
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 36+8 t=1 command-line-arguments.fromFloat32<1>+0
+	rel 44+8 t=1 command-line-arguments.fromFloat32<1>+19
+	rel 67+4 t=31 go:info.float32<0>+0
+	rel 71+4 t=31 <0>+0
+	rel 83+4 t=31 go:info.uint32<0>+0
+	rel 89+4 t=31 go:info.math.Float32bits$abstract<0>+0
+	rel 93+8 t=1 command-line-arguments.fromFloat32<1>+12
+	rel 101+8 t=1 command-line-arguments.fromFloat32<1>+16
+aux for command-line-arguments.toFloat64<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.toFloat64<1>+0
+aux for command-line-arguments.toFloat64<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 b1 01  ................
+	0x0010 14 06 2d 02 12 00 01 01                          ..-.....
+	rel 3+8 t=1 command-line-arguments.toFloat64<1>+0
+aux for command-line-arguments.toFloat64<0> SDWARFFCN size=87
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 74 6f 46 6c 6f 61 74 36  guments.toFloat6
+	0x0020 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  4...............
+	0x0030 00 00 01 9c 02 00 00 00 01 12 75 36 34 00 00 b2  ..........u64...
+	0x0040 01 00 00 00 00 00 00 00 00 11 7e 72 30 00 01 b2  ..........~r0...
+	0x0050 01 00 00 00 00 00 00                             .......
+	rel 0+0 t=22 type:float64<0>+0
+	rel 34+8 t=1 command-line-arguments.toFloat64<1>+0
+	rel 42+8 t=1 command-line-arguments.toFloat64<1>+21
+	rel 65+4 t=31 go:info.uint64<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 81+4 t=31 go:info.float64<0>+0
+aux for command-line-arguments.toFloat32<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.toFloat32<1>+0
+aux for command-line-arguments.toFloat32<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 b7 01  ................
+	0x0010 14 06 23 02 11 00 01 01                          ..#.....
+	rel 3+8 t=1 command-line-arguments.toFloat32<1>+0
+aux for command-line-arguments.toFloat32<0> SDWARFFCN size=87
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 74 6f 46 6c 6f 61 74 33  guments.toFloat3
+	0x0020 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  2...............
+	0x0030 00 00 01 9c 02 00 00 00 01 12 75 33 32 00 00 ba  ..........u32...
+	0x0040 01 00 00 00 00 00 00 00 00 11 7e 72 30 00 01 ba  ..........~r0...
+	0x0050 01 00 00 00 00 00 00                             .......
+	rel 0+0 t=22 type:float32<0>+0
+	rel 34+8 t=1 command-line-arguments.toFloat32<1>+0
+	rel 42+8 t=1 command-line-arguments.toFloat32<1>+19
+	rel 65+4 t=31 go:info.uint32<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 81+4 t=31 go:info.float32<0>+0
+aux for command-line-arguments.constantCheck64<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c0 01  ................
+	0x0010 14 06 23 02 01 00 01 01                          ..#.....
+	rel 3+8 t=1 command-line-arguments.constantCheck64<1>+0
+aux for command-line-arguments.constantCheck64<0> SDWARFFCN size=77
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 73 74 61 6e 74  guments.constant
+	0x0020 43 68 65 63 6b 36 34 00 00 00 00 00 00 00 00 00  Check64.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 11  ................
+	0x0040 7e 72 30 00 01 c3 01 00 00 00 00 00 00           ~r0..........
+	rel 0+0 t=22 type:bool<0>+0
+	rel 40+8 t=1 command-line-arguments.constantCheck64<1>+0
+	rel 48+8 t=1 command-line-arguments.constantCheck64<1>+3
+	rel 71+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.constantCheck32<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c6 01  ................
+	0x0010 14 06 41 02 01 00 01 01                          ..A.....
+	rel 3+8 t=1 command-line-arguments.constantCheck32<1>+0
+aux for command-line-arguments.constantCheck32<0> SDWARFFCN size=77
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 73 74 61 6e 74  guments.constant
+	0x0020 43 68 65 63 6b 33 32 00 00 00 00 00 00 00 00 00  Check32.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 11  ................
+	0x0040 7e 72 30 00 01 c9 01 00 00 00 00 00 00           ~r0..........
+	rel 0+0 t=22 type:bool<0>+0
+	rel 40+8 t=1 command-line-arguments.constantCheck32<1>+0
+	rel 48+8 t=1 command-line-arguments.constantCheck32<1>+6
+	rel 71+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.constantConvert32<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 19 00 00 00 00 00 00 00  ................
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.constantConvert32<1>+0
+aux for command-line-arguments.constantConvert32<0> SDWARFLINES size=30
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 d2 01  ................
+	0x0010 14 06 5f 06 42 06 5f 06 43 02 01 00 01 01        .._.B._.C.....
+	rel 3+8 t=1 command-line-arguments.constantConvert32<1>+0
+aux for command-line-arguments.constantConvert32<0> SDWARFFCN size=93
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 73 74 61 6e 74  guments.constant
+	0x0020 43 6f 6e 76 65 72 74 33 32 00 00 00 00 00 00 00  Convert32.......
+	0x0030 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0040 01 12 78 00 00 d2 01 00 00 00 00 00 00 00 00 11  ..x.............
+	0x0050 7e 72 30 00 01 d2 01 00 00 00 00 00 00           ~r0..........
+	rel 0+0 t=22 type:float32<0>+0
+	rel 42+8 t=1 command-line-arguments.constantConvert32<1>+0
+	rel 50+8 t=1 command-line-arguments.constantConvert32<1>+27
+	rel 71+4 t=31 go:info.float32<0>+0
+	rel 75+4 t=31 <0>+0
+	rel 87+4 t=31 go:info.float32<0>+0
+aux for command-line-arguments.constantConvertInt32<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 09 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.constantConvertInt32<1>+0
+aux for command-line-arguments.constantConvertInt32<0> SDWARFLINES size=30
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 de 01  ................
+	0x0010 14 06 41 06 24 06 23 06 1b 02 01 00 01 01        ..A.$.#.......
+	rel 3+8 t=1 command-line-arguments.constantConvertInt32<1>+0
+aux for command-line-arguments.constantConvertInt32<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 73 74 61 6e 74  guments.constant
+	0x0020 43 6f 6e 76 65 72 74 49 6e 74 33 32 00 00 00 00  ConvertInt32....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0040 00 00 00 01 12 78 00 00 de 01 00 00 00 00 00 00  .....x..........
+	0x0050 00 00 11 7e 72 30 00 01 de 01 00 00 00 00 00 00  ...~r0..........
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 45+8 t=1 command-line-arguments.constantConvertInt32<1>+0
+	rel 53+8 t=1 command-line-arguments.constantConvertInt32<1>+11
+	rel 74+4 t=31 go:info.uint32<0>+0
+	rel 78+4 t=31 <0>+0
+	rel 90+4 t=31 go:info.uint32<0>+0
+aux for command-line-arguments.nanGenerate64<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 07 00 00 00 00 00 00 00 1b 00 00 00 00 00 00 00  ................
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 16 00 00 00 00 00 00 00 23 00 00 00 00  ...........#....
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 27 00 00 00 00 00 00 00 2c 00  ......'.......,.
+	0x0080 00 00 00 00 00 00 01 00 62 00 00 00 00 00 00 00  ........b.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.nanGenerate64<1>+0
+	rel 59+8 t=1 command-line-arguments.nanGenerate64<1>+0
+	rel 110+8 t=1 command-line-arguments.nanGenerate64<1>+0
+aux for command-line-arguments.nanGenerate64<0> SDWARFLINES size=48
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 ed 01  ................
+	0x0010 14 06 2d 06 39 06 2d 06 89 1a 04 03 03 ea 7e 33  ..-.9.-.......~3
+	0x0020 06 5f 04 02 06 03 95 01 3c 06 37 02 01 00 01 01  ._......<.7.....
+	rel 3+8 t=1 command-line-arguments.nanGenerate64<1>+0
+aux for command-line-arguments.nanGenerate64<0> SDWARFFCN size=191
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6e 61 6e 47 65 6e 65 72  guments.nanGener
+	0x0020 61 74 65 36 34 00 00 00 00 00 00 00 00 00 00 00  ate64...........
+	0x0030 00 00 00 00 00 00 01 9c 02 00 00 00 01 11 7e 72  ..............~r
+	0x0040 30 00 01 ea 01 00 00 00 00 00 0c 7a 65 72 6f 00  0..........zero.
+	0x0050 ed 01 00 00 00 00 00 0c 69 6e 66 00 ef 01 00 00  ........inf.....
+	0x0060 00 00 00 0c 6e 65 67 6f 6e 65 00 f0 01 00 00 00  ....negone......
+	0x0070 00 00 0d 7a 30 00 f3 01 00 00 00 00 00 00 00 00  ...z0...........
+	0x0080 0d 7a 31 00 f5 01 00 00 00 00 00 00 00 00 0d 7a  .z1............z
+	0x0090 32 00 f7 01 00 00 00 00 00 00 00 00 08 00 00 00  2...............
+	0x00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00b0 00 02 00 00 00 f7 01 14 00 00 00 00 00 00 00     ...............
+	rel 0+0 t=22 type:float64<0>+0
+	rel 38+8 t=1 command-line-arguments.nanGenerate64<1>+0
+	rel 46+8 t=1 command-line-arguments.nanGenerate64<1>+44
+	rel 69+4 t=31 go:info.float64<0>+0
+	rel 82+4 t=31 go:info.float64<0>+0
+	rel 94+4 t=31 go:info.float64<0>+0
+	rel 109+4 t=31 go:info.float64<0>+0
+	rel 120+4 t=31 go:info.float64<0>+0
+	rel 124+4 t=31 <0>+0
+	rel 134+4 t=31 go:info.float64<0>+0
+	rel 138+4 t=31 <0>+51
+	rel 148+4 t=31 go:info.float64<0>+0
+	rel 152+4 t=31 <0>+102
+	rel 157+4 t=31 go:info.math.Sqrt$abstract<0>+0
+	rel 161+8 t=1 command-line-arguments.nanGenerate64<1>+27
+	rel 169+8 t=1 command-line-arguments.nanGenerate64<1>+39
+	rel 184+4 t=31 go:info.math.Sqrt$abstract<0>+13
+aux for command-line-arguments.nanGenerate32<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 07 00 00 00 00 00 00 00 1a 00 00 00 00 00 00 00  ................
+	0x0020 01 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00  ..a.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 16 00 00 00 00 00 00 00 1b 00 00 00 00  ................
+	0x0050 00 00 00 01 00 62 00 00 00 00 00 00 00 00 00 00  .....b..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.nanGenerate32<1>+0
+	rel 59+8 t=1 command-line-arguments.nanGenerate32<1>+0
+aux for command-line-arguments.nanGenerate32<0> SDWARFLINES size=32
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 fb 01  ................
+	0x0010 14 06 2d 06 39 06 2d 06 88 06 37 02 01 00 01 01  ..-.9.-...7.....
+	rel 3+8 t=1 command-line-arguments.nanGenerate32<1>+0
+aux for command-line-arguments.nanGenerate32<0> SDWARFFCN size=128
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6e 61 6e 47 65 6e 65 72  guments.nanGener
+	0x0020 61 74 65 33 32 00 00 00 00 00 00 00 00 00 00 00  ate32...........
+	0x0030 00 00 00 00 00 00 01 9c 02 00 00 00 01 11 7e 72  ..............~r
+	0x0040 30 00 01 fb 01 00 00 00 00 00 0c 7a 65 72 6f 00  0..........zero.
+	0x0050 fc 01 00 00 00 00 00 0c 69 6e 66 00 fe 01 00 00  ........inf.....
+	0x0060 00 00 00 0d 7a 30 00 81 02 00 00 00 00 00 00 00  ....z0..........
+	0x0070 00 0d 7a 31 00 83 02 00 00 00 00 00 00 00 00 00  ..z1............
+	rel 0+0 t=22 type:float32<0>+0
+	rel 38+8 t=1 command-line-arguments.nanGenerate32<1>+0
+	rel 46+8 t=1 command-line-arguments.nanGenerate32<1>+27
+	rel 69+4 t=31 go:info.float32<0>+0
+	rel 82+4 t=31 go:info.float32<0>+0
+	rel 94+4 t=31 go:info.float32<0>+0
+	rel 105+4 t=31 go:info.float32<0>+0
+	rel 109+4 t=31 <0>+0
+	rel 119+4 t=31 go:info.float32<0>+0
+	rel 123+4 t=31 <0>+51
+aux for command-line-arguments.init<0> SDWARFLINES size=21
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 05 14  ................
+	0x0010 02 01 00 01 01                                   .....
+	rel 3+8 t=1 command-line-arguments.init<1>+0
+aux for command-line-arguments.init<0> SDWARFFCN size=53
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 69 6e 69 74 00 00 00 00  guments.init....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 00                                   .....
+	rel 29+8 t=1 command-line-arguments.init<1>+0
+	rel 37+8 t=1 command-line-arguments.init<1>+1
+aux for type:.eq.[8]float64<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 38 00 00 00 00 00 00 00  ........8.......
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 3f 00 00 00 00  ...........?....
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 type:.eq.[8]float64<1>+0
+	rel 59+8 t=1 type:.eq.[8]float64<1>+0
+aux for type:.eq.[8]float64<0> SDWARFLINES size=34
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 01 0f 06 23  ...............#
+	0x0010 06 4b 06 37 06 08 c3 06 23 06 19 06 41 02 01 00  .K.7....#...A...
+	0x0020 01 01                                            ..
+	rel 3+8 t=1 type:.eq.[8]float64<1>+0
+aux for type:.eq.[8]float64<0> SDWARFFCN size=81
+	0x0000 03 74 79 70 65 3a 2e 65 71 2e 5b 38 5d 66 6c 6f  .type:.eq.[8]flo
+	0x0010 61 74 36 34 00 00 00 00 00 00 00 00 00 00 00 00  at64............
+	0x0020 00 00 00 00 00 01 9c 01 00 00 00 01 12 70 00 00  .............p..
+	0x0030 01 00 00 00 00 00 00 00 00 12 71 00 00 01 00 00  ..........q.....
+	0x0040 00 00 00 00 00 00 11 72 00 01 01 00 00 00 00 00  .......r........
+	0x0050 00                                               .
+	rel 0+0 t=22 type:bool<0>+0
+	rel 21+8 t=1 type:.eq.[8]float64<1>+0
+	rel 29+8 t=1 type:.eq.[8]float64<1>+63
+	rel 49+4 t=31 go:info.*[8]float64<0>+0
+	rel 53+4 t=31 <0>+0
+	rel 62+4 t=31 go:info.*[8]float64<0>+0
+	rel 66+4 t=31 <0>+51
+	rel 75+4 t=31 go:info.bool<0>+0

@@ -1,0 +1,3 @@
+./cache.go
+./cache_test.go
+./stub.s

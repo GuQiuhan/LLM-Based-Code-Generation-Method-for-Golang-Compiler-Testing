@@ -1,0 +1,56 @@
+# command-line-arguments
+command-line-arguments.efaceExtract<1> STEXT nosplit size=29 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:9)	TEXT	command-line-arguments.efaceExtract(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:9)	MOVQ	AX, command-line-arguments.e+8(FP)
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:9)	MOVQ	BX, command-line-arguments.e+16(FP)
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:9)	FUNCDATA	$0, gclocals·IuErl7MOXaHVn7EZYWzfFA==(SB)
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:9)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:9)	FUNCDATA	$5, command-line-arguments.efaceExtract.arginfo1(SB)
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:9)	FUNCDATA	$6, command-line-arguments.efaceExtract.argliveinfo(SB)
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:9)	PCDATA	$3, $1
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:13)	LEAQ	type:int(SB), CX
+	0x0011 00017 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:13)	CMPQ	AX, CX
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:13)	JNE	26
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:13)	MOVQ	(BX), AX
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:14)	RET
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:16)	XORL	AX, AX
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/shortcircuit.go:16)	RET
+	0x0000 48 89 44 24 08 48 89 5c 24 10 48 8d 0d 00 00 00  H.D$.H.\$.H.....
+	0x0010 00 48 39 c8 75 04 48 8b 03 c3 31 c0 c3           .H9.u.H...1..
+	rel 13+4 t=14 type:int<0>+0
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+gclocals·IuErl7MOXaHVn7EZYWzfFA==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 02 00 00 00 02 00                    ..........
+gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==<0> SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+command-line-arguments.efaceExtract.arginfo1<0> SRODATA static dupok size=7
+	0x0000 fe 00 08 08 08 fd ff                             .......
+command-line-arguments.efaceExtract.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+aux for command-line-arguments.efaceExtract<0> SDWARFLOC size=79
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 19 00 00 00 00 00 00 00  ................
+	0x0020 06 00 50 93 08 53 93 08 19 00 00 00 00 00 00 00  ..P..S..........
+	0x0030 1d 00 00 00 00 00 00 00 05 00 93 08 53 93 08 00  ............S...
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ...............
+	rel 8+8 t=1 command-line-arguments.efaceExtract<1>+0
+aux for command-line-arguments.efaceExtract<0> SDWARFLINES size=31
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 06 03 03  ................
+	0x0010 14 06 77 06 55 06 60 1b 06 23 02 01 00 01 01     ..w.U.`..#.....
+	rel 3+8 t=1 command-line-arguments.efaceExtract<1>+0
+aux for command-line-arguments.efaceExtract<0> SDWARFFCN size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 65 66 61 63 65 45 78 74  guments.efaceExt
+	0x0020 72 61 63 74 00 00 00 00 00 00 00 00 00 00 00 00  ract............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 12 65 00 00  .............e..
+	0x0040 09 00 00 00 00 00 00 00 00 11 7e 72 30 00 01 09  ..........~r0...
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:int<0>+0
+	rel 37+8 t=1 command-line-arguments.efaceExtract<1>+0
+	rel 45+8 t=1 command-line-arguments.efaceExtract<1>+29
+	rel 65+4 t=31 go:info.interface {}<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 80+4 t=31 go:info.int<0>+0

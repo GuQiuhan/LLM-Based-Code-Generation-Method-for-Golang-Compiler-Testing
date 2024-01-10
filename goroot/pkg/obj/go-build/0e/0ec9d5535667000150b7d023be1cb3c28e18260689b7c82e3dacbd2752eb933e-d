@@ -1,0 +1,12 @@
+package plugin
+//go:cgo_import_dynamic _ITM_deregisterTMCloneTable _ITM_deregisterTMCloneTable ""
+//go:cgo_import_dynamic __libc_start_main __libc_start_main#GLIBC_2.2.5 "libc.so.6"
+//go:cgo_import_dynamic __gmon_start__ __gmon_start__ ""
+//go:cgo_import_dynamic realpath realpath#GLIBC_2.3 "libc.so.6"
+//go:cgo_import_dynamic dlopen dlopen#GLIBC_2.2.5 "libdl.so.2"
+//go:cgo_import_dynamic _ITM_registerTMCloneTable _ITM_registerTMCloneTable ""
+//go:cgo_import_dynamic dlsym dlsym#GLIBC_2.2.5 "libdl.so.2"
+//go:cgo_import_dynamic __cxa_finalize __cxa_finalize#GLIBC_2.2.5 "libc.so.6"
+//go:cgo_import_dynamic dlerror dlerror#GLIBC_2.2.5 "libdl.so.2"
+//go:cgo_import_dynamic _ _ "libdl.so.2"
+//go:cgo_import_dynamic _ _ "libc.so.6"

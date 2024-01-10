@@ -1,0 +1,6 @@
+./decode.go
+./gnu.go
+./inst.go
+./intel.go
+./plan9x.go
+./tables.go

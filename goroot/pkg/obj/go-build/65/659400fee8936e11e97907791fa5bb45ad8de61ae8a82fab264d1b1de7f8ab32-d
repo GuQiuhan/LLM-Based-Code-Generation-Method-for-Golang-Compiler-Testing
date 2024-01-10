@@ -1,0 +1,6 @@
+./doc.go
+./signal.go
+./signal_unix.go
+./signal_linux_test.go
+./signal_test.go
+./sig.s

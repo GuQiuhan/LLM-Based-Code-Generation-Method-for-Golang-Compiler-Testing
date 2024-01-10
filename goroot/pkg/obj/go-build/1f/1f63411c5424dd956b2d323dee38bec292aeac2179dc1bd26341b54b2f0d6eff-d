@@ -1,0 +1,12 @@
+./go_test.go
+./go_unix_test.go
+./help_test.go
+./init_test.go
+./note_test.go
+./proxy_test.go
+./script_test.go
+./scriptcmds_test.go
+./scriptconds_test.go
+./scriptreadme_test.go
+./stop_unix_test.go
+./terminal_test.go

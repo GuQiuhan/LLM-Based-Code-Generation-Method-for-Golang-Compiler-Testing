@@ -1,0 +1,8 @@
+./format.go
+./geom.go
+./image.go
+./names.go
+./ycbcr.go
+./geom_test.go
+./image_test.go
+./ycbcr_test.go

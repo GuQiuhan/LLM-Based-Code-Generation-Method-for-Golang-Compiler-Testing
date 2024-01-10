@@ -1,0 +1,2 @@
+./cpu_test.go
+./cpu_x86_test.go

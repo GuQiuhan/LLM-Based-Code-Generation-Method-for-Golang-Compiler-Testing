@@ -1,0 +1,9 @@
+./exec.go
+./exec_unix.go
+./lp_unix.go
+./bench_test.go
+./env_test.go
+./internal_test.go
+./lp_linux_test.go
+./lp_test.go
+./lp_unix_test.go

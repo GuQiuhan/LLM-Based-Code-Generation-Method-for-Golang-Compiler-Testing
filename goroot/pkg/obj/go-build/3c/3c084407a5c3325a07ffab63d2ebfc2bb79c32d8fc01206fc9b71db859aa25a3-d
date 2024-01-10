@@ -1,0 +1,11 @@
+./creds_test.go
+./dirent_test.go
+./exec_linux_test.go
+./exec_pdeathsig_test.go
+./exec_unix_test.go
+./mmap_unix_test.go
+./rlimit_test.go
+./syscall_linux_test.go
+./syscall_ptrace_test.go
+./syscall_test.go
+./syscall_unix_test.go

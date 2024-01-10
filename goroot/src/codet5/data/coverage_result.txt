@@ -1,0 +1,18 @@
+
+Begin calculate coverage of origin data:
+
+
+Finish calculate coverage of origin data.
+The origin max coverage: 2862.299999999999
+The origin average coverage: 149.45111473626923
+
+
+
+Begin calculate coverage of origin data:
+
+
+Finish calculate coverage of origin data.
+The origin max coverage: 0
+The origin average coverage: 0.0
+
+

@@ -1,0 +1,50 @@
+# example.com/pgo/inline [example.com/pgo/inline.test]
+./inline_hot.go:26:6: can inline D with cost 7 as: func(uint) int { return int((i + (wSize - 1)) >> lWSize) }
+./inline_hot.go:30:6: can inline N with cost 20 as: func(uint) *BS { bs = &BS{...}; return bs }
+./inline_hot.go:33:19: inlining call to D
+./inline_hot.go:39:6: can inline (*BS).S with cost 14 as: method(*BS) func(uint) *BS { b.s[i >> lWSize] |= 1 << (i & (wSize - 1)); return b }
+./inline_hot.go:51:6: can inline T with cost 12 as: func(uint64) uint { return uint(jn[v & -v * 0x03f79d71b4ca8b09 >> 58]) }
+./inline_hot.go:55:6: can inline (*BS).NS with cost 106 as: method(*BS) func(uint) (uint, bool) { x := int(i >> lWSize); if x >= len(b.s) { return 0, false }; w := b.s[x]; w = w >> (i & (wSize - 1)); if w != 0 { return i + T(w), true }; x = x + 1; for loop; return 0, false }
+./inline_hot.go:63:15: inlining call to T
+./inline_hot.go:68:28: inlining call to T
+./inline_hot.go:76:6: cannot inline A: function too complex: cost 312 exceeds budget 80
+./inline_hot.go:77:8: inlining call to N
+./inline_hot.go:79:6: inlining call to (*BS).S
+./inline_hot.go:83:19: inlining call to (*BS).NS
+./inline_hot.go:83:38: inlining call to (*BS).NS
+./inline_hot.go:77:8: inlining call to D
+./inline_hot.go:83:19: inlining call to T
+./inline_hot.go:83:19: inlining call to T
+./inline_hot.go:83:38: inlining call to T
+./inline_hot.go:83:38: inlining call to T
+./inline_hot.go:89:6: cannot inline main: function too complex: cost 119 exceeds budget 80
+./inline_hot_test.go:17:6: cannot inline benchmarkB: function too complex: cost 427 exceeds budget 80
+./inline_hot_test.go:14:6: can inline BenchmarkA with cost 60 as: func(*testing.B) { benchmarkB(b) }
+./inline_hot.go:33:7: make([]uint64, ~R0) escapes to heap:
+./inline_hot.go:33:7:   flow: {heap} = &{storage for make([]uint64, ~R0)}:
+./inline_hot.go:33:7:     from make([]uint64, ~R0) (non-constant size) at ./inline_hot.go:33:7
+./inline_hot.go:31:7: &BS{...} escapes to heap:
+./inline_hot.go:31:7:   flow: bs = &{storage for &BS{...}}:
+./inline_hot.go:31:7:     from &BS{...} (spill) at ./inline_hot.go:31:7
+./inline_hot.go:31:7:     from bs = &BS{...} (assign) at ./inline_hot.go:31:5
+./inline_hot.go:31:7: &BS{...} escapes to heap
+./inline_hot.go:33:7: make([]uint64, ~R0) escapes to heap
+./inline_hot.go:39:7: parameter b leaks to ~r0 with derefs=0:
+./inline_hot.go:39:7:   flow: ~r0 = b:
+./inline_hot.go:39:7:     from return b (return) at ./inline_hot.go:41:2
+./inline_hot.go:39:7: leaking param: b to result ~r0 level=0
+./inline_hot.go:55:7: b does not escape
+./inline_hot.go:77:8: make([]uint64, ~R0) escapes to heap:
+./inline_hot.go:77:8:   flow: {heap} = &{storage for make([]uint64, ~R0)}:
+./inline_hot.go:77:8:     from make([]uint64, ~R0) (non-constant size) at ./inline_hot.go:77:8
+./inline_hot.go:77:8: &BS{...} does not escape
+./inline_hot.go:77:8: make([]uint64, ~R0) escapes to heap
+./inline_hot_test.go:17:17: b does not escape
+./inline_hot_test.go:14:17: b does not escape
+./inline_hot.go:52:16: index bounds check elided
+./inline_hot.go:63:15: index bounds check elided
+./inline_hot.go:68:28: index bounds check elided
+./inline_hot.go:83:19: index bounds check elided
+./inline_hot.go:83:19: index bounds check elided
+./inline_hot.go:83:38: index bounds check elided
+./inline_hot.go:83:38: index bounds check elided

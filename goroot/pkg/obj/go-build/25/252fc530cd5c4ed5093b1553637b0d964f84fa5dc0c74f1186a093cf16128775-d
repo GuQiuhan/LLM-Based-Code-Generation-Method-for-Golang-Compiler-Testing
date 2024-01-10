@@ -1,0 +1,4 @@
+./discovery.go
+./vcs.go
+./discovery_test.go
+./vcs_test.go

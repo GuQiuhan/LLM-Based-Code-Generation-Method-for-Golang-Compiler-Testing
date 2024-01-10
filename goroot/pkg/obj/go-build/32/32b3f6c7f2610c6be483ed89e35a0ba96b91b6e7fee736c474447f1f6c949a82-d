@@ -1,0 +1,8 @@
+./interface.go
+./parser.go
+./resolver.go
+./error_test.go
+./parser_test.go
+./performance_test.go
+./resolver_test.go
+./short_test.go

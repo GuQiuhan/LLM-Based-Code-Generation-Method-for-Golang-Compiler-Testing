@@ -1,0 +1,15 @@
+./assign.go
+./builtin.go
+./closure.go
+./compare.go
+./complit.go
+./convert.go
+./expr.go
+./order.go
+./race.go
+./range.go
+./select.go
+./stmt.go
+./switch.go
+./temp.go
+./walk.go

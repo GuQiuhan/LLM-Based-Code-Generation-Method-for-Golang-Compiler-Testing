@@ -1,0 +1,4 @@
+./example_test.go
+./io_test.go
+./multi_test.go
+./pipe_test.go

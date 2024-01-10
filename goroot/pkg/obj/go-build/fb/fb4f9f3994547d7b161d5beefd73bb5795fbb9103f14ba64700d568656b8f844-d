@@ -1,0 +1,11 @@
+./convert.go
+./dep.go
+./glide.go
+./glock.go
+./godeps.go
+./modconv.go
+./tsv.go
+./vconf.go
+./vjson.go
+./vmanifest.go
+./vyml.go

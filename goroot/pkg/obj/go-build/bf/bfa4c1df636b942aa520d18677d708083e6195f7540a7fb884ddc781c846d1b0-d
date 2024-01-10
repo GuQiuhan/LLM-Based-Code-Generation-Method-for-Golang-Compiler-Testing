@@ -1,0 +1,88 @@
+# command-line-arguments
+command-line-arguments.booliface<1> STEXT nosplit size=15 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:9)	TEXT	command-line-arguments.booliface(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:9)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:9)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:11)	LEAQ	type:bool(SB), AX
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:11)	LEAQ	runtime.staticuint64s+8(SB), BX
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:11)	RET
+	0x0000 48 8d 05 00 00 00 00 48 8d 1d 00 00 00 00 c3     H......H.......
+	rel 2+0 t=23 type:bool<0>+0
+	rel 3+4 t=14 type:bool<0>+0
+	rel 10+4 t=14 runtime.staticuint64s<0>+8
+command-line-arguments.smallint8iface<1> STEXT nosplit size=15 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:14)	TEXT	command-line-arguments.smallint8iface(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:14)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:14)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:16)	LEAQ	type:int8(SB), AX
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:16)	LEAQ	runtime.staticuint64s+2024(SB), BX
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:16)	RET
+	0x0000 48 8d 05 00 00 00 00 48 8d 1d 00 00 00 00 c3     H......H.......
+	rel 2+0 t=23 type:int8<0>+0
+	rel 3+4 t=14 type:int8<0>+0
+	rel 10+4 t=14 runtime.staticuint64s<0>+2024
+command-line-arguments.smalluint8iface<1> STEXT nosplit size=15 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:19)	TEXT	command-line-arguments.smalluint8iface(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:19)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:19)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:21)	LEAQ	type:uint8(SB), AX
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:21)	LEAQ	runtime.staticuint64s+24(SB), BX
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/smallintiface.go:21)	RET
+	0x0000 48 8d 05 00 00 00 00 48 8d 1d 00 00 00 00 c3     H......H.......
+	rel 2+0 t=23 type:uint8<0>+0
+	rel 3+4 t=14 type:uint8<0>+0
+	rel 10+4 t=14 runtime.staticuint64s<0>+24
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+command-line-arguments..stmp_0<0> SRODATA static size=1
+	0x0000 01                                               .
+command-line-arguments..stmp_1<0> SRODATA static size=1
+	0x0000 fd                                               .
+command-line-arguments..stmp_2<0> SRODATA static size=1
+	0x0000 03                                               .
+gclocals·g2BeySu+wFnoycgXfElmcg==<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+aux for command-line-arguments.booliface<0> SDWARFLINES size=23
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 05 14  ................
+	0x0010 06 55 02 08 00 01 01                             .U.....
+	rel 3+8 t=1 command-line-arguments.booliface<1>+0
+aux for command-line-arguments.booliface<0> SDWARFFCN size=70
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 6f 6f 6c 69 66 61 63  guments.boolifac
+	0x0020 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  e...............
+	0x0030 00 00 01 9c 02 00 00 00 01 11 7e 72 30 00 01 09  ..........~r0...
+	0x0040 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:interface {}<0>+0
+	rel 34+8 t=1 command-line-arguments.booliface<1>+0
+	rel 42+8 t=1 command-line-arguments.booliface<1>+15
+	rel 64+4 t=31 go:info.interface {}<0>+0
+aux for command-line-arguments.smallint8iface<0> SDWARFLINES size=23
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 0a 14  ................
+	0x0010 06 55 02 08 00 01 01                             .U.....
+	rel 3+8 t=1 command-line-arguments.smallint8iface<1>+0
+aux for command-line-arguments.smallint8iface<0> SDWARFFCN size=75
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 6d 61 6c 6c 69 6e 74  guments.smallint
+	0x0020 38 69 66 61 63 65 00 00 00 00 00 00 00 00 00 00  8iface..........
+	0x0030 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 11 7e  ...............~
+	0x0040 72 30 00 01 0e 00 00 00 00 00 00                 r0.........
+	rel 0+0 t=22 type:interface {}<0>+0
+	rel 39+8 t=1 command-line-arguments.smallint8iface<1>+0
+	rel 47+8 t=1 command-line-arguments.smallint8iface<1>+15
+	rel 69+4 t=31 go:info.interface {}<0>+0
+aux for command-line-arguments.smalluint8iface<0> SDWARFLINES size=23
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 0f 14  ................
+	0x0010 06 55 02 08 00 01 01                             .U.....
+	rel 3+8 t=1 command-line-arguments.smalluint8iface<1>+0
+aux for command-line-arguments.smalluint8iface<0> SDWARFFCN size=76
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 73 6d 61 6c 6c 75 69 6e  guments.smalluin
+	0x0020 74 38 69 66 61 63 65 00 00 00 00 00 00 00 00 00  t8iface.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 11  ................
+	0x0040 7e 72 30 00 01 13 00 00 00 00 00 00              ~r0.........
+	rel 0+0 t=22 type:interface {}<0>+0
+	rel 40+8 t=1 command-line-arguments.smalluint8iface<1>+0
+	rel 48+8 t=1 command-line-arguments.smalluint8iface<1>+15
+	rel 70+4 t=31 go:info.interface {}<0>+0

@@ -1,0 +1,8 @@
+./file.go
+./pe.go
+./section.go
+./string.go
+./symbol.go
+./file_cgo_test.go
+./file_test.go
+./symbols_test.go

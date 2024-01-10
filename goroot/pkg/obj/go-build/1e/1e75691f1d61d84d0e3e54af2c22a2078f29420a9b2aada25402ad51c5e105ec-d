@@ -1,0 +1,7 @@
+./cache.go
+./coderepo.go
+./fetch.go
+./key.go
+./proxy.go
+./repo.go
+./sumdb.go

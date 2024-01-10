@@ -1,0 +1,9 @@
+./download.go
+./edit.go
+./graph.go
+./init.go
+./mod.go
+./tidy.go
+./vendor.go
+./verify.go
+./why.go

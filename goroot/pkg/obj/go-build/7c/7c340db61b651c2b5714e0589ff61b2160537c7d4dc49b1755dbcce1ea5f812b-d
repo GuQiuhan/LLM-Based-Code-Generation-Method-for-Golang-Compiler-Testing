@@ -1,0 +1,165 @@
+# command-line-arguments
+command-line-arguments.f1<1> STEXT size=74 args=0x10 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	TEXT	command-line-arguments.f1(SB), ABIInternal, $32-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	JLS	47
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	SUBQ	$32, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	MOVQ	BP, 24(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	LEAQ	24(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	FUNCDATA	$5, command-line-arguments.f1.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	FUNCDATA	$6, command-line-arguments.f1.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:12)	MOVQ	BX, CX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:12)	MOVQ	AX, BX
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:12)	MOVL	$1, AX
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:12)	PCDATA	$1, $0
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:12)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:12)	CALL	command-line-arguments.g(SB)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:13)	MOVQ	24(SP), BP
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:13)	ADDQ	$32, SP
+	0x002e 00046 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:13)	RET
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:13)	NOP
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	PCDATA	$1, $-1
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	PCDATA	$0, $-2
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	MOVQ	AX, 8(SP)
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	MOVQ	BX, 16(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	CALL	runtime.morestack_noctxt(SB)
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	MOVQ	8(SP), AX
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	MOVQ	16(SP), BX
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	PCDATA	$0, $-1
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:10)	JMP	0
+	0x0000 49 3b 66 10 76 29 48 83 ec 20 48 89 6c 24 18 48  I;f.v)H.. H.l$.H
+	0x0010 8d 6c 24 18 48 89 d9 48 89 c3 b8 01 00 00 00 90  .l$.H..H........
+	0x0020 e8 00 00 00 00 48 8b 6c 24 18 48 83 c4 20 c3 48  .....H.l$.H.. .H
+	0x0030 89 44 24 08 48 89 5c 24 10 e8 00 00 00 00 48 8b  .D$.H.\$......H.
+	0x0040 44 24 08 48 8b 5c 24 10 eb b6                    D$.H.\$...
+	rel 33+4 t=7 command-line-arguments.g<1>+0
+	rel 58+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.f2<1> STEXT size=68 args=0x10 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	TEXT	command-line-arguments.f2(SB), ABIInternal, $32-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	JLS	41
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	SUBQ	$32, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	MOVQ	BP, 24(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	LEAQ	24(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	FUNCDATA	$5, command-line-arguments.f2.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	FUNCDATA	$6, command-line-arguments.f2.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:18)	MOVQ	BX, AX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:18)	MOVQ	AX, CX
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:18)	PCDATA	$1, $0
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:18)	CALL	command-line-arguments.g(SB)
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:19)	MOVQ	24(SP), BP
+	0x0024 00036 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:19)	ADDQ	$32, SP
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:19)	RET
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:19)	NOP
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	PCDATA	$1, $-1
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	PCDATA	$0, $-2
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	MOVQ	AX, 8(SP)
+	0x002e 00046 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	MOVQ	BX, 16(SP)
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	CALL	runtime.morestack_noctxt(SB)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	MOVQ	8(SP), AX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	MOVQ	16(SP), BX
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	PCDATA	$0, $-1
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:16)	JMP	0
+	0x0000 49 3b 66 10 76 23 48 83 ec 20 48 89 6c 24 18 48  I;f.v#H.. H.l$.H
+	0x0010 8d 6c 24 18 48 89 d8 48 89 c1 e8 00 00 00 00 48  .l$.H..H.......H
+	0x0020 8b 6c 24 18 48 83 c4 20 c3 48 89 44 24 08 48 89  .l$.H.. .H.D$.H.
+	0x0030 5c 24 10 e8 00 00 00 00 48 8b 44 24 08 48 8b 5c  \$......H.D$.H.\
+	0x0040 24 10 eb bc                                      $...
+	rel 27+4 t=7 command-line-arguments.g<1>+0
+	rel 52+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.g<1> STEXT nosplit size=1 args=0x18 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:23)	TEXT	command-line-arguments.g(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:23)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:23)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:23)	FUNCDATA	$5, command-line-arguments.g.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/regabi_regalloc.go:23)	RET
+	0x0000 c3                                               .
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+gclocals·g2BeySu+wFnoycgXfElmcg==<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+command-line-arguments.f1.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.f1.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.f2.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.f2.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.g.arginfo1<0> SRODATA static dupok size=7
+	0x0000 00 08 08 08 10 08 ff                             .......
+aux for command-line-arguments.f1<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 1f 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 1a 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.f1<1>+0
+	rel 59+8 t=1 command-line-arguments.f1<1>+0
+aux for command-line-arguments.f1<0> SDWARFLINES size=29
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 04 14  ................
+	0x0010 0a 4b 9d 06 2d 06 9c 70 02 1b 00 01 01           .K..-..p.....
+	rel 3+8 t=1 command-line-arguments.f1<1>+0
+aux for command-line-arguments.f1<0> SDWARFFCN size=77
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 31 00 00 00 00 00 00  guments.f1......
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00  ................
+	0x0030 00 01 12 61 00 00 0a 00 00 00 00 00 00 00 00 12  ...a............
+	0x0040 62 00 00 0a 00 00 00 00 00 00 00 00 00           b............
+	rel 27+8 t=1 command-line-arguments.f1<1>+0
+	rel 35+8 t=1 command-line-arguments.f1<1>+74
+	rel 55+4 t=31 go:info.int<0>+0
+	rel 59+4 t=31 <0>+0
+	rel 68+4 t=31 go:info.int<0>+0
+	rel 72+4 t=31 <0>+51
+aux for command-line-arguments.f2<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 17 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 1f 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.f2<1>+0
+	rel 59+8 t=1 command-line-arguments.f2<1>+0
+aux for command-line-arguments.f2<0> SDWARFLINES size=29
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 0a 14  ................
+	0x0010 0a 4b 9d 06 2d 06 60 70 02 1b 00 01 01           .K..-.`p.....
+	rel 3+8 t=1 command-line-arguments.f2<1>+0
+aux for command-line-arguments.f2<0> SDWARFFCN size=77
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 32 00 00 00 00 00 00  guments.f2......
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00  ................
+	0x0030 00 01 12 61 00 00 10 00 00 00 00 00 00 00 00 12  ...a............
+	0x0040 62 00 00 10 00 00 00 00 00 00 00 00 00           b............
+	rel 27+8 t=1 command-line-arguments.f2<1>+0
+	rel 35+8 t=1 command-line-arguments.f2<1>+68
+	rel 55+4 t=31 go:info.int<0>+0
+	rel 59+4 t=31 <0>+0
+	rel 68+4 t=31 go:info.int<0>+0
+	rel 72+4 t=31 <0>+51
+aux for command-line-arguments.g<0> SDWARFLINES size=21
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 11 14  ................
+	0x0010 02 01 00 01 01                                   .....
+	rel 3+8 t=1 command-line-arguments.g<1>+0
+aux for command-line-arguments.g<0> SDWARFFCN size=50
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 67 00 00 00 00 00 00 00  guments.g.......
+	0x0020 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0030 01 00                                            ..
+	rel 26+8 t=1 command-line-arguments.g<1>+0
+	rel 34+8 t=1 command-line-arguments.g<1>+1

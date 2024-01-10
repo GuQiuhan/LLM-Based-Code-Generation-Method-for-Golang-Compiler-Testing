@@ -1,0 +1,4 @@
+./example_test.go
+./examplefiles_test.go
+./examplefunc_test.go
+./link_test.go

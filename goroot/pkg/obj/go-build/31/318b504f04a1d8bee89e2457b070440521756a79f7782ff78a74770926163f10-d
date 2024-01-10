@@ -1,0 +1,6 @@
+./elf.go
+./file.go
+./reader.go
+./elf_test.go
+./file_test.go
+./symbols_test.go

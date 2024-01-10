@@ -1,0 +1,4 @@
+./doc.go
+./syslog.go
+./syslog_unix.go
+./syslog_test.go

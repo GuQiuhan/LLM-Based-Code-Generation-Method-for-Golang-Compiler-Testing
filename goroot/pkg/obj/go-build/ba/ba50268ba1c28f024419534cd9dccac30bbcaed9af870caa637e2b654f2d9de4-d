@@ -1,0 +1,4 @@
+./buildid.go
+./note.go
+./rewrite.go
+./buildid_test.go

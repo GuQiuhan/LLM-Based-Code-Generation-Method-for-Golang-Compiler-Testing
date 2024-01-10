@@ -1,0 +1,16 @@
+./binarytree_test.go
+./fannkuch_test.go
+./fasta_test.go
+./fmt_test.go
+./gob_test.go
+./gzip_test.go
+./http_test.go
+./json_test.go
+./jsondata_test.go
+./mandel_test.go
+./parser_test.go
+./parserdata_test.go
+./regexp_test.go
+./revcomp_test.go
+./template_test.go
+./time_test.go

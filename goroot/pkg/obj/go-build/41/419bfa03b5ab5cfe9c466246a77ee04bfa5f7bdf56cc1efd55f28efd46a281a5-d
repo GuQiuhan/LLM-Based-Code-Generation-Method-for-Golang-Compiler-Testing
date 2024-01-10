@@ -1,0 +1,5 @@
+./reader.go
+./writer.go
+./fuzz_test.go
+./reader_test.go
+./writer_test.go

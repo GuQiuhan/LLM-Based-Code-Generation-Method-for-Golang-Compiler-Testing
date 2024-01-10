@@ -1,0 +1,8 @@
+./fe.go
+./fe_amd64.go
+./fe_arm64_noasm.go
+./fe_generic.go
+./fe_alias_test.go
+./fe_bench_test.go
+./fe_test.go
+./fe_amd64.s

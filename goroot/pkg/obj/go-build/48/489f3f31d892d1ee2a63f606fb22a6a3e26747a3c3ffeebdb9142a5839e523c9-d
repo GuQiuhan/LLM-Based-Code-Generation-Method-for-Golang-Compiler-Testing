@@ -1,0 +1,12 @@
+./common.go
+./format.go
+./reader.go
+./stat_actime1.go
+./stat_unix.go
+./strconv.go
+./writer.go
+./fuzz_test.go
+./reader_test.go
+./strconv_test.go
+./tar_test.go
+./writer_test.go

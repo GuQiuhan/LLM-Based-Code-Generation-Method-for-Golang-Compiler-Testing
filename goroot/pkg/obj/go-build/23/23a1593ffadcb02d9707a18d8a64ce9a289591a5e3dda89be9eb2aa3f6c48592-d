@@ -1,0 +1,225 @@
+# command-line-arguments
+command-line-arguments.(*T).f<1> STEXT size=143 args=0x8 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	TEXT	command-line-arguments.(*T).f(SB), ABIInternal, $24-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	JLS	119
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	SUBQ	$24, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	MOVQ	BP, 16(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	LEAQ	16(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	FUNCDATA	$5, command-line-arguments.(*T).f.arginfo1(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	FUNCDATA	$6, command-line-arguments.(*T).f.argliveinfo(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	PCDATA	$3, $1
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	MOVQ	AX, command-line-arguments.t+32(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	PCDATA	$3, $-1
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:18)	MOVQ	(AX), CX
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:18)	TESTB	AL, (CX)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:18)	TESTB	AL, (AX)
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:18)	MOVL	$80, BX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:18)	MOVQ	CX, AX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:18)	PCDATA	$1, $0
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:18)	CALL	runtime.memclrNoHeapPointers(SB)
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:23)	MOVQ	command-line-arguments.t+32(SP), CX
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:23)	MOVQ	(CX), AX
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:23)	TESTB	AL, (AX)
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:23)	MOVL	$80, BX
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:23)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:23)	CALL	runtime.memclrNoHeapPointers(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:28)	MOVQ	command-line-arguments.t+32(SP), CX
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:28)	MOVQ	(CX), AX
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:28)	TESTB	AL, (AX)
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:28)	MOVL	$80, BX
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:28)	CALL	runtime.memclrNoHeapPointers(SB)
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:33)	MOVQ	command-line-arguments.t+32(SP), CX
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:33)	MOVQ	(CX), AX
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:33)	TESTB	AL, (AX)
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:33)	MOVL	$80, BX
+	0x0068 00104 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:33)	PCDATA	$1, $1
+	0x0068 00104 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:33)	CALL	runtime.memclrNoHeapPointers(SB)
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:36)	MOVQ	16(SP), BP
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:36)	ADDQ	$24, SP
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:36)	RET
+	0x0077 00119 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:36)	NOP
+	0x0077 00119 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	PCDATA	$1, $-1
+	0x0077 00119 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	PCDATA	$0, $-2
+	0x0077 00119 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	MOVQ	AX, 8(SP)
+	0x007c 00124 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	NOP
+	0x0080 00128 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	CALL	runtime.morestack_noctxt(SB)
+	0x0085 00133 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	MOVQ	8(SP), AX
+	0x008a 00138 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	PCDATA	$0, $-1
+	0x008a 00138 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue52635.go:16)	JMP	0
+	0x0000 49 3b 66 10 76 71 48 83 ec 18 48 89 6c 24 10 48  I;f.vqH...H.l$.H
+	0x0010 8d 6c 24 10 48 89 44 24 20 48 8b 08 84 01 84 00  .l$.H.D$ H......
+	0x0020 bb 50 00 00 00 48 89 c8 e8 00 00 00 00 48 8b 4c  .P...H.......H.L
+	0x0030 24 20 48 8b 01 84 00 bb 50 00 00 00 0f 1f 40 00  $ H.....P.....@.
+	0x0040 e8 00 00 00 00 48 8b 4c 24 20 48 8b 01 84 00 bb  .....H.L$ H.....
+	0x0050 50 00 00 00 e8 00 00 00 00 48 8b 4c 24 20 48 8b  P........H.L$ H.
+	0x0060 01 84 00 bb 50 00 00 00 e8 00 00 00 00 48 8b 6c  ....P........H.l
+	0x0070 24 10 48 83 c4 18 c3 48 89 44 24 08 0f 1f 40 00  $.H....H.D$...@.
+	0x0080 e8 00 00 00 00 48 8b 44 24 08 e9 71 ff ff ff     .....H.D$..q...
+	rel 41+4 t=7 runtime.memclrNoHeapPointers<1>+0
+	rel 65+4 t=7 runtime.memclrNoHeapPointers<1>+0
+	rel 85+4 t=7 runtime.memclrNoHeapPointers<1>+0
+	rel 105+4 t=7 runtime.memclrNoHeapPointers<1>+0
+	rel 129+4 t=7 runtime.morestack_noctxt<0>+0
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+type:.eqfunc80<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 50 00 00 00 00 00 00 00  ........P.......
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+runtime.gcbits.<0> SRODATA dupok size=0
+type:.namedata.*[10]int-<0> SRODATA dupok size=10
+	0x0000 00 08 2a 5b 31 30 5d 69 6e 74                    ..*[10]int
+type:[10]int<0> SRODATA dupok size=72
+	0x0000 50 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  P...............
+	0x0010 fc 06 7c ec 0a 08 08 11 00 00 00 00 00 00 00 00  ..|.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 0a 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type:.eqfunc80<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[10]int-<0>+0
+	rel 44+4 t=-32763 type:*[10]int<0>+0
+	rel 48+8 t=1 type:int<0>+0
+	rel 56+8 t=1 type:[]int<0>+0
+runtime.memequal64·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64<1>+0
+runtime.gcbits.0100000000000000<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:*[10]int<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 a0 e1 8b 37 08 08 08 36 00 00 00 00 00 00 00 00  ...7...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[10]int-<0>+0
+	rel 48+8 t=1 type:[10]int<0>+0
+type:.eqfunc88<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 58 00 00 00 00 00 00 00  ........X.......
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+type:.namedata.*codegen.T.<0> SRODATA dupok size=12
+	0x0000 01 0a 2a 63 6f 64 65 67 65 6e 2e 54              ..*codegen.T
+type:.namedata.*func(*codegen.T)-<0> SRODATA dupok size=19
+	0x0000 00 11 2a 66 75 6e 63 28 2a 63 6f 64 65 67 65 6e  ..*func(*codegen
+	0x0010 2e 54 29                                         .T)
+type:*func(*command-line-arguments.T)<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 f4 ac 62 49 08 08 08 36 00 00 00 00 00 00 00 00  ..bI...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*func(*codegen.T)-<0>+0
+	rel 48+8 t=1 type:func(*command-line-arguments.T)<0>+0
+type:func(*command-line-arguments.T)<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 09 37 2f fb 02 08 08 33 00 00 00 00 00 00 00 00  .7/....3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*func(*codegen.T)-<0>+0
+	rel 44+4 t=-32763 type:*func(*command-line-arguments.T)<0>+0
+	rel 56+8 t=1 type:*command-line-arguments.T<0>+0
+type:.importpath.command-line-arguments.<0> SRODATA dupok size=24
+	0x0000 00 16 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61  ..command-line-a
+	0x0010 72 67 75 6d 65 6e 74 73                          rguments
+type:.namedata.f-<0> SRODATA dupok size=3
+	0x0000 00 01 66                                         ..f
+type:.namedata.*func()-<0> SRODATA dupok size=9
+	0x0000 00 07 2a 66 75 6e 63 28 29                       ..*func()
+type:*func()<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 75 ac 29 27 08 08 08 36 00 00 00 00 00 00 00 00  u.)'...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*func()-<0>+0
+	rel 48+8 t=1 type:func()<0>+0
+type:func()<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 fe fa b9 80 02 08 08 33 00 00 00 00 00 00 00 00  .......3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00                                      ....
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*func()-<0>+0
+	rel 44+4 t=-32763 type:*func()<0>+0
+type:*command-line-arguments.T<0> SRODATA size=88
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 59 41 78 e0 09 08 08 36 00 00 00 00 00 00 00 00  YAx....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00  ................
+	0x0040 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*codegen.T.<0>+0
+	rel 48+8 t=1 type:command-line-arguments.T<0>+0
+	rel 56+4 t=5 type:.importpath.command-line-arguments.<0>+0
+	rel 72+4 t=5 type:.namedata.f-<0>+0
+	rel 76+4 t=26 type:func()<0>+0
+	rel 80+4 t=26 command-line-arguments.(*T).f<1>+0
+	rel 84+4 t=26 command-line-arguments.(*T).f<1>+0
+type:.namedata.a-<0> SRODATA dupok size=3
+	0x0000 00 01 61                                         ..a
+type:.namedata.b-<0> SRODATA dupok size=3
+	0x0000 00 01 62                                         ..b
+type:command-line-arguments.T<0> SRODATA size=144
+	0x0000 58 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  X...............
+	0x0010 fa 01 63 9b 0f 08 08 19 00 00 00 00 00 00 00 00  ..c.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 02 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00  ........@.......
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 type:.eqfunc88<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*codegen.T.<0>+0
+	rel 44+4 t=5 type:*command-line-arguments.T<0>+0
+	rel 48+8 t=1 type:.importpath.command-line-arguments.<0>+0
+	rel 56+8 t=1 type:command-line-arguments.T<0>+96
+	rel 80+4 t=5 type:.importpath.command-line-arguments.<0>+0
+	rel 96+8 t=1 type:.namedata.a-<0>+0
+	rel 104+8 t=1 type:*[10]int<0>+0
+	rel 120+8 t=1 type:.namedata.b-<0>+0
+	rel 128+8 t=1 type:[10]int<0>+0
+gclocals·wgcWObbY2HYnK2SU/U22lA==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 01 00 00 00 01 00                    ..........
+gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==<0> SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+command-line-arguments.(*T).f.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.(*T).f.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+aux for command-line-arguments.(*T).f<0> SDWARFLOC size=70
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 01 00 50 28 00 00 00 00 00 00 00 8f 00 00 00 00  ..P(............
+	0x0030 00 00 00 01 00 9c 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.(*T).f<1>+0
+aux for command-line-arguments.(*T).f<0> SDWARFLINES size=50
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 0a 14  ................
+	0x0010 0a 4b 06 9b 06 43 06 2d 06 be 06 41 06 d2 06 41  .K...C.-...A...A
+	0x0020 06 aa 06 41 06 a8 03 70 6f 06 41 06 37 02 0f 00  ...A...po.A.7...
+	0x0030 01 01                                            ..
+	rel 3+8 t=1 command-line-arguments.(*T).f<1>+0
+aux for command-line-arguments.(*T).f<0> SDWARFFCN size=68
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 28 2a 54 29 2e 66 00 00  guments.(*T).f..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 12 74 00 00 10 00 00 00 00 00  .......t........
+	0x0040 00 00 00 00                                      ....
+	rel 31+8 t=1 command-line-arguments.(*T).f<1>+0
+	rel 39+8 t=1 command-line-arguments.(*T).f<1>+143
+	rel 59+4 t=31 go:info.*command-line-arguments.T<0>+0
+	rel 63+4 t=31 <0>+0

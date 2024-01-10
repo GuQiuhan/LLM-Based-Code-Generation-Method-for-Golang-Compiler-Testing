@@ -1,0 +1,7 @@
+./flag.go
+./path.go
+./pkg.go
+./search.go
+./test.go
+./flag_test.go
+./pkg_test.go

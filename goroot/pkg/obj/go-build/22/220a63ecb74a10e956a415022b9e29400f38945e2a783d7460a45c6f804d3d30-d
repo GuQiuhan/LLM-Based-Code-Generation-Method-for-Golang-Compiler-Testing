@@ -1,0 +1,10 @@
+./anonunion_defs.go
+./bitfields_defs.go
+./fieldtypedef_defs.go
+./issue37479_defs.go
+./issue37621_defs.go
+./issue38649_defs.go
+./issue39534_defs.go
+./issue48396_defs.go
+./issue8478_defs.go
+./main.go

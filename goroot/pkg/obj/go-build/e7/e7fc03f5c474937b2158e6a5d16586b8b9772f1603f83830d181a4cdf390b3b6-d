@@ -1,0 +1,4 @@
+./doc.go
+./nm.go
+./nm_cgo_test.go
+./nm_test.go

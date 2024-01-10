@@ -1,0 +1,361 @@
+# command-line-arguments
+command-line-arguments.convertNeq0B<1> STEXT nosplit size=6 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:11)	TEXT	command-line-arguments.convertNeq0B(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:11)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:11)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:11)	FUNCDATA	$5, command-line-arguments.convertNeq0B.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:11)	FUNCDATA	$6, command-line-arguments.convertNeq0B.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:11)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:16)	ANDL	$1, AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:17)	ANDL	BX, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:17)	RET
+	0x0000 83 e0 01 21 d8 c3                                ...!..
+command-line-arguments.convertNeq0W<1> STEXT nosplit size=6 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:20)	TEXT	command-line-arguments.convertNeq0W(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:20)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:20)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:20)	FUNCDATA	$5, command-line-arguments.convertNeq0W.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:20)	FUNCDATA	$6, command-line-arguments.convertNeq0W.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:20)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:25)	ANDL	$1, AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:26)	ANDL	BX, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:26)	RET
+	0x0000 83 e0 01 21 d8 c3                                ...!..
+command-line-arguments.convertNeq0L<1> STEXT nosplit size=6 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:29)	TEXT	command-line-arguments.convertNeq0L(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:29)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:29)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:29)	FUNCDATA	$5, command-line-arguments.convertNeq0L.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:29)	FUNCDATA	$6, command-line-arguments.convertNeq0L.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:29)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:34)	ANDL	$1, AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:35)	ANDL	BX, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:35)	RET
+	0x0000 83 e0 01 21 d8 c3                                ...!..
+command-line-arguments.convertNeq0Q<1> STEXT nosplit size=6 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:38)	TEXT	command-line-arguments.convertNeq0Q(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:38)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:38)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:38)	FUNCDATA	$5, command-line-arguments.convertNeq0Q.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:38)	FUNCDATA	$6, command-line-arguments.convertNeq0Q.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:38)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:43)	ANDL	$1, AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:44)	ANDL	BX, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:44)	RET
+	0x0000 83 e0 01 21 d8 c3                                ...!..
+command-line-arguments.convertNeqBool32<1> STEXT nosplit size=4 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:47)	TEXT	command-line-arguments.convertNeqBool32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:47)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:47)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:47)	FUNCDATA	$5, command-line-arguments.convertNeqBool32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:47)	FUNCDATA	$6, command-line-arguments.convertNeqBool32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:47)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:51)	ANDL	$1, AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:51)	RET
+	0x0000 83 e0 01 c3                                      ....
+command-line-arguments.convertEqBool32<1> STEXT nosplit size=8 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:54)	TEXT	command-line-arguments.convertEqBool32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:54)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:54)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:54)	FUNCDATA	$5, command-line-arguments.convertEqBool32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:54)	FUNCDATA	$6, command-line-arguments.convertEqBool32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:54)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:58)	BTL	$0, AX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:58)	SETCC	AL
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:58)	RET
+	0x0000 0f ba e0 00 0f 93 c0 c3                          ........
+command-line-arguments.convertNeqBool64<1> STEXT nosplit size=4 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:61)	TEXT	command-line-arguments.convertNeqBool64(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:61)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:61)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:61)	FUNCDATA	$5, command-line-arguments.convertNeqBool64.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:61)	FUNCDATA	$6, command-line-arguments.convertNeqBool64.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:61)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:65)	ANDL	$1, AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:65)	RET
+	0x0000 83 e0 01 c3                                      ....
+command-line-arguments.convertEqBool64<1> STEXT nosplit size=8 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:68)	TEXT	command-line-arguments.convertEqBool64(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:68)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:68)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:68)	FUNCDATA	$5, command-line-arguments.convertEqBool64.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:68)	FUNCDATA	$6, command-line-arguments.convertEqBool64.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:68)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:72)	BTL	$0, AX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:72)	SETCC	AL
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bool.go:72)	RET
+	0x0000 0f ba e0 00 0f 93 c0 c3                          ........
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+gclocals·g2BeySu+wFnoycgXfElmcg==<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+command-line-arguments.convertNeq0B.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 01 01 01 ff                                   .....
+command-line-arguments.convertNeq0B.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.convertNeq0W.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 02 02 01 ff                                   .....
+command-line-arguments.convertNeq0W.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.convertNeq0L.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 04 04 01 ff                                   .....
+command-line-arguments.convertNeq0L.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.convertNeq0Q.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 01 ff                                   .....
+command-line-arguments.convertNeq0Q.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.convertNeqBool32.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.convertNeqBool32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.convertEqBool32.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.convertEqBool32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.convertNeqBool64.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.convertNeqBool64.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.convertEqBool64.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.convertEqBool64.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+aux for command-line-arguments.convertNeq0B<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 06 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 03 00 00 00 00 00 00 00 05 00  ................
+	0x0080 00 00 00 00 00 00 01 00 50 00 00 00 00 00 00 00  ........P.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.convertNeq0B<1>+0
+	rel 59+8 t=1 command-line-arguments.convertNeq0B<1>+0
+	rel 110+8 t=1 command-line-arguments.convertNeq0B<1>+0
+aux for command-line-arguments.convertNeq0B<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 0a 14  ................
+	0x0010 2e 06 23 02 01 00 01 01                          ..#.....
+	rel 3+8 t=1 command-line-arguments.convertNeq0B<1>+0
+aux for command-line-arguments.convertNeq0B<0> SDWARFFCN size=111
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 76 65 72 74 4e  guments.convertN
+	0x0020 65 71 30 42 00 00 00 00 00 00 00 00 00 00 00 00  eq0B............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 12 78 00 00  .............x..
+	0x0040 0b 00 00 00 00 00 00 00 00 12 63 00 00 0b 00 00  ..........c.....
+	0x0050 00 00 00 00 00 00 11 7e 72 30 00 01 0b 00 00 00  .......~r0......
+	0x0060 00 00 0d 62 00 10 00 00 00 00 00 00 00 00 00     ...b...........
+	rel 0+0 t=22 type:bool<0>+0
+	rel 37+8 t=1 command-line-arguments.convertNeq0B<1>+0
+	rel 45+8 t=1 command-line-arguments.convertNeq0B<1>+6
+	rel 65+4 t=31 go:info.uint8<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 78+4 t=31 go:info.bool<0>+0
+	rel 82+4 t=31 <0>+51
+	rel 93+4 t=31 go:info.bool<0>+0
+	rel 102+4 t=31 go:info.bool<0>+0
+	rel 106+4 t=31 <0>+102
+aux for command-line-arguments.convertNeq0W<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 06 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 03 00 00 00 00 00 00 00 05 00  ................
+	0x0080 00 00 00 00 00 00 01 00 50 00 00 00 00 00 00 00  ........P.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.convertNeq0W<1>+0
+	rel 59+8 t=1 command-line-arguments.convertNeq0W<1>+0
+	rel 110+8 t=1 command-line-arguments.convertNeq0W<1>+0
+aux for command-line-arguments.convertNeq0W<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 13 14  ................
+	0x0010 2e 06 23 02 01 00 01 01                          ..#.....
+	rel 3+8 t=1 command-line-arguments.convertNeq0W<1>+0
+aux for command-line-arguments.convertNeq0W<0> SDWARFFCN size=111
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 76 65 72 74 4e  guments.convertN
+	0x0020 65 71 30 57 00 00 00 00 00 00 00 00 00 00 00 00  eq0W............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 12 78 00 00  .............x..
+	0x0040 14 00 00 00 00 00 00 00 00 12 63 00 00 14 00 00  ..........c.....
+	0x0050 00 00 00 00 00 00 11 7e 72 30 00 01 14 00 00 00  .......~r0......
+	0x0060 00 00 0d 62 00 19 00 00 00 00 00 00 00 00 00     ...b...........
+	rel 0+0 t=22 type:bool<0>+0
+	rel 37+8 t=1 command-line-arguments.convertNeq0W<1>+0
+	rel 45+8 t=1 command-line-arguments.convertNeq0W<1>+6
+	rel 65+4 t=31 go:info.uint16<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 78+4 t=31 go:info.bool<0>+0
+	rel 82+4 t=31 <0>+51
+	rel 93+4 t=31 go:info.bool<0>+0
+	rel 102+4 t=31 go:info.bool<0>+0
+	rel 106+4 t=31 <0>+102
+aux for command-line-arguments.convertNeq0L<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 06 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 03 00 00 00 00 00 00 00 05 00  ................
+	0x0080 00 00 00 00 00 00 01 00 50 00 00 00 00 00 00 00  ........P.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.convertNeq0L<1>+0
+	rel 59+8 t=1 command-line-arguments.convertNeq0L<1>+0
+	rel 110+8 t=1 command-line-arguments.convertNeq0L<1>+0
+aux for command-line-arguments.convertNeq0L<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 1c 14  ................
+	0x0010 2e 06 23 02 01 00 01 01                          ..#.....
+	rel 3+8 t=1 command-line-arguments.convertNeq0L<1>+0
+aux for command-line-arguments.convertNeq0L<0> SDWARFFCN size=111
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 76 65 72 74 4e  guments.convertN
+	0x0020 65 71 30 4c 00 00 00 00 00 00 00 00 00 00 00 00  eq0L............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 12 78 00 00  .............x..
+	0x0040 1d 00 00 00 00 00 00 00 00 12 63 00 00 1d 00 00  ..........c.....
+	0x0050 00 00 00 00 00 00 11 7e 72 30 00 01 1d 00 00 00  .......~r0......
+	0x0060 00 00 0d 62 00 22 00 00 00 00 00 00 00 00 00     ...b.".........
+	rel 0+0 t=22 type:bool<0>+0
+	rel 37+8 t=1 command-line-arguments.convertNeq0L<1>+0
+	rel 45+8 t=1 command-line-arguments.convertNeq0L<1>+6
+	rel 65+4 t=31 go:info.uint32<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 78+4 t=31 go:info.bool<0>+0
+	rel 82+4 t=31 <0>+51
+	rel 93+4 t=31 go:info.bool<0>+0
+	rel 102+4 t=31 go:info.bool<0>+0
+	rel 106+4 t=31 <0>+102
+aux for command-line-arguments.convertNeq0Q<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 06 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 03 00 00 00 00 00 00 00 05 00  ................
+	0x0080 00 00 00 00 00 00 01 00 50 00 00 00 00 00 00 00  ........P.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.convertNeq0Q<1>+0
+	rel 59+8 t=1 command-line-arguments.convertNeq0Q<1>+0
+	rel 110+8 t=1 command-line-arguments.convertNeq0Q<1>+0
+aux for command-line-arguments.convertNeq0Q<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 25 14  ..............%.
+	0x0010 2e 06 23 02 01 00 01 01                          ..#.....
+	rel 3+8 t=1 command-line-arguments.convertNeq0Q<1>+0
+aux for command-line-arguments.convertNeq0Q<0> SDWARFFCN size=111
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 76 65 72 74 4e  guments.convertN
+	0x0020 65 71 30 51 00 00 00 00 00 00 00 00 00 00 00 00  eq0Q............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 12 78 00 00  .............x..
+	0x0040 26 00 00 00 00 00 00 00 00 12 63 00 00 26 00 00  &.........c..&..
+	0x0050 00 00 00 00 00 00 11 7e 72 30 00 01 26 00 00 00  .......~r0..&...
+	0x0060 00 00 0d 62 00 2b 00 00 00 00 00 00 00 00 00     ...b.+.........
+	rel 0+0 t=22 type:bool<0>+0
+	rel 37+8 t=1 command-line-arguments.convertNeq0Q<1>+0
+	rel 45+8 t=1 command-line-arguments.convertNeq0Q<1>+6
+	rel 65+4 t=31 go:info.uint64<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 78+4 t=31 go:info.bool<0>+0
+	rel 82+4 t=31 <0>+51
+	rel 93+4 t=31 go:info.bool<0>+0
+	rel 102+4 t=31 go:info.bool<0>+0
+	rel 106+4 t=31 <0>+102
+aux for command-line-arguments.convertNeqBool32<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.convertNeqBool32<1>+0
+aux for command-line-arguments.convertNeqBool32<0> SDWARFLINES size=23
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 2d 14  ..............-.
+	0x0010 06 2d 02 01 00 01 01                             .-.....
+	rel 3+8 t=1 command-line-arguments.convertNeqBool32<1>+0
+aux for command-line-arguments.convertNeqBool32<0> SDWARFFCN size=90
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 76 65 72 74 4e  guments.convertN
+	0x0020 65 71 42 6f 6f 6c 33 32 00 00 00 00 00 00 00 00  eqBool32........
+	0x0030 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01  ................
+	0x0040 12 78 00 00 2f 00 00 00 00 00 00 00 00 11 7e 72  .x../.........~r
+	0x0050 30 00 01 2f 00 00 00 00 00 00                    0../......
+	rel 0+0 t=22 type:bool<0>+0
+	rel 41+8 t=1 command-line-arguments.convertNeqBool32<1>+0
+	rel 49+8 t=1 command-line-arguments.convertNeqBool32<1>+4
+	rel 69+4 t=31 go:info.uint32<0>+0
+	rel 73+4 t=31 <0>+0
+	rel 84+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.convertEqBool32<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 07 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.convertEqBool32<1>+0
+aux for command-line-arguments.convertEqBool32<0> SDWARFLINES size=23
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 34 14  ..............4.
+	0x0010 06 37 02 04 00 01 01                             .7.....
+	rel 3+8 t=1 command-line-arguments.convertEqBool32<1>+0
+aux for command-line-arguments.convertEqBool32<0> SDWARFFCN size=89
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 76 65 72 74 45  guments.convertE
+	0x0020 71 42 6f 6f 6c 33 32 00 00 00 00 00 00 00 00 00  qBool32.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 12  ................
+	0x0040 78 00 00 36 00 00 00 00 00 00 00 00 11 7e 72 30  x..6.........~r0
+	0x0050 00 01 36 00 00 00 00 00 00                       ..6......
+	rel 0+0 t=22 type:bool<0>+0
+	rel 40+8 t=1 command-line-arguments.convertEqBool32<1>+0
+	rel 48+8 t=1 command-line-arguments.convertEqBool32<1>+8
+	rel 68+4 t=31 go:info.uint32<0>+0
+	rel 72+4 t=31 <0>+0
+	rel 83+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.convertNeqBool64<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.convertNeqBool64<1>+0
+aux for command-line-arguments.convertNeqBool64<0> SDWARFLINES size=23
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 3b 14  ..............;.
+	0x0010 06 2d 02 01 00 01 01                             .-.....
+	rel 3+8 t=1 command-line-arguments.convertNeqBool64<1>+0
+aux for command-line-arguments.convertNeqBool64<0> SDWARFFCN size=90
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 76 65 72 74 4e  guments.convertN
+	0x0020 65 71 42 6f 6f 6c 36 34 00 00 00 00 00 00 00 00  eqBool64........
+	0x0030 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01  ................
+	0x0040 12 78 00 00 3d 00 00 00 00 00 00 00 00 11 7e 72  .x..=.........~r
+	0x0050 30 00 01 3d 00 00 00 00 00 00                    0..=......
+	rel 0+0 t=22 type:bool<0>+0
+	rel 41+8 t=1 command-line-arguments.convertNeqBool64<1>+0
+	rel 49+8 t=1 command-line-arguments.convertNeqBool64<1>+4
+	rel 69+4 t=31 go:info.uint64<0>+0
+	rel 73+4 t=31 <0>+0
+	rel 84+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.convertEqBool64<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 07 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.convertEqBool64<1>+0
+aux for command-line-arguments.convertEqBool64<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c2 00  ................
+	0x0010 14 06 37 02 04 00 01 01                          ..7.....
+	rel 3+8 t=1 command-line-arguments.convertEqBool64<1>+0
+aux for command-line-arguments.convertEqBool64<0> SDWARFFCN size=89
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 76 65 72 74 45  guments.convertE
+	0x0020 71 42 6f 6f 6c 36 34 00 00 00 00 00 00 00 00 00  qBool64.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 12  ................
+	0x0040 78 00 00 44 00 00 00 00 00 00 00 00 11 7e 72 30  x..D.........~r0
+	0x0050 00 01 44 00 00 00 00 00 00                       ..D......
+	rel 0+0 t=22 type:bool<0>+0
+	rel 40+8 t=1 command-line-arguments.convertEqBool64<1>+0
+	rel 48+8 t=1 command-line-arguments.convertEqBool64<1>+8
+	rel 68+4 t=31 go:info.uint64<0>+0
+	rel 72+4 t=31 <0>+0
+	rel 83+4 t=31 go:info.bool<0>+0

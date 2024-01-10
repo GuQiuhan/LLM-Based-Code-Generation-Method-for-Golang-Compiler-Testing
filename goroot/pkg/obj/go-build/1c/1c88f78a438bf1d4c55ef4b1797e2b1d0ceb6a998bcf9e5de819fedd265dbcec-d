@@ -1,0 +1,4 @@
+./pos.go
+./xpos.go
+./pos_test.go
+./xpos_test.go

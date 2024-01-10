@@ -1,0 +1,1116 @@
+# command-line-arguments
+command-line-arguments.movesmall4<1> STEXT nosplit size=51 args=0x0 locals=0x10 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:13)	TEXT	command-line-arguments.movesmall4(SB), NOSPLIT|ABIInternal, $16-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:13)	SUBQ	$16, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:13)	MOVQ	BP, 8(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:13)	LEAQ	8(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:13)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:13)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:14)	MOVL	$67305985, command-line-arguments.x+4(SP)
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:21)	MOVWLZX	command-line-arguments.x+4(SP), AX
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:21)	MOVBLZX	command-line-arguments.x+6(SP), CX
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:21)	MOVW	AX, command-line-arguments.x+5(SP)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:21)	MOVB	CL, command-line-arguments.x+7(SP)
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:22)	MOVQ	8(SP), BP
+	0x002e 00046 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:22)	ADDQ	$16, SP
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:22)	RET
+	0x0000 48 83 ec 10 48 89 6c 24 08 48 8d 6c 24 08 c7 44  H...H.l$.H.l$..D
+	0x0010 24 04 01 02 03 04 0f b7 44 24 04 0f b6 4c 24 06  $.......D$...L$.
+	0x0020 66 89 44 24 05 88 4c 24 07 48 8b 6c 24 08 48 83  f.D$..L$.H.l$.H.
+	0x0030 c4 10 c3                                         ...
+command-line-arguments.movesmall7<1> STEXT nosplit size=58 args=0x0 locals=0x10 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:24)	TEXT	command-line-arguments.movesmall7(SB), NOSPLIT|ABIInternal, $16-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:24)	SUBQ	$16, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:24)	MOVQ	BP, 8(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:24)	LEAQ	8(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:24)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:24)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:25)	MOVL	$67305985, command-line-arguments.x+1(SP)
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:25)	MOVL	$117835012, command-line-arguments.x+4(SP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:31)	MOVL	command-line-arguments.x+1(SP), AX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:31)	MOVWLZX	command-line-arguments.x+5(SP), CX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:31)	MOVL	AX, command-line-arguments.x+2(SP)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:31)	MOVW	CX, command-line-arguments.x+6(SP)
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:32)	MOVQ	8(SP), BP
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:32)	ADDQ	$16, SP
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:32)	RET
+	0x0000 48 83 ec 10 48 89 6c 24 08 48 8d 6c 24 08 c7 44  H...H.l$.H.l$..D
+	0x0010 24 01 01 02 03 04 c7 44 24 04 04 05 06 07 8b 44  $......D$......D
+	0x0020 24 01 0f b7 4c 24 05 89 44 24 02 66 89 4c 24 06  $...L$..D$.f.L$.
+	0x0030 48 8b 6c 24 08 48 83 c4 10 c3                    H.l$.H....
+command-line-arguments.movesmall16<1> STEXT nosplit size=72 args=0x0 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:34)	TEXT	command-line-arguments.movesmall16(SB), NOSPLIT|ABIInternal, $24-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:34)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:34)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:34)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:34)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:34)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:35)	MOVQ	$578437695752307201, AX
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:35)	MOVQ	AX, command-line-arguments.x(SP)
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:35)	MOVQ	$1157159078456920585, AX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:35)	MOVQ	AX, command-line-arguments.x+8(SP)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:39)	MOVQ	command-line-arguments.x(SP), AX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:39)	MOVQ	command-line-arguments.x+7(SP), CX
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:39)	MOVQ	AX, command-line-arguments.x+1(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:39)	MOVQ	CX, command-line-arguments.x+8(SP)
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:40)	MOVQ	16(SP), BP
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:40)	ADDQ	$24, SP
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:40)	RET
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 b8  H...H.l$.H.l$.H.
+	0x0010 01 02 03 04 05 06 07 08 48 89 04 24 48 b8 09 0a  ........H..$H...
+	0x0020 0b 0c 0d 0e 0f 10 48 89 44 24 08 48 8b 04 24 48  ......H.D$.H..$H
+	0x0030 8b 4c 24 07 48 89 44 24 01 48 89 4c 24 08 48 8b  .L$.H.D$.H.L$.H.
+	0x0040 6c 24 10 48 83 c4 18 c3                          l$.H....
+command-line-arguments.moveDisjointStack32<1> STEXT nosplit size=58 args=0x0 locals=0x28 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:46)	TEXT	command-line-arguments.moveDisjointStack32(SB), NOSPLIT|ABIInternal, $40-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:46)	SUBQ	$40, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:46)	MOVQ	BP, 32(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:46)	LEAQ	32(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:46)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:46)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:47)	MOVUPS	X15, command-line-arguments.s(SP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:47)	MOVUPS	X15, command-line-arguments.s+16(SP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:52)	MOVUPS	command-line-arguments.x(SB), X0
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:52)	MOVUPS	X0, command-line-arguments.s(SP)
+	0x0024 00036 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:52)	MOVUPS	command-line-arguments.x+16(SB), X0
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:52)	MOVUPS	X0, command-line-arguments.s+16(SP)
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:54)	MOVQ	32(SP), BP
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:54)	ADDQ	$40, SP
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:54)	RET
+	0x0000 48 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 44 0f  H..(H.l$ H.l$ D.
+	0x0010 11 3c 24 44 0f 11 7c 24 10 0f 10 05 00 00 00 00  .<$D..|$........
+	0x0020 0f 11 04 24 0f 10 05 00 00 00 00 0f 11 44 24 10  ...$.........D$.
+	0x0030 48 8b 6c 24 20 48 83 c4 28 c3                    H.l$ H..(.
+	rel 2+0 t=23 type:*[32]uint8<0>+0
+	rel 28+4 t=14 command-line-arguments.x<0>+0
+	rel 39+4 t=14 command-line-arguments.x<0>+16
+command-line-arguments.moveDisjointStack64<1> STEXT nosplit size=93 args=0x0 locals=0x68 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:56)	TEXT	command-line-arguments.moveDisjointStack64(SB), NOSPLIT|ABIInternal, $104-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:56)	SUBQ	$104, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:56)	MOVQ	BP, 96(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:56)	LEAQ	96(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:56)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:56)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:57)	LEAQ	command-line-arguments.s(SP), DI
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:57)	PCDATA	$0, $-2
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:57)	LEAQ	-32(DI), DI
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:57)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:57)	DUFFZERO	$331
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:62)	PCDATA	$0, $-1
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:62)	LEAQ	command-line-arguments.s(SP), DI
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:62)	LEAQ	command-line-arguments.x(SB), SI
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:62)	PCDATA	$0, $-2
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:62)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:62)	DUFFCOPY	$812
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:64)	MOVQ	96(SP), BP
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:64)	ADDQ	$104, SP
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:64)	RET
+	0x0000 48 83 ec 68 48 89 6c 24 60 48 8d 6c 24 60 48 8d  H..hH.l$`H.l$`H.
+	0x0010 3c 24 48 8d 7f e0 66 0f 1f 84 00 00 00 00 00 90  <$H...f.........
+	0x0020 48 89 6c 24 f0 48 8d 6c 24 f0 e8 00 00 00 00 48  H.l$.H.l$......H
+	0x0030 8b 6d 00 48 8d 3c 24 48 8d 35 00 00 00 00 66 90  .m.H.<$H.5....f.
+	0x0040 48 89 6c 24 f0 48 8d 6c 24 f0 e8 00 00 00 00 48  H.l$.H.l$......H
+	0x0050 8b 6d 00 48 8b 6c 24 60 48 83 c4 68 c3           .m.H.l$`H..h.
+	rel 2+0 t=23 type:*[96]uint8<0>+0
+	rel 43+4 t=7 runtime.duffzero<1>+331
+	rel 58+4 t=14 command-line-arguments.x<0>+0
+	rel 75+4 t=7 runtime.duffcopy<1>+812
+command-line-arguments.moveDisjointStack<1> STEXT size=113 args=0x0 locals=0x108 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	TEXT	command-line-arguments.moveDisjointStack(SB), ABIInternal, $264-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	LEAQ	-136(SP), R12
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	CMPQ	R12, 16(R14)
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	PCDATA	$0, $-2
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	JLS	106
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	PCDATA	$0, $-1
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	SUBQ	$264, SP
+	0x0015 00021 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	MOVQ	BP, 256(SP)
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	LEAQ	256(SP), BP
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:67)	LEAQ	command-line-arguments.s(SP), DI
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:67)	PCDATA	$0, $-2
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:67)	DUFFZERO	$276
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:74)	PCDATA	$0, $-1
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:74)	LEAQ	command-line-arguments.s(SP), DI
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:74)	LEAQ	command-line-arguments.x(SB), SI
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:74)	PCDATA	$0, $-2
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:74)	DUFFCOPY	$672
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:76)	MOVQ	256(SP), BP
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:76)	ADDQ	$264, SP
+	0x0069 00105 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:76)	RET
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:76)	NOP
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	PCDATA	$1, $-1
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	PCDATA	$0, $-2
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	CALL	runtime.morestack_noctxt(SB)
+	0x006f 00111 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	PCDATA	$0, $-1
+	0x006f 00111 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:66)	JMP	0
+	0x0000 4c 8d a4 24 78 ff ff ff 4d 3b 66 10 76 5c 48 81  L..$x...M;f.v\H.
+	0x0010 ec 08 01 00 00 48 89 ac 24 00 01 00 00 48 8d ac  .....H..$....H..
+	0x0020 24 00 01 00 00 48 8d 3c 24 48 89 6c 24 f0 48 8d  $....H.<$H.l$.H.
+	0x0030 6c 24 f0 e8 00 00 00 00 48 8b 6d 00 48 8d 3c 24  l$......H.m.H.<$
+	0x0040 48 8d 35 00 00 00 00 48 89 6c 24 f0 48 8d 6c 24  H.5....H.l$.H.l$
+	0x0050 f0 e8 00 00 00 00 48 8b 6d 00 48 8b ac 24 00 01  ......H.m.H..$..
+	0x0060 00 00 48 81 c4 08 01 00 00 c3 e8 00 00 00 00 eb  ..H.............
+	0x0070 8f                                               .
+	rel 2+0 t=23 type:*[256]uint8<0>+0
+	rel 52+4 t=7 runtime.duffzero<1>+276
+	rel 67+4 t=14 command-line-arguments.x<0>+0
+	rel 82+4 t=7 runtime.duffcopy<1>+672
+	rel 107+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.moveDisjointArg<1> STEXT size=126 args=0x8 locals=0x108 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	TEXT	command-line-arguments.moveDisjointArg(SB), ABIInternal, $264-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	LEAQ	-136(SP), R12
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	CMPQ	R12, 16(R14)
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	PCDATA	$0, $-2
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	JLS	109
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	PCDATA	$0, $-1
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	SUBQ	$264, SP
+	0x0015 00021 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	MOVQ	BP, 256(SP)
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	LEAQ	256(SP), BP
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	FUNCDATA	$5, command-line-arguments.moveDisjointArg.arginfo1(SB)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	FUNCDATA	$6, command-line-arguments.moveDisjointArg.argliveinfo(SB)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	PCDATA	$3, $1
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:79)	LEAQ	command-line-arguments.s(SP), DI
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:79)	PCDATA	$0, $-2
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:79)	DUFFZERO	$276
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:86)	PCDATA	$0, $-1
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:86)	TESTB	AL, (AX)
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:86)	LEAQ	command-line-arguments.s(SP), DI
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:86)	CMPQ	AX, DI
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:86)	JEQ	93
+	0x0047 00071 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:86)	MOVQ	AX, SI
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:86)	PCDATA	$0, $-2
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:86)	DUFFCOPY	$672
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:88)	PCDATA	$0, $-1
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:88)	MOVQ	256(SP), BP
+	0x0065 00101 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:88)	ADDQ	$264, SP
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:88)	RET
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:88)	NOP
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	PCDATA	$1, $-1
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	PCDATA	$0, $-2
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	MOVQ	AX, 8(SP)
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	CALL	runtime.morestack_noctxt(SB)
+	0x0077 00119 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	MOVQ	8(SP), AX
+	0x007c 00124 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	PCDATA	$0, $-1
+	0x007c 00124 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:78)	JMP	0
+	0x0000 4c 8d a4 24 78 ff ff ff 4d 3b 66 10 76 5f 48 81  L..$x...M;f.v_H.
+	0x0010 ec 08 01 00 00 48 89 ac 24 00 01 00 00 48 8d ac  .....H..$....H..
+	0x0020 24 00 01 00 00 48 8d 3c 24 48 89 6c 24 f0 48 8d  $....H.<$H.l$.H.
+	0x0030 6c 24 f0 e8 00 00 00 00 48 8b 6d 00 84 00 48 8d  l$......H.m...H.
+	0x0040 3c 24 48 39 f8 74 16 48 89 c6 48 89 6c 24 f0 48  <$H9.t.H..H.l$.H
+	0x0050 8d 6c 24 f0 e8 00 00 00 00 48 8b 6d 00 48 8b ac  .l$......H.m.H..
+	0x0060 24 00 01 00 00 48 81 c4 08 01 00 00 c3 48 89 44  $....H.......H.D
+	0x0070 24 08 e8 00 00 00 00 48 8b 44 24 08 eb 82        $......H.D$...
+	rel 2+0 t=23 type:*[256]uint8<0>+0
+	rel 52+4 t=7 runtime.duffzero<1>+276
+	rel 85+4 t=7 runtime.duffcopy<1>+672
+	rel 115+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.moveDisjointNoOverlap<1> STEXT nosplit size=60 args=0x8 locals=0x8 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	TEXT	command-line-arguments.moveDisjointNoOverlap(SB), NOSPLIT|ABIInternal, $8-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	SUBQ	$8, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	MOVQ	BP, (SP)
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	LEAQ	(SP), BP
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	FUNCDATA	$5, command-line-arguments.moveDisjointNoOverlap.arginfo1(SB)
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	FUNCDATA	$6, command-line-arguments.moveDisjointNoOverlap.argliveinfo(SB)
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:90)	PCDATA	$3, $1
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:97)	LEAQ	128(AX), SI
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:97)	MOVQ	AX, DI
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:97)	PCDATA	$0, $-2
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:97)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:97)	DUFFCOPY	$784
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:98)	MOVQ	(SP), BP
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:98)	ADDQ	$8, SP
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:98)	RET
+	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8d b0 80  H...H.,$H.,$H...
+	0x0010 00 00 00 48 89 c7 66 0f 1f 84 00 00 00 00 00 90  ...H..f.........
+	0x0020 48 89 6c 24 f0 48 8d 6c 24 f0 e8 00 00 00 00 48  H.l$.H.l$......H
+	0x0030 8b 6d 00 48 8b 2c 24 48 83 c4 08 c3              .m.H.,$H....
+	rel 43+4 t=7 runtime.duffcopy<1>+784
+command-line-arguments.moveArchLowering1<1> STEXT nosplit size=70 args=0x20 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	TEXT	command-line-arguments.moveArchLowering1(SB), NOSPLIT|ABIInternal, $24-32
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	MOVQ	AX, command-line-arguments.b+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	FUNCDATA	$0, gclocals·cNGUyZq94N9QFR70tEjj5A==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	FUNCDATA	$5, command-line-arguments.moveArchLowering1.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	FUNCDATA	$6, command-line-arguments.moveArchLowering1.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:102)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:103)	CMPQ	BX, $1
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:103)	JLS	52
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:108)	TESTB	AL, (DI)
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:108)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:108)	CMPQ	AX, DI
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:108)	JEQ	42
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:108)	MOVBLZX	(DI), CX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:108)	MOVB	CL, (AX)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:109)	MOVQ	16(SP), BP
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:109)	ADDQ	$24, SP
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:109)	RET
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:103)	MOVL	$1, AX
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:103)	MOVQ	BX, CX
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:103)	PCDATA	$1, $1
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:103)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:103)	CALL	runtime.panicIndex(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:103)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 83 fb 01 76 1b 84 07 0f 1f 44 00 00  D$ H...v.....D..
+	0x0020 48 39 f8 74 05 0f b6 0f 88 08 48 8b 6c 24 10 48  H9.t......H.l$.H
+	0x0030 83 c4 18 c3 b8 01 00 00 00 48 89 d9 0f 1f 40 00  .........H....@.
+	0x0040 e8 00 00 00 00 90                                ......
+	rel 65+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.moveArchLowering2<1> STEXT nosplit size=70 args=0x20 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	TEXT	command-line-arguments.moveArchLowering2(SB), NOSPLIT|ABIInternal, $24-32
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	MOVQ	AX, command-line-arguments.b+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	FUNCDATA	$0, gclocals·cNGUyZq94N9QFR70tEjj5A==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	FUNCDATA	$5, command-line-arguments.moveArchLowering2.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	FUNCDATA	$6, command-line-arguments.moveArchLowering2.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:111)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:112)	CMPQ	BX, $2
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:112)	JLS	53
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:117)	TESTB	AL, (DI)
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:117)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:117)	CMPQ	AX, DI
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:117)	JEQ	43
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:117)	MOVWLZX	(DI), CX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:117)	MOVW	CX, (AX)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:118)	MOVQ	16(SP), BP
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:118)	ADDQ	$24, SP
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:118)	RET
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:112)	MOVL	$2, AX
+	0x003a 00058 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:112)	MOVQ	BX, CX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:112)	PCDATA	$1, $1
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:112)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:112)	CALL	runtime.panicIndex(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:112)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 83 fb 02 76 1c 84 07 0f 1f 44 00 00  D$ H...v.....D..
+	0x0020 48 39 f8 74 06 0f b7 0f 66 89 08 48 8b 6c 24 10  H9.t....f..H.l$.
+	0x0030 48 83 c4 18 c3 b8 02 00 00 00 48 89 d9 0f 1f 00  H.........H.....
+	0x0040 e8 00 00 00 00 90                                ......
+	rel 65+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.moveArchLowering4<1> STEXT nosplit size=70 args=0x20 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	TEXT	command-line-arguments.moveArchLowering4(SB), NOSPLIT|ABIInternal, $24-32
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	MOVQ	AX, command-line-arguments.b+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	FUNCDATA	$0, gclocals·cNGUyZq94N9QFR70tEjj5A==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	FUNCDATA	$5, command-line-arguments.moveArchLowering4.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	FUNCDATA	$6, command-line-arguments.moveArchLowering4.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:120)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:121)	CMPQ	BX, $4
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:121)	JLS	51
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:126)	TESTB	AL, (DI)
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:126)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:126)	CMPQ	AX, DI
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:126)	JEQ	41
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:126)	MOVL	(DI), CX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:126)	MOVL	CX, (AX)
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:127)	MOVQ	16(SP), BP
+	0x002e 00046 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:127)	ADDQ	$24, SP
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:127)	RET
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:121)	MOVL	$4, AX
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:121)	MOVQ	BX, CX
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:121)	PCDATA	$1, $1
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:121)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:121)	CALL	runtime.panicIndex(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:121)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 83 fb 04 76 1a 84 07 0f 1f 44 00 00  D$ H...v.....D..
+	0x0020 48 39 f8 74 04 8b 0f 89 08 48 8b 6c 24 10 48 83  H9.t.....H.l$.H.
+	0x0030 c4 18 c3 b8 04 00 00 00 48 89 d9 0f 1f 44 00 00  ........H....D..
+	0x0040 e8 00 00 00 00 90                                ......
+	rel 65+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.moveArchLowering8<1> STEXT nosplit size=70 args=0x20 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	TEXT	command-line-arguments.moveArchLowering8(SB), NOSPLIT|ABIInternal, $24-32
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	MOVQ	AX, command-line-arguments.b+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	FUNCDATA	$0, gclocals·cNGUyZq94N9QFR70tEjj5A==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	FUNCDATA	$5, command-line-arguments.moveArchLowering8.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	FUNCDATA	$6, command-line-arguments.moveArchLowering8.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:129)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:130)	CMPQ	BX, $8
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:130)	JLS	53
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:135)	TESTB	AL, (DI)
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:135)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:135)	CMPQ	AX, DI
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:135)	JEQ	43
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:135)	MOVQ	(DI), CX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:135)	MOVQ	CX, (AX)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:136)	MOVQ	16(SP), BP
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:136)	ADDQ	$24, SP
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:136)	RET
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:130)	MOVL	$8, AX
+	0x003a 00058 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:130)	MOVQ	BX, CX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:130)	PCDATA	$1, $1
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:130)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:130)	CALL	runtime.panicIndex(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:130)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 83 fb 08 76 1c 84 07 0f 1f 44 00 00  D$ H...v.....D..
+	0x0020 48 39 f8 74 06 48 8b 0f 48 89 08 48 8b 6c 24 10  H9.t.H..H..H.l$.
+	0x0030 48 83 c4 18 c3 b8 08 00 00 00 48 89 d9 0f 1f 00  H.........H.....
+	0x0040 e8 00 00 00 00 90                                ......
+	rel 65+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.moveArchLowering16<1> STEXT nosplit size=70 args=0x20 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	TEXT	command-line-arguments.moveArchLowering16(SB), NOSPLIT|ABIInternal, $24-32
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	MOVQ	AX, command-line-arguments.b+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	FUNCDATA	$0, gclocals·cNGUyZq94N9QFR70tEjj5A==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	FUNCDATA	$5, command-line-arguments.moveArchLowering16.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	FUNCDATA	$6, command-line-arguments.moveArchLowering16.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:138)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:139)	CMPQ	BX, $16
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:139)	JLS	53
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:141)	TESTB	AL, (DI)
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:141)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:141)	CMPQ	AX, DI
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:141)	JEQ	43
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:141)	MOVUPS	(DI), X0
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:141)	MOVUPS	X0, (AX)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:142)	MOVQ	16(SP), BP
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:142)	ADDQ	$24, SP
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:142)	RET
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:139)	MOVL	$16, AX
+	0x003a 00058 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:139)	MOVQ	BX, CX
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:139)	PCDATA	$1, $1
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:139)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:139)	CALL	runtime.panicIndex(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:139)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 83 fb 10 76 1c 84 07 0f 1f 44 00 00  D$ H...v.....D..
+	0x0020 48 39 f8 74 06 0f 10 07 0f 11 00 48 8b 6c 24 10  H9.t.......H.l$.
+	0x0030 48 83 c4 18 c3 b8 10 00 00 00 48 89 d9 0f 1f 00  H.........H.....
+	0x0040 e8 00 00 00 00 90                                ......
+	rel 65+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.ptrEqual<1> STEXT nosplit size=1 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:146)	TEXT	command-line-arguments.ptrEqual(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:146)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:146)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:152)	RET
+	0x0000 c3                                               .
+command-line-arguments.ptrOneOffset<1> STEXT size=61 args=0x0 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	TEXT	command-line-arguments.ptrOneOffset(SB), ABIInternal, $32-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	JLS	54
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	SUBQ	$32, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	MOVQ	BP, 24(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	LEAQ	24(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:159)	LEAQ	command-line-arguments.x+1(SB), AX
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:159)	LEAQ	command-line-arguments.x(SB), BX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:159)	MOVL	$255, CX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:159)	PCDATA	$1, $0
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:159)	CALL	runtime.memmove(SB)
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:160)	MOVQ	24(SP), BP
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:160)	ADDQ	$32, SP
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:160)	RET
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:160)	NOP
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	PCDATA	$1, $-1
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	PCDATA	$0, $-2
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	CALL	runtime.morestack_noctxt(SB)
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	PCDATA	$0, $-1
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:154)	JMP	0
+	0x0000 49 3b 66 10 76 30 48 83 ec 20 48 89 6c 24 18 48  I;f.v0H.. H.l$.H
+	0x0010 8d 6c 24 18 48 8d 05 00 00 00 00 48 8d 1d 00 00  .l$.H......H....
+	0x0020 00 00 b9 ff 00 00 00 e8 00 00 00 00 48 8b 6c 24  ............H.l$
+	0x0030 18 48 83 c4 20 c3 e8 00 00 00 00 eb c3           .H.. ........
+	rel 23+4 t=14 command-line-arguments.x<0>+1
+	rel 30+4 t=14 command-line-arguments.x<0>+0
+	rel 40+4 t=7 runtime.memmove<1>+0
+	rel 55+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.ptrBothOffset<1> STEXT size=61 args=0x0 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	TEXT	command-line-arguments.ptrBothOffset(SB), ABIInternal, $32-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	JLS	54
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	SUBQ	$32, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	MOVQ	BP, 24(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	LEAQ	24(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:167)	LEAQ	command-line-arguments.x+1(SB), AX
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:167)	LEAQ	command-line-arguments.x+2(SB), BX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:167)	MOVL	$254, CX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:167)	PCDATA	$1, $0
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:167)	CALL	runtime.memmove(SB)
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:168)	MOVQ	24(SP), BP
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:168)	ADDQ	$32, SP
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:168)	RET
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:168)	NOP
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	PCDATA	$1, $-1
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	PCDATA	$0, $-2
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	CALL	runtime.morestack_noctxt(SB)
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	PCDATA	$0, $-1
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:162)	JMP	0
+	0x0000 49 3b 66 10 76 30 48 83 ec 20 48 89 6c 24 18 48  I;f.v0H.. H.l$.H
+	0x0010 8d 6c 24 18 48 8d 05 00 00 00 00 48 8d 1d 00 00  .l$.H......H....
+	0x0020 00 00 b9 fe 00 00 00 e8 00 00 00 00 48 8b 6c 24  ............H.l$
+	0x0030 18 48 83 c4 20 c3 e8 00 00 00 00 eb c3           .H.. ........
+	rel 23+4 t=14 command-line-arguments.x<0>+1
+	rel 30+4 t=14 command-line-arguments.x<0>+2
+	rel 40+4 t=7 runtime.memmove<1>+0
+	rel 55+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.init<1> STEXT nosplit size=1 args=0x0 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:42)	TEXT	command-line-arguments.init(SB), NOSPLIT|ABIInternal, $0-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:42)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:42)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/copy.go:42)	RET
+	0x0000 c3                                               .
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+command-line-arguments..inittask<0> SNOPTRDATA size=32
+	0x0000 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime..inittask<0>+0
+command-line-arguments.x<0> SNOPTRBSS size=256
+go:info.command-line-arguments.x<0> SDWARFVAR dupok size=41
+	0x0000 0a 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 78 00 09 03 00 00 00 00  guments.x.......
+	0x0020 00 00 00 00 00 00 00 00 01                       .........
+	rel 28+8 t=1 command-line-arguments.x<0>+0
+	rel 36+4 t=31 go:info.[256]uint8<0>+0
+command-line-arguments..stmp_0<0> SRODATA static size=4
+	0x0000 01 02 03 04                                      ....
+command-line-arguments..stmp_1<0> SRODATA static size=7
+	0x0000 01 02 03 04 05 06 07                             .......
+command-line-arguments..stmp_2<0> SRODATA static size=16
+	0x0000 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10  ................
+runtime.memequal128·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal128<1>+0
+runtime.gcbits.<0> SRODATA dupok size=0
+type:.namedata.*[16]uint8-<0> SRODATA dupok size=12
+	0x0000 00 0a 2a 5b 31 36 5d 75 69 6e 74 38              ..*[16]uint8
+type:[16]uint8<0> SRODATA dupok size=72
+	0x0000 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 aa 14 2f b6 0a 01 01 11 00 00 00 00 00 00 00 00  ../.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 10 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal128·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[16]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[16]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+runtime.memequal64·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64<1>+0
+runtime.gcbits.0100000000000000<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:*[16]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 27 a2 43 d0 08 08 08 36 00 00 00 00 00 00 00 00  '.C....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[16]uint8-<0>+0
+	rel 48+8 t=1 type:[16]uint8<0>+0
+runtime.memequal8·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal8<1>+0
+type:.namedata.*[1]uint8-<0> SRODATA dupok size=11
+	0x0000 00 09 2a 5b 31 5d 75 69 6e 74 38                 ..*[1]uint8
+type:[1]uint8<0> SRODATA dupok size=72
+	0x0000 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 f0 53 85 ff 0a 01 01 11 00 00 00 00 00 00 00 00  .S..............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 01 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal8·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[1]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[1]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+type:*[1]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 29 73 59 9b 08 08 08 36 00 00 00 00 00 00 00 00  )sY....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[1]uint8-<0>+0
+	rel 48+8 t=1 type:[1]uint8<0>+0
+type:.eqfunc256<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00  ................
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+type:.namedata.*[256]uint8-<0> SRODATA dupok size=13
+	0x0000 00 0b 2a 5b 32 35 36 5d 75 69 6e 74 38           ..*[256]uint8
+type:[256]uint8<0> SRODATA dupok size=72
+	0x0000 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 23 7b eb 3e 0a 01 01 11 00 00 00 00 00 00 00 00  #{.>............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 01 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type:.eqfunc256<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[256]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[256]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+type:*[256]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 bb d7 9b 15 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[256]uint8-<0>+0
+	rel 48+8 t=1 type:[256]uint8<0>+0
+runtime.memequal16·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal16<1>+0
+type:.namedata.*[2]uint8-<0> SRODATA dupok size=11
+	0x0000 00 09 2a 5b 32 5d 75 69 6e 74 38                 ..*[2]uint8
+type:[2]uint8<0> SRODATA dupok size=72
+	0x0000 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 8a 84 23 0e 0a 01 01 11 00 00 00 00 00 00 00 00  ..#.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 02 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal16·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[2]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[2]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+type:*[2]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 8c f4 3b dc 08 08 08 36 00 00 00 00 00 00 00 00  ..;....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[2]uint8-<0>+0
+	rel 48+8 t=1 type:[2]uint8<0>+0
+type:.eqfunc32<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00  ........ .......
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+type:.namedata.*[32]uint8-<0> SRODATA dupok size=12
+	0x0000 00 0a 2a 5b 33 32 5d 75 69 6e 74 38              ..*[32]uint8
+type:[32]uint8<0> SRODATA dupok size=72
+	0x0000 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ...............
+	0x0010 aa ab 93 92 0a 01 01 11 00 00 00 00 00 00 00 00  ................
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 20 00 00 00 00 00 00 00                           .......
+	rel 24+8 t=1 type:.eqfunc32<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[32]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[32]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+type:*[32]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 26 0d b3 9e 08 08 08 36 00 00 00 00 00 00 00 00  &......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[32]uint8-<0>+0
+	rel 48+8 t=1 type:[32]uint8<0>+0
+runtime.memequal32·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal32<1>+0
+type:.namedata.*[4]uint8-<0> SRODATA dupok size=11
+	0x0000 00 09 2a 5b 34 5d 75 69 6e 74 38                 ..*[4]uint8
+type:[4]uint8<0> SRODATA dupok size=72
+	0x0000 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 14 65 25 51 0a 01 01 11 00 00 00 00 00 00 00 00  .e%Q............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 04 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal32·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[4]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[4]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+type:*[4]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 c4 80 4b 75 08 08 08 36 00 00 00 00 00 00 00 00  ..Ku...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[4]uint8-<0>+0
+	rel 48+8 t=1 type:[4]uint8<0>+0
+type:.namedata.*[8]uint8-<0> SRODATA dupok size=11
+	0x0000 00 09 2a 5b 38 5d 75 69 6e 74 38                 ..*[8]uint8
+type:[8]uint8<0> SRODATA dupok size=72
+	0x0000 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 89 18 9c b4 0a 01 01 11 00 00 00 00 00 00 00 00  ................
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 08 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[8]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[8]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+type:*[8]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 f8 9a 95 1a 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[8]uint8-<0>+0
+	rel 48+8 t=1 type:[8]uint8<0>+0
+type:.eqfunc96<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 60 00 00 00 00 00 00 00  ........`.......
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+type:.namedata.*[96]uint8-<0> SRODATA dupok size=12
+	0x0000 00 0a 2a 5b 39 36 5d 75 69 6e 74 38              ..*[96]uint8
+type:[96]uint8<0> SRODATA dupok size=72
+	0x0000 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  `...............
+	0x0010 46 5b 9b 67 0a 01 01 11 00 00 00 00 00 00 00 00  F[.g............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 60 00 00 00 00 00 00 00                          `.......
+	rel 24+8 t=1 type:.eqfunc96<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[96]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[96]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+type:*[96]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 17 bf 5d 4c 08 08 08 36 00 00 00 00 00 00 00 00  ..]L...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[96]uint8-<0>+0
+	rel 48+8 t=1 type:[96]uint8<0>+0
+type:.eqfunc7<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 07 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+type:.namedata.*[7]uint8-<0> SRODATA dupok size=11
+	0x0000 00 09 2a 5b 37 5d 75 69 6e 74 38                 ..*[7]uint8
+type:*[7]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 fe f1 76 00 08 08 08 36 00 00 00 00 00 00 00 00  ..v....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[7]uint8-<0>+0
+	rel 48+8 t=1 type:[7]uint8<0>+0
+type:[7]uint8<0> SRODATA dupok size=72
+	0x0000 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 fc 58 37 7f 0a 01 01 11 00 00 00 00 00 00 00 00  .X7.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 07 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type:.eqfunc7<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[7]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[7]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+type:.importpath.runtime.<0> SRODATA dupok size=9
+	0x0000 00 07 72 75 6e 74 69 6d 65                       ..runtime
+gclocals·g2BeySu+wFnoycgXfElmcg==<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+gclocals·wgcWObbY2HYnK2SU/U22lA==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 01 00 00 00 01 00                    ..........
+gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==<0> SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+command-line-arguments.moveDisjointArg.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.moveDisjointArg.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.moveDisjointNoOverlap.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.moveDisjointNoOverlap.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·cNGUyZq94N9QFR70tEjj5A==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 04 00 00 00 09 00                    ..........
+command-line-arguments.moveArchLowering1.arginfo1<0> SRODATA static dupok size=11
+	0x0000 fe 00 08 08 08 10 08 fd 18 08 ff                 ...........
+command-line-arguments.moveArchLowering1.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.moveArchLowering2.arginfo1<0> SRODATA static dupok size=11
+	0x0000 fe 00 08 08 08 10 08 fd 18 08 ff                 ...........
+command-line-arguments.moveArchLowering2.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.moveArchLowering4.arginfo1<0> SRODATA static dupok size=11
+	0x0000 fe 00 08 08 08 10 08 fd 18 08 ff                 ...........
+command-line-arguments.moveArchLowering4.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.moveArchLowering8.arginfo1<0> SRODATA static dupok size=11
+	0x0000 fe 00 08 08 08 10 08 fd 18 08 ff                 ...........
+command-line-arguments.moveArchLowering8.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.moveArchLowering16.arginfo1<0> SRODATA static dupok size=11
+	0x0000 fe 00 08 08 08 10 08 fd 18 08 ff                 ...........
+command-line-arguments.moveArchLowering16.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+aux for command-line-arguments.movesmall4<0> SDWARFLINES size=30
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 07  ................
+	0x0010 14 9c 03 02 64 06 41 06 9c 02 0a 00 01 01        ....d.A.......
+	rel 3+8 t=1 command-line-arguments.movesmall4<1>+0
+aux for command-line-arguments.movesmall4<0> SDWARFFCN size=68
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 73 6d 61 6c  guments.movesmal
+	0x0020 6c 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00  l4..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 0c 78 00 0e 00 00  ...........x....
+	0x0040 00 00 00 00                                      ....
+	rel 0+0 t=22 type:[4]uint8<0>+0
+	rel 35+8 t=1 command-line-arguments.movesmall4<1>+0
+	rel 43+8 t=1 command-line-arguments.movesmall4<1>+51
+	rel 62+4 t=31 go:info.[4]uint8<0>+0
+aux for command-line-arguments.movesmall7<0> SDWARFLINES size=33
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 12  ................
+	0x0010 14 9c 06 5f 06 03 01 64 06 37 06 9c 02 0a 00 01  ..._...d.7......
+	0x0020 01                                               .
+	rel 3+8 t=1 command-line-arguments.movesmall7<1>+0
+aux for command-line-arguments.movesmall7<0> SDWARFFCN size=68
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 73 6d 61 6c  guments.movesmal
+	0x0020 6c 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00  l7..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 0c 78 00 19 00 00  ...........x....
+	0x0040 00 00 00 00                                      ....
+	rel 0+0 t=22 type:[7]uint8<0>+0
+	rel 35+8 t=1 command-line-arguments.movesmall7<1>+0
+	rel 43+8 t=1 command-line-arguments.movesmall7<1>+58
+	rel 62+4 t=31 go:info.[7]uint8<0>+0
+aux for command-line-arguments.movesmall16<0> SDWARFLINES size=31
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 1c  ................
+	0x0010 14 9c 06 73 06 d1 06 37 06 a6 02 0a 00 01 01     ...s...7.......
+	rel 3+8 t=1 command-line-arguments.movesmall16<1>+0
+aux for command-line-arguments.movesmall16<0> SDWARFFCN size=69
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 73 6d 61 6c  guments.movesmal
+	0x0020 6c 31 36 00 00 00 00 00 00 00 00 00 00 00 00 00  l16.............
+	0x0030 00 00 00 00 01 9c 02 00 00 00 01 0c 78 00 23 00  ............x.#.
+	0x0040 00 00 00 00 00                                   .....
+	rel 0+0 t=22 type:[16]uint8<0>+0
+	rel 36+8 t=1 command-line-arguments.movesmall16<1>+0
+	rel 44+8 t=1 command-line-arguments.movesmall16<1>+72
+	rel 63+4 t=31 go:info.[16]uint8<0>+0
+aux for command-line-arguments.moveDisjointStack32<0> SDWARFLINES size=31
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 28  ...............(
+	0x0010 14 9c 06 41 06 50 06 55 06 b1 02 0a 00 01 01     ...A.P.U.......
+	rel 3+8 t=1 command-line-arguments.moveDisjointStack32<1>+0
+aux for command-line-arguments.moveDisjointStack32<0> SDWARFFCN size=77
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 44 69 73 6a  guments.moveDisj
+	0x0020 6f 69 6e 74 53 74 61 63 6b 33 32 00 00 00 00 00  ointStack32.....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00  ................
+	0x0040 00 00 01 0c 73 00 2f 00 00 00 00 00 00           ....s./......
+	rel 0+0 t=22 type:[32]uint8<0>+0
+	rel 44+8 t=1 command-line-arguments.moveDisjointStack32<1>+0
+	rel 52+8 t=1 command-line-arguments.moveDisjointStack32<1>+58
+	rel 71+4 t=31 go:info.[32]uint8<0>+0
+aux for command-line-arguments.moveDisjointStack64<0> SDWARFLINES size=33
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 32  ...............2
+	0x0010 14 9c 06 37 06 08 6e 06 37 06 08 39 02 0a 00 01  ...7..n.7..9....
+	0x0020 01                                               .
+	rel 3+8 t=1 command-line-arguments.moveDisjointStack64<1>+0
+aux for command-line-arguments.moveDisjointStack64<0> SDWARFFCN size=77
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 44 69 73 6a  guments.moveDisj
+	0x0020 6f 69 6e 74 53 74 61 63 6b 36 34 00 00 00 00 00  ointStack64.....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00  ................
+	0x0040 00 00 01 0c 73 00 39 00 00 00 00 00 00           ....s.9......
+	rel 0+0 t=22 type:[96]uint8<0>+0
+	rel 44+8 t=1 command-line-arguments.moveDisjointStack64<1>+0
+	rel 52+8 t=1 command-line-arguments.moveDisjointStack64<1>+93
+	rel 71+4 t=31 go:info.[96]uint8<0>+0
+aux for command-line-arguments.moveDisjointStack<0> SDWARFLINES size=38
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 3c 14  ..............<.
+	0x0010 0a 9b f6 06 37 06 03 02 d2 06 37 06 08 25 03 7a  ....7.....7..%.z
+	0x0020 ab 02 07 00 01 01                                ......
+	rel 3+8 t=1 command-line-arguments.moveDisjointStack<1>+0
+aux for command-line-arguments.moveDisjointStack<0> SDWARFFCN size=75
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 44 69 73 6a  guments.moveDisj
+	0x0020 6f 69 6e 74 53 74 61 63 6b 00 00 00 00 00 00 00  ointStack.......
+	0x0030 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0040 01 0c 73 00 43 00 00 00 00 00 00                 ..s.C......
+	rel 0+0 t=22 type:[256]uint8<0>+0
+	rel 42+8 t=1 command-line-arguments.moveDisjointStack<1>+0
+	rel 50+8 t=1 command-line-arguments.moveDisjointStack<1>+113
+	rel 69+4 t=31 go:info.[256]uint8<0>+0
+aux for command-line-arguments.moveDisjointArg<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 7e 00 00 00 00 00 00 00  ........~.......
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.moveDisjointArg<1>+0
+aux for command-line-arguments.moveDisjointArg<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c8 00  ................
+	0x0010 14 0a 9b f6 06 37 06 03 02 d2 06 23 06 08 57 03  .....7.....#..W.
+	0x0020 7a ab 02 11 00 01 01                             z......
+	rel 3+8 t=1 command-line-arguments.moveDisjointArg<1>+0
+aux for command-line-arguments.moveDisjointArg<0> SDWARFFCN size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 44 69 73 6a  guments.moveDisj
+	0x0020 6f 69 6e 74 41 72 67 00 00 00 00 00 00 00 00 00  ointArg.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 12  ................
+	0x0040 62 00 00 4e 00 00 00 00 00 00 00 00 0c 73 00 4f  b..N.........s.O
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:[256]uint8<0>+0
+	rel 40+8 t=1 command-line-arguments.moveDisjointArg<1>+0
+	rel 48+8 t=1 command-line-arguments.moveDisjointArg<1>+126
+	rel 68+4 t=31 go:info.*[256]uint8<0>+0
+	rel 72+4 t=31 <0>+0
+	rel 80+4 t=31 go:info.[256]uint8<0>+0
+aux for command-line-arguments.moveDisjointNoOverlap<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 3c 00 00 00 00 00 00 00  ........<.......
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.moveDisjointNoOverlap<1>+0
+aux for command-line-arguments.moveDisjointNoOverlap<0> SDWARFLINES size=31
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 d4  ................
+	0x0010 00 14 03 02 8c 06 55 06 08 60 02 09 00 01 01     ......U..`.....
+	rel 3+8 t=1 command-line-arguments.moveDisjointNoOverlap<1>+0
+aux for command-line-arguments.moveDisjointNoOverlap<0> SDWARFFCN size=83
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 44 69 73 6a  guments.moveDisj
+	0x0020 6f 69 6e 74 4e 6f 4f 76 65 72 6c 61 70 00 00 00  ointNoOverlap...
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c  ................
+	0x0040 02 00 00 00 01 12 61 00 00 5a 00 00 00 00 00 00  ......a..Z......
+	0x0050 00 00 00                                         ...
+	rel 46+8 t=1 command-line-arguments.moveDisjointNoOverlap<1>+0
+	rel 54+8 t=1 command-line-arguments.moveDisjointNoOverlap<1>+60
+	rel 74+4 t=31 go:info.*[256]uint8<0>+0
+	rel 78+4 t=31 <0>+0
+aux for command-line-arguments.moveArchLowering1<0> SDWARFLOC size=187
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 28 00 00 00 00  ..P..S..R..(....
+	0x0030 00 00 00 39 00 00 00 00 00 00 00 08 00 50 93 08  ...9.........P..
+	0x0040 53 93 08 93 08 39 00 00 00 00 00 00 00 3c 00 00  S....9.......<..
+	0x0050 00 00 00 00 00 08 00 93 08 53 93 08 52 93 08 3c  .........S..R..<
+	0x0060 00 00 00 00 00 00 00 46 00 00 00 00 00 00 00 07  .......F........
+	0x0070 00 93 08 53 93 08 93 08 00 00 00 00 00 00 00 00  ...S............
+	0x0080 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 46 00 00 00 00 00 00 00 01 00 55 00 00 00 00 00  F.........U.....
+	0x00b0 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 command-line-arguments.moveArchLowering1<1>+0
+	rel 144+8 t=1 command-line-arguments.moveArchLowering1<1>+0
+aux for command-line-arguments.moveArchLowering1<0> SDWARFLINES size=41
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 e0  ................
+	0x0010 00 14 06 9b 06 42 06 37 06 28 06 23 06 a6 06 03  .....B.7.(.#....
+	0x0020 7e 6f 06 b9 02 01 00 01 01                       ~o.......
+	rel 3+8 t=1 command-line-arguments.moveArchLowering1<1>+0
+aux for command-line-arguments.moveArchLowering1<0> SDWARFFCN size=92
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 41 72 63 68  guments.moveArch
+	0x0020 4c 6f 77 65 72 69 6e 67 31 00 00 00 00 00 00 00  Lowering1.......
+	0x0030 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0040 01 12 62 00 00 66 00 00 00 00 00 00 00 00 12 78  ..b..f.........x
+	0x0050 00 00 66 00 00 00 00 00 00 00 00 00              ..f.........
+	rel 42+8 t=1 command-line-arguments.moveArchLowering1<1>+0
+	rel 50+8 t=1 command-line-arguments.moveArchLowering1<1>+70
+	rel 70+4 t=31 go:info.[]uint8<0>+0
+	rel 74+4 t=31 <0>+0
+	rel 83+4 t=31 go:info.*[1]uint8<0>+0
+	rel 87+4 t=31 <0>+136
+aux for command-line-arguments.moveArchLowering2<0> SDWARFLOC size=187
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 28 00 00 00 00  ..P..S..R..(....
+	0x0030 00 00 00 3a 00 00 00 00 00 00 00 08 00 50 93 08  ...:.........P..
+	0x0040 53 93 08 93 08 3a 00 00 00 00 00 00 00 3d 00 00  S....:.......=..
+	0x0050 00 00 00 00 00 08 00 93 08 53 93 08 52 93 08 3d  .........S..R..=
+	0x0060 00 00 00 00 00 00 00 46 00 00 00 00 00 00 00 07  .......F........
+	0x0070 00 93 08 53 93 08 93 08 00 00 00 00 00 00 00 00  ...S............
+	0x0080 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 46 00 00 00 00 00 00 00 01 00 55 00 00 00 00 00  F.........U.....
+	0x00b0 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 command-line-arguments.moveArchLowering2<1>+0
+	rel 144+8 t=1 command-line-arguments.moveArchLowering2<1>+0
+aux for command-line-arguments.moveArchLowering2<0> SDWARFLINES size=41
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 e9  ................
+	0x0010 00 14 06 9b 06 42 06 37 06 28 06 23 06 b0 06 03  .....B.7.(.#....
+	0x0020 7e 6f 06 af 02 01 00 01 01                       ~o.......
+	rel 3+8 t=1 command-line-arguments.moveArchLowering2<1>+0
+aux for command-line-arguments.moveArchLowering2<0> SDWARFFCN size=92
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 41 72 63 68  guments.moveArch
+	0x0020 4c 6f 77 65 72 69 6e 67 32 00 00 00 00 00 00 00  Lowering2.......
+	0x0030 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0040 01 12 62 00 00 6f 00 00 00 00 00 00 00 00 12 78  ..b..o.........x
+	0x0050 00 00 6f 00 00 00 00 00 00 00 00 00              ..o.........
+	rel 42+8 t=1 command-line-arguments.moveArchLowering2<1>+0
+	rel 50+8 t=1 command-line-arguments.moveArchLowering2<1>+70
+	rel 70+4 t=31 go:info.[]uint8<0>+0
+	rel 74+4 t=31 <0>+0
+	rel 83+4 t=31 go:info.*[2]uint8<0>+0
+	rel 87+4 t=31 <0>+136
+aux for command-line-arguments.moveArchLowering4<0> SDWARFLOC size=187
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 27 00 00 00 00 00 00 00  ........'.......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 27 00 00 00 00  ..P..S..R..'....
+	0x0030 00 00 00 38 00 00 00 00 00 00 00 08 00 50 93 08  ...8.........P..
+	0x0040 53 93 08 93 08 38 00 00 00 00 00 00 00 3b 00 00  S....8.......;..
+	0x0050 00 00 00 00 00 08 00 93 08 53 93 08 52 93 08 3b  .........S..R..;
+	0x0060 00 00 00 00 00 00 00 46 00 00 00 00 00 00 00 07  .......F........
+	0x0070 00 93 08 53 93 08 93 08 00 00 00 00 00 00 00 00  ...S............
+	0x0080 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 46 00 00 00 00 00 00 00 01 00 55 00 00 00 00 00  F.........U.....
+	0x00b0 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 command-line-arguments.moveArchLowering4<1>+0
+	rel 144+8 t=1 command-line-arguments.moveArchLowering4<1>+0
+aux for command-line-arguments.moveArchLowering4<0> SDWARFLINES size=41
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 f2  ................
+	0x0010 00 14 06 9b 06 42 06 37 06 28 06 23 06 9c 06 03  .....B.7.(.#....
+	0x0020 7e 6f 06 c3 02 01 00 01 01                       ~o.......
+	rel 3+8 t=1 command-line-arguments.moveArchLowering4<1>+0
+aux for command-line-arguments.moveArchLowering4<0> SDWARFFCN size=92
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 41 72 63 68  guments.moveArch
+	0x0020 4c 6f 77 65 72 69 6e 67 34 00 00 00 00 00 00 00  Lowering4.......
+	0x0030 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0040 01 12 62 00 00 78 00 00 00 00 00 00 00 00 12 78  ..b..x.........x
+	0x0050 00 00 78 00 00 00 00 00 00 00 00 00              ..x.........
+	rel 42+8 t=1 command-line-arguments.moveArchLowering4<1>+0
+	rel 50+8 t=1 command-line-arguments.moveArchLowering4<1>+70
+	rel 70+4 t=31 go:info.[]uint8<0>+0
+	rel 74+4 t=31 <0>+0
+	rel 83+4 t=31 go:info.*[4]uint8<0>+0
+	rel 87+4 t=31 <0>+136
+aux for command-line-arguments.moveArchLowering8<0> SDWARFLOC size=187
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00  ........(.......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 28 00 00 00 00  ..P..S..R..(....
+	0x0030 00 00 00 3a 00 00 00 00 00 00 00 08 00 50 93 08  ...:.........P..
+	0x0040 53 93 08 93 08 3a 00 00 00 00 00 00 00 3d 00 00  S....:.......=..
+	0x0050 00 00 00 00 00 08 00 93 08 53 93 08 52 93 08 3d  .........S..R..=
+	0x0060 00 00 00 00 00 00 00 46 00 00 00 00 00 00 00 07  .......F........
+	0x0070 00 93 08 53 93 08 93 08 00 00 00 00 00 00 00 00  ...S............
+	0x0080 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 46 00 00 00 00 00 00 00 01 00 55 00 00 00 00 00  F.........U.....
+	0x00b0 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 command-line-arguments.moveArchLowering8<1>+0
+	rel 144+8 t=1 command-line-arguments.moveArchLowering8<1>+0
+aux for command-line-arguments.moveArchLowering8<0> SDWARFLINES size=41
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 fb  ................
+	0x0010 00 14 06 9b 06 42 06 37 06 28 06 23 06 b0 06 03  .....B.7.(.#....
+	0x0020 7e 6f 06 af 02 01 00 01 01                       ~o.......
+	rel 3+8 t=1 command-line-arguments.moveArchLowering8<1>+0
+aux for command-line-arguments.moveArchLowering8<0> SDWARFFCN size=94
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 41 72 63 68  guments.moveArch
+	0x0020 4c 6f 77 65 72 69 6e 67 38 00 00 00 00 00 00 00  Lowering8.......
+	0x0030 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0040 01 12 62 00 00 81 01 00 00 00 00 00 00 00 00 12  ..b.............
+	0x0050 78 00 00 81 01 00 00 00 00 00 00 00 00 00        x.............
+	rel 42+8 t=1 command-line-arguments.moveArchLowering8<1>+0
+	rel 50+8 t=1 command-line-arguments.moveArchLowering8<1>+70
+	rel 71+4 t=31 go:info.[]uint8<0>+0
+	rel 75+4 t=31 <0>+0
+	rel 85+4 t=31 go:info.*[8]uint8<0>+0
+	rel 89+4 t=31 <0>+136
+aux for command-line-arguments.moveArchLowering16<0> SDWARFLOC size=161
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 3a 00 00 00 00 00 00 00  ........:.......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 3a 00 00 00 00  ..P..S..R..:....
+	0x0030 00 00 00 3d 00 00 00 00 00 00 00 08 00 93 08 53  ...=...........S
+	0x0040 93 08 52 93 08 3d 00 00 00 00 00 00 00 46 00 00  ..R..=.......F..
+	0x0050 00 00 00 00 00 07 00 93 08 53 93 08 93 08 00 00  .........S......
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff ff  ................
+	0x0070 ff ff ff ff ff ff 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 46 00 00 00 00 00 00 00 01 00  ......F.........
+	0x0090 55 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  U...............
+	0x00a0 00                                               .
+	rel 8+8 t=1 command-line-arguments.moveArchLowering16<1>+0
+	rel 118+8 t=1 command-line-arguments.moveArchLowering16<1>+0
+aux for command-line-arguments.moveArchLowering16<0> SDWARFLINES size=39
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 84  ................
+	0x0010 01 14 06 9b 06 42 06 37 06 25 06 23 06 b0 06 70  .....B.7.%.#...p
+	0x0020 06 af 02 01 00 01 01                             .......
+	rel 3+8 t=1 command-line-arguments.moveArchLowering16<1>+0
+aux for command-line-arguments.moveArchLowering16<0> SDWARFFCN size=95
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6d 6f 76 65 41 72 63 68  guments.moveArch
+	0x0020 4c 6f 77 65 72 69 6e 67 31 36 00 00 00 00 00 00  Lowering16......
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00  ................
+	0x0040 00 01 12 62 00 00 8a 01 00 00 00 00 00 00 00 00  ...b............
+	0x0050 12 78 00 00 8a 01 00 00 00 00 00 00 00 00 00     .x.............
+	rel 43+8 t=1 command-line-arguments.moveArchLowering16<1>+0
+	rel 51+8 t=1 command-line-arguments.moveArchLowering16<1>+70
+	rel 72+4 t=31 go:info.[]uint8<0>+0
+	rel 76+4 t=31 <0>+0
+	rel 86+4 t=31 go:info.*[16]uint8<0>+0
+	rel 90+4 t=31 <0>+110
+aux for command-line-arguments.ptrEqual<0> SDWARFLINES size=22
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 92 01  ................
+	0x0010 14 02 01 00 01 01                                ......
+	rel 3+8 t=1 command-line-arguments.ptrEqual<1>+0
+aux for command-line-arguments.ptrEqual<0> SDWARFFCN size=57
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 70 74 72 45 71 75 61 6c  guments.ptrEqual
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 01 9c 02 00 00 00 01 00                       .........
+	rel 33+8 t=1 command-line-arguments.ptrEqual<1>+0
+	rel 41+8 t=1 command-line-arguments.ptrEqual<1>+1
+aux for command-line-arguments.ptrOneOffset<0> SDWARFLINES size=32
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 94 01  ................
+	0x0010 14 0a 4b a0 06 55 06 ba 03 7e 6f 02 07 00 01 01  ..K..U...~o.....
+	rel 3+8 t=1 command-line-arguments.ptrOneOffset<1>+0
+aux for command-line-arguments.ptrOneOffset<0> SDWARFFCN size=61
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 70 74 72 4f 6e 65 4f 66  guments.ptrOneOf
+	0x0020 66 73 65 74 00 00 00 00 00 00 00 00 00 00 00 00  fset............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 00           .............
+	rel 37+8 t=1 command-line-arguments.ptrOneOffset<1>+0
+	rel 45+8 t=1 command-line-arguments.ptrOneOffset<1>+61
+aux for command-line-arguments.ptrBothOffset<0> SDWARFLINES size=32
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 9c 01  ................
+	0x0010 14 0a 4b a0 06 55 06 ba 03 7e 6f 02 07 00 01 01  ..K..U...~o.....
+	rel 3+8 t=1 command-line-arguments.ptrBothOffset<1>+0
+aux for command-line-arguments.ptrBothOffset<0> SDWARFFCN size=62
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 70 74 72 42 6f 74 68 4f  guments.ptrBothO
+	0x0020 66 66 73 65 74 00 00 00 00 00 00 00 00 00 00 00  ffset...........
+	0x0030 00 00 00 00 00 00 01 9c 02 00 00 00 01 00        ..............
+	rel 38+8 t=1 command-line-arguments.ptrBothOffset<1>+0
+	rel 46+8 t=1 command-line-arguments.ptrBothOffset<1>+61
+aux for command-line-arguments.init<0> SDWARFLINES size=21
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 24 14  ..............$.
+	0x0010 02 01 00 01 01                                   .....
+	rel 3+8 t=1 command-line-arguments.init<1>+0
+aux for command-line-arguments.init<0> SDWARFFCN size=53
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 69 6e 69 74 00 00 00 00  guments.init....
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0030 00 00 00 01 00                                   .....
+	rel 29+8 t=1 command-line-arguments.init<1>+0
+	rel 37+8 t=1 command-line-arguments.init<1>+1
