@@ -1,11 +1,17 @@
 # LLM-Based Code Generation Method for Golang Compiler Testing
 ***
 
+## Update:
+
+🎉🎉This paper was published in ESEC/FSE Conference in December, 2023. It also won me the Student Research Competition (Undergraduate Division) at the conference held from December 3 to7, 2023, in San Francisco.
+
+***
+
 This is the official PyTorch implementation for our paper:
 
-**Title**: LLM-Based Code Generation Method for Golang Compiler Testing
+**Title**: LLM-Based Code Generation Method for Golang Compiler Testing [[PDF]](https://guqiuhan.github.io/publication/conference-paper/conference-paper.pdf)
 
-**Authors**: Qiuhan Gu, Shicheng Yin and [Yu Wang](https://itwoi.github.io)
+**Authors**: [Qiuhan Gu](https://guqiuhan.github.io/), Shicheng Yin and [Yu Wang](https://itwoi.github.io)
 
 ![v5.drawio 8.crswap.drawio (5)_00](images/v5.drawio%208.crswap.drawio%20(5)_00.png)
 
