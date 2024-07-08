@@ -1,0 +1,5 @@
+./break.go
+./dep.go
+./dep2.go
+./stubs.go
+./asm.s

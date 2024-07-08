@@ -1,0 +1,4 @@
+./builtin.go
+./builtinlist.go
+./funcinfo.go
+./objfile.go

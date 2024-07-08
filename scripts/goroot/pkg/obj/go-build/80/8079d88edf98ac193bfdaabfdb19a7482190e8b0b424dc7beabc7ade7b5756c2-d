@@ -1,0 +1,6 @@
+./cpu.go
+./cpu_x86.go
+./export_test.go
+./export_x86_test.go
+./cpu.s
+./cpu_x86.s

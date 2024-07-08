@@ -1,0 +1,5 @@
+./alldocs.go
+./go11.go
+./main.go
+./chdir_test.go
+./export_test.go

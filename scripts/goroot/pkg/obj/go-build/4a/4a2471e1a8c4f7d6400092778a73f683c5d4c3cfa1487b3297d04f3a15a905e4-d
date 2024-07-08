@@ -1,0 +1,8 @@
+./action.go
+./build.go
+./buildid.go
+./exec.go
+./gc.go
+./gccgo.go
+./init.go
+./security.go

@@ -1,0 +1,3 @@
+# teststrictdup
+cmd/link: while reading object for 'main': duplicate symbol 'main.f', previous def at 'main', with mismatched payload: new length 2 != old length 1
+cmd/link: while reading object for 'main': duplicate symbol 'main.rcon', previous def at 'main', with mismatched payload: different sizes: new size 32 != old size 64

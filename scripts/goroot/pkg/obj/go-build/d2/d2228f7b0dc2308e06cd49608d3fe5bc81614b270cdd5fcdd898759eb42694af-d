@@ -1,0 +1,4 @@
+./dirs.go
+./main.go
+./pkg.go
+./doc_test.go

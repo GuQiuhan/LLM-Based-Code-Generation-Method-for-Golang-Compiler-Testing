@@ -1,0 +1,6 @@
+File with non-runnable example was built.
+=== RUN   TestBuilt
+A normal test was executed.
+--- PASS: TestBuilt (0.00s)
+PASS
+ok  	norunexample	0.049s

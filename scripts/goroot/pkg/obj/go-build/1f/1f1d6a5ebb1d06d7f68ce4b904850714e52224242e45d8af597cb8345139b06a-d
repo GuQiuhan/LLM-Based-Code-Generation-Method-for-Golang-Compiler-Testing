@@ -1,0 +1,10 @@
+./a.out.go
+./aenum.go
+./anames.go
+./asm6.go
+./avx_optabs.go
+./evex.go
+./list6.go
+./obj6.go
+./ytab.go
+./asm_test.go

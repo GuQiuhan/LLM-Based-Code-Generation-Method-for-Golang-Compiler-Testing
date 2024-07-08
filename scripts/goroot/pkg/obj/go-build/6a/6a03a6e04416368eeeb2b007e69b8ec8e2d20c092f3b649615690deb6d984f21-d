@@ -1,0 +1,8 @@
+./arch.go
+./arm.go
+./arm64.go
+./loong64.go
+./mips.go
+./ppc64.go
+./riscv64.go
+./s390x.go

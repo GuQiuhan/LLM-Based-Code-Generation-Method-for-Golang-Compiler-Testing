@@ -1,0 +1,8 @@
+./errors_test.go
+./example_test.go
+./fmt_test.go
+./gostringer_example_test.go
+./scan_test.go
+./state_test.go
+./stringer_example_test.go
+./stringer_test.go

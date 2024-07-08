@@ -1,0 +1,7 @@
+./leaf_alts.go
+./netip.go
+./uint128.go
+./export_test.go
+./inlining_test.go
+./netip_pkg_test.go
+./uint128_test.go

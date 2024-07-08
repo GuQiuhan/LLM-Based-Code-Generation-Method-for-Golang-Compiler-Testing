@@ -1,0 +1,5 @@
+./ar.go
+./file.go
+./xcoff.go
+./ar_test.go
+./file_test.go

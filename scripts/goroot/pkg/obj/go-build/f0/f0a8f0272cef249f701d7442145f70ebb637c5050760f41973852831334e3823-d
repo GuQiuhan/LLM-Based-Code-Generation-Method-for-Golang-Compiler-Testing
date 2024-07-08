@@ -1,0 +1,3 @@
+./loader.go
+./symbolbuilder.go
+./loader_test.go

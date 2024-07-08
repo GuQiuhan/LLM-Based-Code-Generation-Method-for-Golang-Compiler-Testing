@@ -1,0 +1,7 @@
+./asm.go
+./parse.go
+./endtoend_test.go
+./expr_test.go
+./line_test.go
+./operand_test.go
+./pseudo_test.go

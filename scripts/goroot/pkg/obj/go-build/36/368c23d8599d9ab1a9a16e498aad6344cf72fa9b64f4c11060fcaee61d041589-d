@@ -1,0 +1,16 @@
+./build.go
+./buildgo.go
+./buildruntime.go
+./buildtag.go
+./buildtool.go
+./doc.go
+./exec_119.go
+./imports.go
+./main.go
+./quoted.go
+./sys_default.go
+./test.go
+./util.go
+./util_gc.go
+./buildtag_test.go
+./vfp_default.s

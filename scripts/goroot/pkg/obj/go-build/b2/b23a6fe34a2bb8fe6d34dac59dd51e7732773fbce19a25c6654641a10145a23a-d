@@ -1,0 +1,16 @@
+./abi_string.go
+./addrtype_string.go
+./data.go
+./dwarf.go
+./go.go
+./inl.go
+./ld.go
+./line.go
+./link.go
+./objfile.go
+./pass.go
+./pcln.go
+./plist.go
+./sym.go
+./textflag.go
+./util.go

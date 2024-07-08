@@ -1,0 +1,6 @@
+./logger.go
+./reader.go
+./writer.go
+./logger_test.go
+./reader_test.go
+./writer_test.go

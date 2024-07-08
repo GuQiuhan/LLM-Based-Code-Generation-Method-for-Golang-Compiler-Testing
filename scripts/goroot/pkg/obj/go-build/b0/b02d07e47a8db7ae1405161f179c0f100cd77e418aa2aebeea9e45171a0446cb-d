@@ -1,0 +1,13 @@
+package cgosotest
+//go:cgo_import_dynamic _ITM_deregisterTMCloneTable _ITM_deregisterTMCloneTable ""
+//go:cgo_import_dynamic sofunc sofunc ""
+//go:cgo_import_dynamic __stack_chk_fail __stack_chk_fail#GLIBC_2.4 "libc.so.6"
+//go:cgo_import_dynamic __libc_start_main __libc_start_main#GLIBC_2.2.5 "libc.so.6"
+//go:cgo_import_dynamic __tls_get_addr __tls_get_addr#GLIBC_2.3 "ld-linux-x86-64.so.2"
+//go:cgo_import_dynamic __gmon_start__ __gmon_start__ ""
+//go:cgo_import_dynamic tlsvar tlsvar ""
+//go:cgo_import_dynamic _ITM_registerTMCloneTable _ITM_registerTMCloneTable ""
+//go:cgo_import_dynamic __cxa_finalize __cxa_finalize#GLIBC_2.2.5 "libc.so.6"
+//go:cgo_import_dynamic _ _ "libcgosotest.so"
+//go:cgo_import_dynamic _ _ "libc.so.6"
+//go:cgo_import_dynamic _ _ "ld-linux-x86-64.so.2"

@@ -1,0 +1,4 @@
+./galign.go
+./ggen.go
+./gsubr.go
+./ssa.go

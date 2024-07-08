@@ -1,0 +1,5 @@
+./anames.go
+./cpu.go
+./inst.go
+./list.go
+./obj.go

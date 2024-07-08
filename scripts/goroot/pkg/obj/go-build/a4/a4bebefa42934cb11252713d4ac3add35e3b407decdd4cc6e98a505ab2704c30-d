@@ -1,0 +1,5 @@
+./constant_time.go
+./xor.go
+./xor_amd64.go
+./constant_time_test.go
+./xor_amd64.s

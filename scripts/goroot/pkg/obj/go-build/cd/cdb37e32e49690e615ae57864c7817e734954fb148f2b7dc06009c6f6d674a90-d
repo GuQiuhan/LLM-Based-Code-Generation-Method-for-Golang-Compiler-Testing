@@ -1,0 +1,7 @@
+./doc.go
+./main.go
+./cgo_test.go
+./dwarf_test.go
+./elf_test.go
+./link_test.go
+./linkbig_test.go

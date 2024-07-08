@@ -1,0 +1,9 @@
+./ast.go
+./ast_go118.go
+./doc.go
+./gcc.go
+./godefs.go
+./main.go
+./out.go
+./util.go
+./zdefaultcc.go

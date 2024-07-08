@@ -1,0 +1,246 @@
+# command-line-arguments
+command-line-arguments.f<1> STEXT size=133 args=0x0 locals=0x70 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	TEXT	command-line-arguments.f(SB), ABIInternal, $112-0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	JLS	122
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	SUBQ	$112, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	MOVQ	BP, 104(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	LEAQ	104(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	FUNCDATA	$0, gclocals·ykHN0vawYuq1dUW4zEe2gA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	FUNCDATA	$1, gclocals·M5gL/1F/vWBBJ1PzOTgzaA==(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	FUNCDATA	$2, command-line-arguments.f.stkobj(SB)
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:10)	LEAQ	type:chan int(SB), AX
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:10)	XORL	BX, BX
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:10)	PCDATA	$1, $0
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:10)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:10)	CALL	runtime.makechan(SB)
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:10)	MOVQ	AX, command-line-arguments.ch1+64(SP)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:11)	XORL	BX, BX
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:11)	LEAQ	type:chan int(SB), AX
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:11)	PCDATA	$1, $1
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:11)	CALL	runtime.makechan(SB)
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:11)	MOVQ	AX, command-line-arguments.ch2+56(SP)
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	MOVUPS	X15, command-line-arguments..autotmp_4+72(SP)
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	MOVUPS	X15, command-line-arguments..autotmp_4+88(SP)
+	0x0049 00073 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:15)	MOVQ	command-line-arguments.ch1+64(SP), DX
+	0x004e 00078 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:15)	MOVQ	DX, command-line-arguments..autotmp_4+88(SP)
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:16)	MOVQ	AX, command-line-arguments..autotmp_4+72(SP)
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	LEAQ	command-line-arguments..autotmp_5+48(SP), BX
+	0x005d 00093 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	XORL	CX, CX
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	XORL	DI, DI
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	MOVL	$2, SI
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	XORL	R8, R8
+	0x0069 00105 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	LEAQ	command-line-arguments..autotmp_4+72(SP), AX
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	PCDATA	$1, $2
+	0x006e 00110 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:14)	CALL	runtime.selectgo(SB)
+	0x0073 00115 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:16)	MOVQ	command-line-arguments.ch2+56(SP), AX
+	0x0078 00120 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:15)	JMP	61
+	0x007a 00122 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:15)	NOP
+	0x007a 00122 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	PCDATA	$1, $-1
+	0x007a 00122 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	PCDATA	$0, $-2
+	0x007a 00122 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	CALL	runtime.morestack_noctxt(SB)
+	0x007f 00127 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	PCDATA	$0, $-1
+	0x007f 00127 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	NOP
+	0x0080 00128 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/select.go:9)	JMP	0
+	0x0000 49 3b 66 10 76 74 48 83 ec 70 48 89 6c 24 68 48  I;f.vtH..pH.l$hH
+	0x0010 8d 6c 24 68 48 8d 05 00 00 00 00 31 db 0f 1f 00  .l$hH......1....
+	0x0020 e8 00 00 00 00 48 89 44 24 40 31 db 48 8d 05 00  .....H.D$@1.H...
+	0x0030 00 00 00 e8 00 00 00 00 48 89 44 24 38 44 0f 11  ........H.D$8D..
+	0x0040 7c 24 48 44 0f 11 7c 24 58 48 8b 54 24 40 48 89  |$HD..|$XH.T$@H.
+	0x0050 54 24 58 48 89 44 24 48 48 8d 5c 24 30 31 c9 31  T$XH.D$HH.\$01.1
+	0x0060 ff be 02 00 00 00 45 31 c0 48 8d 44 24 48 e8 00  ......E1.H.D$H..
+	0x0070 00 00 00 48 8b 44 24 38 eb c3 e8 00 00 00 00 90  ...H.D$8........
+	0x0080 e9 7b ff ff ff                                   .{...
+	rel 23+4 t=14 type:chan int<0>+0
+	rel 33+4 t=7 runtime.makechan<1>+0
+	rel 47+4 t=14 type:chan int<0>+0
+	rel 52+4 t=7 runtime.makechan<1>+0
+	rel 111+4 t=7 runtime.selectgo<1>+0
+	rel 123+4 t=7 runtime.morestack_noctxt<0>+0
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+runtime.memequal64·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64<1>+0
+runtime.gcbits.0100000000000000<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:.namedata.*[4]uint16-<0> SRODATA dupok size=12
+	0x0000 00 0a 2a 5b 34 5d 75 69 6e 74 31 36              ..*[4]uint16
+type:*[4]uint16<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 fa 60 c7 84 08 08 08 36 00 00 00 00 00 00 00 00  .`.....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[4]uint16-<0>+0
+	rel 48+8 t=1 type:[4]uint16<0>+0
+runtime.gcbits.<0> SRODATA dupok size=0
+type:[4]uint16<0> SRODATA dupok size=72
+	0x0000 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 fd 85 41 c5 0a 02 02 11 00 00 00 00 00 00 00 00  ..A.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 04 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[4]uint16-<0>+0
+	rel 44+4 t=-32763 type:*[4]uint16<0>+0
+	rel 48+8 t=1 type:uint16<0>+0
+	rel 56+8 t=1 type:[]uint16<0>+0
+type:.namedata.*chan int-<0> SRODATA dupok size=11
+	0x0000 00 09 2a 63 68 61 6e 20 69 6e 74                 ..*chan int
+type:*chan int<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 fb 1c b8 83 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*chan int-<0>+0
+	rel 48+8 t=1 type:chan int<0>+0
+type:chan int<0> SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 f9 f3 92 ed 0a 08 08 32 00 00 00 00 00 00 00 00  .......2........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*chan int-<0>+0
+	rel 44+4 t=-32763 type:*chan int<0>+0
+	rel 48+8 t=1 type:int<0>+0
+type:.namedata.*struct { c unsafe.Pointer; elem unsafe.Pointer }-<0> SRODATA dupok size=51
+	0x0000 00 31 2a 73 74 72 75 63 74 20 7b 20 63 20 75 6e  .1*struct { c un
+	0x0010 73 61 66 65 2e 50 6f 69 6e 74 65 72 3b 20 65 6c  safe.Pointer; el
+	0x0020 65 6d 20 75 6e 73 61 66 65 2e 50 6f 69 6e 74 65  em unsafe.Pointe
+	0x0030 72 20 7d                                         r }
+type:*struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 9d a6 ba cd 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*struct { c unsafe.Pointer; elem unsafe.Pointer }-<0>+0
+	rel 48+8 t=1 type:noalg.struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+runtime.gcbits.0300000000000000<0> SRODATA dupok size=8
+	0x0000 03 00 00 00 00 00 00 00                          ........
+type:.importpath.command-line-arguments.<0> SRODATA dupok size=24
+	0x0000 00 16 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61  ..command-line-a
+	0x0010 72 67 75 6d 65 6e 74 73                          rguments
+type:.namedata.c-<0> SRODATA dupok size=3
+	0x0000 00 01 63                                         ..c
+type:.namedata.elem-<0> SRODATA dupok size=6
+	0x0000 00 04 65 6c 65 6d                                ..elem
+type:noalg.struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0> SRODATA dupok size=128
+	0x0000 10 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00  ................
+	0x0010 a6 21 e4 94 02 08 08 19 00 00 00 00 00 00 00 00  .!..............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 02 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	rel 32+8 t=1 runtime.gcbits.0300000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*struct { c unsafe.Pointer; elem unsafe.Pointer }-<0>+0
+	rel 44+4 t=-32763 type:*struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+	rel 48+8 t=1 type:.importpath.command-line-arguments.<0>+0
+	rel 56+8 t=1 type:noalg.struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+80
+	rel 80+8 t=1 type:.namedata.c-<0>+0
+	rel 88+8 t=1 type:unsafe.Pointer<0>+0
+	rel 104+8 t=1 type:.namedata.elem-<0>+0
+	rel 112+8 t=1 type:unsafe.Pointer<0>+0
+type:.namedata.*[]struct { c unsafe.Pointer; elem unsafe.Pointer }-<0> SRODATA dupok size=53
+	0x0000 00 33 2a 5b 5d 73 74 72 75 63 74 20 7b 20 63 20  .3*[]struct { c 
+	0x0010 75 6e 73 61 66 65 2e 50 6f 69 6e 74 65 72 3b 20  unsafe.Pointer; 
+	0x0020 65 6c 65 6d 20 75 6e 73 61 66 65 2e 50 6f 69 6e  elem unsafe.Poin
+	0x0030 74 65 72 20 7d                                   ter }
+type:*[]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 ec 80 37 77 08 08 08 36 00 00 00 00 00 00 00 00  ..7w...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[]struct { c unsafe.Pointer; elem unsafe.Pointer }-<0>+0
+	rel 48+8 t=1 type:[]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+type:[]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0> SRODATA dupok size=56
+	0x0000 18 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 eb 32 ed 0b 02 08 08 17 00 00 00 00 00 00 00 00  .2..............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[]struct { c unsafe.Pointer; elem unsafe.Pointer }-<0>+0
+	rel 44+4 t=-32763 type:*[]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+	rel 48+8 t=1 type:noalg.struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+type:.namedata.*[2]struct { c unsafe.Pointer; elem unsafe.Pointer }-<0> SRODATA dupok size=54
+	0x0000 00 34 2a 5b 32 5d 73 74 72 75 63 74 20 7b 20 63  .4*[2]struct { c
+	0x0010 20 75 6e 73 61 66 65 2e 50 6f 69 6e 74 65 72 3b   unsafe.Pointer;
+	0x0020 20 65 6c 65 6d 20 75 6e 73 61 66 65 2e 50 6f 69   elem unsafe.Poi
+	0x0030 6e 74 65 72 20 7d                                nter }
+type:*[2]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 dc 48 f0 fc 08 08 08 36 00 00 00 00 00 00 00 00  .H.....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[2]struct { c unsafe.Pointer; elem unsafe.Pointer }-<0>+0
+	rel 48+8 t=1 type:noalg.[2]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+runtime.gcbits.0f00000000000000<0> SRODATA dupok size=8
+	0x0000 0f 00 00 00 00 00 00 00                          ........
+type:noalg.[2]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0> SRODATA dupok size=72
+	0x0000 20 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00   ....... .......
+	0x0010 74 97 3b df 02 08 08 11 00 00 00 00 00 00 00 00  t.;.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 02 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=1 runtime.gcbits.0f00000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[2]struct { c unsafe.Pointer; elem unsafe.Pointer }-<0>+0
+	rel 44+4 t=-32763 type:*[2]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+	rel 48+8 t=1 type:noalg.struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+	rel 56+8 t=1 type:[]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+gclocals·ykHN0vawYuq1dUW4zEe2gA==<0> SRODATA dupok size=8
+	0x0000 03 00 00 00 00 00 00 00                          ........
+gclocals·M5gL/1F/vWBBJ1PzOTgzaA==<0> SRODATA dupok size=11
+	0x0000 03 00 00 00 06 00 00 00 00 02 03                 ...........
+command-line-arguments.f.stkobj<0> SRODATA static size=24
+	0x0000 01 00 00 00 00 00 00 00 e0 ff ff ff 20 00 00 00  ............ ...
+	0x0010 20 00 00 00 00 00 00 00                           .......
+	rel 20+4 t=5 runtime.gcbits.0f00000000000000<0>+0
+aux for command-line-arguments.f<0> SDWARFLOC size=142
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 25 00 00 00 00 00 00 00 33 00 00 00 00 00 00 00  %.......3.......
+	0x0020 01 00 50 33 00 00 00 00 00 00 00 85 00 00 00 00  ..P3............
+	0x0030 00 00 00 02 00 91 48 00 00 00 00 00 00 00 00 00  ......H.........
+	0x0040 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0050 00 00 00 00 00 00 00 38 00 00 00 00 00 00 00 6e  .......8.......n
+	0x0060 00 00 00 00 00 00 00 01 00 50 6e 00 00 00 00 00  .........Pn.....
+	0x0070 00 00 85 00 00 00 00 00 00 00 02 00 91 40 00 00  .............@..
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00        ..............
+	rel 8+8 t=1 command-line-arguments.f<1>+0
+	rel 79+8 t=1 command-line-arguments.f<1>+0
+aux for command-line-arguments.f<0> SDWARFLINES size=60
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 03 14  ................
+	0x0010 0a 4b 9c 06 55 06 a6 06 23 06 55 06 41 06 44 06  .K..U...#.U.A.D.
+	0x0020 4b 06 4c 06 41 06 42 3f 06 41 06 b9 06 43 06 40  K.L.A.B?.A...C.@
+	0x0030 03 7e 1f 06 41 06 19 02 05 00 01 01              .~..A.......
+	rel 3+8 t=1 command-line-arguments.f<1>+0
+aux for command-line-arguments.f<0> SDWARFFCN size=78
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 00 00 00 00 00 00 00  guments.f.......
+	0x0020 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0030 01 0d 63 68 31 00 0a 00 00 00 00 00 00 00 00 0d  ..ch1...........
+	0x0040 63 68 32 00 0b 00 00 00 00 00 00 00 00 00        ch2...........
+	rel 0+0 t=22 type:[4]uint16<0>+0
+	rel 0+0 t=22 type:noalg.[2]struct { command-line-arguments.c unsafe.Pointer; command-line-arguments.elem unsafe.Pointer }<0>+0
+	rel 26+8 t=1 command-line-arguments.f<1>+0
+	rel 34+8 t=1 command-line-arguments.f<1>+133
+	rel 55+4 t=31 go:info.chan int<0>+0
+	rel 59+4 t=31 <0>+0
+	rel 69+4 t=31 go:info.chan int<0>+0
+	rel 73+4 t=31 <0>+71

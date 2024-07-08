@@ -1,0 +1,6 @@
+./anames.go
+./cpu.go
+./inst.go
+./list.go
+./obj.go
+./asm_test.go

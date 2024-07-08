@@ -1,0 +1,1782 @@
+# command-line-arguments
+command-line-arguments.bitcheck64_constleft<1> STEXT nosplit size=41 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:15)	TEXT	command-line-arguments.bitcheck64_constleft(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:15)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:15)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:15)	FUNCDATA	$5, command-line-arguments.bitcheck64_constleft.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:15)	FUNCDATA	$6, command-line-arguments.bitcheck64_constleft.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:15)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:17)	BTQ	$63, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:17)	JCS	35
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:21)	BTQ	$60, AX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:21)	JCS	29
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:25)	BTL	$0, AX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:25)	JCC	26
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:26)	MOVL	$1, AX
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:26)	RET
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:28)	XORL	AX, AX
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:28)	RET
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:22)	MOVL	$1, AX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:22)	RET
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:18)	MOVL	$1, AX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:18)	RET
+	0x0000 48 0f ba e0 3f 72 1c 48 0f ba e0 3c 72 0f 0f ba  H...?r.H...<r...
+	0x0010 e0 00 73 06 b8 01 00 00 00 c3 31 c0 c3 b8 01 00  ..s.......1.....
+	0x0020 00 00 c3 b8 01 00 00 00 c3                       .........
+command-line-arguments.bitcheck64_constright<1> STEXT nosplit size=127 args=0x40 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:31)	TEXT	command-line-arguments.bitcheck64_constright(SB), NOSPLIT|ABIInternal, $0-64
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:31)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:31)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:31)	FUNCDATA	$5, command-line-arguments.bitcheck64_constright.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:33)	MOVQ	command-line-arguments.a+8(SP), CX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:33)	BTQ	$63, CX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:33)	JCS	121
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:37)	MOVQ	command-line-arguments.a+16(SP), CX
+	0x0011 00017 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:37)	BTQ	$63, CX
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:37)	JCS	115
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:41)	MOVQ	command-line-arguments.a+24(SP), CX
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:41)	BTQ	$63, CX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:41)	JCC	109
+	0x0024 00036 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:45)	MOVQ	command-line-arguments.a+32(SP), CX
+	0x0029 00041 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:45)	BTQ	$60, CX
+	0x002e 00046 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:45)	JCC	103
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:49)	MOVQ	command-line-arguments.a+40(SP), CX
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:49)	BTL	$1, CX
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:49)	JCC	97
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:53)	MOVQ	command-line-arguments.a+48(SP), CX
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:53)	BTL	$0, CX
+	0x0044 00068 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:53)	JCC	90
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:57)	MOVQ	command-line-arguments.a+56(SP), CX
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:57)	BTL	$7, CX
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:57)	JCS	87
+	0x0051 00081 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:58)	MOVL	$1, AX
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:58)	RET
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:60)	XORL	AX, AX
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:60)	RET
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:54)	MOVL	$1, AX
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:54)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:54)	RET
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:50)	MOVL	$1, AX
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:50)	RET
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:46)	MOVL	$1, AX
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:46)	RET
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:42)	MOVL	$1, AX
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:42)	RET
+	0x0073 00115 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:38)	MOVL	$1, AX
+	0x0078 00120 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:38)	RET
+	0x0079 00121 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:34)	MOVL	$1, AX
+	0x007e 00126 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:34)	RET
+	0x0000 48 8b 4c 24 08 48 0f ba e1 3f 72 6d 48 8b 4c 24  H.L$.H...?rmH.L$
+	0x0010 10 48 0f ba e1 3f 72 5b 48 8b 4c 24 18 48 0f ba  .H...?r[H.L$.H..
+	0x0020 e1 3f 73 49 48 8b 4c 24 20 48 0f ba e1 3c 73 37  .?sIH.L$ H...<s7
+	0x0030 48 8b 4c 24 28 0f ba e1 01 73 26 48 8b 4c 24 30  H.L$(....s&H.L$0
+	0x0040 0f ba e1 00 73 14 48 8b 4c 24 38 0f ba e1 07 72  ....s.H.L$8....r
+	0x0050 06 b8 01 00 00 00 c3 31 c0 c3 b8 01 00 00 00 90  .......1........
+	0x0060 c3 b8 01 00 00 00 c3 b8 01 00 00 00 c3 b8 01 00  ................
+	0x0070 00 00 c3 b8 01 00 00 00 c3 b8 01 00 00 00 c3     ...............
+command-line-arguments.bitcheck64_var<1> STEXT nosplit size=27 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:63)	TEXT	command-line-arguments.bitcheck64_var(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:63)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:63)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:63)	FUNCDATA	$5, command-line-arguments.bitcheck64_var.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:63)	FUNCDATA	$6, command-line-arguments.bitcheck64_var.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:63)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:65)	BTQ	BX, AX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:65)	JCS	21
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:69)	BTQ	AX, BX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:69)	JCC	18
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:70)	MOVL	$1, AX
+	0x0011 00017 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:70)	RET
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:72)	XORL	AX, AX
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:72)	RET
+	0x0015 00021 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:66)	MOVL	$1, AX
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:66)	RET
+	0x0000 48 0f a3 d8 72 0f 48 0f a3 c3 73 06 b8 01 00 00  H...r.H...s.....
+	0x0010 00 c3 31 c0 c3 b8 01 00 00 00 c3                 ..1........
+command-line-arguments.bitcheck64_mask<1> STEXT nosplit size=41 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:75)	TEXT	command-line-arguments.bitcheck64_mask(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:75)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:75)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:75)	FUNCDATA	$5, command-line-arguments.bitcheck64_mask.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:75)	FUNCDATA	$6, command-line-arguments.bitcheck64_mask.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:75)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:77)	BTQ	$63, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:77)	JCS	35
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:81)	BTQ	$59, AX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:81)	JCS	29
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:85)	BTL	$0, AX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:85)	JCC	26
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:86)	MOVL	$1, AX
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:86)	RET
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:88)	XORL	AX, AX
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:88)	RET
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:82)	MOVL	$1, AX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:82)	RET
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:78)	MOVL	$1, AX
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:78)	RET
+	0x0000 48 0f ba e0 3f 72 1c 48 0f ba e0 3b 72 0f 0f ba  H...?r.H...;r...
+	0x0010 e0 00 73 06 b8 01 00 00 00 c3 31 c0 c3 b8 01 00  ..s.......1.....
+	0x0020 00 00 c3 b8 01 00 00 00 c3                       .........
+command-line-arguments.biton64<1> STEXT nosplit size=36 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:91)	TEXT	command-line-arguments.biton64(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:91)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:91)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:91)	FUNCDATA	$5, command-line-arguments.biton64.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:91)	FUNCDATA	$6, command-line-arguments.biton64.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:91)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:93)	BTSQ	AX, BX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:96)	MOVQ	AX, CX
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:96)	BTSQ	$63, AX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:96)	LEAQ	(AX)(BX*1), DX
+	0x0010 00016 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:99)	MOVQ	CX, BX
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:99)	BTSQ	$60, CX
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:99)	ADDQ	DX, CX
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:102)	ORQ	$1, BX
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:102)	LEAQ	(BX)(CX*1), AX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:104)	RET
+	0x0000 48 0f ab c3 48 89 c1 48 0f ba e8 3f 48 8d 14 18  H...H..H...?H...
+	0x0010 48 89 cb 48 0f ba e9 3c 48 01 d1 48 83 cb 01 48  H..H...<H..H...H
+	0x0020 8d 04 0b c3                                      ....
+command-line-arguments.bitoff64<1> STEXT nosplit size=36 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:107)	TEXT	command-line-arguments.bitoff64(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:107)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:107)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:107)	FUNCDATA	$5, command-line-arguments.bitoff64.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:107)	FUNCDATA	$6, command-line-arguments.bitoff64.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:107)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:109)	BTRQ	AX, BX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:112)	MOVQ	AX, CX
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:112)	BTRQ	$63, AX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:112)	LEAQ	(AX)(BX*1), DX
+	0x0010 00016 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:115)	MOVQ	CX, BX
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:115)	BTRQ	$60, CX
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:115)	ADDQ	DX, CX
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:118)	ANDQ	$-2, BX
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:118)	LEAQ	(BX)(CX*1), AX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:120)	RET
+	0x0000 48 0f b3 c3 48 89 c1 48 0f ba f0 3f 48 8d 14 18  H...H..H...?H...
+	0x0010 48 89 cb 48 0f ba f1 3c 48 01 d1 48 83 e3 fe 48  H..H...<H..H...H
+	0x0020 8d 04 0b c3                                      ....
+command-line-arguments.bitcompl64<1> STEXT nosplit size=36 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:123)	TEXT	command-line-arguments.bitcompl64(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:123)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:123)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:123)	FUNCDATA	$5, command-line-arguments.bitcompl64.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:123)	FUNCDATA	$6, command-line-arguments.bitcompl64.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:123)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:125)	BTCQ	AX, BX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:128)	MOVQ	AX, CX
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:128)	BTCQ	$63, AX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:128)	LEAQ	(AX)(BX*1), DX
+	0x0010 00016 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:131)	MOVQ	CX, BX
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:131)	BTCQ	$60, CX
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:131)	ADDQ	DX, CX
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:134)	XORQ	$1, BX
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:134)	LEAQ	(BX)(CX*1), AX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:136)	RET
+	0x0000 48 0f bb c3 48 89 c1 48 0f ba f8 3f 48 8d 14 18  H...H..H...?H...
+	0x0010 48 89 cb 48 0f ba f9 3c 48 01 d1 48 83 f3 01 48  H..H...<H..H...H
+	0x0020 8d 04 0b c3                                      ....
+command-line-arguments.bitcheck32_constleft<1> STEXT nosplit size=39 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:143)	TEXT	command-line-arguments.bitcheck32_constleft(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:143)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:143)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:143)	FUNCDATA	$5, command-line-arguments.bitcheck32_constleft.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:143)	FUNCDATA	$6, command-line-arguments.bitcheck32_constleft.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:143)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:145)	BTL	$31, AX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:145)	JCS	33
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:149)	BTL	$28, AX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:149)	JCS	27
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:153)	BTL	$0, AX
+	0x0010 00016 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:153)	JCC	24
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:154)	MOVL	$1, AX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:154)	RET
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:156)	XORL	AX, AX
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:156)	RET
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:150)	MOVL	$1, AX
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:150)	RET
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:146)	MOVL	$1, AX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:146)	RET
+	0x0000 0f ba e0 1f 72 1b 0f ba e0 1c 72 0f 0f ba e0 00  ....r.....r.....
+	0x0010 73 06 b8 01 00 00 00 c3 31 c0 c3 b8 01 00 00 00  s.......1.......
+	0x0020 c3 b8 01 00 00 00 c3                             .......
+command-line-arguments.bitcheck32_constright<1> STEXT nosplit size=115 args=0x20 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:159)	TEXT	command-line-arguments.bitcheck32_constright(SB), NOSPLIT|ABIInternal, $0-32
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:159)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:159)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:159)	FUNCDATA	$5, command-line-arguments.bitcheck32_constright.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:161)	MOVL	command-line-arguments.a+8(SP), CX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:161)	BTL	$31, CX
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:161)	JCS	109
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:165)	MOVL	command-line-arguments.a+12(SP), CX
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:165)	BTL	$31, CX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:165)	JCS	103
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:169)	MOVL	command-line-arguments.a+16(SP), CX
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:169)	BTL	$31, CX
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:169)	JCC	97
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:173)	MOVL	command-line-arguments.a+20(SP), CX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:173)	BTL	$28, CX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:173)	JCC	91
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:177)	MOVL	command-line-arguments.a+24(SP), CX
+	0x002c 00044 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:177)	BTL	$1, CX
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:177)	JCC	85
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:181)	MOVL	command-line-arguments.a+28(SP), CX
+	0x0036 00054 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:181)	BTL	$0, CX
+	0x003a 00058 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:181)	JCC	79
+	0x003c 00060 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:185)	MOVL	command-line-arguments.a+32(SP), CX
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:185)	BTL	$7, CX
+	0x0044 00068 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:185)	JCS	76
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:186)	MOVL	$1, AX
+	0x004b 00075 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:186)	RET
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:188)	XORL	AX, AX
+	0x004e 00078 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:188)	RET
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:182)	MOVL	$1, AX
+	0x0054 00084 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:182)	RET
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:178)	MOVL	$1, AX
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:178)	RET
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:174)	MOVL	$1, AX
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:174)	RET
+	0x0061 00097 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:170)	MOVL	$1, AX
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:170)	RET
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:166)	MOVL	$1, AX
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:166)	RET
+	0x006d 00109 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:162)	MOVL	$1, AX
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:162)	RET
+	0x0000 8b 4c 24 08 0f ba e1 1f 72 63 8b 4c 24 0c 0f ba  .L$.....rc.L$...
+	0x0010 e1 1f 72 53 8b 4c 24 10 0f ba e1 1f 73 43 8b 4c  ..rS.L$.....sC.L
+	0x0020 24 14 0f ba e1 1c 73 33 8b 4c 24 18 0f ba e1 01  $.....s3.L$.....
+	0x0030 73 23 8b 4c 24 1c 0f ba e1 00 73 13 8b 4c 24 20  s#.L$.....s..L$ 
+	0x0040 0f ba e1 07 72 06 b8 01 00 00 00 c3 31 c0 c3 b8  ....r.......1...
+	0x0050 01 00 00 00 c3 b8 01 00 00 00 c3 b8 01 00 00 00  ................
+	0x0060 c3 b8 01 00 00 00 c3 b8 01 00 00 00 c3 b8 01 00  ................
+	0x0070 00 00 c3                                         ...
+command-line-arguments.bitcheck32_var<1> STEXT nosplit size=25 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:191)	TEXT	command-line-arguments.bitcheck32_var(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:191)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:191)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:191)	FUNCDATA	$5, command-line-arguments.bitcheck32_var.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:191)	FUNCDATA	$6, command-line-arguments.bitcheck32_var.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:191)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:193)	BTL	BX, AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:193)	JCS	19
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:197)	BTL	AX, BX
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:197)	JCC	16
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:198)	MOVL	$1, AX
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:198)	RET
+	0x0010 00016 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:200)	XORL	AX, AX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:200)	RET
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:194)	MOVL	$1, AX
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:194)	RET
+	0x0000 0f a3 d8 72 0e 0f a3 c3 73 06 b8 01 00 00 00 c3  ...r....s.......
+	0x0010 31 c0 c3 b8 01 00 00 00 c3                       1........
+command-line-arguments.bitcheck32_mask<1> STEXT nosplit size=39 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:203)	TEXT	command-line-arguments.bitcheck32_mask(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:203)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:203)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:203)	FUNCDATA	$5, command-line-arguments.bitcheck32_mask.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:203)	FUNCDATA	$6, command-line-arguments.bitcheck32_mask.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:203)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:205)	BTL	$31, AX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:205)	JCS	33
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:209)	BTL	$27, AX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:209)	JCS	27
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:213)	BTL	$0, AX
+	0x0010 00016 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:213)	JCC	24
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:214)	MOVL	$1, AX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:214)	RET
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:216)	XORL	AX, AX
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:216)	RET
+	0x001b 00027 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:210)	MOVL	$1, AX
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:210)	RET
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:206)	MOVL	$1, AX
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:206)	RET
+	0x0000 0f ba e0 1f 72 1b 0f ba e0 1b 72 0f 0f ba e0 00  ....r.....r.....
+	0x0010 73 06 b8 01 00 00 00 c3 31 c0 c3 b8 01 00 00 00  s.......1.......
+	0x0020 c3 b8 01 00 00 00 c3                             .......
+command-line-arguments.biton32<1> STEXT nosplit size=27 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:219)	TEXT	command-line-arguments.biton32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:219)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:219)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:219)	FUNCDATA	$5, command-line-arguments.biton32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:219)	FUNCDATA	$6, command-line-arguments.biton32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:219)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:221)	BTSL	AX, BX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:224)	MOVL	AX, CX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:224)	BTSL	$31, AX
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:224)	LEAL	(AX)(BX*1), DX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:227)	MOVL	CX, BX
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:227)	BTSL	$28, CX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:227)	ADDL	DX, CX
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:230)	ORL	$1, BX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:230)	LEAL	(BX)(CX*1), AX
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:232)	RET
+	0x0000 0f ab c3 89 c1 0f ba e8 1f 8d 14 18 89 cb 0f ba  ................
+	0x0010 e9 1c 01 d1 83 cb 01 8d 04 0b c3                 ...........
+command-line-arguments.bitoff32<1> STEXT nosplit size=27 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:235)	TEXT	command-line-arguments.bitoff32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:235)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:235)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:235)	FUNCDATA	$5, command-line-arguments.bitoff32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:235)	FUNCDATA	$6, command-line-arguments.bitoff32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:235)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:237)	BTRL	AX, BX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:240)	MOVL	AX, CX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:240)	BTRL	$31, AX
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:240)	LEAL	(AX)(BX*1), DX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:243)	MOVL	CX, BX
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:243)	BTRL	$28, CX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:243)	ADDL	DX, CX
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:246)	ANDL	$-2, BX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:246)	LEAL	(BX)(CX*1), AX
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:248)	RET
+	0x0000 0f b3 c3 89 c1 0f ba f0 1f 8d 14 18 89 cb 0f ba  ................
+	0x0010 f1 1c 01 d1 83 e3 fe 8d 04 0b c3                 ...........
+command-line-arguments.bitcompl32<1> STEXT nosplit size=27 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:251)	TEXT	command-line-arguments.bitcompl32(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:251)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:251)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:251)	FUNCDATA	$5, command-line-arguments.bitcompl32.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:251)	FUNCDATA	$6, command-line-arguments.bitcompl32.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:251)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:253)	BTCL	AX, BX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:256)	MOVL	AX, CX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:256)	BTCL	$31, AX
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:256)	LEAL	(AX)(BX*1), DX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:259)	MOVL	CX, BX
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:259)	BTCL	$28, CX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:259)	ADDL	DX, CX
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:262)	XORL	$1, BX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:262)	LEAL	(BX)(CX*1), AX
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:264)	RET
+	0x0000 0f bb c3 89 c1 0f ba f8 1f 8d 14 18 89 cb 0f ba  ................
+	0x0010 f9 1c 01 d1 83 f3 01 8d 04 0b c3                 ...........
+command-line-arguments.bitOpOnMem<1> STEXT nosplit size=105 args=0x28 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	TEXT	command-line-arguments.bitOpOnMem(SB), NOSPLIT|ABIInternal, $24-40
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	MOVQ	AX, command-line-arguments.a+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	FUNCDATA	$5, command-line-arguments.bitOpOnMem.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	FUNCDATA	$6, command-line-arguments.bitOpOnMem.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:268)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:270)	TESTQ	BX, BX
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:270)	JLS	94
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:270)	ANDL	$200, (AX)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:270)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:272)	CMPQ	BX, $1
+	0x0024 00036 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:272)	JLS	81
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:272)	ORL	$220, 4(AX)
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:274)	CMPQ	BX, $2
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:274)	JLS	68
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:274)	XORL	$240, 8(AX)
+	0x003a 00058 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:275)	MOVQ	16(SP), BP
+	0x003f 00063 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:275)	ADDQ	$24, SP
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:275)	RET
+	0x0044 00068 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:274)	MOVL	$2, AX
+	0x0049 00073 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:274)	MOVQ	AX, CX
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:274)	PCDATA	$1, $1
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:274)	CALL	runtime.panicIndex(SB)
+	0x0051 00081 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:272)	MOVL	$1, AX
+	0x0056 00086 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:272)	MOVQ	AX, CX
+	0x0059 00089 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:272)	CALL	runtime.panicIndex(SB)
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:270)	XORL	AX, AX
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:270)	MOVQ	AX, CX
+	0x0063 00099 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:270)	CALL	runtime.panicIndex(SB)
+	0x0068 00104 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:270)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 85 db 76 46 81 20 c8 00 00 00 66 90  D$ H..vF. ....f.
+	0x0020 48 83 fb 01 76 2b 81 48 04 dc 00 00 00 48 83 fb  H...v+.H.....H..
+	0x0030 02 76 11 81 70 08 f0 00 00 00 48 8b 6c 24 10 48  .v..p.....H.l$.H
+	0x0040 83 c4 18 c3 b8 02 00 00 00 48 89 c1 e8 00 00 00  .........H......
+	0x0050 00 b8 01 00 00 00 48 89 c1 e8 00 00 00 00 31 c0  ......H.......1.
+	0x0060 48 89 c1 e8 00 00 00 00 90                       H........
+	rel 77+4 t=7 runtime.panicIndex<1>+0
+	rel 90+4 t=7 runtime.panicIndex<1>+0
+	rel 100+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.bitcheckMostNegative<1> STEXT nosplit size=6 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:277)	TEXT	command-line-arguments.bitcheckMostNegative(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:277)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:277)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:277)	FUNCDATA	$5, command-line-arguments.bitcheckMostNegative.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:277)	FUNCDATA	$6, command-line-arguments.bitcheckMostNegative.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:277)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:279)	TESTB	$-128, AL
+	0x0002 00002 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:279)	SETNE	AL
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:279)	RET
+	0x0000 a8 80 0f 95 c0 c3                                ......
+command-line-arguments.and_mask_1<1> STEXT nosplit size=6 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:284)	TEXT	command-line-arguments.and_mask_1(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:284)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:284)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:284)	FUNCDATA	$5, command-line-arguments.and_mask_1.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:284)	FUNCDATA	$6, command-line-arguments.and_mask_1.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:284)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:286)	BTRQ	$63, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:286)	RET
+	0x0000 48 0f ba f0 3f c3                                H...?.
+command-line-arguments.and_mask_2<1> STEXT nosplit size=14 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:289)	TEXT	command-line-arguments.and_mask_2(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:289)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:289)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:289)	FUNCDATA	$5, command-line-arguments.and_mask_2.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:289)	FUNCDATA	$6, command-line-arguments.and_mask_2.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:289)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:291)	MOVQ	$-9223372036854775808, CX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:291)	ANDQ	CX, AX
+	0x000d 00013 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:291)	RET
+	0x0000 48 b9 00 00 00 00 00 00 00 80 48 21 c8 c3        H.........H!..
+command-line-arguments.and_mask_3<1> STEXT nosplit size=12 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:294)	TEXT	command-line-arguments.and_mask_3(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:294)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:294)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:294)	FUNCDATA	$5, command-line-arguments.and_mask_3.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:294)	FUNCDATA	$6, command-line-arguments.and_mask_3.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:294)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:296)	ANDL	$-21846, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:298)	ANDL	$-4193281, BX
+	0x000b 00011 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:299)	RET
+	0x0000 25 aa aa ff ff 81 e3 ff 03 c0 ff c3              %...........
+command-line-arguments.op_bic<1> STEXT nosplit size=6 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:304)	TEXT	command-line-arguments.op_bic(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:304)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:304)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:304)	FUNCDATA	$5, command-line-arguments.op_bic.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:304)	FUNCDATA	$6, command-line-arguments.op_bic.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:304)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:306)	ANDNL	AX, BX, AX
+	0x0005 00005 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:306)	RET
+	0x0000 c4 e2 60 f2 c0 c3                                ..`...
+command-line-arguments.op_eon<1> STEXT nosplit size=114 args=0x38 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	TEXT	command-line-arguments.op_eon(SB), NOSPLIT|ABIInternal, $24-56
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	MOVQ	DI, command-line-arguments.a+48(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	FUNCDATA	$0, gclocals·pjkiW5J2QfpsfPzMt9QzFQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	FUNCDATA	$5, command-line-arguments.op_eon.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	FUNCDATA	$6, command-line-arguments.op_eon.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:309)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	MOVL	BX, DX
+	0x0015 00021 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	NOTL	BX
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	XORL	AX, BX
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	TESTQ	SI, SI
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	JLS	103
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	MOVL	BX, (DI)
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:314)	XORL	CX, DX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:314)	CMPQ	SI, $1
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:314)	JLS	90
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:314)	NOTL	DX
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:314)	MOVL	DX, 4(DI)
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	NOTL	CX
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	XORL	AX, CX
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	CMPQ	SI, $2
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	JLS	77
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	MOVL	CX, 8(DI)
+	0x003a 00058 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:320)	NOTQ	R10
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:320)	XORQ	R10, R9
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:320)	MOVQ	R9, AX
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:320)	MOVQ	16(SP), BP
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:320)	ADDQ	$24, SP
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:320)	RET
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	MOVL	$2, AX
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	MOVQ	AX, CX
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	PCDATA	$1, $1
+	0x0055 00085 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:317)	CALL	runtime.panicIndex(SB)
+	0x005a 00090 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:314)	MOVL	$1, AX
+	0x005f 00095 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:314)	MOVQ	AX, CX
+	0x0062 00098 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:314)	CALL	runtime.panicIndex(SB)
+	0x0067 00103 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	XORL	AX, AX
+	0x0069 00105 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	MOVQ	AX, CX
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	CALL	runtime.panicIndex(SB)
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:311)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 7c 24 30 89 da f7 d3 31 c3 48 85 f6 76 49 89 1f  |$0....1.H..vI..
+	0x0020 31 ca 48 83 fe 01 76 32 f7 d2 89 57 04 f7 d1 31  1.H...v2...W...1
+	0x0030 c1 48 83 fe 02 76 16 89 4f 08 49 f7 d2 4d 31 d1  .H...v..O.I..M1.
+	0x0040 4c 89 c8 48 8b 6c 24 10 48 83 c4 18 c3 b8 02 00  L..H.l$.H.......
+	0x0050 00 00 48 89 c1 e8 00 00 00 00 b8 01 00 00 00 48  ..H............H
+	0x0060 89 c1 e8 00 00 00 00 31 c0 48 89 c1 e8 00 00 00  .......1.H......
+	0x0070 00 90                                            ..
+	rel 86+4 t=7 runtime.panicIndex<1>+0
+	rel 99+4 t=7 runtime.panicIndex<1>+0
+	rel 109+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.op_orn<1> STEXT nosplit size=5 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:323)	TEXT	command-line-arguments.op_orn(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:323)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:323)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:323)	FUNCDATA	$5, command-line-arguments.op_orn.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:323)	FUNCDATA	$6, command-line-arguments.op_orn.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:323)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:325)	NOTL	BX
+	0x0002 00002 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:325)	ORL	BX, AX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:325)	RET
+	0x0000 f7 d3 09 d8 c3                                   .....
+command-line-arguments.bitSetPowerOf2Test<1> STEXT nosplit size=8 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:329)	TEXT	command-line-arguments.bitSetPowerOf2Test(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:329)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:329)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:329)	FUNCDATA	$5, command-line-arguments.bitSetPowerOf2Test.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:329)	FUNCDATA	$6, command-line-arguments.bitSetPowerOf2Test.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:329)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:331)	BTL	$3, AX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:331)	SETCS	AL
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:331)	RET
+	0x0000 0f ba e0 03 0f 92 c0 c3                          ........
+command-line-arguments.bitSetTest<1> STEXT nosplit size=11 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:334)	TEXT	command-line-arguments.bitSetTest(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:334)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:334)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:334)	FUNCDATA	$5, command-line-arguments.bitSetTest.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:334)	FUNCDATA	$6, command-line-arguments.bitSetTest.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:334)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:337)	ANDL	$9, AX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:337)	CMPQ	AX, $9
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:337)	SETEQ	AL
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:337)	RET
+	0x0000 83 e0 09 48 83 f8 09 0f 94 c0 c3                 ...H.......
+command-line-arguments.cont1Mask64U<1> STEXT nosplit size=14 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:341)	TEXT	command-line-arguments.cont1Mask64U(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:341)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:341)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:341)	FUNCDATA	$5, command-line-arguments.cont1Mask64U.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:341)	FUNCDATA	$6, command-line-arguments.cont1Mask64U.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:341)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:343)	MOVQ	$281474976645120, CX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:343)	ANDQ	CX, AX
+	0x000d 00013 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:343)	RET
+	0x0000 48 b9 00 00 ff ff ff ff 00 00 48 21 c8 c3        H.........H!..
+command-line-arguments.cont0Mask64U<1> STEXT nosplit size=14 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:347)	TEXT	command-line-arguments.cont0Mask64U(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:347)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:347)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:347)	FUNCDATA	$5, command-line-arguments.cont0Mask64U.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:347)	FUNCDATA	$6, command-line-arguments.cont0Mask64U.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:347)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:349)	MOVQ	$-281474976645121, CX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:349)	ANDQ	CX, AX
+	0x000d 00013 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:349)	RET
+	0x0000 48 b9 ff ff 00 00 00 00 ff ff 48 21 c8 c3        H.........H!..
+command-line-arguments.issue44228a<1> STEXT nosplit size=64 args=0x20 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	TEXT	command-line-arguments.issue44228a(SB), NOSPLIT|ABIInternal, $24-32
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	MOVQ	AX, command-line-arguments.a+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	FUNCDATA	$5, command-line-arguments.issue44228a.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	FUNCDATA	$6, command-line-arguments.issue44228a.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:352)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	MOVQ	DI, DX
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	SARQ	$6, DI
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	CMPQ	BX, DI
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	JLS	52
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	MOVQ	(AX)(DI*8), CX
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	BTQ	DX, CX
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	SETCS	AL
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	MOVQ	16(SP), BP
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	ADDQ	$24, SP
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	RET
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	MOVQ	DI, AX
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	MOVQ	BX, CX
+	0x003a 00058 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	PCDATA	$1, $1
+	0x003a 00058 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	CALL	runtime.panicIndex(SB)
+	0x003f 00063 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:354)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 89 fa 48 c1 ff 06 48 39 fb 76 15 48  D$ H..H...H9.v.H
+	0x0020 8b 0c f8 48 0f a3 d1 0f 92 c0 48 8b 6c 24 10 48  ...H......H.l$.H
+	0x0030 83 c4 18 c3 48 89 f8 48 89 d9 e8 00 00 00 00 90  ....H..H........
+	rel 59+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.issue44228b<1> STEXT nosplit size=62 args=0x20 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	TEXT	command-line-arguments.issue44228b(SB), NOSPLIT|ABIInternal, $24-32
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	MOVQ	AX, command-line-arguments.a+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	FUNCDATA	$5, command-line-arguments.issue44228b.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	FUNCDATA	$6, command-line-arguments.issue44228b.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:356)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	MOVQ	DI, DX
+	0x0016 00022 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	SARQ	$5, DI
+	0x001a 00026 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	CMPQ	BX, DI
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	JLS	50
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	MOVL	(AX)(DI*4), CX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	BTL	DX, CX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	SETCS	AL
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	MOVQ	16(SP), BP
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	ADDQ	$24, SP
+	0x0031 00049 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	RET
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	MOVQ	DI, AX
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	MOVQ	BX, CX
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	PCDATA	$1, $1
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	CALL	runtime.panicIndex(SB)
+	0x003d 00061 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:358)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 89 fa 48 c1 ff 05 48 39 fb 76 13 8b  D$ H..H...H9.v..
+	0x0020 0c b8 0f a3 d1 0f 92 c0 48 8b 6c 24 10 48 83 c4  ........H.l$.H..
+	0x0030 18 c3 48 89 f8 48 89 d9 e8 00 00 00 00 90        ..H..H........
+	rel 57+4 t=7 runtime.panicIndex<1>+0
+command-line-arguments.issue48467<1> STEXT nosplit size=19 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:361)	TEXT	command-line-arguments.issue48467(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:361)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:361)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:361)	FUNCDATA	$5, command-line-arguments.issue48467.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:361)	FUNCDATA	$6, command-line-arguments.issue48467.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:361)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:363)	MOVQ	AX, CX
+	0x0003 00003 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:363)	SUBQ	BX, AX
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:363)	SBBQ	DX, DX
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:364)	ANDQ	DX, AX
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:364)	SUBQ	AX, CX
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:364)	MOVQ	CX, AX
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:364)	RET
+	0x0000 48 89 c1 48 29 d8 48 19 d2 48 21 d0 48 29 c1 48  H..H).H..H!.H).H
+	0x0010 89 c8 c3                                         ...
+command-line-arguments.foldConst<1> STEXT nosplit size=14 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:367)	TEXT	command-line-arguments.foldConst(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:367)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:367)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:367)	FUNCDATA	$5, command-line-arguments.foldConst.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:367)	FUNCDATA	$6, command-line-arguments.foldConst.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:367)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:369)	ADDQ	$7, AX
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:369)	SBBQ	CX, CX
+	0x0007 00007 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:369)	NEGQ	CX
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:370)	ANDQ	CX, AX
+	0x000d 00013 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:370)	RET
+	0x0000 48 83 c0 07 48 19 c9 48 f7 d9 48 21 c8 c3        H...H..H..H!..
+command-line-arguments.foldConstOutOfRange<1> STEXT nosplit size=7 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:373)	TEXT	command-line-arguments.foldConstOutOfRange(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:373)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:373)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:373)	FUNCDATA	$5, command-line-arguments.foldConstOutOfRange.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:373)	FUNCDATA	$6, command-line-arguments.foldConstOutOfRange.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:373)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:375)	ADDQ	$19088744, AX
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/bits.go:375)	RET
+	0x0000 48 05 68 45 23 01 c3                             H.hE#..
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+type:.eqfunc32<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00  ........ .......
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+runtime.memequal64·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64<1>+0
+runtime.gcbits.0100000000000000<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:.namedata.*[8]uint32-<0> SRODATA dupok size=12
+	0x0000 00 0a 2a 5b 38 5d 75 69 6e 74 33 32              ..*[8]uint32
+type:*[8]uint32<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 ac 01 73 5b 08 08 08 36 00 00 00 00 00 00 00 00  ..s[...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[8]uint32-<0>+0
+	rel 48+8 t=1 type:[8]uint32<0>+0
+runtime.gcbits.<0> SRODATA dupok size=0
+type:[8]uint32<0> SRODATA dupok size=72
+	0x0000 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ...............
+	0x0010 60 5d fb ce 0a 04 04 11 00 00 00 00 00 00 00 00  `]..............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 08 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type:.eqfunc32<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[8]uint32-<0>+0
+	rel 44+4 t=-32763 type:*[8]uint32<0>+0
+	rel 48+8 t=1 type:uint32<0>+0
+	rel 56+8 t=1 type:[]uint32<0>+0
+type:.eqfunc64<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00  ........@.......
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+type:.namedata.*[8]uint64-<0> SRODATA dupok size=12
+	0x0000 00 0a 2a 5b 38 5d 75 69 6e 74 36 34              ..*[8]uint64
+type:*[8]uint64<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 b2 cf 6b 55 08 08 08 36 00 00 00 00 00 00 00 00  ..kU...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[8]uint64-<0>+0
+	rel 48+8 t=1 type:[8]uint64<0>+0
+type:[8]uint64<0> SRODATA dupok size=72
+	0x0000 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  @...............
+	0x0010 45 de 7d 4a 0a 08 08 11 00 00 00 00 00 00 00 00  E.}J............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 08 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type:.eqfunc64<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[8]uint64-<0>+0
+	rel 44+4 t=-32763 type:*[8]uint64<0>+0
+	rel 48+8 t=1 type:uint64<0>+0
+	rel 56+8 t=1 type:[]uint64<0>+0
+type:.importpath.math/bits.<0> SRODATA dupok size=11
+	0x0000 00 09 6d 61 74 68 2f 62 69 74 73                 ..math/bits
+gclocals·g2BeySu+wFnoycgXfElmcg==<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+command-line-arguments.bitcheck64_constleft.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.bitcheck64_constleft.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitcheck64_constright.arginfo1<0> SRODATA static dupok size=19
+	0x0000 fe 00 08 08 08 10 08 18 08 20 08 28 08 30 08 38  ......... .(.0.8
+	0x0010 08 fd ff                                         ...
+command-line-arguments.bitcheck64_var.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.bitcheck64_var.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitcheck64_mask.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.bitcheck64_mask.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.biton64.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.biton64.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitoff64.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.bitoff64.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitcompl64.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.bitcompl64.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitcheck32_constleft.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.bitcheck32_constleft.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitcheck32_constright.arginfo1<0> SRODATA static dupok size=19
+	0x0000 fe 00 04 04 04 08 04 0c 04 10 04 14 04 18 04 1c  ................
+	0x0010 04 fd ff                                         ...
+command-line-arguments.bitcheck32_var.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 04 04 04 ff                                   .....
+command-line-arguments.bitcheck32_var.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitcheck32_mask.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 04 ff                                         ...
+command-line-arguments.bitcheck32_mask.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.biton32.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 04 04 04 ff                                   .....
+command-line-arguments.biton32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitoff32.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 04 04 04 ff                                   .....
+command-line-arguments.bitoff32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitcompl32.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 04 04 04 ff                                   .....
+command-line-arguments.bitcompl32.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·wgcWObbY2HYnK2SU/U22lA==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 01 00 00 00 01 00                    ..........
+gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==<0> SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+command-line-arguments.bitOpOnMem.arginfo1<0> SRODATA static dupok size=15
+	0x0000 fe 00 08 08 08 10 08 fd 18 04 1c 04 20 04 ff     ............ ..
+command-line-arguments.bitOpOnMem.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitcheckMostNegative.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 01 ff                                         ...
+command-line-arguments.bitcheckMostNegative.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.and_mask_1.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.and_mask_1.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.and_mask_2.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.and_mask_2.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.and_mask_3.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 04 04 04 ff                                   .....
+command-line-arguments.and_mask_3.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.op_bic.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 04 04 04 ff                                   .....
+command-line-arguments.op_bic.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·pjkiW5J2QfpsfPzMt9QzFQ==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 03 00 00 00 04 00                    ..........
+command-line-arguments.op_eon.arginfo1<0> SRODATA static dupok size=19
+	0x0000 00 04 04 04 08 04 fe 10 08 18 08 20 08 fd 28 08  ........... ..(.
+	0x0010 30 08 ff                                         0..
+command-line-arguments.op_eon.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.op_orn.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 04 04 04 ff                                   .....
+command-line-arguments.op_orn.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitSetPowerOf2Test.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.bitSetPowerOf2Test.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.bitSetTest.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.bitSetTest.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.cont1Mask64U.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.cont1Mask64U.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.cont0Mask64U.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.cont0Mask64U.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.issue44228a.arginfo1<0> SRODATA static dupok size=11
+	0x0000 fe 00 08 08 08 10 08 fd 18 08 ff                 ...........
+command-line-arguments.issue44228a.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.issue44228b.arginfo1<0> SRODATA static dupok size=11
+	0x0000 fe 00 08 08 08 10 08 fd 18 08 ff                 ...........
+command-line-arguments.issue44228b.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.issue48467.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.issue48467.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.foldConst.arginfo1<0> SRODATA static dupok size=5
+	0x0000 00 08 08 08 ff                                   .....
+command-line-arguments.foldConst.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+command-line-arguments.foldConstOutOfRange.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.foldConstOutOfRange.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+aux for command-line-arguments.bitcheck64_constleft<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 19 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.bitcheck64_constleft<1>+0
+aux for command-line-arguments.bitcheck64_constleft<0> SDWARFLINES size=49
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 0b 14  ................
+	0x0010 06 41 06 27 06 41 06 27 06 37 06 24 06 41 06 1b  .A.'.A.'.7.$.A..
+	0x0020 06 23 06 03 7e 15 06 41 06 15 06 41 02 01 00 01  .#..~..A...A....
+	0x0030 01                                               .
+	rel 3+8 t=1 command-line-arguments.bitcheck64_constleft<1>+0
+aux for command-line-arguments.bitcheck64_constleft<0> SDWARFFCN size=92
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 36 34 5f 63 6f 6e 73 74 6c 65 66 74 00 00 00 00  64_constleft....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0040 00 00 00 01 12 61 00 00 0f 00 00 00 00 00 00 00  .....a..........
+	0x0050 00 11 6e 00 01 0f 00 00 00 00 00 00              ..n.........
+	rel 0+0 t=22 type:int<0>+0
+	rel 45+8 t=1 command-line-arguments.bitcheck64_constleft<1>+0
+	rel 53+8 t=1 command-line-arguments.bitcheck64_constleft<1>+41
+	rel 73+4 t=31 go:info.uint64<0>+0
+	rel 77+4 t=31 <0>+0
+	rel 86+4 t=31 go:info.int<0>+0
+aux for command-line-arguments.bitcheck64_constright<0> SDWARFLINES size=81
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 1b 14  ................
+	0x0010 06 41 06 59 06 41 06 59 06 41 06 59 06 41 06 59  .A.Y.A.Y.A.Y.A.Y
+	0x0020 06 41 06 4f 06 41 06 4f 06 41 06 4c 06 41 06 1b  .A.O.A.O.A.L.A..
+	0x0030 06 23 06 03 7e 15 06 41 06 1f 06 41 06 15 06 41  .#..~..A...A...A
+	0x0040 06 15 06 41 06 15 06 41 06 15 06 41 02 01 00 01  ...A...A...A....
+	0x0050 01                                               .
+	rel 3+8 t=1 command-line-arguments.bitcheck64_constright<1>+0
+aux for command-line-arguments.bitcheck64_constright<0> SDWARFFCN size=91
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 36 34 5f 63 6f 6e 73 74 72 69 67 68 74 00 00 00  64_constright...
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c  ................
+	0x0040 02 00 00 00 01 11 61 00 00 1f 00 00 00 00 01 9c  ......a.........
+	0x0050 11 6e 00 01 1f 00 00 00 00 00 00                 .n.........
+	rel 0+0 t=22 type:int<0>+0
+	rel 46+8 t=1 command-line-arguments.bitcheck64_constright<1>+0
+	rel 54+8 t=1 command-line-arguments.bitcheck64_constright<1>+127
+	rel 74+4 t=31 go:info.[8]uint64<0>+0
+	rel 85+4 t=31 go:info.int<0>+0
+aux for command-line-arguments.bitcheck64_var<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 11 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 1b 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.bitcheck64_var<1>+0
+	rel 59+8 t=1 command-line-arguments.bitcheck64_var<1>+0
+aux for command-line-arguments.bitcheck64_var<0> SDWARFLINES size=41
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 3b 14  ..............;.
+	0x0010 06 37 06 27 06 37 06 24 06 41 06 1b 06 23 06 03  .7.'.7.$.A...#..
+	0x0020 7e 15 06 41 02 01 00 01 01                       ~..A.....
+	rel 3+8 t=1 command-line-arguments.bitcheck64_var<1>+0
+aux for command-line-arguments.bitcheck64_var<0> SDWARFFCN size=99
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 36 34 5f 76 61 72 00 00 00 00 00 00 00 00 00 00  64_var..........
+	0x0030 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 12 61  ...............a
+	0x0040 00 00 3f 00 00 00 00 00 00 00 00 12 62 00 00 3f  ..?.........b..?
+	0x0050 00 00 00 00 00 00 00 00 11 6e 00 01 3f 00 00 00  .........n..?...
+	0x0060 00 00 00                                         ...
+	rel 0+0 t=22 type:int<0>+0
+	rel 39+8 t=1 command-line-arguments.bitcheck64_var<1>+0
+	rel 47+8 t=1 command-line-arguments.bitcheck64_var<1>+27
+	rel 67+4 t=31 go:info.uint64<0>+0
+	rel 71+4 t=31 <0>+0
+	rel 80+4 t=31 go:info.uint64<0>+0
+	rel 84+4 t=31 <0>+51
+	rel 93+4 t=31 go:info.int<0>+0
+aux for command-line-arguments.bitcheck64_mask<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 19 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.bitcheck64_mask<1>+0
+aux for command-line-arguments.bitcheck64_mask<0> SDWARFLINES size=50
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c7 00  ................
+	0x0010 14 06 41 06 27 06 41 06 27 06 37 06 24 06 41 06  ..A.'.A.'.7.$.A.
+	0x0020 1b 06 23 06 03 7e 15 06 41 06 15 06 41 02 01 00  ..#..~..A...A...
+	0x0030 01 01                                            ..
+	rel 3+8 t=1 command-line-arguments.bitcheck64_mask<1>+0
+aux for command-line-arguments.bitcheck64_mask<0> SDWARFFCN size=87
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 36 34 5f 6d 61 73 6b 00 00 00 00 00 00 00 00 00  64_mask.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 12  ................
+	0x0040 61 00 00 4b 00 00 00 00 00 00 00 00 11 6e 00 01  a..K.........n..
+	0x0050 4b 00 00 00 00 00 00                             K......
+	rel 0+0 t=22 type:int<0>+0
+	rel 40+8 t=1 command-line-arguments.bitcheck64_mask<1>+0
+	rel 48+8 t=1 command-line-arguments.bitcheck64_mask<1>+41
+	rel 68+4 t=31 go:info.uint64<0>+0
+	rel 72+4 t=31 <0>+0
+	rel 81+4 t=31 go:info.int<0>+0
+aux for command-line-arguments.biton64<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0c 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 04 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.biton64<1>+0
+	rel 59+8 t=1 command-line-arguments.biton64<1>+0
+aux for command-line-arguments.biton64<0> SDWARFLINES size=35
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 d7 00  ................
+	0x0010 14 3a 06 2d 06 6c 06 2d 06 62 06 37 06 39 02 01  .:.-.l.-.b.7.9..
+	0x0020 00 01 01                                         ...
+	rel 3+8 t=1 command-line-arguments.biton64<1>+0
+aux for command-line-arguments.biton64<0> SDWARFFCN size=92
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 6f 6e 36 34 00  guments.biton64.
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 01 9c 02 00 00 00 01 12 61 00 00 5b 00 00 00 00  ........a..[....
+	0x0040 00 00 00 00 12 62 00 00 5b 00 00 00 00 00 00 00  .....b..[.......
+	0x0050 00 11 6e 00 01 5b 00 00 00 00 00 00              ..n..[......
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 32+8 t=1 command-line-arguments.biton64<1>+0
+	rel 40+8 t=1 command-line-arguments.biton64<1>+36
+	rel 60+4 t=31 go:info.uint64<0>+0
+	rel 64+4 t=31 <0>+0
+	rel 73+4 t=31 go:info.uint64<0>+0
+	rel 77+4 t=31 <0>+51
+	rel 86+4 t=31 go:info.uint64<0>+0
+aux for command-line-arguments.bitoff64<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0c 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 04 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.bitoff64<1>+0
+	rel 59+8 t=1 command-line-arguments.bitoff64<1>+0
+aux for command-line-arguments.bitoff64<0> SDWARFLINES size=35
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 e7 00  ................
+	0x0010 14 3a 06 2d 06 6c 06 2d 06 62 06 37 06 39 02 01  .:.-.l.-.b.7.9..
+	0x0020 00 01 01                                         ...
+	rel 3+8 t=1 command-line-arguments.bitoff64<1>+0
+aux for command-line-arguments.bitoff64<0> SDWARFFCN size=93
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 6f 66 66 36 34  guments.bitoff64
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 01 9c 02 00 00 00 01 12 61 00 00 6b 00 00 00  .........a..k...
+	0x0040 00 00 00 00 00 12 62 00 00 6b 00 00 00 00 00 00  ......b..k......
+	0x0050 00 00 11 6e 00 01 6b 00 00 00 00 00 00           ...n..k......
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 33+8 t=1 command-line-arguments.bitoff64<1>+0
+	rel 41+8 t=1 command-line-arguments.bitoff64<1>+36
+	rel 61+4 t=31 go:info.uint64<0>+0
+	rel 65+4 t=31 <0>+0
+	rel 74+4 t=31 go:info.uint64<0>+0
+	rel 78+4 t=31 <0>+51
+	rel 87+4 t=31 go:info.uint64<0>+0
+aux for command-line-arguments.bitcompl64<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0c 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 04 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.bitcompl64<1>+0
+	rel 59+8 t=1 command-line-arguments.bitcompl64<1>+0
+aux for command-line-arguments.bitcompl64<0> SDWARFLINES size=35
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 f7 00  ................
+	0x0010 14 3a 06 2d 06 6c 06 2d 06 62 06 37 06 39 02 01  .:.-.l.-.b.7.9..
+	0x0020 00 01 01                                         ...
+	rel 3+8 t=1 command-line-arguments.bitcompl64<1>+0
+aux for command-line-arguments.bitcompl64<0> SDWARFFCN size=95
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 6f 6d 70 6c  guments.bitcompl
+	0x0020 36 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00  64..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 12 61 00 00 7b 00  ...........a..{.
+	0x0040 00 00 00 00 00 00 00 12 62 00 00 7b 00 00 00 00  ........b..{....
+	0x0050 00 00 00 00 11 6e 00 01 7b 00 00 00 00 00 00     .....n..{......
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 35+8 t=1 command-line-arguments.bitcompl64<1>+0
+	rel 43+8 t=1 command-line-arguments.bitcompl64<1>+36
+	rel 63+4 t=31 go:info.uint64<0>+0
+	rel 67+4 t=31 <0>+0
+	rel 76+4 t=31 go:info.uint64<0>+0
+	rel 80+4 t=31 <0>+51
+	rel 89+4 t=31 go:info.uint64<0>+0
+aux for command-line-arguments.bitcheck32_constleft<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 17 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.bitcheck32_constleft<1>+0
+aux for command-line-arguments.bitcheck32_constleft<0> SDWARFLINES size=50
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 8b 01  ................
+	0x0010 14 06 37 06 27 06 37 06 27 06 37 06 24 06 41 06  ..7.'.7.'.7.$.A.
+	0x0020 1b 06 23 06 03 7e 15 06 41 06 15 06 41 02 01 00  ..#..~..A...A...
+	0x0030 01 01                                            ..
+	rel 3+8 t=1 command-line-arguments.bitcheck32_constleft<1>+0
+aux for command-line-arguments.bitcheck32_constleft<0> SDWARFFCN size=94
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 33 32 5f 63 6f 6e 73 74 6c 65 66 74 00 00 00 00  32_constleft....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0040 00 00 00 01 12 61 00 00 8f 01 00 00 00 00 00 00  .....a..........
+	0x0050 00 00 11 6e 00 01 8f 01 00 00 00 00 00 00        ...n..........
+	rel 0+0 t=22 type:int<0>+0
+	rel 45+8 t=1 command-line-arguments.bitcheck32_constleft<1>+0
+	rel 53+8 t=1 command-line-arguments.bitcheck32_constleft<1>+39
+	rel 74+4 t=31 go:info.uint32<0>+0
+	rel 78+4 t=31 <0>+0
+	rel 88+4 t=31 go:info.int<0>+0
+aux for command-line-arguments.bitcheck32_constright<0> SDWARFLINES size=82
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 9b 01  ................
+	0x0010 14 06 37 06 4f 06 37 06 4f 06 37 06 4f 06 37 06  ..7.O.7.O.7.O.7.
+	0x0020 4f 06 37 06 4f 06 37 06 4f 06 37 06 4c 06 41 06  O.7.O.7.O.7.L.A.
+	0x0030 1b 06 23 06 03 7e 15 06 41 06 15 06 41 06 15 06  ..#..~..A...A...
+	0x0040 41 06 15 06 41 06 15 06 41 06 15 06 41 02 01 00  A...A...A...A...
+	0x0050 01 01                                            ..
+	rel 3+8 t=1 command-line-arguments.bitcheck32_constright<1>+0
+aux for command-line-arguments.bitcheck32_constright<0> SDWARFFCN size=93
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 33 32 5f 63 6f 6e 73 74 72 69 67 68 74 00 00 00  32_constright...
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c  ................
+	0x0040 02 00 00 00 01 11 61 00 00 9f 01 00 00 00 00 01  ......a.........
+	0x0050 9c 11 6e 00 01 9f 01 00 00 00 00 00 00           ..n..........
+	rel 0+0 t=22 type:int<0>+0
+	rel 46+8 t=1 command-line-arguments.bitcheck32_constright<1>+0
+	rel 54+8 t=1 command-line-arguments.bitcheck32_constright<1>+115
+	rel 75+4 t=31 go:info.[8]uint32<0>+0
+	rel 87+4 t=31 go:info.int<0>+0
+aux for command-line-arguments.bitcheck32_var<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0f 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 19 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.bitcheck32_var<1>+0
+	rel 59+8 t=1 command-line-arguments.bitcheck32_var<1>+0
+aux for command-line-arguments.bitcheck32_var<0> SDWARFLINES size=42
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 bb 01  ................
+	0x0010 14 06 2d 06 27 06 2d 06 24 06 41 06 1b 06 23 06  ..-.'.-.$.A...#.
+	0x0020 03 7e 15 06 41 02 01 00 01 01                    .~..A.....
+	rel 3+8 t=1 command-line-arguments.bitcheck32_var<1>+0
+aux for command-line-arguments.bitcheck32_var<0> SDWARFFCN size=102
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 33 32 5f 76 61 72 00 00 00 00 00 00 00 00 00 00  32_var..........
+	0x0030 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 12 61  ...............a
+	0x0040 00 00 bf 01 00 00 00 00 00 00 00 00 12 62 00 00  .............b..
+	0x0050 bf 01 00 00 00 00 00 00 00 00 11 6e 00 01 bf 01  ...........n....
+	0x0060 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:int<0>+0
+	rel 39+8 t=1 command-line-arguments.bitcheck32_var<1>+0
+	rel 47+8 t=1 command-line-arguments.bitcheck32_var<1>+25
+	rel 68+4 t=31 go:info.uint32<0>+0
+	rel 72+4 t=31 <0>+0
+	rel 82+4 t=31 go:info.uint32<0>+0
+	rel 86+4 t=31 <0>+51
+	rel 96+4 t=31 go:info.int<0>+0
+aux for command-line-arguments.bitcheck32_mask<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 17 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.bitcheck32_mask<1>+0
+aux for command-line-arguments.bitcheck32_mask<0> SDWARFLINES size=50
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c7 01  ................
+	0x0010 14 06 37 06 27 06 37 06 27 06 37 06 24 06 41 06  ..7.'.7.'.7.$.A.
+	0x0020 1b 06 23 06 03 7e 15 06 41 06 15 06 41 02 01 00  ..#..~..A...A...
+	0x0030 01 01                                            ..
+	rel 3+8 t=1 command-line-arguments.bitcheck32_mask<1>+0
+aux for command-line-arguments.bitcheck32_mask<0> SDWARFFCN size=89
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 33 32 5f 6d 61 73 6b 00 00 00 00 00 00 00 00 00  32_mask.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 12  ................
+	0x0040 61 00 00 cb 01 00 00 00 00 00 00 00 00 11 6e 00  a.............n.
+	0x0050 01 cb 01 00 00 00 00 00 00                       .........
+	rel 0+0 t=22 type:int<0>+0
+	rel 40+8 t=1 command-line-arguments.bitcheck32_mask<1>+0
+	rel 48+8 t=1 command-line-arguments.bitcheck32_mask<1>+39
+	rel 69+4 t=31 go:info.uint32<0>+0
+	rel 73+4 t=31 <0>+0
+	rel 83+4 t=31 go:info.int<0>+0
+aux for command-line-arguments.biton32<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 09 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.biton32<1>+0
+	rel 59+8 t=1 command-line-arguments.biton32<1>+0
+aux for command-line-arguments.biton32<0> SDWARFLINES size=35
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 d7 01  ................
+	0x0010 14 30 06 23 06 58 06 23 06 4e 06 2d 06 2f 02 01  .0.#.X.#.N.-./..
+	0x0020 00 01 01                                         ...
+	rel 3+8 t=1 command-line-arguments.biton32<1>+0
+aux for command-line-arguments.biton32<0> SDWARFFCN size=95
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 6f 6e 33 32 00  guments.biton32.
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 01 9c 02 00 00 00 01 12 61 00 00 db 01 00 00 00  ........a.......
+	0x0040 00 00 00 00 00 12 62 00 00 db 01 00 00 00 00 00  ......b.........
+	0x0050 00 00 00 11 6e 00 01 db 01 00 00 00 00 00 00     ....n..........
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 32+8 t=1 command-line-arguments.biton32<1>+0
+	rel 40+8 t=1 command-line-arguments.biton32<1>+27
+	rel 61+4 t=31 go:info.uint32<0>+0
+	rel 65+4 t=31 <0>+0
+	rel 75+4 t=31 go:info.uint32<0>+0
+	rel 79+4 t=31 <0>+51
+	rel 89+4 t=31 go:info.uint32<0>+0
+aux for command-line-arguments.bitoff32<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 09 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.bitoff32<1>+0
+	rel 59+8 t=1 command-line-arguments.bitoff32<1>+0
+aux for command-line-arguments.bitoff32<0> SDWARFLINES size=35
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 e7 01  ................
+	0x0010 14 30 06 23 06 58 06 23 06 4e 06 2d 06 2f 02 01  .0.#.X.#.N.-./..
+	0x0020 00 01 01                                         ...
+	rel 3+8 t=1 command-line-arguments.bitoff32<1>+0
+aux for command-line-arguments.bitoff32<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 6f 66 66 33 32  guments.bitoff32
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 01 9c 02 00 00 00 01 12 61 00 00 eb 01 00 00  .........a......
+	0x0040 00 00 00 00 00 00 12 62 00 00 eb 01 00 00 00 00  .......b........
+	0x0050 00 00 00 00 11 6e 00 01 eb 01 00 00 00 00 00 00  .....n..........
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 33+8 t=1 command-line-arguments.bitoff32<1>+0
+	rel 41+8 t=1 command-line-arguments.bitoff32<1>+27
+	rel 62+4 t=31 go:info.uint32<0>+0
+	rel 66+4 t=31 <0>+0
+	rel 76+4 t=31 go:info.uint32<0>+0
+	rel 80+4 t=31 <0>+51
+	rel 90+4 t=31 go:info.uint32<0>+0
+aux for command-line-arguments.bitcompl32<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 09 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.bitcompl32<1>+0
+	rel 59+8 t=1 command-line-arguments.bitcompl32<1>+0
+aux for command-line-arguments.bitcompl32<0> SDWARFLINES size=35
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 f7 01  ................
+	0x0010 14 30 06 23 06 58 06 23 06 4e 06 2d 06 2f 02 01  .0.#.X.#.N.-./..
+	0x0020 00 01 01                                         ...
+	rel 3+8 t=1 command-line-arguments.bitcompl32<1>+0
+aux for command-line-arguments.bitcompl32<0> SDWARFFCN size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 6f 6d 70 6c  guments.bitcompl
+	0x0020 33 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00  32..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 12 61 00 00 fb 01  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 12 62 00 00 fb 01 00 00  .........b......
+	0x0050 00 00 00 00 00 00 11 6e 00 01 fb 01 00 00 00 00  .......n........
+	0x0060 00 00                                            ..
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 35+8 t=1 command-line-arguments.bitcompl32<1>+0
+	rel 43+8 t=1 command-line-arguments.bitcompl32<1>+27
+	rel 64+4 t=31 go:info.uint32<0>+0
+	rel 68+4 t=31 <0>+0
+	rel 78+4 t=31 go:info.uint32<0>+0
+	rel 82+4 t=31 <0>+51
+	rel 92+4 t=31 go:info.uint32<0>+0
+aux for command-line-arguments.bitOpOnMem<0> SDWARFLOC size=365
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 49 00 00 00 00 00 00 00  ........I.......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 49 00 00 00 00  ..P..S..R..I....
+	0x0030 00 00 00 4c 00 00 00 00 00 00 00 08 00 93 08 53  ...L...........S
+	0x0040 93 08 52 93 08 4c 00 00 00 00 00 00 00 56 00 00  ..R..L.......V..
+	0x0050 00 00 00 00 00 07 00 93 08 53 93 08 93 08 56 00  .........S....V.
+	0x0060 00 00 00 00 00 00 59 00 00 00 00 00 00 00 08 00  ......Y.........
+	0x0070 93 08 53 93 08 52 93 08 59 00 00 00 00 00 00 00  ..S..R..Y.......
+	0x0080 60 00 00 00 00 00 00 00 07 00 93 08 53 93 08 93  `...........S...
+	0x0090 08 60 00 00 00 00 00 00 00 63 00 00 00 00 00 00  .`.......c......
+	0x00a0 00 08 00 93 08 53 93 08 52 93 08 63 00 00 00 00  .....S..R..c....
+	0x00b0 00 00 00 69 00 00 00 00 00 00 00 07 00 93 08 53  ...i...........S
+	0x00c0 93 08 93 08 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00d0 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00  ................
+	0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 69 00 00 00  ............i...
+	0x00f0 00 00 00 00 01 00 55 00 00 00 00 00 00 00 00 00  ......U.........
+	0x0100 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0110 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 69  ...............i
+	0x0120 00 00 00 00 00 00 00 01 00 54 00 00 00 00 00 00  .........T......
+	0x0130 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff  ................
+	0x0140 ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0150 00 00 69 00 00 00 00 00 00 00 01 00 58 00 00 00  ..i.........X...
+	0x0160 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+	rel 8+8 t=1 command-line-arguments.bitOpOnMem<1>+0
+	rel 220+8 t=1 command-line-arguments.bitOpOnMem<1>+0
+	rel 271+8 t=1 command-line-arguments.bitOpOnMem<1>+0
+	rel 322+8 t=1 command-line-arguments.bitOpOnMem<1>+0
+aux for command-line-arguments.bitOpOnMem<0> SDWARFLINES size=47
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 86  ................
+	0x0010 02 14 06 9b 06 43 06 2d 06 75 06 37 06 23 57 06  .....C.-.u.7.#W.
+	0x0020 37 06 23 56 06 72 8f 8f 06 73 02 01 00 01 01     7.#V.r...s.....
+	rel 3+8 t=1 command-line-arguments.bitOpOnMem<1>+0
+aux for command-line-arguments.bitOpOnMem<0> SDWARFFCN size=115
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 4f 70 4f 6e 4d  guments.bitOpOnM
+	0x0020 65 6d 00 00 00 00 00 00 00 00 00 00 00 00 00 00  em..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 12 61 00 00 8c 02  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 12 62 00 00 8c 02 00 00  .........b......
+	0x0050 00 00 00 00 00 00 12 63 00 00 8c 02 00 00 00 00  .......c........
+	0x0060 00 00 00 00 12 64 00 00 8c 02 00 00 00 00 00 00  .....d..........
+	0x0070 00 00 00                                         ...
+	rel 35+8 t=1 command-line-arguments.bitOpOnMem<1>+0
+	rel 43+8 t=1 command-line-arguments.bitOpOnMem<1>+105
+	rel 64+4 t=31 go:info.[]uint32<0>+0
+	rel 68+4 t=31 <0>+0
+	rel 78+4 t=31 go:info.uint32<0>+0
+	rel 82+4 t=31 <0>+212
+	rel 92+4 t=31 go:info.uint32<0>+0
+	rel 96+4 t=31 <0>+263
+	rel 106+4 t=31 go:info.uint32<0>+0
+	rel 110+4 t=31 <0>+314
+aux for command-line-arguments.bitcheckMostNegative<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.bitcheckMostNegative<1>+0
+aux for command-line-arguments.bitcheckMostNegative<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 91 02  ................
+	0x0010 14 06 23 02 04 00 01 01                          ..#.....
+	rel 3+8 t=1 command-line-arguments.bitcheckMostNegative<1>+0
+aux for command-line-arguments.bitcheckMostNegative<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 4d 6f 73 74 4e 65 67 61 74 69 76 65 00 00 00 00  MostNegative....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0040 00 00 00 01 12 62 00 00 95 02 00 00 00 00 00 00  .....b..........
+	0x0050 00 00 11 7e 72 30 00 01 95 02 00 00 00 00 00 00  ...~r0..........
+	rel 0+0 t=22 type:bool<0>+0
+	rel 45+8 t=1 command-line-arguments.bitcheckMostNegative<1>+0
+	rel 53+8 t=1 command-line-arguments.bitcheckMostNegative<1>+6
+	rel 74+4 t=31 go:info.uint8<0>+0
+	rel 78+4 t=31 <0>+0
+	rel 90+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.and_mask_1<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.and_mask_1<1>+0
+aux for command-line-arguments.and_mask_1<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 98 02  ................
+	0x0010 14 06 41 02 01 00 01 01                          ..A.....
+	rel 3+8 t=1 command-line-arguments.and_mask_1<1>+0
+aux for command-line-arguments.and_mask_1<0> SDWARFFCN size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 6e 64 5f 6d 61 73 6b  guments.and_mask
+	0x0020 5f 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00  _1..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 12 61 00 00 9c 02  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 11 7e 72 30 00 01 9c 02  .........~r0....
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 35+8 t=1 command-line-arguments.and_mask_1<1>+0
+	rel 43+8 t=1 command-line-arguments.and_mask_1<1>+6
+	rel 64+4 t=31 go:info.uint64<0>+0
+	rel 68+4 t=31 <0>+0
+	rel 80+4 t=31 go:info.uint64<0>+0
+aux for command-line-arguments.and_mask_2<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0d 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.and_mask_2<1>+0
+aux for command-line-arguments.and_mask_2<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 9d 02  ................
+	0x0010 14 06 73 02 04 00 01 01                          ..s.....
+	rel 3+8 t=1 command-line-arguments.and_mask_2<1>+0
+aux for command-line-arguments.and_mask_2<0> SDWARFFCN size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 6e 64 5f 6d 61 73 6b  guments.and_mask
+	0x0020 5f 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00  _2..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 12 61 00 00 a1 02  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 11 7e 72 30 00 01 a1 02  .........~r0....
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 35+8 t=1 command-line-arguments.and_mask_2<1>+0
+	rel 43+8 t=1 command-line-arguments.and_mask_2<1>+14
+	rel 64+4 t=31 go:info.uint64<0>+0
+	rel 68+4 t=31 <0>+0
+	rel 80+4 t=31 go:info.uint64<0>+0
+aux for command-line-arguments.and_mask_3<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0c 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 0c 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.and_mask_3<1>+0
+	rel 59+8 t=1 command-line-arguments.and_mask_3<1>+0
+aux for command-line-arguments.and_mask_3<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 a2 02  ................
+	0x0010 14 43 4c 02 01 00 01 01                          .CL.....
+	rel 3+8 t=1 command-line-arguments.and_mask_3<1>+0
+aux for command-line-arguments.and_mask_3<0> SDWARFFCN size=113
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 6e 64 5f 6d 61 73 6b  guments.and_mask
+	0x0020 5f 33 00 00 00 00 00 00 00 00 00 00 00 00 00 00  _3..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 12 61 00 00 a6 02  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 12 62 00 00 a6 02 00 00  .........b......
+	0x0050 00 00 00 00 00 00 11 7e 72 30 00 01 a6 02 00 00  .......~r0......
+	0x0060 00 00 00 11 7e 72 31 00 01 a6 02 00 00 00 00 00  ....~r1.........
+	0x0070 00                                               .
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 35+8 t=1 command-line-arguments.and_mask_3<1>+0
+	rel 43+8 t=1 command-line-arguments.and_mask_3<1>+12
+	rel 64+4 t=31 go:info.uint32<0>+0
+	rel 68+4 t=31 <0>+0
+	rel 78+4 t=31 go:info.uint32<0>+0
+	rel 82+4 t=31 <0>+51
+	rel 94+4 t=31 go:info.uint32<0>+0
+	rel 107+4 t=31 go:info.uint32<0>+0
+aux for command-line-arguments.op_bic<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 06 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.op_bic<1>+0
+	rel 59+8 t=1 command-line-arguments.op_bic<1>+0
+aux for command-line-arguments.op_bic<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 ac 02  ................
+	0x0010 14 06 41 02 01 00 01 01                          ..A.....
+	rel 3+8 t=1 command-line-arguments.op_bic<1>+0
+aux for command-line-arguments.op_bic<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6f 70 5f 62 69 63 00 00  guments.op_bic..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 12 78 00 00 b0 02 00 00 00 00  .......x........
+	0x0040 00 00 00 00 12 79 00 00 b0 02 00 00 00 00 00 00  .....y..........
+	0x0050 00 00 11 7e 72 30 00 01 b0 02 00 00 00 00 00 00  ...~r0..........
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 31+8 t=1 command-line-arguments.op_bic<1>+0
+	rel 39+8 t=1 command-line-arguments.op_bic<1>+6
+	rel 60+4 t=31 go:info.uint32<0>+0
+	rel 64+4 t=31 <0>+0
+	rel 74+4 t=31 go:info.uint32<0>+0
+	rel 78+4 t=31 <0>+51
+	rel 90+4 t=31 go:info.uint32<0>+0
+aux for command-line-arguments.op_eon<0> SDWARFLOC size=314
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 43 00 00 00 00 00 00 00  ........C.......
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 17 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2f 00  ............../.
+	0x0080 00 00 00 00 00 00 01 00 52 00 00 00 00 00 00 00  ........R.......
+	0x0090 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff  ................
+	0x00a0 ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00b0 00 72 00 00 00 00 00 00 00 09 00 55 93 08 54 93  .r.........U..T.
+	0x00c0 08 58 93 08 00 00 00 00 00 00 00 00 00 00 00 00  .X..............
+	0x00d0 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00  ................
+	0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 40 00 00 00  ............@...
+	0x00f0 00 00 00 00 01 00 59 00 00 00 00 00 00 00 00 00  ......Y.........
+	0x0100 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0110 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3d  ...............=
+	0x0120 00 00 00 00 00 00 00 01 00 5a 00 00 00 00 00 00  .........Z......
+	0x0130 00 00 00 00 00 00 00 00 00 00                    ..........
+	rel 8+8 t=1 command-line-arguments.op_eon<1>+0
+	rel 59+8 t=1 command-line-arguments.op_eon<1>+0
+	rel 110+8 t=1 command-line-arguments.op_eon<1>+0
+	rel 161+8 t=1 command-line-arguments.op_eon<1>+0
+	rel 220+8 t=1 command-line-arguments.op_eon<1>+0
+	rel 271+8 t=1 command-line-arguments.op_eon<1>+0
+aux for command-line-arguments.op_eon<0> SDWARFLINES size=46
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 af  ................
+	0x0010 02 14 06 9b 06 43 06 23 06 80 06 23 06 80 06 23  .....C.#...#...#
+	0x0020 06 80 06 2d ac 8e 8e 06 73 02 01 00 01 01        ...-....s.....
+	rel 3+8 t=1 command-line-arguments.op_eon<1>+0
+aux for command-line-arguments.op_eon<0> SDWARFFCN size=152
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6f 70 5f 65 6f 6e 00 00  guments.op_eon..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 12 78 00 00 b5 02 00 00 00 00  .......x........
+	0x0040 00 00 00 00 12 79 00 00 b5 02 00 00 00 00 00 00  .....y..........
+	0x0050 00 00 12 7a 00 00 b5 02 00 00 00 00 00 00 00 00  ...z............
+	0x0060 12 61 00 00 b5 02 00 00 00 00 00 00 00 00 12 6e  .a.............n
+	0x0070 00 00 b5 02 00 00 00 00 00 00 00 00 12 6d 00 00  .............m..
+	0x0080 b5 02 00 00 00 00 00 00 00 00 11 7e 72 30 00 01  ...........~r0..
+	0x0090 b5 02 00 00 00 00 00 00                          ........
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 31+8 t=1 command-line-arguments.op_eon<1>+0
+	rel 39+8 t=1 command-line-arguments.op_eon<1>+114
+	rel 60+4 t=31 go:info.uint32<0>+0
+	rel 64+4 t=31 <0>+0
+	rel 74+4 t=31 go:info.uint32<0>+0
+	rel 78+4 t=31 <0>+51
+	rel 88+4 t=31 go:info.uint32<0>+0
+	rel 92+4 t=31 <0>+102
+	rel 102+4 t=31 go:info.[]uint32<0>+0
+	rel 106+4 t=31 <0>+153
+	rel 116+4 t=31 go:info.uint64<0>+0
+	rel 120+4 t=31 <0>+212
+	rel 130+4 t=31 go:info.uint64<0>+0
+	rel 134+4 t=31 <0>+263
+	rel 146+4 t=31 go:info.uint64<0>+0
+aux for command-line-arguments.op_orn<0> SDWARFLOC size=102
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00                                ......
+	rel 8+8 t=1 command-line-arguments.op_orn<1>+0
+	rel 59+8 t=1 command-line-arguments.op_orn<1>+0
+aux for command-line-arguments.op_orn<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 bf 02  ................
+	0x0010 14 06 23 02 03 00 01 01                          ..#.....
+	rel 3+8 t=1 command-line-arguments.op_orn<1>+0
+aux for command-line-arguments.op_orn<0> SDWARFFCN size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6f 70 5f 6f 72 6e 00 00  guments.op_orn..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 12 78 00 00 c3 02 00 00 00 00  .......x........
+	0x0040 00 00 00 00 12 79 00 00 c3 02 00 00 00 00 00 00  .....y..........
+	0x0050 00 00 11 7e 72 30 00 01 c3 02 00 00 00 00 00 00  ...~r0..........
+	rel 0+0 t=22 type:uint32<0>+0
+	rel 31+8 t=1 command-line-arguments.op_orn<1>+0
+	rel 39+8 t=1 command-line-arguments.op_orn<1>+5
+	rel 60+4 t=31 go:info.uint32<0>+0
+	rel 64+4 t=31 <0>+0
+	rel 74+4 t=31 go:info.uint32<0>+0
+	rel 78+4 t=31 <0>+51
+	rel 90+4 t=31 go:info.uint32<0>+0
+aux for command-line-arguments.bitSetPowerOf2Test<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 07 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.bitSetPowerOf2Test<1>+0
+aux for command-line-arguments.bitSetPowerOf2Test<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 c5 02  ................
+	0x0010 14 06 37 02 04 00 01 01                          ..7.....
+	rel 3+8 t=1 command-line-arguments.bitSetPowerOf2Test<1>+0
+aux for command-line-arguments.bitSetPowerOf2Test<0> SDWARFFCN size=94
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 53 65 74 50 6f  guments.bitSetPo
+	0x0020 77 65 72 4f 66 32 54 65 73 74 00 00 00 00 00 00  werOf2Test......
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00  ................
+	0x0040 00 01 12 78 00 00 c9 02 00 00 00 00 00 00 00 00  ...x............
+	0x0050 11 7e 72 30 00 01 c9 02 00 00 00 00 00 00        .~r0..........
+	rel 0+0 t=22 type:bool<0>+0
+	rel 43+8 t=1 command-line-arguments.bitSetPowerOf2Test<1>+0
+	rel 51+8 t=1 command-line-arguments.bitSetPowerOf2Test<1>+8
+	rel 72+4 t=31 go:info.int<0>+0
+	rel 76+4 t=31 <0>+0
+	rel 88+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.bitSetTest<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.bitSetTest<1>+0
+aux for command-line-arguments.bitSetTest<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 cb 02  ................
+	0x0010 14 06 2d 02 08 00 01 01                          ..-.....
+	rel 3+8 t=1 command-line-arguments.bitSetTest<1>+0
+aux for command-line-arguments.bitSetTest<0> SDWARFFCN size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 53 65 74 54 65  guments.bitSetTe
+	0x0020 73 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00  st..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 12 78 00 00 ce 02  ...........x....
+	0x0040 00 00 00 00 00 00 00 00 11 7e 72 30 00 01 ce 02  .........~r0....
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:bool<0>+0
+	rel 35+8 t=1 command-line-arguments.bitSetTest<1>+0
+	rel 43+8 t=1 command-line-arguments.bitSetTest<1>+11
+	rel 64+4 t=31 go:info.int<0>+0
+	rel 68+4 t=31 <0>+0
+	rel 80+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.cont1Mask64U<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0d 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.cont1Mask64U<1>+0
+aux for command-line-arguments.cont1Mask64U<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 d1 02  ................
+	0x0010 14 06 73 02 04 00 01 01                          ..s.....
+	rel 3+8 t=1 command-line-arguments.cont1Mask64U<1>+0
+aux for command-line-arguments.cont1Mask64U<0> SDWARFFCN size=88
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 74 31 4d 61 73  guments.cont1Mas
+	0x0020 6b 36 34 55 00 00 00 00 00 00 00 00 00 00 00 00  k64U............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 12 78 00 00  .............x..
+	0x0040 d5 02 00 00 00 00 00 00 00 00 11 7e 72 30 00 01  ...........~r0..
+	0x0050 d5 02 00 00 00 00 00 00                          ........
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 37+8 t=1 command-line-arguments.cont1Mask64U<1>+0
+	rel 45+8 t=1 command-line-arguments.cont1Mask64U<1>+14
+	rel 66+4 t=31 go:info.uint64<0>+0
+	rel 70+4 t=31 <0>+0
+	rel 82+4 t=31 go:info.uint64<0>+0
+aux for command-line-arguments.cont0Mask64U<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0d 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.cont0Mask64U<1>+0
+aux for command-line-arguments.cont0Mask64U<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 d7 02  ................
+	0x0010 14 06 73 02 04 00 01 01                          ..s.....
+	rel 3+8 t=1 command-line-arguments.cont0Mask64U<1>+0
+aux for command-line-arguments.cont0Mask64U<0> SDWARFFCN size=88
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 6f 6e 74 30 4d 61 73  guments.cont0Mas
+	0x0020 6b 36 34 55 00 00 00 00 00 00 00 00 00 00 00 00  k64U............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 12 78 00 00  .............x..
+	0x0040 db 02 00 00 00 00 00 00 00 00 11 7e 72 30 00 01  ...........~r0..
+	0x0050 db 02 00 00 00 00 00 00                          ........
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 37+8 t=1 command-line-arguments.cont0Mask64U<1>+0
+	rel 45+8 t=1 command-line-arguments.cont0Mask64U<1>+14
+	rel 66+4 t=31 go:info.uint64<0>+0
+	rel 70+4 t=31 <0>+0
+	rel 82+4 t=31 go:info.uint64<0>+0
+aux for command-line-arguments.issue44228a<0> SDWARFLOC size=212
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 23 00 00 00 00 00 00 00  ........#.......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 23 00 00 00 00  ..P..S..R..#....
+	0x0030 00 00 00 2a 00 00 00 00 00 00 00 08 00 50 93 08  ...*.........P..
+	0x0040 53 93 08 93 08 2a 00 00 00 00 00 00 00 37 00 00  S....*.......7..
+	0x0050 00 00 00 00 00 07 00 93 08 53 93 08 93 08 37 00  .........S....7.
+	0x0060 00 00 00 00 00 00 3a 00 00 00 00 00 00 00 08 00  ......:.........
+	0x0070 93 08 53 93 08 52 93 08 3a 00 00 00 00 00 00 00  ..S..R..:.......
+	0x0080 40 00 00 00 00 00 00 00 07 00 93 08 53 93 08 93  @...........S...
+	0x0090 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00  ................
+	0x00b0 00 00 00 00 00 00 00 00 00 1a 00 00 00 00 00 00  ................
+	0x00c0 00 01 00 55 00 00 00 00 00 00 00 00 00 00 00 00  ...U............
+	0x00d0 00 00 00 00                                      ....
+	rel 8+8 t=1 command-line-arguments.issue44228a<1>+0
+	rel 169+8 t=1 command-line-arguments.issue44228a<1>+0
+aux for command-line-arguments.issue44228a<0> SDWARFLINES size=36
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 da  ................
+	0x0010 02 14 06 9b 06 43 06 2d 06 69 06 37 06 08 37 02  .....C.-.i.7..7.
+	0x0020 01 00 01 01                                      ....
+	rel 3+8 t=1 command-line-arguments.issue44228a<1>+0
+aux for command-line-arguments.issue44228a<0> SDWARFFCN size=101
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 69 73 73 75 65 34 34 32  guments.issue442
+	0x0020 32 38 61 00 00 00 00 00 00 00 00 00 00 00 00 00  28a.............
+	0x0030 00 00 00 00 01 9c 02 00 00 00 01 12 61 00 00 e0  ............a...
+	0x0040 02 00 00 00 00 00 00 00 00 12 69 00 00 e0 02 00  ..........i.....
+	0x0050 00 00 00 00 00 00 00 11 7e 72 30 00 01 e0 02 00  ........~r0.....
+	0x0060 00 00 00 00 00                                   .....
+	rel 0+0 t=22 type:bool<0>+0
+	rel 36+8 t=1 command-line-arguments.issue44228a<1>+0
+	rel 44+8 t=1 command-line-arguments.issue44228a<1>+64
+	rel 65+4 t=31 go:info.[]int64<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 79+4 t=31 go:info.int<0>+0
+	rel 83+4 t=31 <0>+161
+	rel 95+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.issue44228b<0> SDWARFLOC size=212
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 22 00 00 00 00 00 00 00  ........".......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 22 00 00 00 00  ..P..S..R.."....
+	0x0030 00 00 00 28 00 00 00 00 00 00 00 08 00 50 93 08  ...(.........P..
+	0x0040 53 93 08 93 08 28 00 00 00 00 00 00 00 35 00 00  S....(.......5..
+	0x0050 00 00 00 00 00 07 00 93 08 53 93 08 93 08 35 00  .........S....5.
+	0x0060 00 00 00 00 00 00 38 00 00 00 00 00 00 00 08 00  ......8.........
+	0x0070 93 08 53 93 08 52 93 08 38 00 00 00 00 00 00 00  ..S..R..8.......
+	0x0080 3e 00 00 00 00 00 00 00 07 00 93 08 53 93 08 93  >...........S...
+	0x0090 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00  ................
+	0x00b0 00 00 00 00 00 00 00 00 00 1a 00 00 00 00 00 00  ................
+	0x00c0 00 01 00 55 00 00 00 00 00 00 00 00 00 00 00 00  ...U............
+	0x00d0 00 00 00 00                                      ....
+	rel 8+8 t=1 command-line-arguments.issue44228b<1>+0
+	rel 169+8 t=1 command-line-arguments.issue44228b<1>+0
+aux for command-line-arguments.issue44228b<0> SDWARFLINES size=36
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 de  ................
+	0x0010 02 14 06 9b 06 43 06 2d 06 69 06 2d 06 08 2d 02  .....C.-.i.-..-.
+	0x0020 01 00 01 01                                      ....
+	rel 3+8 t=1 command-line-arguments.issue44228b<1>+0
+aux for command-line-arguments.issue44228b<0> SDWARFFCN size=101
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 69 73 73 75 65 34 34 32  guments.issue442
+	0x0020 32 38 62 00 00 00 00 00 00 00 00 00 00 00 00 00  28b.............
+	0x0030 00 00 00 00 01 9c 02 00 00 00 01 12 61 00 00 e4  ............a...
+	0x0040 02 00 00 00 00 00 00 00 00 12 69 00 00 e4 02 00  ..........i.....
+	0x0050 00 00 00 00 00 00 00 11 7e 72 30 00 01 e4 02 00  ........~r0.....
+	0x0060 00 00 00 00 00                                   .....
+	rel 0+0 t=22 type:bool<0>+0
+	rel 36+8 t=1 command-line-arguments.issue44228b<1>+0
+	rel 44+8 t=1 command-line-arguments.issue44228b<1>+62
+	rel 65+4 t=31 go:info.[]int32<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 79+4 t=31 go:info.int<0>+0
+	rel 83+4 t=31 <0>+161
+	rel 95+4 t=31 go:info.bool<0>+0
+aux for command-line-arguments.issue48467<0> SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 09 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 13 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 09 00 00 00 00 00 00 00 0c 00  ................
+	0x0080 00 00 00 00 00 00 01 00 50 00 00 00 00 00 00 00  ........P.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 command-line-arguments.issue48467<1>+0
+	rel 59+8 t=1 command-line-arguments.issue48467<1>+0
+	rel 110+8 t=1 command-line-arguments.issue48467<1>+0
+aux for command-line-arguments.issue48467<0> SDWARFLINES size=28
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 e5 02  ................
+	0x0010 14 06 2d 06 4c 06 2d 02 07 00 01 01              ..-.L.-.....
+	rel 3+8 t=1 command-line-arguments.issue48467<1>+0
+aux for command-line-arguments.issue48467<0> SDWARFFCN size=113
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 69 73 73 75 65 34 38 34  guments.issue484
+	0x0020 36 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00  67..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 12 78 00 00 e9 02  ...........x....
+	0x0040 00 00 00 00 00 00 00 00 12 79 00 00 e9 02 00 00  .........y......
+	0x0050 00 00 00 00 00 00 11 7e 72 30 00 01 e9 02 00 00  .......~r0......
+	0x0060 00 00 00 0d 64 00 eb 02 00 00 00 00 00 00 00 00  ....d...........
+	0x0070 00                                               .
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 35+8 t=1 command-line-arguments.issue48467<1>+0
+	rel 43+8 t=1 command-line-arguments.issue48467<1>+19
+	rel 64+4 t=31 go:info.uint64<0>+0
+	rel 68+4 t=31 <0>+0
+	rel 78+4 t=31 go:info.uint64<0>+0
+	rel 82+4 t=31 <0>+51
+	rel 94+4 t=31 go:info.uint64<0>+0
+	rel 104+4 t=31 go:info.uint64<0>+0
+	rel 108+4 t=31 <0>+102
+aux for command-line-arguments.foldConst<0> SDWARFLOC size=204
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 07 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 0e 00 00 00 00  ................
+	0x0050 00 00 00 01 00 53 00 00 00 00 00 00 00 00 00 00  .....S..........
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 07 00 00 00 00 00 00 00 0d 00  ................
+	0x0080 00 00 00 00 00 00 01 00 50 00 00 00 00 00 00 00  ........P.......
+	0x0090 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff  ................
+	0x00a0 ff 00 00 00 00 00 00 00 00 0a 00 00 00 00 00 00  ................
+	0x00b0 00 0e 00 00 00 00 00 00 00 01 00 52 00 00 00 00  ...........R....
+	0x00c0 00 00 00 00 00 00 00 00 00 00 00 00              ............
+	rel 8+8 t=1 command-line-arguments.foldConst<1>+0
+	rel 59+8 t=1 command-line-arguments.foldConst<1>+0
+	rel 110+8 t=1 command-line-arguments.foldConst<1>+0
+	rel 161+8 t=1 command-line-arguments.foldConst<1>+0
+aux for command-line-arguments.foldConst<0> SDWARFLINES size=28
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 eb 02  ................
+	0x0010 14 06 37 06 4c 06 2d 02 01 00 01 01              ..7.L.-.....
+	rel 3+8 t=1 command-line-arguments.foldConst<1>+0
+aux for command-line-arguments.foldConst<0> SDWARFFCN size=125
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 6f 6c 64 43 6f 6e 73  guments.foldCons
+	0x0020 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  t...............
+	0x0030 00 00 01 9c 02 00 00 00 01 12 78 00 00 ef 02 00  ..........x.....
+	0x0040 00 00 00 00 00 00 00 12 79 00 00 ef 02 00 00 00  ........y.......
+	0x0050 00 00 00 00 00 11 7e 72 30 00 01 ef 02 00 00 00  ......~r0.......
+	0x0060 00 00 0d 64 00 f1 02 00 00 00 00 00 00 00 00 0d  ...d............
+	0x0070 62 00 f1 02 00 00 00 00 00 00 00 00 00           b............
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 34+8 t=1 command-line-arguments.foldConst<1>+0
+	rel 42+8 t=1 command-line-arguments.foldConst<1>+14
+	rel 63+4 t=31 go:info.uint64<0>+0
+	rel 67+4 t=31 <0>+0
+	rel 77+4 t=31 go:info.uint64<0>+0
+	rel 81+4 t=31 <0>+51
+	rel 93+4 t=31 go:info.uint64<0>+0
+	rel 103+4 t=31 go:info.uint64<0>+0
+	rel 107+4 t=31 <0>+102
+	rel 116+4 t=31 go:info.uint64<0>+0
+	rel 120+4 t=31 <0>+153
+aux for command-line-arguments.foldConstOutOfRange<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.foldConstOutOfRange<1>+0
+aux for command-line-arguments.foldConstOutOfRange<0> SDWARFLINES size=24
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 f1 02  ................
+	0x0010 14 06 4b 02 01 00 01 01                          ..K.....
+	rel 3+8 t=1 command-line-arguments.foldConstOutOfRange<1>+0
+aux for command-line-arguments.foldConstOutOfRange<0> SDWARFFCN size=95
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 6f 6c 64 43 6f 6e 73  guments.foldCons
+	0x0020 74 4f 75 74 4f 66 52 61 6e 67 65 00 00 00 00 00  tOutOfRange.....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00  ................
+	0x0040 00 00 01 12 61 00 00 f5 02 00 00 00 00 00 00 00  ....a...........
+	0x0050 00 11 7e 72 30 00 01 f5 02 00 00 00 00 00 00     ..~r0..........
+	rel 0+0 t=22 type:uint64<0>+0
+	rel 44+8 t=1 command-line-arguments.foldConstOutOfRange<1>+0
+	rel 52+8 t=1 command-line-arguments.foldConstOutOfRange<1>+7
+	rel 73+4 t=31 go:info.uint64<0>+0
+	rel 77+4 t=31 <0>+0
+	rel 89+4 t=31 go:info.uint64<0>+0

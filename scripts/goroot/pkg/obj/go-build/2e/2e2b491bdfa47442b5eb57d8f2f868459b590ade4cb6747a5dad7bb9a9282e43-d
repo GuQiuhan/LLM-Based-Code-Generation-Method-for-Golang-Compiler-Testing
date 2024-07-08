@@ -1,0 +1,5 @@
+./exec.go
+./opt.go
+./testenv.go
+./testenv_notwin.go
+./testenv_unix.go

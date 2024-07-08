@@ -1,0 +1,15 @@
+
+Begin calculate coverage of origin data:
+
+
+Finish calculate coverage of origin data.
+The origin max coverage: 2863.499999999999
+The origin average coverage: 149.39363784665542
+
+
+条目个数: 585
+总和: 274734.8999999993
+均值: 469.63230769230654
+
+得出结论，我们可以得到覆盖率：469.63/4300=10.92%
+(报告中共有43项覆盖率)

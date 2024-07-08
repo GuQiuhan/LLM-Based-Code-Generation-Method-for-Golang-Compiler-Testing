@@ -1,0 +1,4 @@
+./entity.go
+./escape.go
+./entity_test.go
+./escape_test.go

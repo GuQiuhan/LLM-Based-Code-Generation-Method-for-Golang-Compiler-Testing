@@ -1,0 +1,8 @@
+./marshal.go
+./read.go
+./typeinfo.go
+./xml.go
+./atom_test.go
+./marshal_test.go
+./read_test.go
+./xml_test.go

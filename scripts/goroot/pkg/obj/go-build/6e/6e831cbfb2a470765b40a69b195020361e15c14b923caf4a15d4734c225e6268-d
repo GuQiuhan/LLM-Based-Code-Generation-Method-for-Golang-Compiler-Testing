@@ -1,0 +1,17 @@
+./cli.go
+./commands.go
+./config.go
+./driver.go
+./driver_focus.go
+./fetch.go
+./flags.go
+./flamegraph.go
+./interactive.go
+./options.go
+./settings.go
+./stacks.go
+./svg.go
+./tagroot.go
+./tempfile.go
+./webhtml.go
+./webui.go

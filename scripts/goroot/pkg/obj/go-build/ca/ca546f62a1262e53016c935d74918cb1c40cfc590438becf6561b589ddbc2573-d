@@ -1,0 +1,20 @@
+# example.com/pgo/inline.test
+_testmain.go:37:6: can inline init.0 with cost 3 as: func() { testdeps.ImportPath = "example.com/pgo/inline" }
+_testmain.go:43:6: cannot inline main: function too complex: cost 203 exceeds budget 80
+_testmain.go:45:24: inlining call to testing.MainStart
+_testmain.go:45:24: &testing.M{...} escapes to heap:
+_testmain.go:45:24:   flow: ~R0 = &{storage for &testing.M{...}}:
+_testmain.go:45:24:     from &testing.M{...} (spill) at _testmain.go:45:24
+_testmain.go:45:24:     from ~R0 = &testing.M{...} (assign-pair) at _testmain.go:45:24
+_testmain.go:45:24:   flow: m = ~R0:
+_testmain.go:45:24:     from m := ~R0 (assign) at _testmain.go:45:4
+_testmain.go:45:24:   flow: {heap} = m:
+_testmain.go:45:24:     from (*testing.M).Run(m) (call parameter) at _testmain.go:47:15
+_testmain.go:45:42: testdeps.TestDeps{} escapes to heap:
+_testmain.go:45:42:   flow: testing.deps = &{storage for testdeps.TestDeps{}}:
+_testmain.go:45:42:     from testdeps.TestDeps{} (spill) at _testmain.go:45:42
+_testmain.go:45:42:     from testing.deps, testing.tests, testing.benchmarks, testing.fuzzTargets, testing.examples := testdeps.TestDeps{}, tests, benchmarks, fuzzTargets, examples (assign-pair) at _testmain.go:45:24
+_testmain.go:45:42:   flow: {storage for &testing.M{...}} = testing.deps:
+_testmain.go:45:42:     from testing.M{...} (struct literal element) at _testmain.go:45:24
+_testmain.go:45:42: testdeps.TestDeps{} escapes to heap
+_testmain.go:45:24: &testing.M{...} escapes to heap

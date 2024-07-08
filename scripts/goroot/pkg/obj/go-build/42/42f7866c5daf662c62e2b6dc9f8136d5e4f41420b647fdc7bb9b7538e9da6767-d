@@ -1,0 +1,7 @@
+./apis.go
+./emit.go
+./hooks.go
+./testsupport.go
+./emitdata_test.go
+./ts_test.go
+./dummy.s

@@ -1,0 +1,8 @@
+./header.go
+./pipeline.go
+./reader.go
+./textproto.go
+./writer.go
+./header_test.go
+./reader_test.go
+./writer_test.go

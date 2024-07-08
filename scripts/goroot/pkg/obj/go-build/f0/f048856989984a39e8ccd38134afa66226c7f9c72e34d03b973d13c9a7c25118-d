@@ -1,0 +1,10 @@
+./cgo_listgroups_unix.go
+./cgo_lookup_unix.go
+./lookup.go
+./user.go
+./cgo_unix_test.go
+./user_test.go
+_cgo_gotypes.go
+cgo_lookup_cgo.cgo1.go
+getgrouplist_unix.cgo1.go
+_cgo_import.go

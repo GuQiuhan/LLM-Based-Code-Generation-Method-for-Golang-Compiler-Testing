@@ -1,0 +1,4 @@
+./cover.go
+./flagdefs.go
+./test.go
+./testflag.go

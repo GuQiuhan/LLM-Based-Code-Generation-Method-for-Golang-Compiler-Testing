@@ -1,0 +1,140 @@
+# command-line-arguments
+command-line-arguments.RaceMightPanic<1> STEXT nosplit size=137 args=0x38 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	TEXT	command-line-arguments.RaceMightPanic(SB), NOSPLIT|ABIInternal, $24-56
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	SUBQ	$24, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	LEAQ	16(SP), BP
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	MOVQ	AX, command-line-arguments.a+32(FP)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	FUNCDATA	$5, command-line-arguments.RaceMightPanic.arginfo1(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	FUNCDATA	$6, command-line-arguments.RaceMightPanic.argliveinfo(SB)
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:15)	PCDATA	$3, $1
+	0x0013 00019 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:17)	CMPQ	DI, $4
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:17)	JCC	123
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	CMPQ	CX, SI
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	JCS	112
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	CMPQ	SI, DI
+	0x0023 00035 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	JCS	101
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	CMPQ	CX, R8
+	0x0028 00040 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	JCS	88
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	CMPQ	R8, SI
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	JCS	77
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:20)	TESTQ	R9, R9
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:20)	JLT	72
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:21)	TESTQ	SI, SI
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:21)	JEQ	67
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:22)	MOVQ	16(SP), BP
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:22)	ADDQ	$24, SP
+	0x0042 00066 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:22)	RET
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:21)	PCDATA	$1, $1
+	0x0043 00067 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:21)	CALL	runtime.panicdivide(SB)
+	0x0048 00072 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:20)	CALL	runtime.panicshift(SB)
+	0x004d 00077 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	MOVQ	SI, CX
+	0x0050 00080 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	MOVQ	R8, DX
+	0x0053 00083 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	CALL	runtime.panicSlice3B(SB)
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	MOVQ	R8, DX
+	0x005b 00091 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	MOVQ	CX, BX
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:19)	CALL	runtime.panicSlice3Acap(SB)
+	0x0065 00101 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	MOVQ	DI, AX
+	0x0068 00104 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	MOVQ	SI, CX
+	0x006b 00107 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	CALL	runtime.panicSliceB(SB)
+	0x0070 00112 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	MOVQ	CX, DX
+	0x0073 00115 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	MOVQ	SI, CX
+	0x0076 00118 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:18)	CALL	runtime.panicSliceAcap(SB)
+	0x007b 00123 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:17)	MOVQ	DI, AX
+	0x007e 00126 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:17)	MOVL	$4, CX
+	0x0083 00131 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:17)	CALL	runtime.panicIndex(SB)
+	0x0088 00136 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/race.go:17)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 89  H...H.l$.H.l$.H.
+	0x0010 44 24 20 48 83 ff 04 73 62 48 39 f1 72 52 66 90  D$ H...sbH9.rRf.
+	0x0020 48 39 fe 72 40 4c 39 c1 72 2e 49 39 f0 72 1e 4d  H9.r@L9.r.I9.r.M
+	0x0030 85 c9 7c 14 48 85 f6 74 0a 48 8b 6c 24 10 48 83  ..|.H..t.H.l$.H.
+	0x0040 c4 18 c3 e8 00 00 00 00 e8 00 00 00 00 48 89 f1  .............H..
+	0x0050 4c 89 c2 e8 00 00 00 00 4c 89 c2 48 89 cb 66 90  L.......L..H..f.
+	0x0060 e8 00 00 00 00 48 89 f8 48 89 f1 e8 00 00 00 00  .....H..H.......
+	0x0070 48 89 ca 48 89 f1 e8 00 00 00 00 48 89 f8 b9 04  H..H.......H....
+	0x0080 00 00 00 e8 00 00 00 00 90                       .........
+	rel 68+4 t=7 runtime.panicdivide<1>+0
+	rel 73+4 t=7 runtime.panicshift<1>+0
+	rel 84+4 t=7 runtime.panicSlice3B<1>+0
+	rel 97+4 t=7 runtime.panicSlice3Acap<1>+0
+	rel 108+4 t=7 runtime.panicSliceB<1>+0
+	rel 119+4 t=7 runtime.panicSliceAcap<1>+0
+	rel 132+4 t=7 runtime.panicIndex<1>+0
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 2d 72 61 63 65 20 72 65 67 61 62 69              -race regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+gclocals·wgcWObbY2HYnK2SU/U22lA==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 01 00 00 00 01 00                    ..........
+gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==<0> SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+command-line-arguments.RaceMightPanic.arginfo1<0> SRODATA static dupok size=17
+	0x0000 fe 00 08 08 08 10 08 fd 18 08 20 08 28 08 30 08  .......... .(.0.
+	0x0010 ff                                               .
+command-line-arguments.RaceMightPanic.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+aux for command-line-arguments.RaceMightPanic<0> SDWARFLOC size=443
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 48 00 00 00 00 00 00 00  ........H.......
+	0x0020 09 00 50 93 08 53 93 08 52 93 08 50 00 00 00 00  ..P..S..R..P....
+	0x0030 00 00 00 60 00 00 00 00 00 00 00 08 00 50 93 08  ...`.........P..
+	0x0040 53 93 08 93 08 60 00 00 00 00 00 00 00 68 00 00  S....`.......h..
+	0x0050 00 00 00 00 00 08 00 50 93 08 93 08 52 93 08 68  .......P....R..h
+	0x0060 00 00 00 00 00 00 00 6b 00 00 00 00 00 00 00 08  .......k........
+	0x0070 00 93 08 53 93 08 52 93 08 6b 00 00 00 00 00 00  ...S..R..k......
+	0x0080 00 76 00 00 00 00 00 00 00 07 00 93 08 53 93 08  .v...........S..
+	0x0090 93 08 76 00 00 00 00 00 00 00 7e 00 00 00 00 00  ..v.......~.....
+	0x00a0 00 00 08 00 50 93 08 53 93 08 93 08 7e 00 00 00  ....P..S....~...
+	0x00b0 00 00 00 00 83 00 00 00 00 00 00 00 08 00 93 08  ................
+	0x00c0 53 93 08 52 93 08 83 00 00 00 00 00 00 00 89 00  S..R............
+	0x00d0 00 00 00 00 00 00 07 00 93 08 53 93 08 93 08 00  ..........S.....
+	0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff  ................
+	0x00f0 ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 00  ................
+	0x0100 00 00 00 00 00 00 00 48 00 00 00 00 00 00 00 01  .......H........
+	0x0110 00 55 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .U..............
+	0x0120 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00  ................
+	0x0130 00 00 00 00 00 00 00 00 00 00 48 00 00 00 00 00  ..........H.....
+	0x0140 00 00 01 00 54 00 00 00 00 00 00 00 00 00 00 00  ....T...........
+	0x0150 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00  ................
+	0x0160 00 00 00 00 00 00 00 00 00 00 00 00 00 48 00 00  .............H..
+	0x0170 00 00 00 00 00 01 00 58 00 00 00 00 00 00 00 00  .......X........
+	0x0180 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff  ................
+	0x0190 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x01a0 48 00 00 00 00 00 00 00 01 00 59 00 00 00 00 00  H.........Y.....
+	0x01b0 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 command-line-arguments.RaceMightPanic<1>+0
+	rel 247+8 t=1 command-line-arguments.RaceMightPanic<1>+0
+	rel 298+8 t=1 command-line-arguments.RaceMightPanic<1>+0
+	rel 349+8 t=1 command-line-arguments.RaceMightPanic<1>+0
+	rel 400+8 t=1 command-line-arguments.RaceMightPanic<1>+0
+aux for command-line-arguments.RaceMightPanic<0> SDWARFLINES size=54
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 09  ................
+	0x0010 14 06 9b 06 43 06 37 06 24 06 2d 06 6a 06 2d 06  ....C.7.$.-.j.-.
+	0x0020 56 06 2d 06 24 06 2d 06 24 06 72 40 40 fe ea 06  V.-.$.-.$.r@@...
+	0x0030 91 02 01 00 01 01                                ......
+	rel 3+8 t=1 command-line-arguments.RaceMightPanic<1>+0
+aux for command-line-arguments.RaceMightPanic<0> SDWARFFCN size=128
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 52 61 63 65 4d 69 67 68  guments.RaceMigh
+	0x0020 74 50 61 6e 69 63 00 00 00 00 00 00 00 00 00 00  tPanic..........
+	0x0030 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 12 61  ...............a
+	0x0040 00 00 0f 00 00 00 00 00 00 00 00 12 69 00 00 0f  ............i...
+	0x0050 00 00 00 00 00 00 00 00 12 6a 00 00 0f 00 00 00  .........j......
+	0x0060 00 00 00 00 00 12 6b 00 00 0f 00 00 00 00 00 00  ......k.........
+	0x0070 00 00 12 73 00 00 0f 00 00 00 00 00 00 00 00 00  ...s............
+	rel 39+8 t=1 command-line-arguments.RaceMightPanic<1>+0
+	rel 47+8 t=1 command-line-arguments.RaceMightPanic<1>+137
+	rel 67+4 t=31 go:info.[]int<0>+0
+	rel 71+4 t=31 <0>+0
+	rel 80+4 t=31 go:info.int<0>+0
+	rel 84+4 t=31 <0>+239
+	rel 93+4 t=31 go:info.int<0>+0
+	rel 97+4 t=31 <0>+290
+	rel 106+4 t=31 go:info.int<0>+0
+	rel 110+4 t=31 <0>+341
+	rel 119+4 t=31 go:info.int<0>+0
+	rel 123+4 t=31 <0>+392

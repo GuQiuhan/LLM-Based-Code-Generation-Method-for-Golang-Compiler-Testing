@@ -1,0 +1,4 @@
+./debug_lines_test.go
+./debug_test.go
+./fmahash_test.go
+./stmtlines_test.go

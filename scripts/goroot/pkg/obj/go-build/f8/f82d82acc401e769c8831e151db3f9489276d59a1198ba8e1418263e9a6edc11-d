@@ -1,0 +1,8 @@
+./build.go
+./build_read.go
+./read.go
+./scan.go
+./syslist.go
+./write.go
+./index_test.go
+./syslist_test.go

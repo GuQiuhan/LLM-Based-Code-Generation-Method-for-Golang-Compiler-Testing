@@ -1,0 +1,363 @@
+# command-line-arguments
+command-line-arguments.CallFunc<1> STEXT size=55 args=0x8 locals=0x8 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	TEXT	command-line-arguments.CallFunc(SB), ABIInternal, $8-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	JLS	38
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	SUBQ	$8, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	MOVQ	BP, (SP)
+	0x000e 00014 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	LEAQ	(SP), BP
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	FUNCDATA	$5, command-line-arguments.CallFunc.arginfo1(SB)
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	FUNCDATA	$6, command-line-arguments.CallFunc.argliveinfo(SB)
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	PCDATA	$3, $1
+	0x0012 00018 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:8)	MOVQ	(AX), CX
+	0x0015 00021 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:8)	MOVQ	AX, DX
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:8)	PCDATA	$1, $1
+	0x0018 00024 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:8)	CALL	runtime.retpolineCX(SB)
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:9)	MOVQ	(SP), BP
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:9)	ADDQ	$8, SP
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:9)	RET
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:9)	NOP
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	PCDATA	$1, $-1
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	PCDATA	$0, $-2
+	0x0026 00038 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	MOVQ	AX, 8(SP)
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	CALL	runtime.morestack_noctxt(SB)
+	0x0030 00048 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	MOVQ	8(SP), AX
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	PCDATA	$0, $-1
+	0x0035 00053 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:6)	JMP	0
+	0x0000 49 3b 66 10 76 20 48 83 ec 08 48 89 2c 24 48 8d  I;f.v H...H.,$H.
+	0x0010 2c 24 48 8b 08 48 89 c2 e8 00 00 00 00 48 8b 2c  ,$H..H.......H.,
+	0x0020 24 48 83 c4 08 c3 48 89 44 24 08 e8 00 00 00 00  $H....H.D$......
+	0x0030 48 8b 44 24 08 eb c9                             H.D$...
+	rel 25+4 t=7 runtime.retpolineCX<0>+0
+	rel 44+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.CallInterface<1> STEXT size=81 args=0x10 locals=0x10 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	TEXT	command-line-arguments.CallInterface(SB), ABIInternal, $16-16
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	PCDATA	$0, $-2
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	JLS	52
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	PCDATA	$0, $-1
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	SUBQ	$16, SP
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	MOVQ	BP, 8(SP)
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	LEAQ	8(SP), BP
+	0x0014 00020 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	MOVQ	AX, command-line-arguments.x+24(FP)
+	0x0019 00025 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	MOVQ	BX, command-line-arguments.x+32(FP)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	FUNCDATA	$0, gclocals·IuErl7MOXaHVn7EZYWzfFA==(SB)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	FUNCDATA	$5, command-line-arguments.CallInterface.arginfo1(SB)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	FUNCDATA	$6, command-line-arguments.CallInterface.argliveinfo(SB)
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	PCDATA	$3, $1
+	0x001e 00030 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:13)	MOVQ	24(AX), CX
+	0x0022 00034 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:13)	MOVQ	BX, AX
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:13)	PCDATA	$1, $1
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:13)	CALL	runtime.retpolineCX(SB)
+	0x002a 00042 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:14)	MOVQ	8(SP), BP
+	0x002f 00047 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:14)	ADDQ	$16, SP
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:14)	RET
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:14)	NOP
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	PCDATA	$1, $-1
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	PCDATA	$0, $-2
+	0x0034 00052 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	MOVQ	AX, 8(SP)
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	MOVQ	BX, 16(SP)
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	CALL	runtime.morestack_noctxt(SB)
+	0x0045 00069 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	MOVQ	8(SP), AX
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	MOVQ	16(SP), BX
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	PCDATA	$0, $-1
+	0x004f 00079 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:11)	JMP	0
+	0x0000 49 3b 66 10 76 2e 48 83 ec 10 48 89 6c 24 08 48  I;f.v.H...H.l$.H
+	0x0010 8d 6c 24 08 48 89 44 24 18 48 89 5c 24 20 48 8b  .l$.H.D$.H.\$ H.
+	0x0020 48 18 48 89 d8 e8 00 00 00 00 48 8b 6c 24 08 48  H.H.......H.l$.H
+	0x0030 83 c4 10 c3 48 89 44 24 08 48 89 5c 24 10 66 90  ....H.D$.H.\$.f.
+	0x0040 e8 00 00 00 00 48 8b 44 24 08 48 8b 5c 24 10 eb  .....H.D$.H.\$..
+	0x0050 af                                               .
+	rel 2+0 t=24 type:interface { M() }<0>+80
+	rel 38+4 t=7 runtime.retpolineCX<0>+0
+	rel 65+4 t=7 runtime.morestack_noctxt<0>+0
+command-line-arguments.noJumpTables<1> STEXT nosplit size=132 args=0x8 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:18)	TEXT	command-line-arguments.noJumpTables(SB), NOSPLIT|ABIInternal, $0-8
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:18)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:18)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:18)	FUNCDATA	$5, command-line-arguments.noJumpTables.arginfo1(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:18)	FUNCDATA	$6, command-line-arguments.noJumpTables.argliveinfo(SB)
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:18)	PCDATA	$3, $1
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:19)	CMPQ	AX, $4
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:28)	JGT	64
+	0x0006 00006 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:19)	CMPQ	AX, $1
+	0x000a 00010 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:22)	JGT	33
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:20)	TESTQ	AX, AX
+	0x000f 00015 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:20)	JEQ	29
+	0x0011 00017 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:19)	CMPQ	AX, $1
+	0x0015 00021 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:22)	JNE	108
+	0x0017 00023 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:23)	MOVL	$1, AX
+	0x001c 00028 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:23)	RET
+	0x001d 00029 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:21)	XORL	AX, AX
+	0x001f 00031 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:21)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:21)	RET
+	0x0021 00033 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:24)	CMPQ	AX, $2
+	0x0025 00037 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:24)	JEQ	57
+	0x0027 00039 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:26)	CMPQ	AX, $3
+	0x002b 00043 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:26)	JNE	51
+	0x002d 00045 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:27)	MOVL	$3, AX
+	0x0032 00050 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:27)	RET
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:29)	MOVL	$4, AX
+	0x0038 00056 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:29)	RET
+	0x0039 00057 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:25)	MOVL	$2, AX
+	0x003e 00062 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:25)	RET
+	0x003f 00063 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:25)	NOP
+	0x0040 00064 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:19)	CMPQ	AX, $6
+	0x0044 00068 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:32)	JGT	88
+	0x0046 00070 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:30)	CMPQ	AX, $5
+	0x004a 00074 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:30)	JNE	82
+	0x004c 00076 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:31)	MOVL	$5, AX
+	0x0051 00081 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:31)	RET
+	0x0052 00082 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:33)	MOVL	$6, AX
+	0x0057 00087 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:33)	RET
+	0x0058 00088 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:34)	CMPQ	AX, $7
+	0x005c 00092 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:34)	JEQ	126
+	0x005e 00094 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:34)	NOP
+	0x0060 00096 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:36)	CMPQ	AX, $8
+	0x0064 00100 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:36)	JEQ	120
+	0x0066 00102 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:38)	CMPQ	AX, $9
+	0x006a 00106 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:38)	JEQ	114
+	0x006c 00108 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:41)	MOVL	$10, AX
+	0x0071 00113 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:41)	RET
+	0x0072 00114 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:39)	MOVL	$9, AX
+	0x0077 00119 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:39)	RET
+	0x0078 00120 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:37)	MOVL	$8, AX
+	0x007d 00125 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:37)	RET
+	0x007e 00126 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:35)	MOVL	$7, AX
+	0x0083 00131 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/retpoline.go:35)	RET
+	0x0000 48 83 f8 04 7f 3a 48 83 f8 01 7f 15 48 85 c0 74  H....:H.....H..t
+	0x0010 0c 48 83 f8 01 75 55 b8 01 00 00 00 c3 31 c0 90  .H...uU......1..
+	0x0020 c3 48 83 f8 02 74 12 48 83 f8 03 75 06 b8 03 00  .H...t.H...u....
+	0x0030 00 00 c3 b8 04 00 00 00 c3 b8 02 00 00 00 c3 90  ................
+	0x0040 48 83 f8 06 7f 12 48 83 f8 05 75 06 b8 05 00 00  H.....H...u.....
+	0x0050 00 c3 b8 06 00 00 00 c3 48 83 f8 07 74 20 66 90  ........H...t f.
+	0x0060 48 83 f8 08 74 12 48 83 f8 09 74 06 b8 0a 00 00  H...t.H...t.....
+	0x0070 00 c3 b8 09 00 00 00 c3 b8 08 00 00 00 c3 b8 07  ................
+	0x0080 00 00 00 c3                                      ....
+go:interface { M() }.M<1> STEXT dupok size=108 args=0x10 locals=0x10 funcid=0x15 align=0x0
+	0x0000 00000 (<autogenerated>:1)	TEXT	go:interface { M() }.M(SB), DUPOK|WRAPPER|ABIInternal, $16-16
+	0x0000 00000 (<autogenerated>:1)	CMPQ	SP, 16(R14)
+	0x0004 00004 (<autogenerated>:1)	PCDATA	$0, $-2
+	0x0004 00004 (<autogenerated>:1)	JLS	61
+	0x0006 00006 (<autogenerated>:1)	PCDATA	$0, $-1
+	0x0006 00006 (<autogenerated>:1)	SUBQ	$16, SP
+	0x000a 00010 (<autogenerated>:1)	MOVQ	BP, 8(SP)
+	0x000f 00015 (<autogenerated>:1)	LEAQ	8(SP), BP
+	0x0014 00020 (<autogenerated>:1)	MOVQ	32(R14), R12
+	0x0018 00024 (<autogenerated>:1)	TESTQ	R12, R12
+	0x001b 00027 (<autogenerated>:1)	JNE	88
+	0x001d 00029 (<autogenerated>:1)	NOP
+	0x001d 00029 (<autogenerated>:1)	MOVQ	AX, command-line-arguments..this+24(FP)
+	0x0022 00034 (<autogenerated>:1)	MOVQ	BX, command-line-arguments..this+32(FP)
+	0x0027 00039 (<autogenerated>:1)	FUNCDATA	$0, gclocals·IuErl7MOXaHVn7EZYWzfFA==(SB)
+	0x0027 00039 (<autogenerated>:1)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0027 00039 (<autogenerated>:1)	FUNCDATA	$5, go:interface { M() }.M.arginfo1(SB)
+	0x0027 00039 (<autogenerated>:1)	FUNCDATA	$6, go:interface { M() }.M.argliveinfo(SB)
+	0x0027 00039 (<autogenerated>:1)	PCDATA	$3, $1
+	0x0027 00039 (<autogenerated>:1)	MOVQ	24(AX), CX
+	0x002b 00043 (<autogenerated>:1)	MOVQ	BX, AX
+	0x002e 00046 (<autogenerated>:1)	PCDATA	$1, $1
+	0x002e 00046 (<autogenerated>:1)	CALL	runtime.retpolineCX(SB)
+	0x0033 00051 (<autogenerated>:1)	MOVQ	8(SP), BP
+	0x0038 00056 (<autogenerated>:1)	ADDQ	$16, SP
+	0x003c 00060 (<autogenerated>:1)	RET
+	0x003d 00061 (<autogenerated>:1)	NOP
+	0x003d 00061 (<autogenerated>:1)	PCDATA	$1, $-1
+	0x003d 00061 (<autogenerated>:1)	PCDATA	$0, $-2
+	0x003d 00061 (<autogenerated>:1)	MOVQ	AX, 8(SP)
+	0x0042 00066 (<autogenerated>:1)	MOVQ	BX, 16(SP)
+	0x0047 00071 (<autogenerated>:1)	CALL	runtime.morestack_noctxt(SB)
+	0x004c 00076 (<autogenerated>:1)	MOVQ	8(SP), AX
+	0x0051 00081 (<autogenerated>:1)	MOVQ	16(SP), BX
+	0x0056 00086 (<autogenerated>:1)	PCDATA	$0, $-1
+	0x0056 00086 (<autogenerated>:1)	JMP	0
+	0x0058 00088 (<autogenerated>:1)	LEAQ	24(SP), R13
+	0x005d 00093 (<autogenerated>:1)	NOP
+	0x0060 00096 (<autogenerated>:1)	CMPQ	(R12), R13
+	0x0064 00100 (<autogenerated>:1)	JNE	29
+	0x0066 00102 (<autogenerated>:1)	MOVQ	SP, (R12)
+	0x006a 00106 (<autogenerated>:1)	JMP	29
+	0x0000 49 3b 66 10 76 37 48 83 ec 10 48 89 6c 24 08 48  I;f.v7H...H.l$.H
+	0x0010 8d 6c 24 08 4d 8b 66 20 4d 85 e4 75 3b 48 89 44  .l$.M.f M..u;H.D
+	0x0020 24 18 48 89 5c 24 20 48 8b 48 18 48 89 d8 e8 00  $.H.\$ H.H.H....
+	0x0030 00 00 00 48 8b 6c 24 08 48 83 c4 10 c3 48 89 44  ...H.l$.H....H.D
+	0x0040 24 08 48 89 5c 24 10 e8 00 00 00 00 48 8b 44 24  $.H.\$......H.D$
+	0x0050 08 48 8b 5c 24 10 eb a8 4c 8d 6c 24 18 0f 1f 00  .H.\$...L.l$....
+	0x0060 4d 39 2c 24 75 b7 49 89 24 24 eb b1              M9,$u.I.$$..
+	rel 2+0 t=24 type:interface { M() }<0>+80
+	rel 47+4 t=7 runtime.retpolineCX<0>+0
+	rel 72+4 t=7 runtime.morestack_noctxt<0>+0
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 2d 73 70 65 63 74 72 65 3d 72 65 74 20 72 65 67  -spectre=ret reg
+	0x0010 61 62 69                                         abi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+runtime.memequal64·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64<1>+0
+runtime.gcbits.0100000000000000<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:.namedata.*func()-<0> SRODATA dupok size=9
+	0x0000 00 07 2a 66 75 6e 63 28 29                       ..*func()
+type:*func()<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 75 ac 29 27 08 08 08 36 00 00 00 00 00 00 00 00  u.)'...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*func()-<0>+0
+	rel 48+8 t=1 type:func()<0>+0
+type:func()<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 fe fa b9 80 02 08 08 33 00 00 00 00 00 00 00 00  .......3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00                                      ....
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*func()-<0>+0
+	rel 44+4 t=-32763 type:*func()<0>+0
+runtime.interequal·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.interequal<1>+0
+type:.namedata.*interface { M() }-<0> SRODATA dupok size=20
+	0x0000 00 12 2a 69 6e 74 65 72 66 61 63 65 20 7b 20 4d  ..*interface { M
+	0x0010 28 29 20 7d                                      () }
+type:*interface { M() }<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 c8 f8 40 1b 08 08 08 36 00 00 00 00 00 00 00 00  ..@....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*interface { M() }-<0>+0
+	rel 48+8 t=1 type:interface { M() }<0>+0
+runtime.gcbits.0200000000000000<0> SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+type:.namedata.M.<0> SRODATA dupok size=3
+	0x0000 01 01 4d                                         ..M
+type:interface { M() }<0> SRODATA dupok size=88
+	0x0000 10 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00  ................
+	0x0010 85 fe 20 3d 02 08 08 14 00 00 00 00 00 00 00 00  .. =............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 01 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.interequal·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0200000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*interface { M() }-<0>+0
+	rel 44+4 t=-32763 type:*interface { M() }<0>+0
+	rel 56+8 t=1 type:interface { M() }<0>+80
+	rel 80+4 t=5 type:.namedata.M.<0>+0
+	rel 84+4 t=5 type:func()<0>+0
+gclocals·wgcWObbY2HYnK2SU/U22lA==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 01 00 00 00 01 00                    ..........
+gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==<0> SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+command-line-arguments.CallFunc.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.CallFunc.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·IuErl7MOXaHVn7EZYWzfFA==<0> SRODATA dupok size=10
+	0x0000 02 00 00 00 02 00 00 00 02 00                    ..........
+command-line-arguments.CallInterface.arginfo1<0> SRODATA static dupok size=7
+	0x0000 fe 00 08 08 08 fd ff                             .......
+command-line-arguments.CallInterface.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·g2BeySu+wFnoycgXfElmcg==<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+command-line-arguments.noJumpTables.arginfo1<0> SRODATA static dupok size=3
+	0x0000 00 08 ff                                         ...
+command-line-arguments.noJumpTables.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+go:interface { M() }.M.arginfo1<0> SRODATA static dupok size=7
+	0x0000 fe 00 08 08 08 fd ff                             .......
+go:interface { M() }.M.argliveinfo<0> SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+aux for command-line-arguments.CallFunc<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 1d 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.CallFunc<1>+0
+aux for command-line-arguments.CallFunc<0> SDWARFLINES size=27
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 14 0a 4b  ...............K
+	0x0010 89 06 2d 06 60 66 02 11 00 01 01                 ..-.`f.....
+	rel 3+8 t=1 command-line-arguments.CallFunc<1>+0
+aux for command-line-arguments.CallFunc<0> SDWARFFCN size=70
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 43 61 6c 6c 46 75 6e 63  guments.CallFunc
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 01 9c 02 00 00 00 01 12 66 00 00 06 00 00 00  .........f......
+	0x0040 00 00 00 00 00 00                                ......
+	rel 33+8 t=1 command-line-arguments.CallFunc<1>+0
+	rel 41+8 t=1 command-line-arguments.CallFunc<1>+55
+	rel 61+4 t=31 go:info.func()<0>+0
+	rel 65+4 t=31 <0>+0
+aux for command-line-arguments.CallInterface<0> SDWARFLOC size=79
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 25 00 00 00 00 00 00 00  ........%.......
+	0x0020 06 00 50 93 08 53 93 08 25 00 00 00 00 00 00 00  ..P..S..%.......
+	0x0030 2a 00 00 00 00 00 00 00 05 00 93 08 53 93 08 00  *...........S...
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ...............
+	rel 8+8 t=1 command-line-arguments.CallInterface<1>+0
+aux for command-line-arguments.CallInterface<0> SDWARFLINES size=36
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 05 14  ................
+	0x0010 0a 4b 06 9b 06 75 06 37 06 60 70 06 73 06 23 02  .K...u.7.`p.s.#.
+	0x0020 11 00 01 01                                      ....
+	rel 3+8 t=1 command-line-arguments.CallInterface<1>+0
+aux for command-line-arguments.CallInterface<0> SDWARFFCN size=75
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 43 61 6c 6c 49 6e 74 65  guments.CallInte
+	0x0020 72 66 61 63 65 00 00 00 00 00 00 00 00 00 00 00  rface...........
+	0x0030 00 00 00 00 00 00 01 9c 02 00 00 00 01 12 78 00  ..............x.
+	0x0040 00 0b 00 00 00 00 00 00 00 00 00                 ...........
+	rel 38+8 t=1 command-line-arguments.CallInterface<1>+0
+	rel 46+8 t=1 command-line-arguments.CallInterface<1>+81
+	rel 66+4 t=31 go:info.interface { M() }<0>+0
+	rel 70+4 t=31 <0>+0
+aux for command-line-arguments.noJumpTables<0> SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 1c 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 command-line-arguments.noJumpTables<1>+0
+aux for command-line-arguments.noJumpTables<0> SDWARFLINES size=109
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 03 0d 14  ................
+	0x0010 03 04 3c 06 03 7b 1f 06 3a 21 06 2d 22 06 3a 24  ..<..{..:!.-".:$
+	0x0020 06 41 06 17 06 23 06 26 06 37 06 25 06 37 06 24  .A...#.&.7.%.7.$
+	0x0030 06 41 06 1b 06 41 06 15 06 41 03 7e 1f 06 03 08  .A...A...A.~....
+	0x0040 3c 21 06 37 06 24 06 41 06 1b 06 41 06 1a 06 37  <!.7.$.A...A...7
+	0x0050 06 39 06 37 06 25 06 37 06 26 06 41 06 17 06 41  .9.7.%.7.&.A...A
+	0x0060 06 17 06 41 06 17 06 41 02 01 00 01 01           ...A...A.....
+	rel 3+8 t=1 command-line-arguments.noJumpTables<1>+0
+aux for command-line-arguments.noJumpTables<0> SDWARFFCN size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6e 6f 4a 75 6d 70 54 61  guments.noJumpTa
+	0x0020 62 6c 65 73 00 00 00 00 00 00 00 00 00 00 00 00  bles............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 12 78 00 00  .............x..
+	0x0040 12 00 00 00 00 00 00 00 00 11 7e 72 30 00 01 12  ..........~r0...
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=22 type:int<0>+0
+	rel 37+8 t=1 command-line-arguments.noJumpTables<1>+0
+	rel 45+8 t=1 command-line-arguments.noJumpTables<1>+132
+	rel 65+4 t=31 go:info.int<0>+0
+	rel 69+4 t=31 <0>+0
+	rel 80+4 t=31 go:info.int<0>+0
+aux for go:interface { M() }.M<0> SDWARFLINES size=34
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 01 0f 0a 4b  ...............K
+	0x0010 06 f5 06 73 06 37 06 5f 06 08 c3 06 2d 02 0c 00  ...s.7._....-...
+	0x0020 01 01                                            ..
+	rel 3+8 t=1 go:interface { M() }.M<1>+0
+aux for go:interface { M() }.M<0> SDWARFFCN size=44
+	0x0000 04 67 6f 3a 69 6e 74 65 72 66 61 63 65 20 7b 20  .go:interface { 
+	0x0010 4d 28 29 20 7d 2e 4d 00 00 00 00 00 00 00 00 00  M() }.M.........
+	0x0020 00 00 00 00 00 00 00 00 01 9c 01 00              ............
+	rel 0+0 t=22 type:interface { M() }<0>+0
+	rel 24+8 t=1 go:interface { M() }.M<1>+0
+	rel 32+8 t=1 go:interface { M() }.M<1>+108

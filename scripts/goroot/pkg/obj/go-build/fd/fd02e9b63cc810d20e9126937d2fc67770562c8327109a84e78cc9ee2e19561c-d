@@ -1,0 +1,15 @@
+=== RUN   TestInterruptor
+=== PAUSE TestInterruptor
+=== RUN   TestLog
+=== PAUSE TestLog
+=== CONT  TestInterruptor
+=== CONT  TestLog
+    chatty_parallel_test.go:25: this is the first TestLog log
+=== RUN   TestInterruptor/interruption
+=== NAME  TestLog
+    chatty_parallel_test.go:28: this is the second TestLog log
+--- PASS: TestLog (0.00s)
+--- PASS: TestInterruptor (0.00s)
+    --- PASS: TestInterruptor/interruption (0.00s)
+PASS
+ok  	chatty_parallel	0.046s

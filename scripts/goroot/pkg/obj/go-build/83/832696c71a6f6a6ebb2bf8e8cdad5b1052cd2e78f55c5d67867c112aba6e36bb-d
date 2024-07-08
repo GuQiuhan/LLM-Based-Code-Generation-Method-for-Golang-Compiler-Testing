@@ -1,0 +1,4 @@
+./nat.go
+./nat_amd64.go
+./nat_test.go
+./nat_amd64.s

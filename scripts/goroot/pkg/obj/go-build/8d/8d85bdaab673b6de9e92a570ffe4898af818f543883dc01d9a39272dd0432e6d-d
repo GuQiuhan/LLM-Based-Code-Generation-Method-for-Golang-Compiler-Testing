@@ -1,0 +1,10 @@
+./auth.go
+./bzr.go
+./dir.go
+./fossil.go
+./git.go
+./hg.go
+./insecure.go
+./script.go
+./svn.go
+./vcweb.go

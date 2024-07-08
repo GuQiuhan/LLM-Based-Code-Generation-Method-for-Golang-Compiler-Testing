@@ -1,0 +1,72 @@
+# command-line-arguments
+command-line-arguments.retlarge<1> STEXT nosplit size=60 args=0x100 locals=0x8 funcid=0x0 align=0x0
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	TEXT	command-line-arguments.retlarge(SB), NOSPLIT|ABIInternal, $8-256
+	0x0000 00000 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	SUBQ	$8, SP
+	0x0004 00004 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	MOVQ	BP, (SP)
+	0x0008 00008 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	LEAQ	(SP), BP
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x000c 00012 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	LEAQ	command-line-arguments.~r0+16(SP), DI
+	0x0011 00017 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	PCDATA	$0, $-2
+	0x0011 00017 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	NOP
+	0x0020 00032 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:12)	DUFFZERO	$276
+	0x0033 00051 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:14)	MOVQ	(SP), BP
+	0x0037 00055 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:14)	ADDQ	$8, SP
+	0x003b 00059 (/bigdata/qiuhan/codet5/usage/goroot/test/codegen/issue38554.go:14)	RET
+	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8d 7c 24  H...H.,$H.,$H.|$
+	0x0010 10 66 0f 1f 84 00 00 00 00 00 66 0f 1f 44 00 00  .f........f..D..
+	0x0020 48 89 6c 24 f0 48 8d 6c 24 f0 e8 00 00 00 00 48  H.l$.H.l$......H
+	0x0030 8b 6d 00 48 8b 2c 24 48 83 c4 08 c3              .m.H.,$H....
+	rel 43+4 t=7 runtime.duffzero<1>+276
+go:cuinfo.producer.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:cuinfo.packagename.command-line-arguments<0> SDWARFCUINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+type:.eqfunc256<0> SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00  ................
+	rel 0+8 t=1 runtime.memequal_varlen<1>+0
+runtime.memequal64·f<0> SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64<1>+0
+runtime.gcbits.0100000000000000<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:.namedata.*[256]uint8-<0> SRODATA dupok size=13
+	0x0000 00 0b 2a 5b 32 35 36 5d 75 69 6e 74 38           ..*[256]uint8
+type:*[256]uint8<0> SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 bb d7 9b 15 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f<0>+0
+	rel 32+8 t=1 runtime.gcbits.0100000000000000<0>+0
+	rel 40+4 t=5 type:.namedata.*[256]uint8-<0>+0
+	rel 48+8 t=1 type:[256]uint8<0>+0
+runtime.gcbits.<0> SRODATA dupok size=0
+type:[256]uint8<0> SRODATA dupok size=72
+	0x0000 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 23 7b eb 3e 0a 01 01 11 00 00 00 00 00 00 00 00  #{.>............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 01 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type:.eqfunc256<0>+0
+	rel 32+8 t=1 runtime.gcbits.<0>+0
+	rel 40+4 t=5 type:.namedata.*[256]uint8-<0>+0
+	rel 44+4 t=-32763 type:*[256]uint8<0>+0
+	rel 48+8 t=1 type:uint8<0>+0
+	rel 56+8 t=1 type:[]uint8<0>+0
+gclocals·g2BeySu+wFnoycgXfElmcg==<0> SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+aux for command-line-arguments.retlarge<0> SDWARFLINES size=27
+	0x0000 00 09 02 00 00 00 00 00 00 00 00 04 02 0a 03 06  ................
+	0x0010 14 06 b9 06 08 75 02 09 00 01 01                 .....u.....
+	rel 3+8 t=1 command-line-arguments.retlarge<1>+0
+aux for command-line-arguments.retlarge<0> SDWARFFCN size=69
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 65 74 6c 61 72 67 65  guments.retlarge
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 01 9c 02 00 00 00 01 11 7e 72 30 00 01 0c 00  .........~r0....
+	0x0040 00 00 00 00 00                                   .....
+	rel 0+0 t=22 type:[256]uint8<0>+0
+	rel 33+8 t=1 command-line-arguments.retlarge<1>+0
+	rel 41+8 t=1 command-line-arguments.retlarge<1>+60
+	rel 63+4 t=31 go:info.[256]uint8<0>+0

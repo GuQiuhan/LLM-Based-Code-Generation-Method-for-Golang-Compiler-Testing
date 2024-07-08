@@ -1,0 +1,7 @@
+./compilation_unit.go
+./library.go
+./reloc.go
+./segment.go
+./symbol.go
+./symkind.go
+./symkind_string.go

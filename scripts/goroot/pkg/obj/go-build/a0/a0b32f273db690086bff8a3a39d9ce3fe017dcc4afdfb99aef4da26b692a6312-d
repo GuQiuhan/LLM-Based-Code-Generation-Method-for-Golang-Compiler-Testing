@@ -1,0 +1,6 @@
+./build.go
+./read.go
+./scan.go
+./tags.go
+./read_test.go
+./scan_test.go

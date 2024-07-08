@@ -1,0 +1,4 @@
+./pclntab.go
+./symtab.go
+./pclntab_test.go
+./symtab_test.go

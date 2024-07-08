@@ -1,0 +1,5 @@
+./dwarf.go
+./dwinl.go
+./marker.go
+./scope.go
+./scope_test.go
