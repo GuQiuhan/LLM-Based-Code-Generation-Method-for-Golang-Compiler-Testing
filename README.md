@@ -1,4 +1,7 @@
 # LLM-Based Code Generation Method for Golang Compiler Testing
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3611643.3617850-b31b1b?logo=doi&logoColor=white)](https://dl.acm.org/doi/10.1145/3611643.3617850)
+![License](https://img.shields.io/github/license/GuQiuhan/LLM-Based-Code-Generation-Method-for-Golang-Compiler-Testing)
+![Stars](https://img.shields.io/github/stars/GuQiuhan/LLM-Based-Code-Generation-Method-for-Golang-Compiler-Testing?style=social)
 ***
 
 ## Update:
